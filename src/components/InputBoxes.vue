@@ -128,9 +128,14 @@
                         </div>
                         <!-- inputbox5 -->
                         <!-- inputbox6 -->
-                        <div class="m-10px rounded-1 d-flex justify-content-center">
-                            <input type="text" class=" size-inputbox bor-style-none shadow-sm " placeholder="Search" aria-label="Username" style="height:2.75rem !important;">
+                        <div class="m-10px rounded-1 d-flex Input size-inputbox shadow-sm" >
+                           <div class="form-floating fs-16px justify-content-center input-group">
+                              <span class="input-group-text d-flex flex-column" id="basic-addon2"><i class="isax isax-search-normal-1 size-icon mt-3"></i></span>
+                              <input type="text" class="bor-style-none  form-control ms-3 " id="floatingInput" style="height: 10px;" placeholder="Input Field" aria-label="Username">
+                              <label for="floatingInput" class="ms-5">Search</label>
+                           </div>
                         </div>
+                        <!--  -->
                         <!-- inputbox6 -->  
                         </div>
                     </div>
@@ -162,6 +167,7 @@
                         <div class="m-10px rounded-1 d-flex  size-inputbox shadow-sm" >
                            <div class="form-floating fs-16px justify-content-center input-group">
                               <input type="text" class="bor-style-none  form-control " id="floatingInput" placeholder="Input Field" aria-label="Username">
+                              <span class="input-group-text" id="basic-addon2"><i class="isax isax-sort size-icon rotate-45 mt-4"></i></span>
                               <label for="floatingInput" class="">Input Field</label>
                            </div>
                         </div>
