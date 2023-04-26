@@ -165,8 +165,8 @@ h6, .h6 {
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: 1rem;
+  /* margin-top: 0; */
+  /* margin-bottom: 1rem; */
 }
 
 abbr[title] {
@@ -10921,6 +10921,12 @@ textarea.form-control-lg {
 .violet{
   color: #6A00FF;
 }
+.bg-red{
+  background-color: #DB524E;
+}
+.color-red{
+  color:#DB524E;
+}
 
 /* colors  */
 
@@ -10928,9 +10934,9 @@ textarea.form-control-lg {
   .bor-style-none{
     border-style: none !important;
   }
-  /* .bor-style-solid{
+  .bor-style-solid{
     border-style: solid;
-  } */
+  }
   .bor-style-solid-perma{
     border-style: solid;
   }
@@ -10955,7 +10961,29 @@ textarea.form-control-lg {
   .m-20px{
     margin: 1.25rem !important;
   }
+  .mt-10px{
+    margin-top: 0.625rem !important;
+  }
+  .mt-20px{
+    margin-top: 1.25rem !important;
+  }
+  .m-auto{
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
 /* margin  */
+
+/* padding  */
+.px-20px{
+  padding-right: 1.25rem !important;
+  padding-left: 1.25rem !important;
+}
+.ps-20px{
+  padding-left: 1.25rem !important;
+}
+/* padding  */
 
 /* sizes  */
   .square-colors-size{
@@ -10966,6 +10994,10 @@ textarea.form-control-lg {
     height: 3.5rem !important;
     width: 25rem !important;
   }
+  .size-table{
+    width: 46.188rem;
+    height: 54.125rem;
+  }
   .size-inputbox-admin{
     width: 25rem !important;
     height: 2.5rem !important;
@@ -10974,9 +11006,20 @@ textarea.form-control-lg {
     width: 52.438rem !important;
     height: 4.625rem !important;
   }
+  .size-table-search{
+    width: 18.25rem !important;
+    height: 2.75rem !important;
+  }
   .size-icon{
     font-size: 1rem !important;
-    
+  }
+  .size-box-10{
+    height: 0.625rem;
+    width: 0.625rem;
+  }
+  .size-box-20{
+    height: 1.438rem;
+    width: 1.313rem;
   }
   .fs-16px {
     font-size: 1rem !important;

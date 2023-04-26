@@ -1,5 +1,4 @@
 <template>
-   
     <div class="RInputbox bor-style-solid container-fluid">
       <!-- height: 66rem; width: 60rem; -->
        <div class="bor-style-solid-perma container" style="height: 66rem; width: 60rem;">
