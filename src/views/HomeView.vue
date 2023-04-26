@@ -6,7 +6,7 @@ import Tables from '../components/Tables.vue'
 
 <template>
   <main>
-    <!-- <InputBox /> -->
+    <InputBox />
     <!-- <Buttons /> -->
     <Tables />
   
