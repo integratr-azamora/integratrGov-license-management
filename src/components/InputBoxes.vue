@@ -1,7 +1,7 @@
 <template>
    
     <div class="RInputbox bor-style-solid container-fluid">
-      
+      <!-- height: 66rem; width: 60rem; -->
        <div class="bor-style-solid-perma container" style="height: 66rem; width: 60rem;">
           <!-- row1  -->
           <div class="border-bottom fw-bold">Account Login Registration</div>
@@ -86,7 +86,7 @@
                         <div class="m-10px rounded-1 d-flex Input size-inputbox shadow-sm" >
                            <div class="form-floating fs-16px justify-content-center input-group">
                               <input type="text" class="bor-style-none  form-control " id="floatingInput" placeholder="Input Field" aria-label="Username">
-                              <span class="input-group-text" id="basic-addon2"><i class="isax isax-arrow-down-1"></i></span>
+                              <span class="input-group-text" id="basic-addon2"><i class="isax isax-arrow-down-1 size-icon"></i></span>
                               <label for="floatingInput" class="">Dropdown Field</label>
                            </div>
                         </div>
@@ -104,7 +104,7 @@
                         <div class="m-10px rounded-1 d-flex Input size-inputbox shadow-sm" >
                            <div class="form-floating fs-16px justify-content-center input-group">
                               <input type="text" class="bor-style-none  form-control " id="floatingInput" placeholder="Input Field" aria-label="Username">
-                              <span class="input-group-text" id="basic-addon2"><i class="isax isax-more"></i></span>
+                              <span class="input-group-text" id="basic-addon2"><i class="isax isax-more size-icon fw-bold"></i></span>
                               <label for="floatingInput" class="">Table Reference Field</label>
                            </div>
                         </div>
@@ -113,7 +113,7 @@
                         <div class="m-10px rounded-1 d-flex Input size-inputbox shadow-sm" >
                            <div class="form-floating fs-16px justify-content-center input-group">
                               <input type="text" class="bor-style-none  form-control " id="floatingInput" placeholder="Input Field" aria-label="Username">
-                              <span class="input-group-text" id="basic-addon2"><i class="isax isax-gps"></i></span>
+                              <span class="input-group-text" id="basic-addon2"><i class="isax isax-gps size-icon"></i></span>
                               <label for="floatingInput" class="">Map Location</label>
                            </div>
                         </div>
@@ -122,7 +122,7 @@
                         <div class="m-10px rounded-1 d-flex Input size-inputbox shadow-sm" >
                            <div class="form-floating fs-16px justify-content-center input-group">
                               <input type="text" class="bor-style-none  form-control " id="floatingInput" placeholder="Input Field" aria-label="Username">
-                              <span class="input-group-text d-flex flex-column" id="basic-addon2"><i class="isax isax-arrow-up-24"></i><i class="isax isax-arrow-down-1"></i></span>
+                              <span class="input-group-text d-flex flex-column" id="basic-addon2"><i class="isax isax-arrow-up-24 size-icon"></i><i class="isax isax-arrow-down-1 size-icon"></i></span>
                               <label for="floatingInput" class="">Number Selector Field</label>
                            </div>
                         </div>
@@ -140,27 +140,28 @@
 
                 <!-- right Side  -->
                 <div class="col m-1  d-flex justify-content-start">
-                    <div class="bor-style-solid d-flex flex-column d-inline-flex " style="border: 2px dashed #7E9FFF;">
+                    <div class="bor-style-solid d-flex flex-column " style="border: 2px dashed #7E9FFF;">
                         <!-- inputbox1 -->
-                        <div class="m-10px rounded-1 d-inline-flex p-2 ">
-                           <div class="form-floating fs-16px" id="floatingInput">
-                              <input type="text" class=" size-inputbox  bor-style-none shadow-sm form-control " placeholder="Input Field " aria-label="Username">
-                              <label for="floatingInput" class="">Input Field</label>
+                        <div class="m-10px rounded-1 d-flex Input size-inputbox shadow-sm" >
+                           <div class="form-floating fs-16px justify-content-center input-group">
+                              <input type="text" class="bor-style-none  form-control " id="floatingInput" placeholder="Input Field" aria-label="Username">
+                              <span class="input-group-text" id="basic-addon2"><i class="isax isax-arrow-down-1 size-icon"></i></span>
+                              <label for="floatingInput" class="">Dropdown Field</label>
                            </div>
                         </div>
                         <!-- inputbox1 -->
                         <!-- inputbox2 -->
-                        <div class="m-10px rounded-1 d-inline-flex p-2">
-                           <div class="form-floating fs-16px" id="floatingInput">
-                              <input type="text" class=" size-inputbox  bor-style-none shadow-sm form-control " placeholder="Input Field " aria-label="Username">
+                        <div class="m-10px rounded-1 d-flex  size-inputbox shadow-sm" >
+                           <div class="form-floating fs-16px justify-content-center input-group">
+                              <input type="text" class="bor-style-none  form-control " id="floatingInput" placeholder="Input Field" aria-label="Username">
                               <label for="floatingInput" class="">Input Field</label>
                            </div>
                         </div>
                         <!-- inputbox2 -->
                         <!-- inputbox3 -->
-                        <div class="m-10px rounded-1 d-inline-flex p-2">
-                           <div class="form-floating fs-16px" id="floatingInput">
-                              <input type="text" class=" size-inputbox  bor-style-none shadow-sm form-control " placeholder="Input Field " aria-label="Username">
+                        <div class="m-10px rounded-1 d-flex  size-inputbox shadow-sm" >
+                           <div class="form-floating fs-16px justify-content-center input-group">
+                              <input type="text" class="bor-style-none  form-control " id="floatingInput" placeholder="Input Field" aria-label="Username">
                               <label for="floatingInput" class="">Input Field</label>
                            </div>
                         </div>
@@ -173,12 +174,16 @@
           <!-- row2  -->
 
           <!-- row3 -->
-            <div class="m-10px rounded-1 d-flex justify-content-center">
-               <div class="form-floating fs-16px" id="floatingInput">
-                     <input type="text" class=" size-inputbox-long  bor-style-none shadow-sm form-control " placeholder="Input Field " aria-label="Username">
-                     <label for="floatingInput" class="">Input Field</label>
-               </div>
+          <div class="d-flex justify-content-center">
+            <div class="m-10px rounded-1 size-inputbox-long  shadow-sm " >
+            <div class="form-floating fs-16px justify-content-center input-group">
+               <input type="text" class="bor-style-none  form-control " id="floatingInput" placeholder="Input Field" aria-label="Username">
+               <span class="input-group-text mt-5" id="basic-addon2"><i class="isax isax-link-21 size-icon violet" ></i></span>
+               <label for="floatingInput" class="">Long Input Field</label>
             </div>
+         </div>
+          </div>
+          
           <!-- row3 -->
        </div>
     </div>
