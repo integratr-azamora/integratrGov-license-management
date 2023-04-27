@@ -1,9 +1,12 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import Typograpy from '../components/Typography.vue'
+import ColorsIconography from '../components/ColorsIconography.vue'
+
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <!-- <Typograpy /> -->
+    <ColorsIconography />
   </main>
 </template>

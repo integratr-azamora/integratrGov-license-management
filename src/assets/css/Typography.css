@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.Inter{
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center; 
+}
+
+.H1{
+    font-family: 'Gotham', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.H2{
+    font-family: 'Gotham', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;    
+    display: flex;
+    align-items: center;
+}
+
+.H3{
+    font-family: 'Gotham', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;    
+    display: flex;
+    align-items: center;
+}
+
+.Gh1{
+    font-family: 'Gotham', sans-serif;
+}
+
+.Gh2{
+    font-family: 'Gotham', sans-serif;
+}
+
+.Gh3{
+    font-family: 'Gotham', sans-serif;
+}
+
+.Gh4{
+    font-family: 'Gotham', sans-serif;
+}
+
+.Gh5{
+    font-family: 'Gotham', sans-serif;
+}
+
+.Gh6{
+    font-family: 'Gotham', sans-serif;
+}
+
+.Gh7{
+    font-family: 'Gotham', sans-serif;
+}
+
+.Gh8{
+    font-family: 'Gotham', sans-serif;
+}
+
+.Gh9{
+    font-family: 'Gotham', sans-serif;
+}
+
+
+.Gh10{
+    font-family: 'Gotham', sans-serif;
+}
+
+.Gb1{
+    font-family: 'Gotham', sans-serif;
+}
+
+.Gb2{
+    font-family: 'Gotham', sans-serif;
+}
+
+
+
+/* .Roboto */
+
+.Roboto{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;    
+}
+
+.Heading1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.Heading2 {
+    font-family: 'Roboto', sans-serif;  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.Heading3 {
+    font-family: 'Roboto', sans-serif;  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+}
+
+.Heading4 {
+    font-family: 'Roboto', sans-serif;  
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+}
+
+.Heading5 {
+    font-family: 'Roboto', sans-serif;  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+}
+
+
+.Poppins {
+    font-family: 'Poppins', sans-serif;  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;    
+    display: flex;
+    align-items: center;
+}
+
+.Ph1{
+    font-family: 'Poppins', sans-serif;
+}

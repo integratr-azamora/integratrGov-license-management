@@ -10901,32 +10901,18 @@ textarea.form-control-lg {
   }
 }
 
-/* custom css  */
 
-/* colors  */
-/* samples  */
-  /* .text-black {
-    --bs-text-opacity: 1;
-    color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
-  } */
-  /* .bg-primary {
-    --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
-  } */
-/* samples  */
 .bg-inputbox-Error{
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-error-rgb), var(--bs-bg-opacity)) !important;
 }
-/* colors  */
 
-/* Border Styles  */
   .bor-style-none{
     border-style: none !important;
   }
-  /* .bor-style-solid{
+  .bor-style-solid{
     border-style: solid;
-  } */
+  }
   .bor-style-solid-perma{
     border-style: solid;
   }
@@ -10970,8 +10956,20 @@ textarea.form-control-lg {
     width: 52.438rem !important;
     height: 4.625rem !important;
   }
-/* sizes  */
 
-/* custom css  */
+  /* Iconography */
+  .vio{
+    color: #6A00FF;
+  }
 
-/*# sourceMappingURL=bootstrap.css.map */
+  .gr{
+    color: #666666;
+  }
+  .icon-size{
+    font-size: 1.5rem !important;
+  }
+
+  .icon-size1{
+    font-size: 4.375rem !important;
+  }
+
