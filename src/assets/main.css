@@ -1,20 +1,7 @@
 @import './base.css';
 @import './css/bootstrap.css';
-<<<<<<< HEAD
 @import './css/Typography.css';
 @import './css/ColorsIconography.css';
 
 
   
-=======
-@import './vuesax.css';
-
-
-#app {
-  width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
-  padding-left: calc(var(--bs-gutter-x) * 0.5);
-  margin-right: auto;
-  margin-left: auto;
-}
->>>>>>> 42b905e4b00b13ceefaea2d98320c011e10e7060

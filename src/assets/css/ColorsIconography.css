@@ -4,86 +4,85 @@
     background: #FFFFFF;
     border: 1px solid #F4F4F4;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
-    border-radius: 4px;              
+    border-radius: 0.25rem var(--vt-c-white);  
     }
-    
-    .color2{ 
-        width: 77px;
-        height: 77px;
-        background: #6A00FF;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
-        border-radius: 4px;             
-    }
-    
-    .color3{ 
-        width: 77px;
-        height: 77px;
-        background: #000000;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
-        border-radius: 4px;             
-    }
-    
-    .color4{ 
-        width: 77px;
-        height: 77px;
-        background: #F3F6FF;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
-        border-radius: 4px;          
-    }
-    
-    .color5{
-        width: 77px;
-        height: 77px;
-        background: #C6C7F9;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
-        border-radius: 4px;      
-    }
-    
-    .color6{ 
-        width: 77px;
-        height: 77px;
-        background: #7E9FFF;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
-        border-radius: 4px;    
-    }
-    
-    .color7{
-        width: 77px;
-        height: 77px;
-        background: #666666;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
-        border-radius: 4px;   
-    }
-    
-    .color8{ 
-        width: 77px;
-        height: 77px;
-        background: #ACACAC;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
-        border-radius: 4px;  
-    }
-    
-    .color9{ 
-        width: 77px;
-        height: 77px;
-        background: #5500CD;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
-        border-radius: 4px; 
-    }
-    
-    .color10{ 
-        width: 77px;
-        height: 77px;
-        background: #27AE60;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
-        border-radius: 4px;
-    }
-    
-    .color11{ 
+
+.color2{ 
     width: 77px;
     height: 77px;
-        background: #DB524E;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
-        border-radius: 4px;
+    background: #6A00FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 0.25 var(--vt-c-indigo);             
     }
-    
+
+.color3{ 
+    width: 77px;
+    height: 77px;
+    background: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 0.25 var(--vt-c-black);             
+    }
+
+.color4{ 
+    width: 77px;
+    height: 77px;
+    background: #F3F6FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 0.25 var(--vt-c-ghost-white);             
+    }
+
+.color5{
+    width: 77px;
+    height: 77px;
+    background: #C6C7F9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 0.25 var(--vt-c-lavander-blue);             
+    }
+
+.color6{ 
+    width: 77px;
+    height: 77px;
+    background: #7E9FFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 0.25 var(--vt-c-cornflower-blue);             
+    }
+
+.color7{
+    width: 77px;
+    height: 77px;
+    background: #666666;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 0.25 var(--vt-c-dim-gray);             
+    }
+
+.color8{ 
+    width: 77px;
+    height: 77px;
+    background: #ACACAC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 0.25 var(--vt-c-dark-gray);             
+    }
+
+.color9{ 
+    width: 77px;
+    height: 77px;
+    background: #5500CD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 0.25 var(--vt-c-purple-heart);             
+    }
+
+.color10{ 
+    width: 77px;
+    height: 77px;
+    background: #27AE60;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 0.25 var(--vt-c-eucalyptus);             
+    }
+
+.color11{ 
+    width: 77px;
+    height: 77px;
+    background: #DB524E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 0.25 var(--vt-c-valencia);             
+    }

@@ -73,13 +73,13 @@
       <div class="row ">
          <div class="d-flex justify-content-start">
             <!-- Row 1  -->
-            <img src="Home_light.svg" class="icon-size m-2" alt="home">      
+            <i class="icon-size m-2 gr isax isax-home-2"></i>
             <!-- icon2  -->
             <i class="icon-size m-2 gr isax isax-chart-3"></i>
             <!-- icon3  -->
             <i class="icon-size m-2 gr isax isax-bank"></i>
             <!-- icon4  -->
-            <i class="icon-size m-2 vio isax isax-setting-2"></i>
+            <i class="icon-size m-2 gr isax isax-setting-2"></i>
             <!-- icon5  -->
             <i class="icon-size m-2 gr isax isax-call"></i>
             <!-- icon6  -->
@@ -88,36 +88,36 @@
          <!-- Row 2  -->
          <div class="d-flex justify-content-start">
             <!-- icon1 -->
-            <img src="Home_light2.svg" class="icon-size m-2" alt="home">      
+            <i class="icon-size m-2 violet isax isax-home-2"></i>
             <!-- icon2  -->
-            <i class="icon-size m-2 vio isax isax-chart-3"></i>
+            <i class="icon-size m-2 violet isax isax-chart-3"></i>
             <!-- icon3  -->
-            <i class="icon-size m-2 vio isax isax-bank"></i>
+            <i class="icon-size m-2 violet isax isax-bank"></i>
             <!-- icon4 -->
-            <i class="icon-size m-2 gr isax isax-setting-2"></i>
+            <i class="icon-size m-2 violet isax isax-setting-2"></i>
             <!-- icon5  -->
-            <i class="icon-size m-2 vio isax isax-call"></i>
+            <i class="icon-size m-2 violet isax isax-call"></i>
             <!-- icon6  -->
-            <i class="icon-size m-2 vio isax isax-logout"></i>
+            <i class="icon-size m-2 violet isax isax-logout"></i>
          </div>
          <!-- Row 3  -->
          <div class="d-flex justify-content-start">
             <!-- icon1  -->
-            <i class="icon-size gr m-2 isax isax-arrow-left-2"></i>
+            <i class="icon-size gray m-2 isax isax-arrow-left-2"></i>
             <!-- icon2 -->
-            <i class="icon-size gr m-2 isax isax-arrow-right-3"></i>
+            <i class="icon-size gray m-2 isax isax-arrow-right-3"></i>
             <!-- icon3  -->
-            <i class="icon-size vio m-2 isax isax-arrow-left-2"></i>
+            <i class="icon-size violet m-2 isax isax-arrow-left-2"></i>
             <!-- icon4  -->
-            <i class="icon-size vio m-2 isax isax-arrow-right-3"></i>
+            <i class="icon-size violet m-2 isax isax-arrow-right-3"></i>
             <!-- icon5  -->
-            <i class="icon-size gr m-2 isax isax-arrow-down-1"></i>
+            <i class="icon-size gray m-2 isax isax-arrow-down-1"></i>
             <!-- icon6  -->
-            <i class="icon-size gr m-2 isax isax-arrow-up-2"></i>
+            <i class="icon-size gray m-2 isax isax-arrow-up-2"></i>
             <!-- icon7  -->
-            <i class="icon-size vio m-2 isax isax-arrow-down-1"></i>
+            <i class="icon-size violet m-2 isax isax-arrow-down-1"></i>
             <!-- icon8 -->
-            <i class="icon-size vio m-2 isax isax-arrow-up-2"></i>
+            <i class="icon-size violet m-2 isax isax-arrow-up-2"></i>
          </div>
          <!-- Row 4  -->
          <div class="d-flex justify-content-start">
@@ -130,17 +130,17 @@
             <!-- icon4  -->
             <i class="icon-size m-2 isax isax-message-text"></i>
             <!-- icon5  -->
-            <img src="copy.svg" class="icon-size1 m-2" alt="copy">
+            <img src="../assets/icon/copy.svg" class="icon-size1 m-2" alt="copy">
             <!-- icon6  -->
-            <img src="Up.svg" class="icon-size m-2" alt="Fdown">
+            <img src="../assets/icon/Up.svg" class="icon-size m-2" alt="Fdown">
             <!-- icon7  -->
-            <img src="Down.svg" class="icon-size m-2" alt="Down">
+            <img src="../assets/icon/Down.svg" class="icon-size m-2" alt="Down">
             <!-- icon8  -->
-            <img src="more.svg" class="icon-size m-2" alt="more">
+            <i class="icon-size m-2 isax isax-more"></i>
             <!-- icon9  -->
-            <img src="checked.svg" class="icon-size m-2" alt="checked">
+            <img src="../assets/icon/checked.svg" class="icon-size m-2" alt="checked">
             <!-- icon10  -->
-            <img src="close.svg" class="icon-size m-2" alt="close">
+            <img src="../assets/icon/close.svg" class="icon-size m-2" alt="close">
          </div>
          <!-- Row 5 -->
          <div class="d-flex justify-content-start">
@@ -150,94 +150,95 @@
             <!-- icon2  -->
             <i class="icon-size m-2 isax isax-search-normal-1"></i>
             <!-- icon3  -->
-            <i class="icon-size vio m-2 isax isax-link-21"></i>
+            <i class="icon-size violet m-2 isax isax-link-21"></i>
             <!-- icon4  -->
-            <i class="icon-size vio m-2 isax isax-document-1"></i>
+            <i class="icon-size violet m-2 isax isax-document-1"></i>
          </div>
 
          <!-- Row 6 -->
          <div class="d-flex justify-content-start">
-            <img src="Twitter.svg" class="icon-size m-2" alt="Twitter">
+            <img src="../assets/icon/Twitter.svg" class="icon-size m-2" alt="Twitter">
             <!-- icon1  -->
-            <img src="Facebook.svg" class="icon-size m-2" alt="Fb">
+            <img src="../assets/icon/Facebook.svg" class="icon-size m-2" alt="Fb">
             <!-- icon2  -->
-            <img src="YouTube.svg" class="icon-size m-2" alt="Yt">
+            <img src="../assets/icon/YouTube.svg" class="icon-size m-2" alt="Yt">
             <!-- icon3  -->
-            <img src="Instagram.svg" class="icon-size m-2" alt="Insta">
+            <i class="icon-size m-2 isax isax-instagram"></i>
             <!-- icon4  -->
-            <img src="Google1.svg" class="icon-size m-2 " alt="google">
+            <img src="../assets/icon/Google1.svg" class="icon-size m-2 " alt="google">
          </div>
          <!-- Row 7 -->
          <div class="d-flex justify-content-start">
             <i class="icon-size m-2 isax isax-profile-tick"></i>
             <!-- icon1  -->
-            <img src="coins.svg" class="icon-size m-2" alt="coins1">
+            <i class="icon-size m-2 isax isax-coin-1"></i>
             <!-- icon2  -->
-            <img src="Cash.svg" class="icon-size m-2" alt="cash1">
+            <img src="../assets/icon/Cash.svg" class="icon-size m-2" alt="cash1">
             <!-- icon3  -->
-            <img src="Map-Alt.svg" class="icon-size m-2" alt="Map1">
+            <img src="../assets/icon/Map-Alt.svg" class="icon-size m-2" alt="Map1">
             <!-- icon4  -->
-            <img src="Users-1.svg" class="icon-size m-2" alt="Users1">
+            <i class="icon-size m-2 isax isax-people"></i>
             <!-- icon5  -->
-            <img src="home.svg" class="icon-size m-2" alt="home1">
+            <img src="../assets/icon/home.svg" class="icon-size m-2" alt="home1">
             <!-- icon6  -->
-            <img src="Folder-User.svg" class="icon-size m-2" alt="Folder1">
+            <img src="../assets/icon/File.svg" class="icon-size m-2" alt="File">
+
          </div>
          <!-- Row 8-->
          <div class="d-flex justify-content-start">
-            <i class="icon-size m-2 isax isax-profile-tick"></i>
+            <i class="icon-size blue m-2 isax isax-profile-tick"></i>
             <!-- icon1  -->
-            <img src="coins2.svg" class="icon-size m-2" alt="coins2">
+            <i class="icon-size blue m-2 isax isax-coin-1"></i>
             <!-- icon2  -->
-            <img src="Cash2.svg" class="icon-size m-2" alt="cash2">
+            <img src="../assets/icon/Cash2.svg" class="icon-size m-2" alt="cash2">
             <!-- icon3  -->
-            <img src="Map-Alt2.svg" class="icon-size m-2" alt="Map2">
+            <img src="../assets/icon/Map-Alt2.svg" class="icon-size m-2" alt="Map2">
             <!-- icon4  -->
-            <img src="Users2.svg" class="icon-size m-2" alt="Users2">
+            <i class="icon-size blue m-2 isax isax-people"></i>
             <!-- icon5  -->
-            <img src="home2.svg" class="icon-size m-2" alt="home2">
+            <img src="../assets/icon/home2.svg" class="icon-size m-2" alt="home2">
             <!-- icon6  -->
-            <img src="File2.svg" class="icon-size m-2" alt="File2">
+            <img src="../assets/icon/File2.svg" class="icon-size m-2" alt="File2">
          </div>
          <!-- Row 9  -->
          <div class="d-flex justify-content-start">
-            <div class="icon-size m-2 isax isax-profile-tick"></div>
+            <div class="icon-size gray m-2 isax isax-profile-tick"></div>
             <!-- icon1  -->
-            <img src="coins3.svg" class="icon-size m-2" alt="coins3">
+            <i class="icon-size gray m-2 isax isax-coin-1"></i>
             <!-- icon2  -->
-            <img src="Cash3.svg" class="icon-size m-2" alt="cash3">
+            <img src="../assets/icon/Cash3.svg" class="icon-size m-2" alt="cash3">
             <!-- icon3  -->
-            <img src="Map-Alt3.svg" class="icon-size m-2" alt="Map3">
+            <img src="../assets/icon/Map-Alt3.svg" class="icon-size m-2" alt="Map3">
             <!-- icon4  -->
-            <img src="Users3.svg" class="icon-size m-2" alt="Users3">
+            <i class="icon-size gray m-2 isax isax-people"></i>
             <!-- icon5  -->
-            <img src="home3.svg" class="icon-size m-2" alt="home3">
+            <img src="../assets/icon/home3.svg" class="icon-size m-2" alt="home3">
             <!-- icon6  -->
-            <img src="File-3.svg" class="icon-size m-2" alt="file3">
+            <img src="../assets/icon/File-3.svg" class="icon-size m-2" alt="file3">
          </div>
-         <!-- Row 10 -->    
+         <!-- Row 10 -->   
          <div class="d-flex justify-content-start">
             <!-- icon1  -->
-            <img src="info.svg" class="icon-size2 m-2" alt="info">
+            <img src="../assets/icon/info.svg" class="icon-size2 m-2" alt="info">
             <!-- icon2  -->
-            <img src="Credit.svg" class="icon-size2 m-2" alt="info">
+            <img src="../assets/icon/Credit.svg" class="icon-size2 m-2" alt="info">
             <!-- icon3  -->
-            <img src="chield-check.svg" class="icon-size2 m-2" alt="info">
+            <i class="icon-size1 m-2 isax isax-shield-tick"></i>
             <!-- icon4  -->
-            <img src="wallet-fill.svg" class="icon-size2 m-2" alt="info">
+            <img src="../assets/icon/wallet-fill.svg" class="icon-size2 m-2" alt="info">
             <!-- icon5  -->
-            <img src="Subtract.svg" class="icon-size2 m-2" alt="info">
+            <img src="../assets/icon/Subtract.svg" class="icon-size2 m-2" alt="info">
          </div>
          <!-- Row 11 -->    
          <div class="d-flex justify-content-start">
             <!-- icon1  -->
-            <img src="favorite.svg" class="icon-size2 m-2" alt="info">
+            <img src="../assets/icon/favorite.svg" class="icon-size2 m-2" alt="info">
             <!-- icon2  -->
-            <img src="main.svg" class="icon-size2 m-2">
+            <i class="icon-size1 m-2 isax isax-main-component5"></i>
             <!-- icon3  -->
             <i class="icon-size1 m-2 isax isax-profile-2user5"></i>
             <!-- icon4  -->            
-            <img src="message-question.svg" class="icon-size2 m-2 " alt="info">
+            <img src="../assets/icon/message-question.svg" class="icon-size2 m-2 " alt="info">
          </div>
       </div>
    </div>

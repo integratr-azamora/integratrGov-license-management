@@ -10907,27 +10907,6 @@ textarea.form-control-lg {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-error-rgb), var(--bs-bg-opacity)) !important;
 }
-<<<<<<< HEAD
-=======
-.violet{
-  color: #6A00FF;
-}
-.bg-red{
-  background-color: #DB524E;
-}
-.color-red{
-  color:#DB524E;
-}
-.color-table-button{
-  background: #F3F6FF;
-}
-.color-table-button-text{
-  color: #7E9FFF;
-
-}
-
-/* colors  */
->>>>>>> 42b905e4b00b13ceefaea2d98320c011e10e7060
 
   .bor-style-none{
     border-style: none !important;
@@ -10973,51 +10952,12 @@ textarea.form-control-lg {
     margin-left: auto;
   }
 
-
-/* margin  */
-
-/* padding  */
-.px-20px{
-  padding-right: 1.25rem !important;
-  padding-left: 1.25rem !important;
-}
-.ps-20px{
-  padding-left: 1.25rem !important;
-}
-.pe-20px{
-  padding-right: 1.25rem !important;
-}
-/* padding  */
-
-/* sizes  */
-  .square-colors-size{
-    height: 4.813rem;
-    width: 4.813rem;
-  }
-  .size-inputbox{
-    height: 3.5rem !important;
-    width: 25rem !important;
-  }
-  .size-table{
-    width: 46.188rem;
-    height: 54.125rem;
-  }
-  .size-inputbox-admin{
-    width: 25rem !important;
-    height: 2.5rem !important;
-  }
-  .size-inputbox-long{
-    width: 52.438rem !important;
-    height: 4.625rem !important;
-  }
-<<<<<<< HEAD
-
   /* Iconography */
-  .vio{
+  .violet{
     color: #6A00FF;
   }
 
-  .gr{
+  .gray{
     color: #666666;
   }
   .icon-size{
@@ -11027,68 +10967,8 @@ textarea.form-control-lg {
   .icon-size1{
     font-size: 4.375rem !important;
   }
-=======
-  .size-table-search{
-    width: 18.25rem !important;
-    height: 2.75rem !important;
-  }
-  .size-table-filter{
-    width: 7.25rem;
-    height: 2.75rem;
-    text-align: center;
-  }
-  .size-table-tabledata{
-    width: 46.188rem;
-    height: 3.75rem;
-  }
-  .size-icon{
-    font-size: 1rem !important;
-  }
-  .size-icon-24px{
-    font-size: 1.5rem !important;
-  }
-  .size-icon-table-arrow{
-    height: 0.326rem;
-    width: 0.599rem;
-  }
-  .size-box-10{
-    height: 0.625rem;
-    width: 1.313rem;
-  }
-  .size-box-20{
-    height: 1.438rem;
-    width: 1.313rem;
-  }
-  .fs-16px {
-    font-size: 1rem !important;
-  }
-/* sizes  */
 
-/* transform  */
-.rotate-45{
-  transform: rotate(-45deg);
-}
-
-/* table  */
-.table-custom {
-  --bs-table-color: var(--bs-body-color);
-  --bs-table-bg: transparent;
-  --bs-table-border-color: var(--bs-border-color);
-  --bs-table-accent-bg: transparent;
-  --bs-table-striped-color: var(--bs-body-color);
-  --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
-  --bs-table-active-color: var(--bs-body-color);
-  --bs-table-active-bg: rgba(0, 0, 0, 0.1);
-  --bs-table-hover-color: var(--bs-body-color);
-  --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
-  width: 100%;
-  margin-bottom: 1rem;
-  color: var(--bs-table-color);
-  vertical-align: top;
-  border-color: var(--bs-table-border-color);
-}
-/* table  */
-
-/* custom css  */
->>>>>>> 42b905e4b00b13ceefaea2d98320c011e10e7060
-
+  .blue{
+    color: #7E9FFF;
+  }
+  /* Iconography */
