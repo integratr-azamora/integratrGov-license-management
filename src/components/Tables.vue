@@ -5,11 +5,11 @@
           <!-- excess texts  -->
           <!-- left side  -->
           <div class="p-3">
-            <div class="m-3">
+             <div class="m-3">
                 <p class="font-table-excess-color-size">Table Name</p>
                 <p>font: Gothnam - Bold</p>
                 <p>size: 24px</p>
-            </div>
+             </div>
              <div class="m-3">
                 <p class="font-table-excess-color-size">Column</p>
                 <p>font: Roboto - Bold</p>
@@ -247,19 +247,18 @@
              <!-- row1  -->        
           </div>
           <div class="ms-3">
-            <p class="me-4" style="margin-top: 190px ">
+             <p class="me-4" style="margin-top: 190px ">
                 <span class="text-muted">
-                    <i class="isax isax-arrow-left"></i>
-                    Line
+                <i class="isax isax-arrow-left"></i>
+                Line
                 </span>
                 this is a divider
-            </p>
-            <p class="font-table-excess-color-size"> <i class="isax isax-arrow-left"></i>Hover/Select Row</p>
-            <p>color: #6A00FF</p>
-            <p>highlight:#C6C7F9</p>
-
-            <p style="margin-top: 190px;"><span class="color-red"><i class="isax isax-arrow-left "></i>---</span> this area is scrollable</p>
-            <p style="margin-top: 230px;"><span class="text-muted"><i class="isax isax-arrow-left "></i>Line</span> this line is a divider</p>
+             </p>
+             <p class="font-table-excess-color-size"> <i class="isax isax-arrow-left"></i>Hover/Select Row</p>
+             <p>color: #6A00FF</p>
+             <p>highlight:#C6C7F9</p>
+             <p style="margin-top: 190px;"><span class="color-red"><i class="isax isax-arrow-left "></i>---</span> this area is scrollable</p>
+             <p style="margin-top: 230px;"><span class="text-muted"><i class="isax isax-arrow-left "></i>Line</span> this line is a divider</p>
           </div>
        </div>
     </div>
