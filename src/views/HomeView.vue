@@ -6,9 +6,10 @@ import Tables from '../components/Tables.vue'
 
 <template>
   <main>
-    <InputBox />
-    <!-- <Buttons /> -->
-    <Tables />
-  
+    <div class="container">
+      <!-- <InputBox /> -->
+      <!-- <Buttons /> -->
+      <Tables />
+    </div>
   </main>
 </template>
