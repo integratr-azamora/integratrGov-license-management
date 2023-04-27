@@ -6,7 +6,7 @@ import ColorsIconography from '../components/ColorsIconography.vue'
 
 <template>
   <main>
-    <!-- <Typograpy /> -->
-    <ColorsIconography />
+    <Typograpy />
+    <!-- <ColorsIconography /> -->
   </main>
 </template>
