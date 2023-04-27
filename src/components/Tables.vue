@@ -1,5 +1,5 @@
 <template>
-    <div class="bor-style-solid-perma " style="width: 1387px;height: 1056px;">
+    <div class="bor-style-solid-perma size-table-container">
        <div class="bor-style-solid-perma font-table-heading p-1">Table </div>
        <div class="d-flex justify-content-center ">
           <!-- excess texts  -->
@@ -28,7 +28,7 @@
           </div>
           <!-- left side  -->
           <!-- excess texts  -->
-          <div class="bor-style-solid size-table shadow-sm " style="border-radius: 1rem;">
+          <div class="bor-style-solid size-table shadow-sm rounded-3">
              <!-- row1  -->
              <div class="bor-style-solid m-auto ">
                 <!-- table Header  -->
@@ -117,7 +117,7 @@
                 <!-- table Header Row7 -->
                 <!-- table Header  -->
                 <!-- table Body  -->
-                <div class="table-responsive overflow-auto border border-start-0 border border-danger" style="height: 33.75rem; border-style: dotted !important;">
+                <div class="table-responsive overflow-auto border border-start-0 border border-danger table-border-dot">
                    <table class="table table-borderless table-striped table-hover font-table-text">
                       <tbody>
                          <!-- row1  -->
@@ -187,8 +187,8 @@
                 <!-- table Footer Row8 Column -->
                 <div class="col d-flex flex-row px-20px">
                    <!-- px box  -->
-                   <div class=" size-box-20 bg-red " style="margin-left:3.75rem"></div>
-                   <div class="ms-2 color-red">20 px</div>
+                   <div class=" size-box-20 bg-red  ms-60px" ></div>
+                   <div class="ms-2 color-red ">20 px</div>
                    <!-- px box  -->
                 </div>
                 <!-- table Footer Row8 Column -->
@@ -202,7 +202,7 @@
                       <!-- text  -->
                       <!-- button  -->
                       <div class="ms-20px ">
-                         <button type="button" class=" size-table-filter color-table-button shadow-sm bor-style-pagination rounded-3 " style=" background-color: white;">
+                         <button type="button" class=" size-table-filter color-table-button shadow-sm bor-style-pagination rounded-3 bg-white">
                          <span class=" color-table-pagination-text">10 Rows</span>
                          <i class=" isax isax-arrow-down-1  color-table-pagination-text ms-2"></i>
                          </button>
@@ -215,16 +215,16 @@
                       <a href="">
                          <p class="text-muted pt-2 m-1">Previous</p>
                       </a>
-                      <button type="button" class=" size-table-pagination bor-style-pagination m-1" style=" background-color: white;">
+                      <button type="button" class=" size-table-pagination bor-style-pagination m-1 bg-white">
                       <span class=" color-table-pagination-text">1</span>
                       </button>
-                      <button type="button" class=" size-table-pagination bor-style-none m-1" style=" background-color: white;">
+                      <button type="button" class=" size-table-pagination bor-style-none m-1 bg-white">
                       <span class=" color-table-pagination-text">2</span>
                       </button>
-                      <button type="button" class=" size-table-pagination bor-style-none m-1" style=" background-color: white;">
+                      <button type="button" class=" size-table-pagination bor-style-none m-1 bg-white">
                       <span class=" color-table-pagination-text">...</span>
                       </button>
-                      <button type="button" class=" size-table-pagination bor-style-none m-1" style=" background-color: white;">
+                      <button type="button" class=" size-table-pagination bor-style-none m-1 bg-white">
                       <span class=" color-table-pagination-text">100</span>
                       </button>
                       <a href="">
@@ -238,7 +238,7 @@
                 <!-- table Footer Row10 Column -->
                 <div class="col d-flex flex-row px-20px">
                    <!-- px box  -->
-                   <div class=" size-box-20 bg-red " style="margin-left:3.75rem"></div>
+                   <div class=" size-box-20 bg-red ms-60px"></div>
                    <div class="ms-2 color-red">20 px</div>
                    <!-- px box  -->
                 </div>
@@ -247,7 +247,7 @@
              <!-- row1  -->        
           </div>
           <div class="ms-3">
-             <p class="me-4" style="margin-top: 190px ">
+             <p class="me-4 mt-et-190px">
                 <span class="text-muted">
                 <i class="isax isax-arrow-left"></i>
                 Line
@@ -257,8 +257,8 @@
              <p class="font-table-excess-color-size"> <i class="isax isax-arrow-left"></i>Hover/Select Row</p>
              <p>color: #6A00FF</p>
              <p>highlight:#C6C7F9</p>
-             <p style="margin-top: 190px;"><span class="color-red"><i class="isax isax-arrow-left "></i>---</span> this area is scrollable</p>
-             <p style="margin-top: 230px;"><span class="text-muted"><i class="isax isax-arrow-left "></i>Line</span> this line is a divider</p>
+             <p class="mt-et-190px"><span class="color-red"><i class="isax isax-arrow-left "></i>---</span> this area is scrollable</p>
+             <p class="mt-et-230px"><span class="text-muted"><i class="isax isax-arrow-left "></i>Line</span> this line is a divider</p>
           </div>
        </div>
     </div>
