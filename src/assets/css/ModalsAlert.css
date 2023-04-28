@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+.container4{
+    width: 481px;
+    height: 314px
+}
+
+.font-style-roboto{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.font-style-gotham{
+    font-family: 'Gotham', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+}
