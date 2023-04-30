@@ -1,6 +1,6 @@
 <script setup type="js">
 import InputBox from '../components/InputBoxes.vue'
-import Buttons from '../components/Buttons.vue'
+import Components from '../components/Components.vue'
 import Tables from '../components/Tables.vue'
 </script>
 
@@ -8,8 +8,8 @@ import Tables from '../components/Tables.vue'
   <main>
     <div class="container">
       <!-- <InputBox /> -->
-      <!-- <Buttons /> -->
-      <Tables />
+      <Components />
+      <!-- <Tables /> -->
     </div>
   </main>
 </template>

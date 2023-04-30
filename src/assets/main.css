@@ -1,6 +1,7 @@
 @import './base.css';
 @import './css/bootstrap.css';
 @import './vuesax.css';
+@import './component-button.css';
 
 
 #app {

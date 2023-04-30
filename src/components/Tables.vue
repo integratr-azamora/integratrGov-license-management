@@ -2,43 +2,17 @@
     <div class="bor-style-solid-perma size-table-container">
        <div class="bor-style-solid-perma font-table-heading p-1">Table </div>
        <div class="d-flex justify-content-center ">
-          <!-- excess texts  -->
-          <!-- left side  -->
-          <div class="p-3">
-             <div class="m-3">
-                <p class="font-table-excess-color-size">Table Name</p>
-                <p>font: Gothnam - Bold</p>
-                <p>size: 24px</p>
-             </div>
-             <div class="m-3">
-                <p class="font-table-excess-color-size">Column</p>
-                <p>font: Roboto - Bold</p>
-                <p>size: 14px</p>
-             </div>
-             <div class="m-3">
-                <p class="font-table-excess-color-size"></p>
-                <p>font: Gotham - Book</p>
-                <p>size: 16px</p>
-             </div>
-             <div class="m-3">
-                <p class="font-table-excess-color-size">Show Rows/Pagination/Search/Filter</p>
-                <p>font: Roboto - Regular</p>
-                <p>size: 16px</p>
-             </div>
-          </div>
-          <!-- left side  -->
-          <!-- excess texts  -->
+          
           <div class="bor-style-solid size-table shadow-sm rounded-3">
              <!-- row1  -->
              <div class="bor-style-solid m-auto ">
                 <!-- table Header  -->
                 <!-- table Header Row1  -->
                 <div class="bor-style-solid ">
-                   <!-- table Header Row1 Column -->
+                   <!-- table Header Row1 Column --> 
                    <div class="col d-flex flex-row px-20px">
                       <!-- px box  -->
-                      <div class=" size-box-20 bg-red"></div>
-                      <div class="ms-2 color-red">20 px</div>
+                      <div class=" size-box-20"></div>
                       <!-- px box  -->
                    </div>
                    <!-- table Header Row1 Column -->
@@ -52,9 +26,8 @@
                 <!-- table Header Row3  -->
                 <div class="bor-style-solid col d-flex flex-row px-20px">
                    <!-- px box  -->
-                   <div class=" size-box-20 bg-red">
+                   <div class=" size-box-20">
                    </div>
-                   <div class="ms-2 color-red ">20 px</div>
                    <!-- px box  -->
                 </div>
                 <!-- table Header Row3  -->
@@ -83,8 +56,7 @@
                 <!-- table Header Row5  -->
                 <div class="bor-style-solid d-flex flex-row px-20px">
                    <!-- px box  -->
-                   <div class=" size-box-20 bg-red"></div>
-                   <div class="ms-2 color-red">20 px</div>
+                   <div class=" size-box-20"></div>
                    <!-- px box  -->
                 </div>
                 <!-- table Header Row5 -->
@@ -110,15 +82,14 @@
                 <!-- table Header Row7 -->
                 <div class="bor-style-solid d-flex flex-row px-20px">
                    <!-- px box  -->
-                   <div class=" size-box-10 bg-red mt-2"></div>
-                   <div class="ms-2 color-red ">10 px</div>
+                   <div class=" size-box-10 mt-2"></div>
                    <!-- px box  -->
                 </div>
                 <!-- table Header Row7 -->
                 <!-- table Header  -->
                 <!-- table Body  -->
-                <div class="table-responsive overflow-auto border border-start-0 border border-danger table-border-dot">
-                   <table class="table table-borderless table-striped table-hover font-table-text">
+                <div class="table-responsive overflow-auto border border-start-0 " style="height:30.75rem;">
+                   <table class="table table-borderless table-striped table-hover font-table-text" >
                       <tbody>
                          <!-- row1  -->
                          <tr class="size-table-tabledata">
@@ -180,6 +151,7 @@
                             <td class="text-center">Text</td>
                             <td class="text-end pe-20px">Text</td>
                          </tr>
+                         
                       </tbody>
                    </table>
                 </div>
@@ -187,8 +159,7 @@
                 <!-- table Footer Row8 Column -->
                 <div class="col d-flex flex-row px-20px">
                    <!-- px box  -->
-                   <div class=" size-box-20 bg-red  ms-60px" ></div>
-                   <div class="ms-2 color-red ">20 px</div>
+                   <div class=" size-box-20  ms-60px" ></div>
                    <!-- px box  -->
                 </div>
                 <!-- table Footer Row8 Column -->
@@ -238,27 +209,12 @@
                 <!-- table Footer Row10 Column -->
                 <div class="col d-flex flex-row px-20px">
                    <!-- px box  -->
-                   <div class=" size-box-20 bg-red ms-60px"></div>
-                   <div class="ms-2 color-red">20 px</div>
+                   <div class=" size-box-20 ms-60px"></div>
                    <!-- px box  -->
                 </div>
                 <!-- table Footer Row10 Column -->
              </div>
              <!-- row1  -->        
-          </div>
-          <div class="ms-3">
-             <p class="me-4 mt-et-190px">
-                <span class="text-muted">
-                <i class="isax isax-arrow-left"></i>
-                Line
-                </span>
-                this is a divider
-             </p>
-             <p class="font-table-excess-color-size"> <i class="isax isax-arrow-left"></i>Hover/Select Row</p>
-             <p>color: #6A00FF</p>
-             <p>highlight:#C6C7F9</p>
-             <p class="mt-et-190px"><span class="color-red"><i class="isax isax-arrow-left "></i>---</span> this area is scrollable</p>
-             <p class="mt-et-230px"><span class="text-muted"><i class="isax isax-arrow-left "></i>Line</span> this line is a divider</p>
           </div>
        </div>
     </div>
