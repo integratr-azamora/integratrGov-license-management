@@ -1,10 +1,10 @@
 import { createApp } from 'vue';
 import App from './App.vue';
-// import Vuesax from 'vuesax';
 import router from './router';
-import './assets/vuesax.css' //Vuesax styles
+import './assets/vuesax.css';
 import './assets/main.css';
-import 'material-icons/iconfont/material-icons.css';
+import './assets/js/bootstrap/bootstrap';
+
 const app = createApp(App)
 
 app.use(router)
