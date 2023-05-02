@@ -12,7 +12,10 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 32px;
-    line-height: 38px;
+    line-height: 38px;    
+    align-items: center;
+    text-align: center;    
+    color: #000000;
 }
 
 .font-style-gotham{
