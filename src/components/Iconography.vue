@@ -1,7 +1,7 @@
 <template>
-    <div class="container bor-style-solid perma container2">
-       <div class="bor-bottom row justify-content-center">
-          <p class="m-2 fs-24 fw-bold">Colors</p>
+    <div class="container bor-style-solid-perma container2" >
+         <div class="bor-bottom row justify-content-center">
+          <p class="color m-2 fw-bold border-bottom-1">Colors</p>
        </div>
        <div class="row ">
           <div class="d-flex justify-content-start">
@@ -69,9 +69,9 @@
     </div>
     <br>
     <!-- ICONS -->
-    <div class="container bor-style-solid perma container3">
+    <div class="container bor-style-solid-perma container3">
        <div class="bor-bottom row justify-content-center">
-          <p class="m-2 fs-24 fw-bold">Iconography</p>
+          <p class="iconography m-2 fw-bold border-bottom-1">Iconography</p>
        </div>
        <div class="row ">
           <div class="d-flex justify-content-start">
@@ -220,26 +220,26 @@
           <!-- Row 10 -->   
           <div class="d-flex justify-content-start">
              <!-- icon1  -->
-             <img src="../assets/icon/info.svg" class="icon-size2 m-2" alt="info">
+             <img src="../assets/icon/info.svg" class="icon-size1 m-2" alt="info">
              <!-- icon2  -->
-             <img src="../assets/icon/Credit.svg" class="icon-size2 m-2" alt="info">
+             <img src="../assets/icon/Credit.svg" class="icon-size1 m-2" alt="info">
              <!-- icon3  -->
              <i class="icon-size1 m-2 isax isax-shield-tick"></i>
              <!-- icon4  -->
-             <img src="../assets/icon/wallet-fill.svg" class="icon-size2 m-2" alt="info">
+             <img src="../assets/icon/wallet-fill.svg" class="icon-size1 m-2" alt="info">
              <!-- icon5  -->
-             <img src="../assets/icon/Subtract.svg" class="icon-size2 m-2" alt="info">
+             <img src="../assets/icon/Subtract.svg" class="icon-size1 m-2" alt="info">
           </div>
           <!-- Row 11 -->    
           <div class="d-flex justify-content-start">
              <!-- icon1  -->
-             <img src="../assets/icon/favorite.svg" class="icon-size2 m-2" alt="info">
+             <img src="../assets/icon/favorite.svg" class="icon-size1 m-2" alt="info">
              <!-- icon2  -->
              <i class="icon-size1 m-2 isax isax-main-component5"></i>
              <!-- icon3  -->
              <i class="icon-size1 m-2 isax isax-profile-2user5"></i>
              <!-- icon4  -->            
-             <img src="../assets/icon/message-question.svg" class="icon-size2 m-2 " alt="info">
+             <img src="../assets/icon/message-question.svg" class="icon-size1 m-2 " alt="info">
           </div>
        </div>
     </div>
