@@ -10904,6 +10904,10 @@ textarea.form-control-lg {
 
 /* custom css  */
 
+a{
+  text-decoration:none !important; 
+}
+
 /* colors  */
 /* samples  */
   /* .text-black {
@@ -10933,7 +10937,9 @@ textarea.form-control-lg {
 }
 .color-table-button-text{
   color: #7E9FFF;
-
+}
+.color-table-pagination-text{
+  color:#6E41E2;
 }
 
 /* colors  */
@@ -10953,6 +10959,10 @@ textarea.form-control-lg {
     border-color: red;
     border-width: thin;
     border-radius: var(--bs-border-radius-sm) !important;
+  }
+  .bor-style-pagination{
+    border-color: #6E41E2;
+    border-style: solid;
   }
 /* Border Styles  */
 
@@ -10977,6 +10987,9 @@ textarea.form-control-lg {
   }
   .ms-20px{
     margin-left: 1.25rem !important;
+  }
+  .me-20px{
+    margin-right: 1.25rem !important;
   }
   .m-auto{
     margin-right: auto;
@@ -11010,7 +11023,7 @@ textarea.form-control-lg {
   }
   .size-table{
     width: 46.188rem;
-    height: 54.125rem;
+    height: 52.875rem;
   }
   .size-inputbox-admin{
     width: 25rem !important;
@@ -11032,6 +11045,11 @@ textarea.form-control-lg {
   .size-table-tabledata{
     width: 46.188rem;
     height: 3.75rem;
+  }
+  .size-table-pagination{
+    height: 2.75rem;
+    width: 3.063rem;
+    border-radius: 0.25rem;
   }
   .size-icon{
     font-size: 1rem !important;
@@ -11080,6 +11098,53 @@ textarea.form-control-lg {
   border-color: var(--bs-table-border-color);
 }
 /* table  */
+
+/* fonts  */
+.font-tablename{
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+.font-table-column{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+}
+.font-table-text{
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+.font-table-pagination{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+.font-table-heading{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+}
+.font-table-excess-color-size{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #6A00FF;
+}
+.font-table-excess-color-black{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+/* fonts  */
 
 /* custom css  */
 

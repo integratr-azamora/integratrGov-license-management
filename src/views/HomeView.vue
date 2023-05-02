@@ -10,12 +10,15 @@ import Typography from '../components/Typography.vue';
 
 <template>
   <main>
-    <InputBox />
-    <!-- <Buttons /> -->
-    <Tables />
-    <Iconography/>
-    <Input/>
-    <Modal/>
-    <Typography/>
+    <div class="container">
+      <Buttons />
+      <Tables />
+      <Iconography/>
+      <Input/>
+      <Modal/>
+      <Typography/>
+      <InputBox />
+      <Tables />
+    </div>
   </main>
 </template>
