@@ -14,11 +14,9 @@ import Typography from '../components/Typography.vue';
       <Buttons />
       <Tables />
       <Iconography/>
-      <Input/>
       <Modal/>
       <Typography/>
       <InputBox />
-      <Tables />
     </div>
   </main>
 </template>
