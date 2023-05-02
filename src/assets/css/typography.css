@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+.container5{
+    width: 707px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 0px;
+    gap: 40px;
+}
+.Inter{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center; 
+
+}
+.h1{
+    font-family: 'Gotham', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.h2{
+    font-family: 'Gotham', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;    
+    display: flex;
+    align-items: center;
+}
+.h3{
+    font-family: 'Gotham', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;    
+    display: flex;
+    align-items: center;
+}
+
+.font-style-gotham-h1{
+    font-family: 'Gotham', sans-serif;
+}
+
+.font-style-gotham-h2{
+    font-family: 'Gotham', sans-serif;
+}
+
+.font-style-gotham-h3{
+    font-family: 'Gotham', sans-serif;
+}
+
+.font-style-gotham-h4{
+    font-family: 'Gotham', sans-serif;
+}
+
+.font-style-gotham-h5{
+    font-family: 'Gotham', sans-serif;
+}
+.font-style-gotham-h6{
+    font-family: 'Gotham', sans-serif;
+}
+
+.font-style-gotham-h7{
+    font-family: 'Gotham', sans-serif;
+}
+
+.font-style-gotham-h8{
+    font-family: 'Gotham', sans-serif;
+}
+
+.font-style-gotham-h9{
+    font-family: 'Gotham', sans-serif;
+}
+
+.font-style-gotham-h10{
+    font-family: 'Gotham', sans-serif;
+}
+
+.font-style-gotham-b1{
+    font-family: 'Gotham', sans-serif;
+}
+
+.font-style-gotham-b2{
+    font-family: 'Gotham', sans-serif;
+}
+
+/* .Roboto */
+.Roboto{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;    
+}
+.Heading1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+}
+.Heading2 {
+    font-family: 'Roboto', sans-serif;  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+}
+.Heading3 {
+    font-family: 'Roboto', sans-serif;  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+}
+.Heading4 {
+    font-family: 'Roboto', sans-serif;  
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+}
+.Heading5 {
+    font-family: 'Roboto', sans-serif;  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+}
+.Poppins{
+    font-family: 'Poppins', sans-serif;  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;    
+    display: flex;
+    align-items: center;
+}
+.font-style-poppins-p1{
+    font-family: 'Poppins', sans-serif;
+}
