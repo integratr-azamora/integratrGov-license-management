@@ -13,6 +13,10 @@
     margin-top: var(--c-size-10px);
     margin-bottom: var(--c-size-10px);
   }
+  .button-default-margin{
+    margin-top: var(--c-size-10px);
+    margin-bottom: var(--c-size-10px);
+  }
   .button-round{
     border-radius: 50% !important;
     font-size: var(--c-size-24px);
