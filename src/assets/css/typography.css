@@ -1,13 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 .container5{
-    width: 707px;
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 10px 0px;
     gap: 40px;
+    
+    position: relative;
+    width: 707px;
+    height: 1211px;
+    
+    background: #FFFFFF var(--vt-c-black);
+    border: 1px solid #000000;
+    border-radius: 4px;
+    border-color: var(--vt-c-black);             
+
 }
-.Inter{
+
+.inter{
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -46,55 +55,17 @@
     align-items: center;
 }
 
-.font-style-gotham-h1{
-    font-family: 'Gotham', sans-serif;
+.font-style-gotham-h{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    border-color: var(--vt-c-black);             
 }
-
-.font-style-gotham-h2{
-    font-family: 'Gotham', sans-serif;
-}
-
-.font-style-gotham-h3{
-    font-family: 'Gotham', sans-serif;
-}
-
-.font-style-gotham-h4{
-    font-family: 'Gotham', sans-serif;
-}
-
-.font-style-gotham-h5{
-    font-family: 'Gotham', sans-serif;
-}
-.font-style-gotham-h6{
-    font-family: 'Gotham', sans-serif;
-}
-
-.font-style-gotham-h7{
-    font-family: 'Gotham', sans-serif;
-}
-
-.font-style-gotham-h8{
-    font-family: 'Gotham', sans-serif;
-}
-
-.font-style-gotham-h9{
-    font-family: 'Gotham', sans-serif;
-}
-
-.font-style-gotham-h10{
-    font-family: 'Gotham', sans-serif;
-}
-
-.font-style-gotham-b1{
-    font-family: 'Gotham', sans-serif;
-}
-
-.font-style-gotham-b2{
-    font-family: 'Gotham', sans-serif;
-}
-
 /* .Roboto */
-.Roboto{
+.roboto-headings{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -103,7 +74,7 @@
     display: flex;
     align-items: center;    
 }
-.Heading1 {
+.heading1 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -112,51 +83,91 @@
     display: flex;
     align-items: center;
 }
-.Heading2 {
+.font-style-roboto-h{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    border-color: var(--vt-c-black);             
+}
+
+.heading2{
     font-family: 'Roboto', sans-serif;  
-    font-style: normal;
-    font-weight: 700;
     font-size: 24px;
     line-height: 28px;
     display: flex;
     align-items: center;
+    color: #000000;
+    border-color: var(--vt-c-black);             
 }
-.Heading3 {
+
+.heading3{
     font-family: 'Roboto', sans-serif;  
-    font-style: normal;
-    font-weight: 700;
     font-size: 16px;
     line-height: 19px;
     display: flex;
     align-items: center;
+    color: #000000;
+    border-color: var(--vt-c-black);             
 }
-.Heading4 {
+
+.heading4 {
     font-family: 'Roboto', sans-serif;  
-    font-style: normal;
-    font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     display: flex;
     align-items: center;
+    color: #000000;
+    border-color: var(--vt-c-black);             
 }
-.Heading5 {
+.heading5{
     font-family: 'Roboto', sans-serif;  
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     display: flex;
     align-items: center;
+    color: #000000;
+    border-color: var(--vt-c-black);             
 }
-.Poppins{
-    font-family: 'Poppins', sans-serif;  
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 36px;    
+
+.font-style-roboto-p1{
+    font-size: 16px;
+    line-height: 19px;
     display: flex;
     align-items: center;
+    color: #000000;
+    border-color: var(--vt-c-black);             
 }
-.font-style-poppins-p1{
-    font-family: 'Poppins', sans-serif;
+
+.font-style-roboto-p2{
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    border-color: var(--vt-c-black);     
+}
+/* poppins */
+.poppins-paragraph{
+    font-family: 'Poppins', sans-serif;  
+    font-size: 24px;
+    color: #000000;
+    border-color: var(--vt-c-black);             
+}
+
+.paragraph1{
+    font-family: 'Poppins', sans-serif;  
+    font-size: 16px;
+    color: #000000;
+    border-color: var(--vt-c-black);             
+}
+.poppins-body1{
+    font-family: 'Poppins', sans-serif;  
+    font-size: 20px;
+    align-items: center;
+    color: #000000;
+    border-color: var(--vt-c-black);             
 }

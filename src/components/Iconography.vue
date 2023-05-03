@@ -1,36 +1,36 @@
 <template>
-    <div class="container bor-style-solid perma container2">
-       <div class="bor-bottom row justify-content-center">
-          <p class="m-2 fs-24 fw-bold">Colors</p>
+    <div class="container bor-style-solid-perma container2" >
+         <div class="bor-bottom row justify-content-center">
+          <p class="m-1 border-bottom-1">Colors</p>
        </div>
        <div class="row ">
           <div class="d-flex justify-content-start">
              <!-- color1  -->
              <div class="m-2">
                 <div class="color1 square-colors-size"></div>
-                <p class="fs-16 fw-bold">#FFFFFF</p>
+                <p class="fw-bold">#FFFFFF</p>
              </div>
              <!-- color2  -->
              <div class="m-2">
                 <div class="color2 square-colors-size"></div>
-                <p class=" fs-16 fw-bold">#6A00FF</p>
+                <p class="fw-bold">#6A00FF</p>
              </div>
              <!-- color3  -->
              <div class="m-2">
                 <div class="color3 square-colors-size"></div>
-                <p class=" fs-16 fw-bold">#000000</p>
+                <p class="fw-bold">#000000</p>
              </div>
           </div>
           <div class="d-flex justify-content-start">
              <!-- color4  -->
              <div class="m-2">
                 <div class="color4 square-colors-size"></div>
-                <p class="fs-16 fw-bold">#F3F6FF</p>
+                <p class="fw-bold">#F3F6FF</p>
              </div>
              <!-- color5  -->
              <div class="m-2">
                 <div class="color5 square-colors-size"></div>
-                <p class="fs-16 fw-bold">#C6C7F9</p>
+                <p class="fw-bold">#C6C7F9</p>
              </div>
              <!-- color6  -->
              <div class="m-2">
@@ -40,38 +40,38 @@
              <!-- color7  -->
              <div class="m-2">
                 <div class="color7 square-colors-size"></div>
-                <p class="fs-16 fw-bold">#666666</p>
+                <p class="fw-bold">#666666</p>
              </div>
           </div>
           <div class="d-flex justify-content-start">
              <!-- color8  -->
              <div class="m-2">
                 <div class="color7 square-colors-size"></div>
-                <p class="fs-16 fw-bold">#ACACAC</p>
+                <p class="fw-bold">#ACACAC</p>
              </div>
              <!-- color9  -->
              <div class="m-2">
                 <div class="color9 square-colors-size"></div>
-                <p class="fs-16 fw-bold">#5500CD</p>
+                <p class="fw-bold">#5500CD</p>
              </div>
              <!-- color10  -->
              <div class="m-2">
                 <div class="color10 square-colors-size"></div>
-                <p class="fs-16 fw-bold">#27AE60</p>
+                <p class="fw-bold">#27AE60</p>
              </div>
              <!-- color11  -->
              <div class="m-2">
                 <div class="color11 square-colors-size"></div>
-                <p class="fs-16 fw-bold">#DB524E</p>
+                <p class="fw-bold">#DB524E</p>
              </div>
           </div>
        </div>
     </div>
     <br>
     <!-- ICONS -->
-    <div class="container bor-style-solid perma container3">
+    <div class="container bor-style-solid-perma container3">
        <div class="bor-bottom row justify-content-center">
-          <p class="m-2 fs-24 fw-bold">Iconography</p>
+          <p class="m-1 border-bottom-1">Iconography</p>
        </div>
        <div class="row ">
           <div class="d-flex justify-content-start">
@@ -220,26 +220,26 @@
           <!-- Row 10 -->   
           <div class="d-flex justify-content-start">
              <!-- icon1  -->
-             <img src="../assets/icon/info.svg" class="icon-size2 m-2" alt="info">
+             <img src="../assets/icon/info.svg" class="icon-size1 m-2" alt="info">
              <!-- icon2  -->
-             <img src="../assets/icon/Credit.svg" class="icon-size2 m-2" alt="info">
+             <img src="../assets/icon/Credit.svg" class="icon-size1 m-2" alt="info">
              <!-- icon3  -->
              <i class="icon-size1 m-2 isax isax-shield-tick"></i>
              <!-- icon4  -->
-             <img src="../assets/icon/wallet-fill.svg" class="icon-size2 m-2" alt="info">
+             <img src="../assets/icon/wallet-fill.svg" class="icon-size1 m-2" alt="info">
              <!-- icon5  -->
-             <img src="../assets/icon/Subtract.svg" class="icon-size2 m-2" alt="info">
+             <img src="../assets/icon/Subtract.svg" class="icon-size1 m-2" alt="info">
           </div>
           <!-- Row 11 -->    
           <div class="d-flex justify-content-start">
              <!-- icon1  -->
-             <img src="../assets/icon/favorite.svg" class="icon-size2 m-2" alt="info">
+             <img src="../assets/icon/favorite.svg" class="icon-size1 m-2" alt="info">
              <!-- icon2  -->
              <i class="icon-size1 m-2 isax isax-main-component5"></i>
              <!-- icon3  -->
              <i class="icon-size1 m-2 isax isax-profile-2user5"></i>
              <!-- icon4  -->            
-             <img src="../assets/icon/message-question.svg" class="icon-size2 m-2 " alt="info">
+             <img src="../assets/icon/message-question.svg" class="icon-size1 m-2 " alt="info">
           </div>
        </div>
     </div>
