@@ -144,3 +144,76 @@
     color: #000000;
     border-color: var(--vt-c-black);             
 }
+
+.component-button1{
+    align-items: center;
+    padding: 10px 20px;
+    width: 90px;
+    height: 44px;    
+    border-radius: var(--c-size-4px);
+    background-color: var(--vt-c-indigo);
+    border-style: solid;
+    border-color: var(--vt-c-indigo);
+    font-family: var(--c-font-styles-roboto);
+    font-size: var(--c-font-size-16px);
+    color: var(--vt-c-white);
+    margin-left: var(--c-size-10px);
+    margin-right: var(--c-size-10px);
+    margin-top: var(--c-size-10px);
+    margin-bottom: var(--c-size-10px);
+}
+
+.component-button2{
+    border-radius: var(--c-size-4px);
+    background-color: var(--vt-c-indigo);
+    border-style: solid;
+    border-color: var(--vt-c-indigo);
+    font-family: var(--c-font-styles-roboto);
+    font-size: var(--c-font-size-16px);
+    color: var(--vt-c-white);
+    padding-left: var(--c-size-20px);
+    padding-right: var(--c-size-20px);
+    padding-top: var(--c-size-10px);
+    padding-bottom: var(--c-size-10px);
+    margin-left: var(--c-size-10px);
+    margin-right: var(--c-size-10px);
+    margin-top: var(--c-size-10px);
+    margin-bottom: var(--c-size-10px);
+}
+  
+.icon-x{
+    border-radius: 50% !important;
+    background-color: var(--vt-c-indigo);
+    border-style: solid;
+    border-color: var(--vt-c-indigo);
+    font-size: var(--c-size-24px);
+    color: var(--vt-c-white);
+    width: 44px;
+    height: 44px;
+    margin-left: var(--c-size-10px);
+    margin-right: var(--c-size-10px);
+    margin-top: var(--c-size-10px);
+    margin-bottom: var(--c-size-10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.component-button3{
+    align-items: center;
+    padding: 10px 20px;
+    width: 90px;
+    height: 44px;   
+    border-radius: var(--c-size-4px);
+    background-color: var(--vt-c-indigo);
+    border-style: solid;
+    border-color: var(--vt-c-indigo);
+    font-family: var(--c-font-styles-roboto);
+    font-size: var(--c-font-size-16px);
+    color: var(--vt-c-white);
+    margin-left: var(--c-size-10px);
+    margin-right: var(--c-size-20px);
+    margin-top: none;
+    margin-bottom: var(--c-size-10px);
+}
+  
