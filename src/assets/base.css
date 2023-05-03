@@ -1,4 +1,12 @@
 /* color palette from <https://github.com/vuejs/theme> */
+@font-face {
+  font-family: Roboto;
+  src: url(./fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Gotham;
+  src: url(./fonts/Gotham-Font/GothamBook.ttf);
+}
 :root {
   --vt-c-white: #ffffff;
   --vt-c-white-soft: #f8f8f8;
@@ -8,7 +16,7 @@
   --vt-c-black-soft: #222222;
   --vt-c-black-mute: #282828;
 
-  --vt-c-indigo: #2c3e50;
+  /* --vt-c-indigo: #2c3e50; */
 
   --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
   --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
@@ -35,8 +43,20 @@
   --vt-c-purple-heart: #5500CD;
   --vt-c-eucalyptus: #27AE60;
   --vt-c-valencia: #DB524E;
-  /* colors */
-
+  --vt-c-light-lavender:#e7d6ff; 
+  --vt-c-dark-valencia:#C2423E;
+  --vt-c-lavender-web:#e8e0fa;
+  --vt-c-pale-lavender:#dacff7;
+  --vt-c-misty-rose:#F9E3E3;
+  --vt-c-champagne-pink:#F6D4D3;
+  --vt-c-chinese-green:#DCF2E5;
+  --vt-c-columbia-green:#C9EAD7;
+  --vt-c-platinum:#E5E5E5;
+  --vt-c-venitian-red:#CC1512;
+  --vt-c-sea-green:#219050;
+  --vt-c-gray:#cccccc;
+   /* colors */
+   
   /* sizes  */
   --c-size-2px:0.125rem;
   --c-size-4px:0.25rem;
@@ -49,11 +69,13 @@
   --c-size-15px:0.938rem;
   --c-size-16px:1rem;
   --c-size-20px:1.25rem;
+  --c-size-24px:1.5;
   --c-size-30px:1.875rem;
   --c-size-24px:1.5rem;
   --c-size-30px:1.875rem;
   --c-size-40px:2.5rem;
   --c-size-44px:2.75rem;
+  --c-size-48px:3rem;
   --c-size-50px:3.125rem;
   --c-size-60px:3.75rem;
   --c-size-70px:4.375rem;
