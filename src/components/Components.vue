@@ -235,7 +235,7 @@
       </div>
       <!-- row8 -->
       <!-- row9  -->
-      <div class="d-flex flex-row">
+      <div class="d-flex flex-row align-items-center">
          <button class="button-round bg-indigo color-white border-color-indigo ">
             <div class="icon-button-close-rotate"><i class="isax isax-add icon-size-weight"></i></div>
          </button>
@@ -249,10 +249,10 @@
       <!-- row10 -->
       <div class="d-flex flex-row">
          <button class="button-pagination bg-none color-dimgray border-color-none"><i class="isax isax-arrow-left-24 icon-button-round-24px"></i></button>
-         <button class="button-pagination bg-none color-dimgray border-color-none mb-2">Previous</button>
+         <button class="button-pagination bg-none color-dimgray border-color-none ">Previous</button>
          <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10 mx-10 my-20">1</button>
          <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 mx-10 my-20">2</button>
-         <button class="button-pagination bg-none color-indigo border-color-none mb-2">Next</button>
+         <button class="button-pagination bg-none color-indigo border-color-none ">Next</button>
          <button class="button-pagination bg-none color-indigo border-color-none"><i class="isax isax-arrow-right-34 icon-button-round-24px"></i></button>
       </div>
       <!-- row10 -->

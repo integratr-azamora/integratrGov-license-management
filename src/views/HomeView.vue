@@ -7,8 +7,8 @@ import Tables from '../components/Tables.vue'
 <template>
   <main>
     <div class="container">
-      <InputBox />
       <Components />
+      <InputBox />
       <Tables />
     </div>
   </main>
