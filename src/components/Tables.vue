@@ -159,7 +159,7 @@
                      <p class=" ms-20px ">Show</p>
                      <!-- text  -->
                      <!-- button  -->
-                     <button class="button-default bg-none color-indigo border-color-indigo">10 rows</button>
+                     <button class="button-default bg-none color-indigo border-color-indigo button-default-margin-none">10 rows</button>
                      <!-- button  -->
                   </div>
                      

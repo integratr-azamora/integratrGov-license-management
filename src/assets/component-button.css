@@ -13,9 +13,9 @@
     margin-top: var(--c-size-10px);
     margin-bottom: var(--c-size-10px);
   }
-  .button-default-margin{
-    margin-top: var(--c-size-10px);
-    margin-bottom: var(--c-size-10px);
+  .button-default-margin-none{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
   }
   .button-round{
     border-radius: 50% !important;
