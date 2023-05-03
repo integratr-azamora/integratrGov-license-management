@@ -1,8 +1,11 @@
 @import './base.css';
-@import './css/bootstrap.css';
+@import './css/bootstrap/bootstrap.css';
 @import './vuesax.css';
 @import './component-button.css';
 @import './tables.css';
+@import './css/typography.css';
+@import './css/color-iconography.css';
+@import './css/modal.css';
 
 
 #app {
