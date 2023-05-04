@@ -1,0 +1,8 @@
+.bg-lavenderbush{
+    background: var(--vt-c-lavender-bush);
+}
+.border-color-red{
+    border:1px solid;
+    
+    border-color: var(--vt-c-red);
+}

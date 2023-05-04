@@ -35,6 +35,20 @@
   --vt-c-purple-heart: #5500CD;
   --vt-c-eucalyptus: #27AE60;
   --vt-c-valencia: #DB524E;
+  --vt-c-light-lavender:#e7d6ff; 
+  --vt-c-dark-valencia:#C2423E;
+  --vt-c-lavender-web:#e8e0fa;
+  --vt-c-pale-lavender:#dacff7;
+  --vt-c-misty-rose:#F9E3E3;
+  --vt-c-champagne-pink:#F6D4D3;
+  --vt-c-chinese-green:#DCF2E5;
+  --vt-c-columbia-green:#C9EAD7;
+  --vt-c-platinum:#E5E5E5;
+  --vt-c-venitian-red:#CC1512;
+  --vt-c-sea-green:#219050;
+  --vt-c-gray:#cccccc;
+  --vt-c-lavender-bush:#FFF5F5;
+  --vt-c-red:#DB524E;
   /* colors */
 
   /* sizes  */
@@ -46,6 +60,7 @@
   --c-size-11px:0.688rem;
   --c-size-12px:0.75rem;
   --c-size-13px:0.813rem;
+  --c-size-14px:0.875rem;
   --c-size-15px:0.938rem;
   --c-size-16px:1rem;
   --c-size-20px:1.25rem;
