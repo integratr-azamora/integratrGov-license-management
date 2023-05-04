@@ -19,6 +19,9 @@ import AccountManager from '../components/AccountManager.vue';
       <Modal/>
       <Typography/>
       <InputBox />
+      <AccountManager/>
+      <Tables />
+      <StyleComponent/> 
       
       
     </div>
