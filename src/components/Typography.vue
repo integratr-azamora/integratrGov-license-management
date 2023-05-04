@@ -114,7 +114,7 @@
           <!-- heading 3 -->
           <div class="row">
              <div class="col d-flex align-items-center">
-                <p class="heading3 Roboto mt-4">Heading 3</p>
+                <p class="heading3 fw-bold mt-4">Heading 3</p>
              </div>
              <div class="col">
                 <div class="row">

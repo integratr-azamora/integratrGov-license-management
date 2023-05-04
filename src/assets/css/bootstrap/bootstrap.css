@@ -11151,3 +11151,14 @@ a{
 .icon-size1{
   font-size: 4.375rem !important;
 }
+
+/* licensekey */
+.license-header1 {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--bs-license-header1-padding);
+  border-bottom: var(--bs-license-header1-border-width) solid var(--bs-license-header1-border-color);
+
+}

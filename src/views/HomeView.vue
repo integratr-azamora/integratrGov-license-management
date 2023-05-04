@@ -7,6 +7,7 @@ import Input from '../components/Input.vue';
 import Modal from '../components/Modal.vue';
 import Typography from '../components/Typography.vue';
 import StyleComponent from '../components/StyleComponent.vue';
+import LicensekeyIssue from '../components/Licensekey-Issue.vue';
 </script>
 
 <template>
@@ -19,6 +20,7 @@ import StyleComponent from '../components/StyleComponent.vue';
       <Typography/>
       <InputBox />
       <StyleComponent/>
+      <LicensekeyIssue/>
     </div>
   </main>
 </template>
