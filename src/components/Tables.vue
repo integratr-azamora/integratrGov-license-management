@@ -1,265 +1,194 @@
 <template>
-    <div class="bor-style-solid-perma size-table-container">
-       <div class="bor-style-solid-perma font-table-heading p-1">Table </div>
-       <div class="d-flex justify-content-center ">
-          <!-- excess texts  -->
-          <!-- left side  -->
-          <div class="p-3">
-             <div class="m-3">
-                <p class="font-table-excess-color-size">Table Name</p>
-                <p>font: Gothnam - Bold</p>
-                <p>size: 24px</p>
-             </div>
-             <div class="m-3">
-                <p class="font-table-excess-color-size">Column</p>
-                <p>font: Roboto - Bold</p>
-                <p>size: 14px</p>
-             </div>
-             <div class="m-3">
-                <p class="font-table-excess-color-size"></p>
-                <p>font: Gotham - Book</p>
-                <p>size: 16px</p>
-             </div>
-             <div class="m-3">
-                <p class="font-table-excess-color-size">Show Rows/Pagination/Search/Filter</p>
-                <p>font: Roboto - Regular</p>
-                <p>size: 16px</p>
-             </div>
-          </div>
-          <!-- left side  -->
-          <!-- excess texts  -->
-          <div class="bor-style-solid size-table shadow-sm rounded-3">
-             <!-- row1  -->
-             <div class="bor-style-solid m-auto ">
-                <!-- table Header  -->
-                <!-- table Header Row1  -->
-                <div class="bor-style-solid ">
-                   <!-- table Header Row1 Column -->
-                   <div class="col d-flex flex-row px-20px">
-                      <!-- px box  -->
-                      <div class=" size-box-20 bg-red"></div>
-                      <div class="ms-2 color-red">20 px</div>
-                      <!-- px box  -->
-                   </div>
-                   <!-- table Header Row1 Column -->
-                </div>
-                <!-- table Header Row1  -->
-                <!-- table Header Row2  -->
-                <div class="bor-style-solid d-inline-flex">
-                   <p class="ps-20px font-tablename">Table Name</p>
-                </div>
-                <!-- table Header Row2  -->
-                <!-- table Header Row3  -->
-                <div class="bor-style-solid col d-flex flex-row px-20px">
-                   <!-- px box  -->
-                   <div class=" size-box-20 bg-red">
-                   </div>
-                   <div class="ms-2 color-red ">20 px</div>
-                   <!-- px box  -->
-                </div>
-                <!-- table Header Row3  -->
-                <!-- table Header Row4  -->
-                <div class="bor-style-solid d-inline-flex  px-20px">
-                   <!-- table Header Row4 Col1 -->
-                   <div class="d-flex flex-row">
-                      <div class="input-group size-table-search shadow-sm">
-                         <span class="input-group-text" id="basic-addon1">
-                         <i class="isax isax-search-normal-1 size-icon"></i>
-                         </span>
-                         <input type="text" class="form-control bor-style-none" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-                      </div>
-                      <!-- table Header Row4 Col2 -->
-                      <div class="ms-20px">
-                         <button type="button" class=" size-table-filter color-table-button bor-style-none shadow-sm">
-                         <i class="isax isax-filter-search size-icon-24px color-table-button-text"></i>
-                         <span class="ms-2 color-table-button-text">Filter</span>
-                         </button>
-                      </div>
-                      <!-- table Header Row4 Col2 -->
-                   </div>
-                   <!-- table Header Row4 Col1 -->
-                </div>
-                <!-- table Header Row4  -->
-                <!-- table Header Row5  -->
-                <div class="bor-style-solid d-flex flex-row px-20px">
-                   <!-- px box  -->
-                   <div class=" size-box-20 bg-red"></div>
-                   <div class="ms-2 color-red">20 px</div>
-                   <!-- px box  -->
-                </div>
-                <!-- table Header Row5 -->
-                <!-- table Header Row6 -->
-                <div class="bor-style-solid d-flex flex-row px-20px d-flex justify-content-between">
+   <div class=" ">
+      <div class="bor-style-solid-perma font-table-heading p-2">Table </div>
+      <div class="d-flex justify-content-center ">
+         
+         <div class="bor-style-solid-perma  rounded-3 shadow-sm">
+            <!-- row1  -->
+            <div class="bor-style-solid m-auto ">
+               <!-- table Header  -->
+               <!-- table Header Row1  -->
+               <div class="bor-style-solid ">
+                  <!-- table Header Row1 Column --> 
+                  <div class="col d-flex flex-row px-20px">
+                     <!-- px box  -->
+                     <div class=" size-box-20"></div>
+                     <!-- px box  -->
+                  </div>
+                  <!-- table Header Row1 Column -->
+               </div>
+               <!-- table Header Row1  -->
+               <!-- table Header Row2  -->
+               <div class="bor-style-solid d-inline-flex">
+                  <p class="ps-20px font-tablename">Table Name</p>
+               </div>
+               <!-- table Header Row2  -->
+               <!-- table Header Row3  -->
+               <div class="bor-style-solid col d-flex flex-row px-20px">
+                  <!-- px box  -->
+                  <div class=" size-box-20">
+                  </div>
+                  <!-- px box  -->
+               </div>
+               <!-- table Header Row3  -->
+               <!-- table Header Row4  -->
+               <div class="bor-style-solid d-inline-flex  px-20px">
+                  <!-- table Header Row4 Col1 -->
+                  <div class="d-flex flex-row">
+                     <div class="shadow-sm  ">
+                        <i class="isax isax-search-normal-1 ps-2 table-inputbox-icon-size"></i>
+                        <input class="input-field border-color-none p-3 outline-none table-inputbox-size" type="text" placeholder="Search" name="usrnm">
+                     </div>
+                     <!-- table Header Row4 Col2 -->
+                     <div class="ms-20px">
+                        <button type="button" class=" size-table-filter color-table-button bor-style-none shadow-sm color-table-button-text">
+                           <i class="isax isax-filter-search size-icon-24px me-1"></i>
+                           <span class="">Filter</span>
+                        </button>
+                     </div>
+                     <!-- table Header Row4 Col2 -->
+                  </div>
+                  <!-- table Header Row4 Col1 -->
+               </div>
+               <!-- table Header Row4  -->
+               <!-- table Header Row5  -->
+               <div class="bor-style-solid d-flex flex-row px-20px">
+                  <!-- px box  -->
+                  <div class=" size-box-20"></div>
+                  <!-- px box  -->
+               </div>
+               <!-- table Header Row5 -->
+               <!-- table Header Row6 -->
+               <div class="bor-style-solid d-flex flex-row px-20px">
                    <!-- col1  -->
                    <div>
-                      <span class="font-table-column"> Column <i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></span>
+                      <span class="font-table-column" > Column <i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></span>
                    </div>
                    <!-- col1  -->
                    <!-- col2  -->
                    <div>
-                      <span class="font-table-column"> Column <i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></span>
+                      <span class="font-table-column margin-left-165px"> Column <i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></span>
                    </div>
                    <!-- col2  -->
                    <!-- col3  -->
                    <div>
-                      <span class="font-table-column"> Column <i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></span>
+                      <span class="font-table-column margin-left-165px"> Column <i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></span>
                    </div>
                    <!-- col3  -->
                 </div>
-                <!-- table Header Row6 -->
-                <!-- table Header Row7 -->
-                <div class="bor-style-solid d-flex flex-row px-20px">
-                   <!-- px box  -->
-                   <div class=" size-box-10 bg-red mt-2"></div>
-                   <div class="ms-2 color-red ">10 px</div>
-                   <!-- px box  -->
-                </div>
-                <!-- table Header Row7 -->
-                <!-- table Header  -->
-                <!-- table Body  -->
-                <div class="table-responsive overflow-auto border border-start-0 border border-danger table-border-dot">
-                   <table class="table table-borderless table-striped table-hover font-table-text">
-                      <tbody>
-                         <!-- row1  -->
-                         <tr class="size-table-tabledata">
-                            <td class="text-start px-20px">Text</td>
-                            <td class="text-center">Text</td>
-                            <td class="text-end pe-20px">Text</td>
-                         </tr>
-                         <!-- row2  -->
-                         <tr class="size-table-tabledata">
-                            <td class="text-start ps-20px">Text</td>
-                            <td class="text-center">Text</td>
-                            <td class="text-end pe-20px">Text</td>
-                         </tr>
-                         <!-- row3  -->
-                         <tr class="size-table-tabledata">
-                            <td class="text-start ps-20px">Text</td>
-                            <td class="text-center">Text</td>
-                            <td class="text-end pe-20px">Text</td>
-                         </tr>
-                         <!-- row4  -->
-                         <tr class="size-table-tabledata">
-                            <td class="text-start ps-20px">Text</td>
-                            <td class="text-center">Text</td>
-                            <td class="text-end pe-20px">Text</td>
-                         </tr>
-                         <!-- row5  -->
-                         <tr class="size-table-tabledata">
-                            <td class="text-start ps-20px">Text</td>
-                            <td class="text-center">Text</td>
-                            <td class="text-end pe-20px">Text</td>
-                         </tr>
-                         <!-- row6  -->
-                         <tr class="size-table-tabledata">
-                            <td class="text-start ps-20px">Text</td>
-                            <td class="text-center">Text</td>
-                            <td class="text-end pe-20px">Text</td>
-                         </tr>
-                         <!-- row7  -->
-                         <tr class="size-table-tabledata">
-                            <td class="text-start ps-20px">Text</td>
-                            <td class="text-center">Text</td>
-                            <td class="text-end pe-20px">Text</td>
-                         </tr>
-                         <!-- row8  -->
-                         <tr class="size-table-tabledata">
-                            <td class="text-start ps-20px">Text</td>
-                            <td class="text-center">Text</td>
-                            <td class="text-end pe-20px">Text</td>
-                         </tr>
-                         <!-- row9  -->
-                         <tr class="size-table-tabledata">
-                            <td class="text-start ps-20px">Text</td>
-                            <td class="text-center">Text</td>
-                            <td class="text-end pe-20px">Text</td>
-                         </tr>
-                         <!-- row10  -->
-                         <tr class="size-table-tabledata">
-                            <td class="text-start ps-20px">Text</td>
-                            <td class="text-center">Text</td>
-                            <td class="text-end pe-20px">Text</td>
-                         </tr>
-                      </tbody>
-                   </table>
-                </div>
-                <!-- table Body  -->
-                <!-- table Footer Row8 Column -->
-                <div class="col d-flex flex-row px-20px">
-                   <!-- px box  -->
-                   <div class=" size-box-20 bg-red  ms-60px" ></div>
-                   <div class="ms-2 color-red ">20 px</div>
-                   <!-- px box  -->
-                </div>
-                <!-- table Footer Row8 Column -->
-             </div>
-             <div>
-                <!-- table Footer Row9 Column -->
-                <div class="d-flex flex-row justify-content-between me-20px font-table-pagination">
-                   <div class="d-flex flex-row mt-1">
-                      <!-- text  -->
-                      <p class="pt-2 ms-20px">Show</p>
-                      <!-- text  -->
-                      <!-- button  -->
-                      <div class="ms-20px ">
-                         <button type="button" class=" size-table-filter color-table-button shadow-sm bor-style-pagination rounded-3 bg-white">
-                         <span class=" color-table-pagination-text">10 Rows</span>
-                         <i class=" isax isax-arrow-down-1  color-table-pagination-text ms-2"></i>
-                         </button>
-                      </div>
-                   </div>
-                   <!-- button  -->
-                   <!-- pagination  -->
-                   <div class="d-flex flex-row font-table-pagination">
-                      <a href="#" class="pt-2 m-1"><i class="isax isax-arrow-left-2 size-icon-24px text-muted"></i></a>
-                      <a href="">
-                         <p class="text-muted pt-2 m-1">Previous</p>
-                      </a>
-                      <button type="button" class=" size-table-pagination bor-style-pagination m-1 bg-white">
-                      <span class=" color-table-pagination-text">1</span>
-                      </button>
-                      <button type="button" class=" size-table-pagination bor-style-none m-1 bg-white">
-                      <span class=" color-table-pagination-text">2</span>
-                      </button>
-                      <button type="button" class=" size-table-pagination bor-style-none m-1 bg-white">
-                      <span class=" color-table-pagination-text">...</span>
-                      </button>
-                      <button type="button" class=" size-table-pagination bor-style-none m-1 bg-white">
-                      <span class=" color-table-pagination-text">100</span>
-                      </button>
-                      <a href="">
-                         <p class="color-table-pagination-text pt-2 m-1">Next</p>
-                      </a>
-                      <a href="#" class="pt-2 m-1"><i class="isax isax-arrow-right-3 size-icon-24px color-table-pagination-text "></i></a>
-                   </div>
-                   <!-- pagination  -->
-                </div>
-                <!-- table Footer Row9 Column -->
-                <!-- table Footer Row10 Column -->
-                <div class="col d-flex flex-row px-20px">
-                   <!-- px box  -->
-                   <div class=" size-box-20 bg-red ms-60px"></div>
-                   <div class="ms-2 color-red">20 px</div>
-                   <!-- px box  -->
-                </div>
-                <!-- table Footer Row10 Column -->
-             </div>
-             <!-- row1  -->        
-          </div>
-          <div class="ms-3">
-             <p class="me-4 mt-et-190px">
-                <span class="text-muted">
-                <i class="isax isax-arrow-left"></i>
-                Line
-                </span>
-                this is a divider
-             </p>
-             <p class="font-table-excess-color-size"> <i class="isax isax-arrow-left"></i>Hover/Select Row</p>
-             <p>color: #6A00FF</p>
-             <p>highlight:#C6C7F9</p>
-             <p class="mt-et-190px"><span class="color-red"><i class="isax isax-arrow-left "></i>---</span> this area is scrollable</p>
-             <p class="mt-et-230px"><span class="text-muted"><i class="isax isax-arrow-left "></i>Line</span> this line is a divider</p>
-          </div>
-       </div>
-    </div>
- </template>
+               <!-- table Header Row6 -->
+               <!-- table Header Row7 -->
+               <div class="bor-style-solid d-flex flex-row px-20px">
+                  <!-- px box  -->
+                  <div class=" size-box-10 mt-2"></div>
+                  <!-- px box  -->
+               </div>
+               <!-- table Header Row7 -->
+               <!-- table Header  -->
+               <!-- table Body  -->
+               <div class="table-responsive border border rounded-1 shadow-sm " >
+                  <table class="table  table-striped table-hover font-table-text" >
+                     <tbody>
+                        <!-- row1  -->
+                        <tr class="size-table-tabledata column">
+                           <td class="text-start px-20px p-3">Text</td>
+                           <td class="text-start px-20px p-3">Text</td>
+                           <td class="text-start px-20px p-3">Text</td>
+                        </tr>
+                        <!-- row2  -->
+                        <tr class="size-table-tabledata">
+                           <td class="text-start px-20px p-3">Text</td>
+                           <td class="text-start px-20px p-3">Text</td>
+                           <td class="text-start px-20px p-3">Text</td>
+                        </tr>
+                        <!-- row3  -->
+                        <tr class="size-table-tabledata">
+                           <td class="text-start px-20px p-3">Text</td>
+                           <td class="text-start px-20px p-3">Text</td>
+                           <td class="text-start px-20px p-3">Text</td>
+                        </tr>
+                        <!-- row4  -->
+                        <tr class="size-table-tabledata">
+                           <td class="text-start px-20px p-3">Text</td>
+                           <td class="text-start px-20px p-3">Text</td>
+                           <td class="text-start px-20px p-3">Text</td>
+                        </tr>
+                        <!-- row5  -->
+                        <tr class="size-table-tabledata">
+                           <td class="text-start px-20px p-3">Text</td>
+                           <td class="text-start px-20px p-3">Text</td>
+                           <td class="text-start px-20px p-3">Text</td>
+                        </tr>
+                        <!-- row6  -->
+                        <tr class="size-table-tabledata">
+                           <td class="text-start px-20px p-3">Text</td>
+                           <td class="text-start px-20px p-3">Text</td>
+                           <td class="text-start px-20px p-3">Text</td>
+                        </tr>
+                        <!-- row7  -->
+                        <tr class="size-table-tabledata">
+                           <td class="text-start px-20px p-3">Text</td>
+                           <td class="text-start px-20px p-3">Text</td>
+                           <td class="text-start px-20px p-3">Text</td>
+                        </tr>
+                        <!-- row8  -->
+                        <tr class="size-table-tabledata">
+                           <td class="text-start px-20px p-3">Text</td>
+                           <td class="text-start px-20px p-3">Text</td>
+                           <td class="text-start px-20px p-3">Text</td>
+                        </tr>
+                        <!-- row9  -->
+                        <tr class="size-table-tabledata">
+                           <td class="text-start px-20px p-3">Text</td>
+                           <td class="text-start px-20px p-3">Text</td>
+                           <td class="text-start px-20px p-3">Text</td>
+                        </tr>
+                        <!-- row10  -->
+                        
+                     </tbody>
+                  </table>
+                  <div class="mt-4">
+                     <span class=""></span>
+                     
+               <!-- table Footer Row9 Column -->
+               <div class="d-flex flex-row justify-content-between me-20px font-table-pagination d-flex align-items-center">
+                  <div class="d-flex flex-row d-flex align-items-center">
+                     <!-- text  -->
+                     <p class=" ms-20px ">Show</p>
+                     <!-- text  -->
+                     <!-- button  -->
+                     <button class="button-default bg-none color-indigo border-color-indigo button-default-margin-none">10 rows</button>
+                     <!-- button  -->
+                  </div>
+                     
+                  
+                  <!-- pagination  -->
+                  <div class="d-flex flex-row">
+                     <button class="button-pagination bg-none color-dimgray border-color-none"><i class="isax isax-arrow-left-24 icon-button-round-24px"></i></button>
+                     <button class="button-pagination bg-none color-dimgray border-color-none ">Previous</button>
+                     <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10 mx-10">1</button>
+                     <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 mx-10 ">2</button>
+                     <button class="button-pagination bg-none color-indigo border-color-none ">Next</button>
+                     <button class="button-pagination bg-none color-indigo border-color-none"><i class="isax isax-arrow-right-34 icon-button-round-24px"></i></button>
+                  </div>
+                  <!-- pagination  -->
+               </div>
+               <!-- table Footer Row9 Column -->
+               <!-- table Footer Row10 Column -->
+               <div class="col d-flex flex-row px-20px">
+                  <!-- px box  -->
+                  <div class=" size-box-20 ms-60px"></div>
+                  <!-- px box  -->
+               </div>
+               <!-- table Footer Row10 Column -->
+            </div>
+               </div>
+               <!-- table Body  -->
+               
+            </div>
+            
+            <!-- row1  -->        
+         </div>
+      </div>
+   </div>
+</template>
