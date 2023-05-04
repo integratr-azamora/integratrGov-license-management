@@ -4,6 +4,7 @@ import Tables from '../components/Tables.vue'
 import Iconography from '../components/Iconography.vue';
 import Modal from '../components/Modal.vue';
 import Typography from '../components/Typography.vue';
+import Components from '../components/StyleComponent.vue'
 </script>
 
 <template>
