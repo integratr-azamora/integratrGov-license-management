@@ -13,13 +13,13 @@ import LicensekeyIssue from '../components/Licensekey-Issue.vue';
 <template>
   <main>
     <div class="container">
-      <Buttons />
+      <!-- <Buttons />
       <Tables />
-      <Iconography/>
+      <Iconography/> -->
       <Modal/>
-      <Typography/>
-      <InputBox />
-      <StyleComponent/>
+      <!-- <Typography/> -->
+      <!-- <InputBox /> -->
+      <!-- <StyleComponent/> -->
       <LicensekeyIssue/>
     </div>
   </main>

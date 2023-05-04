@@ -34,24 +34,11 @@
     padding: 10px 20px;
     width: 75px;
     height: 44px;    
-    background: #6A00FF;
+    background: #6A00FF var(--vt-c-electric-indigo);
     border-radius: 4px;    
-    font-size: var(--c-font-size-16px);
-    color: var(--vt-c-white);
-
-
-    align-items: center;
-    padding: 10px 20px;
-    border-radius: var(--c-size-4px);
-    border-style: solid;
-    border-color: var(--vt-c-indigo);
-    font-family: var(--c-font-styles-roboto);
-    font-size: var(--c-font-size-16px);
-    color: var(--vt-c-white);
-    margin-left: var(--c-size-10px);
-    margin-right: var(--c-size-20px);
-    margin-top: none;
-    margin-bottom: var(--c-size-10px);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
 .container8{

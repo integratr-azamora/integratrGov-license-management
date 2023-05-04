@@ -4,7 +4,7 @@
 @import './css/typography.css';
 @import './css/color-iconography.css';
 @import './css/modal.css';
-@import './css/licensekey-issue.css';
+@import './/css/licensekey-issue.css';
 
 @font-face {
   font-family: 'Poppins';
@@ -23,6 +23,28 @@
 @font-face {
   font-family: 'Roboto-black';
   src: url(../assets/font_styles/Roboto-Black.ttf) format(truetype); 
-  font-weight: 900;
+  font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Gotham';
+  src: url(../assets/font_styles/Gotham-Medium.otf) format(truetype); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(../assets/font_styles/Inter-Regular.ttf) format(truetype); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham-light';
+  src: url(../assets/font_styles/Gotham-Light.otf) format(truetype); 
+  font-weight: normal;
+  font-style: normal;
+}
+

@@ -1,5 +1,6 @@
 <template>
-    <div class="container bor-style-solid-perma container7" >
+
+    <div class="container container7" >
        <div class="license-header1">
           <p class="license-header mt-4"><b>Generate License Key</b></p>
           <button class="icon-x">
@@ -67,19 +68,28 @@
           <select class="form-select mt-3" id="floatingSelect mt-5" aria-label="Floating label select">
              <option selected>Business Permit and License</option>
           </select>
-          <label for="floatingSelect">Module</label>
+          <label for="floatingSelect">LGU/Organization</label>
        </div>
        <!-- 2nd -->
        <div class="form-floating">
           <select class="form-select mt-2" id="floatingSelect" aria-label="Floating label select">
-             <option selected>1.0</option>
+             <option selected>Juan Dela Cruz</option>
           </select>
-          <label for="floatingSelect">Version</label>
+
+          <label for="floatingSelect">Client</label>
        </div>
        <!-- 3rd -->
-       <form class="form-floating">
-       <input type="email" class="form-control mt-2" id="floatingInputValue" placeholder="name@example.com" value="test@example.com">
-      <label for="floatingInputValue">Input with value</label>
-       </form>
-    </div>
+       <div class="form-floating">
+          <select class="form-select mt-2" id="floatingSelect" aria-label="Floating label select">
+             <option selected>Juan Dela Cruz</option>
+          </select>
+          <label for="floatingSelect">juandelacruz@gmail.com</label>
+       </div>
+       <div class="modal-footer m-2">
+          <button class="license-button">Cancel</button>
+          <button class="license-button">Save</button>
+       </div>
+</div>
+       
+
  </template>
