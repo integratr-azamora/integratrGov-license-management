@@ -1,10 +1,10 @@
 <template>
-    <span>Account Manager</span>
+    <span class="Heading1">Account Manager</span>
     <div class="shadow-sm rounded-5">
     <div class="p-header-20px ">
        <!-- row1  -->
        <div class="d-flex justify-content-between align-items-center">
-          <span>Registered Account</span>
+          <span class="h2">Registered Account</span>
           <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row">
              <i class="isax isax-add icon-size-weight"></i>
              <p>Add</p>
@@ -47,7 +47,23 @@
                 <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
                 <td class="text-start px-20px p-3">Pasig City</td>
                 <td class="text-start px-20px p-3">+63 9012345678</td>
-                <td class="text-start px-20px p-3"><span class="d-flex justify-content-around align-items-center"><p>00000000000</p> <i class="isax isax-more"></i></span></td>
+                <td class="text-start px-20px p-3"><span class="d-flex justify-content-around align-items-center">
+                    <p>00000000000</p>
+                    <div class="dropdown d-flex">
+                        <span>
+                            <i class="isax isax-more"></i>
+                        </span>
+                        <div class="dropdown-content ">
+                            <p>View</p>
+                            <p>Edit</p>
+                            <p>Send Invite</p>
+                            <p>Reset Password</p>
+                            <p>Delete</p>
+                        </div>
+                        
+                    </div>
+                    
+                </span></td>
              </tr>
              <!-- row2  -->
              <tr class="size-table-tabledata">
@@ -56,7 +72,7 @@
                 <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
                 <td class="text-start px-20px p-3">Pasig City</td>
                 <td class="text-start px-20px p-3">+63 9012345678</td>
-                <td class="text-start px-20px p-3"><span class="d-flex justify-content-around align-items-center"><p>00000000000</p> <i class="isax isax-more"></i></span></td>
+                <td class="text-start px-20px p-3"><span class="d-flex justify-content-around align-items-center"><p>00000000000</p> <i class="isax isax-more"> </i></span></td>
              </tr>
              <!-- row3  -->
              <tr class="size-table-tabledata">
