@@ -165,11 +165,6 @@ h6, .h6 {
   font-size: 1rem;
 }
 
-p {
-  /* margin-top: 0; */
-  /* margin-bottom: 1rem; */
-}
-
 abbr[title] {
   -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
@@ -7232,7 +7227,13 @@ textarea.form-control-lg {
 .border-bottom-0 {
   border-bottom: 0 !important;
 }
+.border-bottom-1 {
+  border-bottom: 3px solid;
+}
 
+.border-top-1{
+  border-bottom: 3px solid;
+}
 .border-start {
   border-left: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
 }
@@ -10930,9 +10931,6 @@ a{
 .bg-inputbox-Error{
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-error-rgb), var(--bs-bg-opacity)) !important;
-}
-.violet{
-  color: #6A00FF;
 }
 .bg-red{
   background-color: #DB524E;

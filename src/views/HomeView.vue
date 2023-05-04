@@ -4,7 +4,7 @@ import Tables from '../components/Tables.vue'
 import Iconography from '../components/Iconography.vue';
 import Modal from '../components/Modal.vue';
 import Typography from '../components/Typography.vue';
-import StyleComponent from '../components/StyleComponent.vue';
+import Components from '../components/StyleComponent.vue'
 </script>
 
 <template>
@@ -18,7 +18,6 @@ import StyleComponent from '../components/StyleComponent.vue';
       <Modal/>
       <Typography/>
       <InputBox />
-      <StyleComponent/>
     </div>
   </main>
 </template>
