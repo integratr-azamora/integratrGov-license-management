@@ -20,13 +20,13 @@
          </div>
       </div>
       <div class="text-center mt-3">
-         <button class="component-button1">Cancel</button>
-         <button class="component-button1">Submit</button>
+         <button class="button-cancel">Cancel</button>
+         <button class="button-submit">Submit</button>
       </div>
    </div>
    <!-- con2 -->
    <br>
-   <div class="container bor-style-solid-perma con2" >
+   <div class="container con2" >
       <div class="modal-header">
          <p class="modal-header1 m-1"><b>Tag User</b></p>
          <button class="icon-x">
@@ -52,7 +52,7 @@
       <div class="modal-header">
          <p class="modal-header1 m-1"><b>Transfer Ownership</b></p>
          <button class="icon-x">
-            <div class="rotate-45 ms-1"><i class="isax isax-add "></i></div>
+            <div class="rotate-45"><i class="isax isax-add "></i></div>
          </button>
       </div>
       <div class="modal-body3">
@@ -79,7 +79,7 @@
          <input class="form-control-1 mt-2" type="text" placeholder="License No." aria-label="Disabled input example" disabled>
          <input class="form-control-1 mt-2" type="text" placeholder="TIN No.." aria-label="Disabled input example" disabled>
          <input class="form-control-1 mt-2" type="text" placeholder="Date Established" aria-label="Disabled input example" disabled>
-         <i class="icon-size m-2 gray isax isax-calendar-1" style="position:relative;left:420px; bottom: 40px;"></i>
+         <i class="icon-size m-1 gray isax isax-calendar-1" style="position:relative;left:420px; bottom: 40px;"></i>
 
          <div class="modal-footer">
             <button class="component-button3">Search</button>

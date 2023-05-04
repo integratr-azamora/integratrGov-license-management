@@ -20,10 +20,18 @@
 }
 
 .font-style-gotham{
-    font-family: 'Gotham', sans-serif;
+    font-family: 'Gotham-light', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 15px;
+    font-weight: 400;
+    display: flex;
+    color: #000000;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    border-color: var(--vt-c-black);             
 }
 
 .info2{
@@ -35,6 +43,10 @@
     font-family: 'Gotham', sans-serif;
     font-weight: 700;
     font-size: 24px;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    border-color: var(--vt-c-black);             
 }
 
 .modal1{
@@ -60,11 +72,6 @@
     align-items: center;
 }
 
-.con2{
-    width: 496px;
-    height: 294px;
-}
-
 .form-control-1{
     width: 455px;
     height: 40px;
@@ -76,7 +83,7 @@
 }
 
 .modal2{
-    font-family: 'Gotham', sans-serif;
+    font-family: 'Gotham-light', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -92,11 +99,18 @@
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
-    border-color: var(--vt-c-white-smoke);
+    border-color: var(--vt-c-white);          
 }
 .form-select{
+    font-family: 'Roboto', sans-serif;
     box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
     border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    color: #111111;
+    border-color: var(--vt-c-black);             
 }
 
 /* container 3 */
@@ -109,7 +123,7 @@
     border-color: var(--vt-c-white-smoke);
 }
 .modal3{
-    font-family: 'Gotham', sans-serif;
+    font-family: 'Gotham-light', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -122,20 +136,26 @@
 .con4{
     width: 496px;
     height: 393px;
+
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
     border-color: var(--vt-c-white-smoke);
 }
 .modal-4{
-    font-style: normal;
+    font-family:'Roboto', sans-serif;
     font-weight: 400;
     font-size: 13px;
-    line-height: 15px;
+    line-height: 15px;    
+    color: #DB524E;    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
 }
 
 .modal4{
-    font-family: 'Gotham', sans-serif;
+    font-family: 'Gotham-light', sans-serif;
     font-weight: 400;
     font-size: 16px;
     font-style: normal;
@@ -146,7 +166,25 @@
     border-color: var(--vt-c-black);             
 }
 
-.component-button1{
+.button-cancel{
+    align-items: center;
+    padding: 10px 20px;
+    width: 90px;
+    height: 44px;    
+    border-radius: var(--c-size-4px);
+    background-color: var(--vt-c-white);
+    border-style: solid;
+    border-color: var(--vt-c-indigo);
+    font-family: var(--c-font-styles-roboto);
+    font-size: var(--c-font-size-16px);
+    color: var(--vt-c-indigo);
+    margin-left: var(--c-size-10px);
+    margin-right: var(--c-size-10px);
+    margin-top: var(--c-size-10px);
+    margin-bottom: var(--c-size-10px);
+}
+
+.button-submit{
     align-items: center;
     padding: 10px 20px;
     width: 90px;
@@ -202,7 +240,6 @@
 
 .component-button3{
     align-items: center;
-    padding: 10px 20px;
     width: 90px;
     height: 44px;   
     border-radius: var(--c-size-4px);
