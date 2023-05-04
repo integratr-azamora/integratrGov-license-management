@@ -35,17 +35,15 @@
                <div class="bor-style-solid d-inline-flex  px-20px">
                   <!-- table Header Row4 Col1 -->
                   <div class="d-flex flex-row">
-                     <div class="input-group size-table-search shadow-sm">
-                        <span class="input-group-text" id="basic-addon1">
-                        <i class="isax isax-search-normal-1 size-icon"></i>
-                        </span>
-                        <input type="text" class="form-control bor-style-none" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                     <div class="shadow-sm  ">
+                        <i class="isax isax-search-normal-1 ps-2 table-inputbox-icon-size"></i>
+                        <input class="input-field border-color-none p-3 outline-none table-inputbox-size" type="text" placeholder="Search" name="usrnm">
                      </div>
                      <!-- table Header Row4 Col2 -->
                      <div class="ms-20px">
-                        <button type="button" class=" size-table-filter color-table-button bor-style-none shadow-sm">
-                        <i class="isax isax-filter-search size-icon-24px color-table-button-text"></i>
-                        <span class="ms-2 color-table-button-text">Filter</span>
+                        <button type="button" class=" size-table-filter color-table-button bor-style-none shadow-sm color-table-button-text">
+                           <i class="isax isax-filter-search size-icon-24px me-1"></i>
+                           <span class="">Filter</span>
                         </button>
                      </div>
                      <!-- table Header Row4 Col2 -->
