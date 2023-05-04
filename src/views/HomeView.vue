@@ -7,18 +7,24 @@ import Input from '../components/Input.vue';
 import Modal from '../components/Modal.vue';
 import Typography from '../components/Typography.vue';
 import StyleComponent from '../components/StyleComponent.vue';
+import AccountManager from '../components/AccountManager.vue';
 </script>
 
 <template>
   <main>
     <div class="container">
-      <Buttons />
+      <!-- <Buttons />
       <Tables />
       <Iconography/>
       <Modal/>
       <Typography/>
       <InputBox />
-      <StyleComponent/>
+       -->
+       
+      <AccountManager/>
+      <Tables />
+      <StyleComponent/> 
+      
     </div>
   </main>
 </template>
