@@ -59,7 +59,7 @@
                </div>
                <!-- table Header Row5 -->
                <!-- table Header Row6 -->
-               <div class="bor-style-solid d-flex flex-row px-20px">
+               <div class="bor-style-solid d-flex flex-row px-20px mb-10px">
                    <!-- col1  -->
                    <div>
                       <span class="font-table-column" > Column <i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></span>
@@ -78,11 +78,6 @@
                 </div>
                <!-- table Header Row6 -->
                <!-- table Header Row7 -->
-               <div class="bor-style-solid d-flex flex-row px-20px">
-                  <!-- px box  -->
-                  <div class=" size-box-10 mt-2"></div>
-                  <!-- px box  -->
-               </div>
                <!-- table Header Row7 -->
                <!-- table Header  -->
                <!-- table Body  -->
