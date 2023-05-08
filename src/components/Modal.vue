@@ -20,8 +20,8 @@
          </div>
       </div>
       <div class="text-center mt-3">
-         <button class="button-cancel">Cancel</button>
-         <button class="button-submit">Submit</button>
+         <button class="button-default bg-white border-color-indigo color-indigo me-0">Cancel</button>      
+         <button class="button-default bg-indigo border-color-indigo color-white me-0">Submit</button>      
       </div>
    </div>
    <!-- con2 -->
@@ -44,8 +44,8 @@
             <option selected>[Owner; Admin]</option>
          </select>
       </div>
-      <div class="modal-footer m-2">
-         <button class="component-button2">Send Request</button>
+      <div class="modal-footer">
+         <button class="button-default bg-indigo border-color-indigo color-white me-0 mt-4">Send Request</button>      
       </div>
    </div>
    <!-- con3 -->
@@ -61,8 +61,8 @@
          <p class="modal3">Provide the email address of the recipient to whom you want to transfer the ownership rights of the business.</p>
       </div>
       <input type="email" class="form-control mt-3" id="Inputform1" placeholder="Email Address">
-      <div class="modal-footer m-3">
-         <button class="component-button2 ">Send Request</button>
+      <div class="modal-footer">
+         <button class="button-default bg-indigo border-color-indigo color-white me-0 mt-4">Send Request</button>      
       </div>
    </div>
    <!-- con4 -->
@@ -75,17 +75,14 @@
          </button>
       </div>
       <p class="modal4">Search using the following numbers to find existing business.</p>
-      <div class="text-danger d-flex flex-column">
          <p class="modal-4">Business does not exist on our system.</p>
          <input class="form-control-1 mt-2" type="text" placeholder="Transaction No." aria-label="Disabled input example" disabled>
          <input class="form-control-1 mt-2" type="text" placeholder="License No." aria-label="Disabled input example" disabled>
          <input class="form-control-1 mt-2" type="text" placeholder="TIN No.." aria-label="Disabled input example" disabled>
          <input class="form-control-1 mt-2" type="text" placeholder="Date Established" aria-label="Disabled input example" disabled>
-         <i class="icon-calendar gray isax isax-calendar-1" style="position:relative;left:420px; bottom: 40px;"></i>
-
+         <i class="icon-calendar gray isax isax-calendar-1" style="position:absolute;left:440px; bottom: 85px;"></i>
          <div class="modal-footer">
-            <button class="component-button3">Search</button>
+            <button class="button-default bg-indigo border-color-indigo color-white me-0">Search</button>      
          </div>
-      </div>
    </div>
  </template>

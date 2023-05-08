@@ -5,7 +5,8 @@
          <button class="icon-x-license">
             <div class="rotate-45 ms-1"><i class="isax isax-add "></i></div>
          </button>
-      </div><hr>
+      </div>
+      <hr>
       <!-- 1st -->
       <div class="form-floating">
          <select class="form-select" id="floatingSelect mt-5" aria-label="Floating label select">
@@ -61,7 +62,8 @@
          <button class="icon-x-license">
             <div class="rotate-45 ms-1"><i class="isax isax-add "></i></div>
          </button>
-      </div><hr>
+      </div>
+      <hr>
       <!-- 1st -->
       <div class="form-floating">
          <select class="form-select" id="floatingSelect mt-5" aria-label="Floating label select">
@@ -77,8 +79,8 @@
          <label for="floatingSelect">Client</label>
       </div>
       <!-- 3rd -->
-      <div class="form-floating">
-         <select class="form-select bg-gray" id="floatingSelect" aria-label="Floating label select">
+      <div class="form-floating ">
+         <select class="form-select bg-gray " id="floatingSelect" aria-label="Floating label select">
             <option selected>juandelacruz@gmail.com</option>
          </select>
          <label for="floatingSelect">Email Address</label>

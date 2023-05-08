@@ -12,16 +12,18 @@
            
 }
 /* gotham */
-.inter{
-    font-family: 'Inter', sans-serif;
+.Inter-ExtraBold{
+    font-family: 'Inter-ExtraBold', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
-    line-height: 29px;
+    line-height: 29px;    
     display: flex;
     align-items: center;
+    color: #000000;
 
 }
+
 .fontfamily-gotham-heading-1{
     font-family: 'Gotham', sans-serif;
     font-style: normal;
@@ -87,7 +89,7 @@
 
 /* .Roboto */
 .roboto-headings{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto-black', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -110,8 +112,7 @@
     line-height: 24px;
     display: flex;
     align-items: center;
-    color: #000000;
-    border-color: var(--vt-c-black);    
+    color: #000000 var(--vt-c-black); 
     padding-left: 20px; 
     padding-right: 20px;         
 }
@@ -176,11 +177,13 @@
     border-color: var(--vt-c-black);     
 }
 /* poppins */
-.poppins-paragraph{
-    font-family: 'Poppins', sans-serif;  
+.Poppins-ExtraBold{
+    font-family: 'Poppins-ExtraBold', sans-serif;  
     font-size: 24px;
     color: #000000;
-    border-color: var(--vt-c-black);             
+    border-color: var(--vt-c-black);
+    font-weight: 700;
+    line-height: 36px;
 }
 
 .paragraph1{
@@ -198,3 +201,4 @@
     padding-left: 20px; 
     padding-right: 20px;          
 }
+

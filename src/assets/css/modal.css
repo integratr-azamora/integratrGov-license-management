@@ -180,56 +180,6 @@
     border-color: var(--vt-c-black);  
     margin-left: 10px;           
 }
-
-.button-cancel{
-    align-items: center;
-    padding: 10px 20px;
-    width: 90px;
-    height: 44px;    
-    border-radius: var(--c-size-4px);
-    background-color: var(--vt-c-white);
-    border-style: solid;
-    border-color: var(--vt-c-indigo);
-    font-family: var(--c-font-styles-roboto);
-    font-size: var(--c-font-size-16px);
-    color: var(--vt-c-indigo);
-    margin-right: var(--c-size-10px);
-    margin-top: var(--c-size-10px);
-    margin-bottom: var(--c-size-10px);
-}
-
-.button-submit{
-    align-items: center;
-    padding: 10px 20px;
-    width: 90px;
-    height: 44px;    
-    border-radius: var(--c-size-4px);
-    background-color: var(--vt-c-indigo);
-    border-style: solid;
-    border-color: var(--vt-c-indigo);
-    font-family: var(--c-font-styles-roboto);
-    font-size: var(--c-font-size-16px);
-    color: var(--vt-c-white);
-    margin-right: var(--c-size-10px);
-    margin-top: var(--c-size-10px);
-    margin-bottom: var(--c-size-10px);
-}
-
-.component-button2{
-    border-radius: var(--c-size-4px);
-    background-color: var(--vt-c-indigo);
-    border-style: solid;
-    border-color: var(--vt-c-indigo);
-    font-family: var(--c-font-styles-roboto);
-    font-size: var(--c-font-size-16px);
-    color: var(--vt-c-white);
-    padding-top: var(--c-size-10px);
-    padding-bottom: var(--c-size-15px);
-    margin-left: var(--c-size-20px);
-    margin-top: var(--c-size-10px);
-    display: flex;
-flex-direction: column;
-}
   
 .icon-x{
     border-radius: 50% !important;
@@ -249,21 +199,6 @@ flex-direction: column;
     align-items: center;
 }
 
-.component-button3{
-    align-items: center;
-    width: 90px;
-    height: 44px;   
-    border-radius: var(--c-size-4px);
-    background-color: var(--vt-c-indigo);
-    border-style: solid;
-    border-color: var(--vt-c-indigo);
-    font-family: var(--c-font-styles-roboto);
-    font-size: var(--c-font-size-16px);
-    color: var(--vt-c-white);    
-}
-
 .icon-calendar{
     font-size: 20px;
-    margin-top: 10px;
-
 }

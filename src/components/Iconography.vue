@@ -35,7 +35,7 @@
             <!-- color6  -->
             <div class="colors-font">
                <div class="color6 square-colors-size"></div>
-               <p class="fs-16 fw-bold p-1">#7E9FFF</p>
+               <p class="fw-bold p-1">#7E9FFF</p>
             </div>
             <!-- color7  -->
             <div class="colors-font">
