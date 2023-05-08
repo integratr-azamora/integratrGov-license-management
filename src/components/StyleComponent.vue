@@ -204,7 +204,6 @@
           <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row">
              <i class="isax isax-add icon-size-weight"></i>
              <p>Default</p>
-             Default
           </button>
           <button class="button-pill bg-palelavender color-indigo border-color-palelavender d-flex flex-row"><i class="isax isax-add icon-size-weight"></i>Click/Hover</button>
        </div>
@@ -216,7 +215,6 @@
           <button class="button-pill bg-chinesegreen color-seagreen border-color-chinesegreen d-flex flex-row">
              <i class="isax isax-add icon-size-weight"></i>
              <p>Default</p>
-             Default
           </button>
           <button class="button-pill bg-columbiagreen color-seagreen border-color-columbiagreen d-flex flex-row"><i class="isax isax-add icon-size-weight"></i>Click/Hover</button>
           <button class="button-pill bg-platinum color-darkgray border-color-platinum d-flex flex-row"><i class="isax isax-add icon-size-weight"></i>Disabled</button>

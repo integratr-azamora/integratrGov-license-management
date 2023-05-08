@@ -4,13 +4,14 @@ import Tables from '../components/Tables.vue'
 import Iconography from '../components/Iconography.vue';
 import Modal from '../components/Modal.vue';
 import Typography from '../components/Typography.vue';
-import Components from '../components/StyleComponent.vue'
+import StyleComponent from '../components/StyleComponent.vue';
+import AccountManager from '../components/AccountManager.vue';
 </script>
 
 <template>
   <main>
     <div class="container">
-      <InputBox />
+       <InputBox />
       <Components />
       <Tables />
       <div class="mt-5"></div>
@@ -18,6 +19,9 @@ import Components from '../components/StyleComponent.vue'
       <Modal/>
       <Typography/>
       <InputBox />
+      <AccountManager/>
+      <Tables />
+      <StyleComponent/> 
     </div>
   </main>
 </template>
