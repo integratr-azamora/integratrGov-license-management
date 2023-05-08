@@ -6,22 +6,19 @@ import Modal from '../components/Modal.vue';
 import Typography from '../components/Typography.vue';
 import StyleComponent from '../components/StyleComponent.vue';
 import AccountManager from '../components/AccountManager.vue';
+import LicenseManger from '../components/LicenseManger.vue';
 </script>
 
 <template>
   <main>
-    <div class="container">
-       <InputBox />
-      <Components />
+      <LicenseManger/>
+      <AccountManager/>
+      <InputBox />
       <Tables />
+      <StyleComponent/> 
       <div class="mt-5"></div>
       <Iconography/>
       <Modal/>
       <Typography/>
-      <InputBox />
-      <AccountManager/>
-      <Tables />
-      <StyleComponent/> 
-    </div>
   </main>
 </template>

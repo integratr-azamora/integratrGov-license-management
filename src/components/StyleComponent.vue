@@ -20,11 +20,11 @@
              <button class="button-default bg-none color-indigo border-color-indigo">Default</button>
              <button class="button-default bg-none color-purpleheart border-color-purpleheart">Click/Hover</button>
              <button class="button-default bg-none color-dimgray border-color-dimgray">Disabled</button>
-             <button class="button-default bg-none color-indigo border-color-indigo d-flex flex-row">
+             <button class="button-default bg-none color-indigo border-color-indigo d-flex flex-row ">
                 <i class="isax isax-add icon-size-weight"></i>
                 <p>Default</p>
              </button>
-             <button class="button-default bg-none color-purpleheart border-color-purpleheart d-flex flex-row">
+             <button class="button-default bg-none color-purpleheart border-color-purpleheart d-flex flex-row ">
                 <i class="isax isax-add icon-size-weight"></i>
                 <p>Click/Hover</p>
              </button>
@@ -62,12 +62,17 @@
           <!-- row5 -->
           <!-- row6 -->
           <div class="d-flex flex-row">
-             <button class="button-round bg-indigo color-white border-color-indigo ">
-                <div class="icon-button-close-rotate"><i class="isax isax-add icon-size-weight"></i></div>
+            <div class="icon-button-close-rotate">
+               <button class="button-round bg-indigo color-white border-color-indigo ">
+                <div class=" icon-close-center"><i class="isax isax-add icon-size-weight "></i></div>
              </button>
-             <button class="button-round bg-purpleheart color-white border-color-purpleheart ">
-                <div class="icon-button-close-rotate"><i class="isax isax-add icon-size-weight"></i></div>
+            </div>
+             <div class="icon-button-close-rotate">
+               <button class="button-round bg-purpleheart color-white border-color-purpleheart ">
+                <div class="icon-close-center"><i class="isax isax-add icon-size-weight"></i></div>
              </button>
+             </div>
+             
              <button class="button-round bg-dimgray color-white border-color-dimgray "><i class="isax isax-camera icon-button-round-24px"></i></button>
              <button class="button-round bg-lightlavender color-white border-color-lightlavender "><i class="isax isax-camera icon-button-round-24px"></i></button>
           </div>
@@ -234,12 +239,16 @@
        <!-- row8 -->
        <!-- row9  -->
        <div class="d-flex flex-row">
-          <button class="button-round bg-indigo color-white border-color-indigo ">
-             <div class="icon-button-close-rotate"><i class="isax isax-add icon-size-weight"></i></div>
-          </button>
-          <button class="button-round bg-purpleheart color-white border-color-purpleheart ">
-             <div class="icon-button-close-rotate"><i class="isax isax-add icon-size-weight"></i></div>
-          </button>
+         <div class="icon-button-close-rotate">
+               <button class="button-round bg-indigo color-white border-color-indigo ">
+                <div class=" icon-close-center"><i class="isax isax-add icon-size-weight "></i></div>
+             </button>
+            </div>
+             <div class="icon-button-close-rotate">
+               <button class="button-round bg-purpleheart color-white border-color-purpleheart ">
+                <div class="icon-close-center"><i class="isax isax-add icon-size-weight"></i></div>
+             </button>
+             </div>
           <button class="button-round bg-none color-indigo border-color-none "><i class="isax isax-trash icon-button-round-24px"></i></button>
           <button class="button-round bg-none color-purpleheart border-color-none "><i class="isax isax-trash icon-button-round-24px"></i></button>
        </div>

@@ -1,0 +1,135 @@
+/* custom-margin  */
+/* margin  */
+.m-10px{
+    margin: 0.625rem !important;
+  }
+  .m-20px{
+    margin: 1.25rem !important;
+  }
+/* margin  */
+/* margin-start  */
+.ms-20px{
+    margin-left: 1.25rem !important;
+  }
+  .ms-60px{
+    margin-left:3.75rem
+  }
+  .ms-165px{
+    margin-left: 10.313rem;
+  }
+/* margin-start  */
+/* margin-end  */
+.me-20px{
+    margin-right: 1.25rem !important;
+  }
+/* margin-end  */
+/* margin-top  */
+.mt-10px{
+    margin-top: 0.625rem !important;
+  }
+  .mt-20px{
+    margin-top: 1.25rem !important;
+  }
+/* margin-top  */  
+/* margin-bottom  */
+.mb-10px{
+    margin-bottom: var(--c-size-10px);
+  }
+  .mb-20px{
+    margin-bottom: var(--c-size-20px);
+  }
+
+  .mb-26px{
+    margin-bottom: var(--c-size-26px);
+  }
+/* margin-bottom  */
+/* margin-x  */
+.mx-10{
+    margin-left: var(--c-size-10px);
+    margin-right: var(--c-size-10px);
+  }
+  .my-20{
+    
+    margin-top: var(--c-size-20px);
+    margin-bottom: var(--c-size-20px);
+  }
+  .mx-20{
+    margin-left: var(--c-size-20px);
+    margin-right: var(--c-size-20px);
+  }
+/* margin-x  */
+/* margin-y  */
+.my-10{
+    margin-top: var(--c-size-10px);
+    margin-bottom: var(--c-size-10px);
+  }
+  .my--10px{
+    margin-top: -10px !important;
+    margin-bottom: -10px !important;
+}
+/* margin-y  */
+  
+  
+  .mt-et-190px{
+    margin-top: 190px 
+  }
+  .mt-et-230px{
+    margin-top: 14.375rem;
+  }
+  .m-auto{
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .margin-none{
+    margin: none !important;
+}
+/* custom-margin  */
+/* custom-padding  */
+.p-20px{
+    padding: var(--c-size-20px);
+}
+.p-10px{
+    padding: var(--c-size-10px);
+}
+.ps-10px{
+  padding-left: var(--c-size-10px);
+}
+.pt-0{
+  padding-top: 0px !important;
+}
+.px-20px{
+  padding-right: 1.25rem !important;
+  padding-left: 1.25rem !important;
+}
+.ps-20px{
+  padding-left: 1.25rem !important;
+}
+.pe-20px{
+  padding-right: 1.25rem !important;
+}
+.py-10px {
+  padding: 0.25rem !important;
+}
+.py-10px {
+  padding-right: 0.625rem !important;
+  padding-left: 0.625rem !important;
+}
+.px-20px{
+  padding-right: 1.25rem !important;
+  padding-left: 1.25rem !important;
+}
+.px-20{
+    padding-left: var(--c-size-20px);
+    padding-right: var(--c-size-20px);
+}
+.py-10{
+    padding-top: var(--c-size-10px);
+    padding-bottom: var(--c-size-10px);
+}
+.p-header-20px{
+    padding-top: var(--c-size-20px);
+    padding-right: var(--c-size-20px);
+    padding-left: var(--c-size-20px);
+}
+
+/* custom-padding  */

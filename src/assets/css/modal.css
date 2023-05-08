@@ -255,3 +255,21 @@
     margin-bottom: var(--c-size-10px);
 }
   
+ /* ModalsAlerts/ con4 */
+ .component-button-round-indigo-none-indigo-nofont-fontsize24px-white-mx20-my-10{
+    border-radius: 50% !important;
+    background-color: var(--vt-c-indigo);
+    border-style: solid;
+    border-color: var(--vt-c-indigo);
+    font-size: var(--c-size-24px);
+    color: var(--vt-c-white);
+    width: 50px;
+    height: 24px;
+    margin-left: var(--c-size-10px);
+    margin-right: var(--c-size-10px);
+    margin-top: var(--c-size-10px);
+    margin-bottom: var(--c-size-10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

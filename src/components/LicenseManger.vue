@@ -1,14 +1,24 @@
 <template>
-    <span class="heading1">Account Manager</span>
-    <div class="shadow-sm rounded-5 margin-auto">
-       <div class="p-header-20px ">
+    
+    <div class="shadow-sm rounded-5 ">
+        <span class="heading1 mb-26px">License Manager</span>
+    <div class="d-flex align-items-end">
+        <button class="button-tab bg-none">Unassigned License Keys</button>
+        <button class="button-tab bg-none">Assigned License Keys</button>
+        <button class="button-tab bg-none">Software License Management</button>
+    </div>
+       <div class="p-header-20px pt-0">
           <!-- row1  -->
           <div class="d-flex justify-content-between align-items-center">
-             <span class="h2">Registered Account</span>
-             <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row">
-                <i class="isax isax-add icon-size-weight"></i>
-                <p>Add</p>
+            <div class="col"><span class="h2">Unassigned Licenses</span></div>
+            <div class="col d-flex justify-content-end">
+            <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row">
+                <p>Validate License Key</p>
              </button>
+             <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row">
+                <p>Generate License Key</p>
+             </button>
+            </div>
           </div>
           <!-- row1  -->
           <!-- row2 -->
@@ -32,25 +42,25 @@
           <table class="table  table-striped table-hover font-table-text" >
              <thead >
                 <tr > 
-                   <th class="text-start px-20px p-3 font-table-column border-rouded-left-5px">Name<i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></th>
-                   <th class="text-start px-20px p-3 font-table-column">Org Id<i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></th>
-                   <th class="text-start px-20px p-3 font-table-column">Email Address<i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></th>
-                   <th class="text-start px-20px p-3 font-table-column">Organization<i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></th>
-                   <th class="text-start px-20px p-3 font-table-column">Contact<i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></th>
-                   <th class="text-start px-20px p-3 font-table-column">Tin<i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></th>
+                   <th class="text-start px-20px p-3 font-table-column border-rouded-left-5px">Activation Code<i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></th>
+                   <th class="text-start px-20px p-3 font-table-column">Module<i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></th>
+                   <th class="text-start px-20px p-3 font-table-column">Version<i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></th>
+                   <th class="text-start px-20px p-3 font-table-column">Grace Period<i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></th>
+                   <th class="text-start px-20px p-3 font-table-column">Validity<i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></th>
+                   <th class="text-start px-20px p-3 font-table-column">License Description <i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></th>
                 </tr>
              </thead>
              <tbody class="border rounded-1">
                 <!-- row1  -->
                 <tr class="size-table-tabledata column border-rouded-5px ">
-                   <td class="text-start px-20px p-3">Juan dela Cruz</td>
-                   <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
-                   <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
-                   <td class="text-start px-20px p-3">Pasig City</td>
-                   <td class="text-start px-20px p-3">+63 9012345678</td>
+                   <td class="text-start px-20px p-3">FSPDN-00000-00000-00000-00000</td>
+                   <td class="text-start px-20px p-3">Business Permit and License</td>
+                   <td class="text-start px-20px p-3">1.2</td>
+                   <td class="text-start px-20px p-3">n/a</td>
+                   <td class="text-start px-20px p-3">40 years</td>
                    <td class="text-end px-20px p-3">
                       <span class="d-flex align-items-center justify-content-between">
-                         <p >00000000000</p>
+                         <p >Perpetual</p>
                          <div class="dropdown d-flex ms-20px">
                             <span>
                             <i class="isax isax-more"></i>
@@ -68,14 +78,14 @@
                 </tr>
                 <!-- row2  -->
                 <tr class="size-table-tabledata column border-rouded-5px">
-                   <td class="text-start px-20px p-3">Juan dela Cruz</td>
-                   <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
-                   <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
-                   <td class="text-start px-20px p-3">ABC Smart Organization </td>
-                   <td class="text-start px-20px p-3">+63 9012345678</td>
+                   <td class="text-start px-20px p-3">FSEDE-00000-00000-00000-00000</td>
+                   <td class="text-start px-20px p-3">Business Permit and License</td>
+                   <td class="text-start px-20px p-3">1.2</td>
+                   <td class="text-start px-20px p-3">7 days</td>
+                   <td class="text-start px-20px p-3">1 year</td>
                    <td class="text-end px-20px p-3">
                       <span class="d-flex align-items-center justify-content-between">
-                         <p >00000000000</p>
+                         <p >SaaS - E</p>
                          <div class="dropdown d-flex ms-20px">
                             <span>
                             <i class="isax isax-more"></i>
@@ -93,14 +103,14 @@
                 </tr>
                 <!-- row3  -->
                 <tr class="size-table-tabledata column border-rouded-5px">
-                   <td class="text-start px-20px p-3">Juan dela Cruz</td>
-                   <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
-                   <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
-                   <td class="text-start px-20px p-3">Mariveles Bataan</td>
-                   <td class="text-start px-20px p-3">+63 9012345678</td>
+                   <td class="text-start px-20px p-3">FSIDE-00000-00000-00000-00000</td>
+                   <td class="text-start px-20px p-3">Real Property Tax</td>
+                   <td class="text-start px-20px p-3">1.1</td>
+                   <td class="text-start px-20px p-3">7 days</td>
+                   <td class="text-start px-20px p-3">2 years</td>
                    <td class="text-end px-20px p-3">
                       <span class="d-flex align-items-center justify-content-between">
-                         <p >00000000000</p>
+                         <p >SaaS - I</p>
                          <div class="dropdown d-flex ms-20px">
                             <span>
                             <i class="isax isax-more"></i>
@@ -118,14 +128,14 @@
                 </tr>
                 <!-- row4  -->
                 <tr class="size-table-tabledata column border-rouded-5px">
-                   <td class="text-start px-20px p-3">Juan dela Cruz</td>
-                   <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
-                   <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
-                   <td class="text-start px-20px p-3">Aztec Gov Agency</td>
-                   <td class="text-start px-20px p-3">+63 9012345678</td>
+                   <td class="text-start px-20px p-3">FSBDE-00000-00000-00000-00000</td>
+                   <td class="text-start px-20px p-3">Real Property Tax</td>
+                   <td class="text-start px-20px p-3">1.0</td>
+                   <td class="text-start px-20px p-3">30 days</td>
+                   <td class="text-start px-20px p-3">5 years</td>
                    <td class="text-end px-20px p-3">
                       <span class="d-flex align-items-center justify-content-between">
-                         <p >00000000000</p>
+                         <p >Saas - B</p>
                          <div class="dropdown d-flex ms-20px">
                             <span>
                             <i class="isax isax-more"></i>
@@ -143,14 +153,14 @@
                 </tr>
                 <!-- row5  -->
                 <tr class="size-table-tabledata column border-rouded-5px">
-                   <td class="text-start px-20px p-3">Juan dela Cruz</td>
-                   <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
-                   <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
-                   <td class="text-start px-20px p-3">Aztec Gov Agency</td>
-                   <td class="text-start px-20px p-3">+63 9012345678</td>
+                   <td class="text-start px-20px p-3">GOPDE-00000-00000-00000-00000</td>
+                   <td class="text-start px-20px p-3">Community Tax</td>
+                   <td class="text-start px-20px p-3">1.0</td>
+                   <td class="text-start px-20px p-3">30 days</td>
+                   <td class="text-start px-20px p-3">40 years</td>
                    <td class="text-end px-20px p-3">
                       <span class="d-flex align-items-center justify-content-between">
-                         <p >00000000000</p>
+                         <p >Perpetual</p>
                          <div class="dropdown d-flex ms-20px">
                             <span>
                             <i class="isax isax-more"></i>
@@ -168,14 +178,14 @@
                 </tr>
                 <!-- row6  -->
                 <tr class="size-table-tabledata column border-rouded-5px">
-                   <td class="text-start px-20px p-3">Juan dela Cruz</td>
-                   <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
-                   <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
-                   <td class="text-start px-20px p-3">Aztec Gov Agency</td>
-                   <td class="text-start px-20px p-3">+63 9012345678</td>
+                   <td class="text-start px-20px p-3">SIPDE-00000-00000-00000-00000</td>
+                   <td class="text-start px-20px p-3">Community Tax</td>
+                   <td class="text-start px-20px p-3">1.0</td>
+                   <td class="text-start px-20px p-3">30 days</td>
+                   <td class="text-start px-20px p-3">40 years</td>
                    <td class="text-end px-20px p-3">
                       <span class="d-flex align-items-center justify-content-between">
-                         <p >00000000000</p>
+                         <p >Perpetual</p>
                          <div class="dropdown d-flex ms-20px">
                             <span>
                             <i class="isax isax-more"></i>
@@ -193,14 +203,14 @@
                 </tr>
                 <!-- row7  -->
                 <tr class="size-table-tabledata column border-rouded-5px">
-                   <td class="text-start px-20px p-3">Juan dela Cruz</td>
-                   <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
-                   <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
-                   <td class="text-start px-20px p-3">Aztec Gov Agency</td>
-                   <td class="text-start px-20px p-3">+63 9012345678</td>
+                   <td class="text-start px-20px p-3">BBPDE-00000-00000-00000-00000</td>
+                   <td class="text-start px-20px p-3">Building and Occupancy Permit</td>
+                   <td class="text-start px-20px p-3">1.0</td>
+                   <td class="text-start px-20px p-3">30 days</td>
+                   <td class="text-start px-20px p-3">40 years</td>
                    <td class="text-end px-20px p-3">
                       <span class="d-flex align-items-center justify-content-between">
-                         <p >00000000000</p>
+                         <p >Perpetual</p>
                          <div class="dropdown d-flex ms-20px">
                             <span>
                             <i class="isax isax-more"></i>
@@ -218,14 +228,14 @@
                 </tr>
                 <!-- row8  -->
                 <tr class="size-table-tabledata column border-rouded-5px">
-                   <td class="text-start px-20px p-3">Juan dela Cruz</td>
-                   <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
-                   <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
-                   <td class="text-start px-20px p-3">Aztec Gov Agency</td>
-                   <td class="text-start px-20px p-3">+63 9012345678</td>
+                   <td class="text-start px-20px p-3">GOPTN-00000-00000-00000-00000</td>
+                   <td class="text-start px-20px p-3">Building and Occupancy Permit</td>
+                   <td class="text-start px-20px p-3">1.0</td>
+                   <td class="text-start px-20px p-3">n/a</td>
+                   <td class="text-start px-20px p-3">30 days</td>
                    <td class="text-end px-20px p-3">
                       <span class="d-flex align-items-center justify-content-between">
-                         <p >00000000000</p>
+                         <p >Trial</p>
                          <div class="dropdown d-flex ms-20px">
                             <span>
                             <i class="isax isax-more"></i>
@@ -243,14 +253,14 @@
                 </tr>
                 <!-- row9  -->
                 <tr class="size-table-tabledata column border-rouded-5px">
-                   <td class="text-start px-20px p-3 ">Juan dela Cruz</td>
-                   <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
-                   <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
-                   <td class="text-start px-20px p-3">Aztec Gov Agency</td>
-                   <td class="text-start px-20px p-3">+63 9012345678</td>
+                   <td class="text-start px-20px p-3 ">GOPBN-00000-00000-00000-00000</td>
+                   <td class="text-start px-20px p-3">Base Cloud Platform</td>
+                   <td class="text-start px-20px p-3">1.0</td>
+                   <td class="text-start px-20px p-3">n/a</td>
+                   <td class="text-start px-20px p-3">30 days</td>
                    <td class="text-end px-20px p-3">
                       <span class="d-flex align-items-center justify-content-between">
-                         <p >00000000000</p>
+                         <p >Beta</p>
                          <div class="dropdown d-flex ms-20px">
                             <span>
                             <i class="isax isax-more"></i>
@@ -267,6 +277,31 @@
                    </td>
                 </tr>
                 <!-- row10  -->
+                <tr class="size-table-tabledata column border-rouded-5px">
+                   <td class="text-start px-20px p-3 ">FSPDE-00000-00000-00000-00000</td>
+                   <td class="text-start px-20px p-3">Base Cloud Platform</td>
+                   <td class="text-start px-20px p-3">1.0</td>
+                   <td class="text-start px-20px p-3">7 days</td>
+                   <td class="text-start px-20px p-3">1 year</td>
+                   <td class="text-end px-20px p-3">
+                      <span class="d-flex align-items-center justify-content-between">
+                         <p >Annual</p>
+                         <div class="dropdown d-flex ms-20px">
+                            <span>
+                            <i class="isax isax-more"></i>
+                            </span>
+                            <div class="dropdown-content dropdown-content-position ">
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">View</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Edit</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Send Invite</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Reset Password</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Delete</p>
+                            </div>
+                         </div>
+                      </span>
+                   </td>
+                </tr>
+                <!-- row11 -->
              </tbody>
           </table>
           <div class="mt-4 mb-4 ">
