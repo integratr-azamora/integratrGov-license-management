@@ -55,6 +55,9 @@
   --vt-c-venitian-red:#CC1512;
   --vt-c-sea-green:#219050;
   --vt-c-gray:#cccccc;
+  --vt-c-lavender-bush: #FFF5F5;
+  --vt-c-english-vermillion:#D4514D;
+  --vt-c-marjorelle-blue:#6e41e2;
   /* colors */
 
   /* sizes  */
@@ -69,6 +72,7 @@
   --c-size-15px:0.938rem;
   --c-size-16px:1rem;
   --c-size-20px:1.25rem;
+  --c-size-26px:1.625rem;
   --c-size-30px:1.875rem;
   --c-size-24px:1.5rem;
   --c-size-30px:1.875rem;

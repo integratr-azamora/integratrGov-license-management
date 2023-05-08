@@ -1,11 +1,16 @@
 @import './base.css';
 @import './css/bootstrap/bootstrap.css';
 @import './vuesax.css';
-@import './component-button.css';
+@import './css/component-button.css';
 @import './tables.css';
 @import './css/typography.css';
 @import './css/color-iconography.css';
 @import './css/modal.css';
+@import './css/accmanager.css';
+@import './css/marginsnpaddings.css';
+@import './css/colors.css';
+@import './css/transform.css';
+
 @import './/css/licensekey-issue.css';
 
 @font-face {

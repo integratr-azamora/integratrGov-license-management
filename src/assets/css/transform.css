@@ -1,0 +1,130 @@
+/* custom-sizes  */
+.square-colors-size{
+    height: 4.813rem;
+    width: 4.813rem;
+  }
+  .size-inputbox{
+    height: 3.5rem !important;
+    width: 25rem !important;
+  }
+  .size-inputbox-search{
+    height: 3.5rem !important;
+    width: 23.125rem !important;
+  }
+  .size-table{
+    width: 46.188rem;
+    height: 48.875rem;
+  }
+  .size-inputbox-container{
+    height: 66rem; width: 60rem;
+  }
+  .size-inputbox-admin{
+    width: 25rem !important;
+    height: 2.5rem !important;
+  }
+  .size-inputbox-long{
+    width: 52.438rem !important;
+    height: 4.625rem !important;
+  }
+  .size-table-search{
+    width: 18.25rem !important;
+    height: 2.75rem !important;
+  }
+  .size-table-filter{
+    width: 7.25rem;
+    height: 2.75rem;
+    text-align: center;
+  }
+  .size-table-tabledata{
+    width: 46.188rem;
+    height: 3.75rem;
+  }
+  .size-table-pagination{
+    height: 2.75rem;
+    width: 3.063rem;
+    border-radius: 0.25rem;
+  }
+  .size-inputbox-container{
+    height: 66rem; 
+    width: 60rem;
+  }
+  .size-icon{
+    font-size: 1rem !important;
+  }
+  .size-icon-24px{
+    font-size: 1.5rem !important;
+  }
+  .size-icon-table-arrow{
+    height: 0.326rem;
+    width: 0.599rem;
+  }
+  .size-table-container{
+    width: 86.688rem;
+    height: 68rem;
+  }
+  .size-box-10{
+    height: 0.625rem;
+    width: 1.313rem;
+  }
+  .size-box-20{
+    height: 1.438rem;
+    width: 1.313rem;
+  }
+  .fs-16px {
+    font-size: 1rem !important;
+  }
+  .size-component-default-button-1{
+    width: 5.75rem;
+    height: 2.75rem;
+  }
+  .size-square-24{
+    height: var(--c-size-24px);
+    width: var(--c-size-24px);
+  }
+  .size-48w-24h{
+    height: var(--c-size-24px) !important;
+    width: var(--c-size-48px) !important;
+  }
+  .icon-size-weight{
+    font-size: var(--c-size-24px);
+    font-weight: bold;
+  }
+ 
+/* custom-sizes  */
+
+/* custom-transform  */
+.rotate-45{
+  transform: rotate(-45deg);
+}
+/* custom-transform  */
+/* custom-position */
+.column {
+    flex: 50%;
+    padding: 5px;
+  }
+  .icon-position-nolabel{
+    position: absolute;
+    left: 340px;
+    bottom: 15px;
+  }
+  .icon-position{
+    position: absolute;
+    left: 370px;
+    bottom: 20px;
+  }
+  .icon-position2{
+    position: absolute;
+    left: 370px;
+    bottom: 10px;
+  }
+  .icon-position3{
+    position: absolute;
+    left: 380px;
+    bottom: 5px;
+  }
+  .icon-position-long{
+    position: absolute;
+     left: 810px;
+     bottom: 20px;
+  }
+  /* custom-position */

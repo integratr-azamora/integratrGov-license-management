@@ -87,7 +87,7 @@
                <!-- table Header  -->
                <!-- table Body  -->
                <div class="table-responsive border border rounded-1 shadow-sm " >
-                  <table class="table  table-striped table-hover font-table-text" >
+                  <table class="table table-striped table-hover font-table-text" >
                      <tbody>
                         <!-- row1  -->
                         <tr class="size-table-tabledata column">
