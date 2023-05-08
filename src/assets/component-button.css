@@ -69,7 +69,7 @@
   }
   .badge-pill{
     border-radius: var(--bs-border-radius-pill);
-    font-family: 'Gotham';
+    font-family: 'Roboto';
     font-weight: 400;
     font-size: var(--c-size-13px);
     font-weight: 700;
@@ -163,6 +163,9 @@
   }
   .bg-platinum{
   background-color: var(--vt-c-platinum);
+  }
+  .bg-lavender-bush{
+    background-color: var(--vt-c-lavender-bush);
   }
   .bg-none{
     background-color: transparent;
@@ -272,12 +275,26 @@
     border-style: solid;
     border-color: var(--vt-c-platinum);
   }
-  .border-color-none{
-    border-style: none;
+  .border-color-englishvermillion{
+    border-style: solid;
+    border-color: var(--vt-c-english-vermillion);
+    border-width: thin;
   }
   .border-b-color-indigo{
     border-bottom:solid var(--vt-c-indigo);
   }
+  .border-color-dashed-frenchskyblue{
+    border-style: dashed;
+    border-color: var(--vt-c-frenchsky-blue);
+  }
+  .border-color-dashed-indigo{
+    border-style: dashed;
+    border-color: var(--vt-c-indigo);
+  }
+  .border-color-none{
+    border-style: none;
+  }
+  
   /* border Colors */
 
   /* margins */

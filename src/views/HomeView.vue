@@ -22,8 +22,6 @@ import AccountManager from '../components/AccountManager.vue';
       <AccountManager/>
       <Tables />
       <StyleComponent/> 
-      
-      
     </div>
   </main>
 </template>

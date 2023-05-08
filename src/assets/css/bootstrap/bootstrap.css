@@ -11037,6 +11037,9 @@ a{
 /* custom-margin  */
 
 /* custom-padding  */
+.ps-10px{
+  padding-left: var(--c-size-10px);
+}
 .px-20px{
   padding-right: 1.25rem !important;
   padding-left: 1.25rem !important;
@@ -11070,9 +11073,16 @@ a{
     height: 3.5rem !important;
     width: 25rem !important;
   }
+  .size-inputbox-search{
+    height: 3.5rem !important;
+    width: 23.125rem !important;
+  }
   .size-table{
     width: 46.188rem;
     height: 48.875rem;
+  }
+  .size-inputbox-container{
+    height: 66rem; width: 60rem;
   }
   .size-inputbox-admin{
     width: 25rem !important;
@@ -11229,13 +11239,36 @@ a{
   flex: 50%;
   padding: 5px;
 }
+.icon-position-nolabel{
+  position: absolute;
+  left: 340px;
+  bottom: 15px;
+}
 .icon-position{
-  position: relative;
-  left: 23.125rem;
-  bottom: 2.188rem;
+  position: absolute;
+  left: 370px;
+  bottom: 20px;
+}
+.icon-position2{
+  position: absolute;
+  left: 370px;
+  bottom: 10px;
+}
+.icon-position3{
+  position: absolute;
+  left: 380px;
+  bottom: 5px;
 }
 .icon-position-long{
-  position: relative;
-   left: 50rem;
-   bottom: 0.625rem;
+  position: absolute;
+   left: 810px;
+   bottom: 20px;
+}
+
+.outline-none{
+  outline: 0;
+}
+
+.border-round-4px{
+  border-radius: var(--c-size-4px);
 }

@@ -6,6 +6,7 @@
 @import './css/typography.css';
 @import './css/color-iconography.css';
 @import './css/modal.css';
+@import './css/accmanager.css';
 
 @font-face {
   font-family: 'Poppins';
