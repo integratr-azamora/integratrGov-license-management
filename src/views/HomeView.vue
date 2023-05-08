@@ -22,9 +22,7 @@ import LicensekeyIssue from '../components/Licensekey-Issue.vue';
       <div class="mt-5"></div>
       <Iconography/>
       <Modal/>
-      <LicensekeyIssue/>
       <Typography/>
-      
-      
+      <LicensekeyIssue/>  
   </main>
 </template>

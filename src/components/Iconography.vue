@@ -1,67 +1,67 @@
 <template>
    <div class="container bor-style-solid-perma container2" >
-        <div class="row justify-content-center">
+      <div class="row justify-content-center">
          <p class="colors fw-bold border-bottom-1 mb-2 p-3">Colors</p>
       </div>
       <div class="row ">
          <div class="d-flex justify-content-start">
             <!-- color1  -->
             <div class="colors-font">
-               <div class="color1 square-colors-size"></div>
+               <div class="bg-white square-colors-size shadow-sm"></div>
                <p class="fw-bold p-1">#FFFFFF</p>
             </div>
             <!-- color2  -->
             <div class="colors-font">
-               <div class="color2 square-colors-size"></div>
+               <div class="bg-indigo square-colors-size shadow-sm"></div>
                <p class="fw-bold p-1">#6A00FF</p>
             </div>
             <!-- color3  -->
             <div class="colors-font">
-               <div class="color3 square-colors-size"></div>
+               <div class="bg-black square-colors-size shadow-sm"></div>
                <p class="fw-bold p-1">#000000</p>
             </div>
          </div>
          <div class="d-flex justify-content-start">
             <!-- color4  -->
             <div class="colors-font">
-               <div class="color4 square-colors-size"></div>
+               <div class="bg-ghostwhite square-colors-size shadow-sm"></div>
                <p class="fw-bold p-1">#F3F6FF</p>
             </div>
             <!-- color5  -->
             <div class="colors-font">
-               <div class="color5 square-colors-size"></div>
+               <div class="bg-lavenderblue square-colors-size shadow-sm"></div>
                <p class="fw-bold p-1">#C6C7F9</p>
             </div>
             <!-- color6  -->
             <div class="colors-font">
-               <div class="color6 square-colors-size"></div>
+               <div class="bg-frenchskyblue square-colors-size shadow-sm"></div>
                <p class="fw-bold p-1">#7E9FFF</p>
             </div>
             <!-- color7  -->
             <div class="colors-font">
-               <div class="color7 square-colors-size"></div>
+               <div class="bg-darkgray square-colors-size shadow-sm"></div>
                <p class="fw-bold p-1">#666666</p>
             </div>
          </div>
          <div class="d-flex justify-content-start">
             <!-- color8  -->
             <div class="colors-font">
-               <div class="color7 square-colors-size"></div>
+               <div class="bg-dimgray square-colors-size shadow-sm"></div>
                <p class="fw-bold p-1">#ACACAC</p>
             </div>
             <!-- color9  -->
             <div class="colors-font">
-               <div class="color9 square-colors-size"></div>
+               <div class="bg-purpleheart square-colors-size shadow-sm"></div>
                <p class="fw-bold p-1">#5500CD</p>
             </div>
             <!-- color10  -->
             <div class="colors-font">
-               <div class="color10 square-colors-size"></div>
+               <div class="bg-eucalyptus square-colors-size shadow-sm"></div>
                <p class="fw-bold p-1">#27AE60</p>
             </div>
             <!-- color11  -->
             <div class="colors-font">
-               <div class="color11 square-colors-size"></div>
+               <div class="bg-valencia square-colors-size shadow-sm"></div>
                <p class="fw-bold p-1">#DB524E</p>
             </div>
          </div>

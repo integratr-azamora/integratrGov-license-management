@@ -1,10 +1,12 @@
 <template>
    <div class="container container7" >
-      <div class="license-header1">
+      <div class="license-header1 d-flex justify-content-between">
          <p class="license-header mt-4"><b>Generate License Key</b></p>
-         <button class="icon-x-license">
-            <div class="rotate-45 ms-1"><i class="isax isax-add "></i></div>
-         </button>
+         <div class="icon-button-close-rotate">
+            <button class="button-round bg-indigo color-white border-color-indigo ">
+               <div class=" icon-close-center"><i class="isax isax-add icon-size-weight "></i></div>
+            </button>
+         </div>
       </div>
       <hr>
       <!-- 1st -->
@@ -57,11 +59,13 @@
    <!-- Issue License -->
    <br>
    <div class="container container8" >
-      <div class="license-header1">
+      <div class="license-header1 d-flex justify-content-between">
          <p class="license-header mt-4"><b>Assign License</b></p>
-         <button class="icon-x-license">
-            <div class="rotate-45 ms-1"><i class="isax isax-add "></i></div>
-         </button>
+         <div class="icon-button-close-rotate">
+            <button class="button-round bg-indigo color-white border-color-indigo ">
+               <div class=" icon-close-center"><i class="isax isax-add icon-size-weight "></i></div>
+            </button>
+         </div>
       </div>
       <hr>
       <!-- 1st -->

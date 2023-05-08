@@ -1,13 +1,15 @@
 <template>
    <!-- con1 -->
    <br>
-   <div class="container bor-style-solid-perma container1" >
+   <div class="container container1" >
       <div class="modal-header">
          <hr>
          <div class="position-absolute top-0 end-0">
-            <button class="icon-x">
-            <div class="rotate-45 ms-1"><i class="isax isax-add "></i></div>
-         </button>
+            <div class="icon-button-close-rotate">
+               <button class="button-round bg-indigo color-white border-color-indigo ">
+                  <div class=" icon-close-center"><i class="isax isax-add icon-size-weight "></i></div>
+               </button>
+            </div>
          </div>
       </div>
       <div id="info" class="text-center">
@@ -30,9 +32,11 @@
       <div class="modal-header">
          <p class="modal-header1"><b>Tag User</b></p>
          <div class="position-absolute top-0 end-0">
-         <button class="icon-x">
-            <div class="rotate-45 ms-1"><i class="isax isax-add "></i></div>
-         </button>
+            <div class="icon-button-close-rotate">
+               <button class="button-round bg-indigo color-white border-color-indigo ">
+                  <div class=" icon-close-center"><i class="isax isax-add icon-size-weight "></i></div>
+               </button>
+            </div>
          </div>
       </div>
       <div class="modal-body2">
@@ -50,12 +54,14 @@
    </div>
    <!-- con3 -->
    <br>
-   <div class="container bor-style-solid-perma con3" >
+   <div class="container con3" >
       <div class="modal-header">
          <p class="modal-header1 m-1"><b>Transfer Ownership</b></p>
-         <button class="icon-x">
-            <div class="rotate-45"><i class="isax isax-add "></i></div>
-         </button>
+         <div class="icon-button-close-rotate">
+            <button class="button-round bg-indigo color-white border-color-indigo ">
+               <div class=" icon-close-center"><i class="isax isax-add icon-size-weight "></i></div>
+            </button>
+         </div>
       </div>
       <div class="modal-body3">
          <p class="modal3">Provide the email address of the recipient to whom you want to transfer the ownership rights of the business.</p>
@@ -67,22 +73,24 @@
    </div>
    <!-- con4 -->
    <br>
-   <div class="container bor-style-solid-perma con4" >
+   <div class="container con4" >
       <div class="modal-header">
          <p class="modal-header1"><b>Existing Business</b></p>
-         <button class="icon-x">
-            <div class="rotate-45 ms-1"><i class="isax isax-add "></i></div>
-         </button>
+         <div class="icon-button-close-rotate">
+            <button class="button-round bg-indigo color-white border-color-indigo ">
+               <div class=" icon-close-center"><i class="isax isax-add icon-size-weight "></i></div>
+            </button>
+         </div>
       </div>
       <p class="modal4">Search using the following numbers to find existing business.</p>
-         <p class="modal-4">Business does not exist on our system.</p>
-         <input class="form-control-1 mt-2" type="text" placeholder="Transaction No." aria-label="Disabled input example" disabled>
-         <input class="form-control-1 mt-2" type="text" placeholder="License No." aria-label="Disabled input example" disabled>
-         <input class="form-control-1 mt-2" type="text" placeholder="TIN No.." aria-label="Disabled input example" disabled>
-         <input class="form-control-1 mt-2" type="text" placeholder="Date Established" aria-label="Disabled input example" disabled>
-         <i class="icon-calendar gray isax isax-calendar-1" style="position:absolute;left:440px; bottom: 85px;"></i>
-         <div class="modal-footer">
-            <button class="button-default bg-indigo border-color-indigo color-white me-0">Search</button>      
-         </div>
+      <p class="modal-4">Business does not exist on our system.</p>
+      <input class="form-control-1 mt-2" type="text" placeholder="Transaction No." aria-label="Disabled input example" disabled>
+      <input class="form-control-1 mt-2" type="text" placeholder="License No." aria-label="Disabled input example" disabled>
+      <input class="form-control-1 mt-2" type="text" placeholder="TIN No.." aria-label="Disabled input example" disabled>
+      <input class="form-control-1 mt-2" type="text" placeholder="Date Established" aria-label="Disabled input example" disabled>
+      <i class="icon-calendar gray isax isax-calendar-1" style="position:absolute;left:440px; bottom: 85px;"></i>
+      <div class="modal-footer">
+         <button class="button-default bg-indigo border-color-indigo color-white me-0">Search</button>      
+      </div>
    </div>
- </template>
+</template>
