@@ -3,16 +3,16 @@
     <div class="container bor-style-solid-perma container5" >
        <div class="container">
          <div class="bor-bottom row justify-content-center">
-             <p class="inter border-bottom-1">Gotham</p>
+             <p class="inter border-bottom-1 mb-2 p-3"><b></b>Gotham</p>
           </div>
           <!-- heading1 -->
           <div class="row">
              <div class="col d-flex align-items-center">
-                <p class="h1 fw-bold mt-4">Heading 1</p>
+                <p class="fontfamily-gotham-heading-1 mt-4">Heading 1</p>
              </div>
              <div class="col">
                 <div class="row">
-                   <p class="font-style-inter mt-4"><b>Font size:</b> 32px/2(em/rem)</p>
+                   <p class="font-style-inter mt-4 m-1"><b>Font size:</b> 32px/2(em/rem)</p>
                 </div>
                 <div class="row">
                    <p class="font-style-inter mt-1"><b>Font weight:</b> Bold</p>
@@ -22,7 +22,7 @@
           <!-- heading 2 -->
           <div class="row">
              <div class="col d-flex align-items-center">
-                <p class="h2 mt-4">Heading 2</p>
+                <p class="fontfamily-gotham-heading-2 mt-4">Heading 2</p>
              </div>
              <div class="col">
                 <div class="row">
@@ -36,7 +36,7 @@
           <!-- heading 3 -->
           <div class="row">
              <div class="col d-flex align-items-center">
-                <p class="h3 fw-bold mt-4">Heading 3</p>
+                <p class="fontfamily-gotham-heading-3 fw-bold mt-4">Heading 3</p>
              </div>
              <div class="col">
                 <div class="row">
@@ -146,10 +146,10 @@
              </div>
              <div class="col">
                 <div class="row">
-                   <p class="font-style-roboto-h fs-20 mt-4"><b>Font size:</b> 14px/0.875(em/rem)</p>
+                   <p class="font-style-roboto-h mt-4"><b>Font size:</b> 14px/0.875(em/rem)</p>
                 </div>
                 <div class="row">
-                   <p class="font-style-roboto-h fs-20 mt-2"><b>Font weight:</b> Bold</p>
+                   <p class="font-style-roboto-h mt-2"><b>Font weight:</b> Bold</p>
                 </div>
              </div>
           </div>

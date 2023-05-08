@@ -1,6 +1,12 @@
 .container2{
-    width: 417px; 
-    height: 573px
+    width: 417px;
+    height: 573px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 4px;
+
 }
 
 .colors-font{
@@ -28,6 +34,7 @@
     line-height: 29px;
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
     color: #000000; 
     border-color: var(--vt-c-black);             
 }
@@ -35,6 +42,11 @@
 .container3{
     width: 417px; 
     height: 803px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF var(--vt-c-white); 
+    border: 1px solid #000000;
+    border-radius: 4px;
 }
 
 .color1{ 

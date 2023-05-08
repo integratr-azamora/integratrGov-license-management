@@ -2,9 +2,27 @@
 .container7{
     width: 942px;
     height: 632px;
-    background: #FFFFFF var(--vt-c-white);  
+    background: var(--vt-c-white); 
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
+}
+
+.icon-x-license{
+    border-radius: 50% !important;
+    background-color: var(--vt-c-indigo);
+    border-style: solid;
+    border-color: var(--vt-c-indigo);
+    font-size: var(--c-size-24px);
+    color: var(--vt-c-white);
+    width: 44px;
+    height: 40px;
+    margin-left: var(--c-size-10px);
+    margin-top: var(--c-size-20px);
+    margin-bottom: var(--c-size-10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
 }
 
 .form-select{
@@ -14,47 +32,25 @@
     line-height: 24px;    
     display: flex;
     align-items: center;    
-    color: #000000;
+    color: var(--vt-c-black);
+    border: none;
+    margin-top: 20px;
 }
 
 .license-header{
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto-black', sans-serif;  
     font-weight: 900;
     font-size: 32px;
     line-height: 38px;
     display: flex;
     align-items: center;
-    color: #000000;
-}
-
-.license-button{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 20px;
-    width: 75px;
-    height: 44px;    
-    background: #6A00FF var(--vt-c-electric-indigo);
-    border-radius: 4px;    
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    color: var(--vt-c-black);
 }
 
 .container8{
     width: 942px;
     height: 404px;
-    background: #FFFFFF;
+    background: var(--vt-c-white);  
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
-}
-
-.label{
-    font-family: 'Roboto', sans-serif;  
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 15px;
-    display: flex;
-    align-items: center;
-    color: #666666;
 }
