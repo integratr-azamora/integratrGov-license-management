@@ -277,7 +277,7 @@
              <input class="form-check-input size-square-24" type="checkbox" value="" id="flexCheckDefault" checked>
              <label class="form-check-label" for="flexCheckDefault"></label>
           </div>
-          <div class="form-check m-2"></div>
+          <div class="form-check m-2">
              <input class="form-check-input size-square-24" type="checkbox" value="" id="flexCheckDefault">
              <label class="form-check-label" for="flexCheckDefault"></label>
           </div>
