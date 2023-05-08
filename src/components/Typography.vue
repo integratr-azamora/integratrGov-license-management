@@ -86,7 +86,7 @@
           <!-- heading 1-->
           <div class="row">
              <div class="col d-flex align-items-center">
-                <p class="heading1 mt-4 Roboto">Heading 1</p>
+                <p class="heading1 mt-4">Heading 1</p>
              </div>
              <div class="col">
                 <div class="row">
