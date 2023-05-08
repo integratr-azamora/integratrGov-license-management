@@ -67,10 +67,11 @@
                             </span>
                             <div class="dropdown-content dropdown-content-position ">
                                <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">View</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Edit</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Send Invite</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Reset Password</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Delete</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Assign/Issue</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Validate</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Activate</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Remove License</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Destroy License</p>
                             </div>
                          </div>
                       </span>
@@ -92,10 +93,11 @@
                             </span>
                             <div class="dropdown-content dropdown-content-position ">
                                <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">View</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Edit</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Send Invite</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Reset Password</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Delete</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Assign/Issue</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Validate</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Activate</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Remove License</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Destroy License</p>
                             </div>
                          </div>
                       </span>
@@ -117,10 +119,11 @@
                             </span>
                             <div class="dropdown-content dropdown-content-position ">
                                <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">View</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Edit</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Send Invite</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Reset Password</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Delete</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Assign/Issue</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Validate</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Activate</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Remove License</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Destroy License</p>
                             </div>
                          </div>
                       </span>
@@ -142,10 +145,11 @@
                             </span>
                             <div class="dropdown-content dropdown-content-position ">
                                <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">View</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Edit</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Send Invite</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Reset Password</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Delete</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Assign/Issue</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Validate</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Activate</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Remove License</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Destroy License</p>
                             </div>
                          </div>
                       </span>
@@ -167,10 +171,11 @@
                             </span>
                             <div class="dropdown-content dropdown-content-position ">
                                <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">View</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Edit</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Send Invite</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Reset Password</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Delete</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Assign/Issue</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Validate</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Activate</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Remove License</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Destroy License</p>
                             </div>
                          </div>
                       </span>
@@ -192,10 +197,11 @@
                             </span>
                             <div class="dropdown-content dropdown-content-position ">
                                <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">View</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Edit</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Send Invite</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Reset Password</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Delete</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Assign/Issue</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Validate</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Activate</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Remove License</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Destroy License</p>
                             </div>
                          </div>
                       </span>
@@ -217,10 +223,11 @@
                             </span>
                             <div class="dropdown-content dropdown-content-position ">
                                <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">View</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Edit</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Send Invite</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Reset Password</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Delete</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Assign/Issue</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Validate</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Activate</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Remove License</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Destroy License</p>
                             </div>
                          </div>
                       </span>
@@ -242,10 +249,11 @@
                             </span>
                             <div class="dropdown-content dropdown-content-position ">
                                <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">View</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Edit</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Send Invite</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Reset Password</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Delete</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Assign/Issue</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Validate</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Activate</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Remove License</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Destroy License</p>
                             </div>
                          </div>
                       </span>
@@ -267,10 +275,11 @@
                             </span>
                             <div class="dropdown-content dropdown-content-position ">
                                <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">View</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Edit</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Send Invite</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Reset Password</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Delete</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Assign/Issue</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Validate</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Activate</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Remove License</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Destroy License</p>
                             </div>
                          </div>
                       </span>
@@ -292,10 +301,11 @@
                             </span>
                             <div class="dropdown-content dropdown-content-position ">
                                <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">View</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Edit</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Send Invite</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Reset Password</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Delete</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Assign/Issue</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Validate</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Activate</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Remove License</p>
+                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Destroy License</p>
                             </div>
                          </div>
                       </span>
