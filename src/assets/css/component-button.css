@@ -60,16 +60,18 @@
     border-left:none;
     border-right:none;
     border-bottom: solid;
-    border-color: white;
+    border-color: transparent;
     padding-top: 7px;
     padding-bottom:15px;
     margin-left:12px;
     margin-right: 12px;
+    background-color: transparent;
   }
 
   .button-tab:hover{
     border-bottom:solid;
     border-color: var(--vt-c-marjorelle-blue);
+    color: var(--vt-c-black);
   }
   /* button Template  */
   /* badge Templates  */
@@ -95,6 +97,7 @@
     font-weight: 400;
     font-size: var(--c-size-13px);
     font-weight: 700;
+    font-style: normal;
     line-height: var(--c-size-15px);
     text-align: center;
     padding-top: var(--c-size-7px);

@@ -87,7 +87,7 @@
   }
   .icon-size-weight{
     font-size: var(--c-size-24px);
-    font-weight: bold;
+    font-weight: bolder;
   }
  
 /* custom-sizes  */

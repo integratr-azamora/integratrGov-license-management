@@ -68,6 +68,9 @@
   /* bg Colors  */
 
   /* font Colors */
+  .color-black{
+    color: var(--vt-c-black);
+  }
   .color-indigo{
     color: var(--vt-c-indigo);
   }

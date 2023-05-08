@@ -14,7 +14,7 @@
                      <!-- inputbox1  -->
                      <div class="input-group mb-3 size-inputbox ">
                         <form class="form-floating ">
-                           <input type="text" class="default-password form-control " id="floatingPassword" placeholder="Default Password Field" value="Dropdown Field">
+                           <input type="text" class="default-password form-control " id="floatingPassword" placeholder="Default Password Field" value="Input Field">
                               <label for="floatingPassword">label</label>
                         </form>
                      </div>
@@ -22,8 +22,8 @@
                      <!-- inputbox2  -->
                      <div class="input-group mb-3 size-inputbox ">
                         <form class="form-floating ">
-                           <input type="text" class="default-password form-control " id="floatingPassword" placeholder="Default Password Field" value="Dropdown Field">
-                              <i class="icon isax isax-eye icon-position-nolabel size-icon-24px" ></i>
+                           <input type="password" class="default-password form-control color-dimgray" id="floatingPassword" placeholder="Default Password Field" value="Password">
+                              <i class="icon isax isax-eye icon-position-nolabel size-icon-24px color-dimgray" ></i>
                               <label for="floatingPassword">label</label>
                         </form>
                      </div>
@@ -31,8 +31,8 @@
                      <!-- inputbox3  -->
                      <div class="input-group mb-3 size-inputbox ">
                         <form class="form-floating">
-                           <input type="text" class="default-password form-control" id="floatingPassword" placeholder="Default Password Field" value="Dropdown Field">
-                              <i class="icon isax isax-eye-slash icon-position-nolabel size-icon-24px" ></i>
+                           <input type="password" class="default-password form-control color-dimgray" id="floatingPassword" placeholder="Default Password Field" value="Password">
+                              <i class="icon isax isax-eye-slash icon-position-nolabel size-icon-24px color-dimgray" ></i>
                               <label for="floatingPassword">label</label>
                         </form>
                      </div>
@@ -49,8 +49,7 @@
                   <!-- inputbox2  -->
                   <div class="input-group mb-3 size-inputbox ">
                         <form class="form-floating border-color-englishvermillion border-round-4px">
-                           <input type="text" class="default-password form-control bg-lavender-bush " id="floatingPassword" placeholder="Default Password Field" value="Dropdown Field">
-                              <i class="icon isax isax-eye icon-position-nolabel size-icon-24px" ></i>
+                           <input type="text" class="default-password form-control bg-lavender-bush " id="floatingPassword" placeholder="Input Field" value="Input Field">
                               <label for="floatingPassword">label</label>
                         </form>
                      </div>
@@ -58,7 +57,7 @@
                      <!-- inputbox3  -->
                      <div class="input-group mb-3 size-inputbox ">
                         <form class="form-floating border-color-englishvermillion border-round-4px">
-                           <input type="text" class="default-password form-control bg-lavender-bush" id="floatingPassword" placeholder="Default Password Field" value="Dropdown Field">
+                           <input type="password" class="default-password form-control bg-lavender-bush" id="floatingPassword" placeholder="Default Password Field" value="Dropdown Field">
                               <i class="icon isax isax-eye-slash icon-position-nolabel size-icon-24px" ></i>
                               <label for="floatingPassword">label</label>
                         </form>
@@ -136,7 +135,7 @@
                      </div>
                      <!-- inputbox6  -->
                         <div class="shadow-sm size-inputbox">
-                        <i class="isax isax-search-normal-1 ps-10px size-icon"></i>
+                        <i class="isax isax-search-normal-1 ps-10px size-icon  ms-1"></i>
                         <input class="input-field  p-3 outline-none border-color-none size-inputbox-search" type="text" placeholder="Search">
                         </div>
                      <!-- inputbox6  -->

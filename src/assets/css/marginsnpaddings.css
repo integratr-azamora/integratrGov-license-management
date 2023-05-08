@@ -101,6 +101,9 @@
   padding-right: 1.25rem !important;
   padding-left: 1.25rem !important;
 }
+.ps-16px{
+  padding-left: 1rem;
+}
 .ps-20px{
   padding-left: 1.25rem !important;
 }
@@ -125,6 +128,10 @@
 .py-10{
     padding-top: var(--c-size-10px);
     padding-bottom: var(--c-size-10px);
+}
+.py-14px{
+  padding-top: var(--c-size-14px);
+  padding-bottom: var(--c-size-14px);
 }
 .p-header-20px{
     padding-top: var(--c-size-20px);

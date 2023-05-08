@@ -83,9 +83,9 @@
                 <i class="isax isax-arrow-left-24 icon-button-round-24px"></i>
                 <p>Previous</p>
              </button>
-             <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10 mx-10 my-20">1</button>
-             <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 mx-10 my-20">2</button>
-             <button class="button-pagination bg-none color-indigo border-color-none mb-2 d-flex flex-row">
+             <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10 mx-10 ">1</button>
+             <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 mx-10 ">2</button>
+             <button class="button-pagination bg-none color-indigo border-color-none d-flex flex-row">
                 <p>Next</p>
                 <i class="isax isax-arrow-right-34 icon-button-round-24px"></i>
              </button>
@@ -256,10 +256,10 @@
        <!-- row10 -->
        <div class="d-flex flex-row">
           <button class="button-pagination bg-none color-dimgray border-color-none"><i class="isax isax-arrow-left-24 icon-button-round-24px"></i></button>
-          <button class="button-pagination bg-none color-dimgray border-color-none mb-2">Previous</button>
-          <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10 mx-10 my-20">1</button>
-          <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 mx-10 my-20">2</button>
-          <button class="button-pagination bg-none color-indigo border-color-none mb-2">Next</button>
+          <button class="button-pagination bg-none color-dimgray border-color-none">Previous</button>
+          <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10 mx-10 ">1</button>
+          <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 mx-10 ">2</button>
+          <button class="button-pagination bg-none color-indigo border-color-none">Next</button>
           <button class="button-pagination bg-none color-indigo border-color-none"><i class="isax isax-arrow-right-34 icon-button-round-24px"></i></button>
        </div>
        <!-- row10 -->
@@ -277,7 +277,7 @@
              <input class="form-check-input size-square-24" type="checkbox" value="" id="flexCheckDefault" checked>
              <label class="form-check-label" for="flexCheckDefault"></label>
           </div>
-          <div class="form-check m-2">
+          <div class="form-check m-2"></div>
              <input class="form-check-input size-square-24" type="checkbox" value="" id="flexCheckDefault">
              <label class="form-check-label" for="flexCheckDefault"></label>
           </div>
@@ -286,8 +286,8 @@
              <button class="button-round bg-none color-purpleheart border-color-none "><i class="isax isax-edit-25 icon-button-round-24px"></i></button>
              <button class="button-round bg-none color-dimgray border-color-none "><i class="isax isax-edit-25 icon-button-round-24px"></i></button>
           </div>
-          <button class="border-b-color-indigo bg-none border-color-none m-3">Tab 1</button>
-          <button class="bg-none color-dimgray border-color-none m-3">Tab 1</button>
+          <button class="button-tab m-3">Tab 1</button>
+          <button class="button-tab m-3">Tab 1</button>
           <div class="form-check m-2">
              <input class="form-check-input bg-dimgray border-color-none size-square-24" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
              <label class="form-check-label " for="flexRadioDefault1"></label>

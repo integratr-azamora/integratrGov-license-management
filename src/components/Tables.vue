@@ -36,7 +36,7 @@
                   <!-- table Header Row4 Col1 -->
                   <div class="d-flex flex-row">
                      <div class="shadow-sm  ">
-                        <i class="isax isax-search-normal-1 ps-2 table-inputbox-icon-size"></i>
+                        <i class="isax isax-search-normal-1  table-inputbox-icon-size ps-16px py-14py"></i>
                         <input class="input-field border-color-none p-3 outline-none table-inputbox-size" type="text" placeholder="Search" name="usrnm">
                      </div>
                      <!-- table Header Row4 Col2 -->
@@ -152,17 +152,20 @@
                      <p class=" ms-20px ">Show</p>
                      <!-- text  -->
                      <!-- button  -->
-                     <button class="button-default bg-none color-indigo border-color-indigo button-default-margin-none">10 rows</button>
+                     <button class="button-default bg-none color-indigo border-color-indigo d-flex flex-row ">
+                        <p class="me-2">10 rows</p>
+                        <i class="isax isax-arrow-down-1 icon-size-weight"></i>
+                     </button>
                      <!-- button  -->
                   </div>
                      
                   
                   <!-- pagination  -->
-                  <div class="d-flex flex-row">
+                  <div class="d-flex  align-items-center">
                      <button class="button-pagination bg-none color-dimgray border-color-none"><i class="isax isax-arrow-left-24 icon-button-round-24px"></i></button>
                      <button class="button-pagination bg-none color-dimgray border-color-none ">Previous</button>
-                     <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10 mx-10">1</button>
-                     <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 mx-10 ">2</button>
+                     <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10">1</button>
+                     <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 ">2</button>
                      <button class="button-pagination bg-none color-indigo border-color-none ">Next</button>
                      <button class="button-pagination bg-none color-indigo border-color-none"><i class="isax isax-arrow-right-34 icon-button-round-24px"></i></button>
                   </div>

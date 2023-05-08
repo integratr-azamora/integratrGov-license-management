@@ -12,17 +12,25 @@
     border-color: var(--vt-c-black);             
 }
 
-.inter{
+.font-inter-24px-700{
     font-family: 'Inter', sans-serif;
     font-style: normal;
+    font-size: 20px;
     font-weight: 700;
-    font-size: 24px;
     line-height: 29px;
     display: flex;
     align-items: center; 
-
 }
-.h1{
+.font-inter-24px{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 29px;
+    display: flex;
+    align-items: center; 
+}
+
+.font-gotham-h1{
     font-family: 'Gotham', sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -32,7 +40,7 @@
     align-items: center;
 }
 
-.h2{
+.font-gotham-h2{
     font-family: 'Gotham', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -41,7 +49,7 @@
     display: flex;
     align-items: center;
 }
-.h3{
+.font-gotham-h3{
     font-family: 'Gotham', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -49,6 +57,21 @@
     line-height: 18px;    
     display: flex;
     align-items: center;
+}
+
+.font-gotham-body-16px{
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+}
+.font-gotham-body-14px{
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
 }
 
 .font-style-inter{
@@ -190,4 +213,7 @@
     align-items: center;
     color: #000000;
     border-color: var(--vt-c-black);             
+}
+.font-weight-bold{
+    font-weight: bold;
 }
