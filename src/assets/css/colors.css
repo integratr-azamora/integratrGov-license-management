@@ -1,0 +1,227 @@
+/* bg Colors  */
+.bg-default-red{
+    background: #DB524E;
+  }
+  .bg-clickhover-red{
+    background: #C2423E;
+  }
+  .bg-indigo{
+    background-color: var(--vt-c-indigo);
+  }
+  .bg-purpleheart{
+    background-color: var(--vt-c-purple-heart);
+  }
+  .bg-darkgray{
+    background-color: var(--vt-c-dark-gray);
+  }
+  .bg-dimgray{
+    background-color: var(--vt-c-dim-gray);
+  }
+  .bg-frenchskyblue{
+    background-color: var(--vt-c-frenchsky-blue);
+  }
+  .bg-cornflowerblue{
+    background-color: var(--vt-c-cornflower-blue);
+  }
+  .bg-ghostwhite{
+    background-color: var(--vt-c-ghost-white);
+  }
+  .bg-lightlavender{
+    background-color: var(--vt-c-light-lavender);
+  }
+  .bg-eucalyptus{
+    background-color: var(--vt-c-eucalyptus);
+  }
+  .bg-valencia{
+    background-color: var(--vt-c-valencia);
+  }
+  .bg-darkvalencia{
+    background-color: var(--vt-c-dark-valencia);
+  }
+  .bg-lavenderweb{
+    background-color: var(--vt-c-lavender-web);
+  }
+  .bg-palelavender{
+    background-color: var(--vt-c-pale-lavender);
+  }
+  .bg-mistyrose{
+    background-color: var(--vt-c-misty-rose);
+  }
+  .bg-champagnepink{
+    background-color: var(--vt-c-champagne-pink);
+  }
+  .bg-chinesegreen{
+    background-color: var(--vt-c-chinese-green);
+  }
+  .bg-columbiagreen{
+    background-color: var(--vt-c-columbia-green);
+  }
+  .bg-platinum{
+  background-color: var(--vt-c-platinum);
+  }
+  .bg-lavender-bush{
+    background-color: var(--vt-c-lavender-bush);
+  }
+  .bg-none{
+    background-color: transparent;
+  }
+  /* bg Colors  */
+
+  /* font Colors */
+  .color-indigo{
+    color: var(--vt-c-indigo);
+  }
+  .color-white{
+    color: var(--vt-c-white);
+  }
+  .color-purpleheart{
+    color: var(--vt-c-purple-heart);
+  }
+  .color-dimgray{
+    color: var(--vt-c-dim-gray);
+  }
+  .color-frenchskyblue{
+    color: var(--vt-c-frenchsky-blue);
+  }
+  .color-ghostwhite{
+    color: var(--vt-c-ghost-white);
+  }
+  .color-darkgray{
+    color: var(--vt-c-dark-gray);
+  }
+  .color-venitianred{
+    color:var(--vt-c-venitian-red);
+  }
+  .color-seagreen{
+    color: var(--vt-c-sea-green);
+  }
+  /* font Colors */
+
+  /* border Colors */
+  .border-color-indigo{
+    border-style: solid;
+    border-color: var(--vt-c-indigo);
+  }
+  .border-color-purpleheart{
+    border-style: solid;
+    border-color: var(--vt-c-purple-heart);
+  }
+  .border-color-dimgray{
+    border-style: solid;
+    border-color: var(--vt-c-dim-gray);
+  }
+  .border-color-frenchskyblue{
+    border-style: solid;
+    border-color: var(--vt-c-frenchsky-blue);
+  }
+  .border-color-cornflowerblue{
+    border-style: solid;
+    border-color: var(--vt-c-cornflower-blue);
+  }
+  .border-color-ghostwhite{
+    border-style: solid;
+    border-color: var(--vt-c-ghost-white);
+  }
+  .border-color-lightlavender{
+    border-style: solid;
+    border-color: var(--vt-c-light-lavender);
+  }
+  .border-color-eucalyptus{
+    border-style: solid;
+    border-color: var(--vt-c-eucalyptus);
+  }
+  .border-color-valencia{
+    border-style: solid;
+    border-color: var(--vt-c-valencia);
+  }
+  .border-color-darkvalencia{
+    border-style: solid;
+    border-color: var(--vt-c-dark-valencia);
+  }
+  .border-color-lightlavender{
+    border-style: solid;
+    border-color: var(--vt-c-light-lavender);
+  }
+  .border-color-palelavender{
+    border-style: solid;
+    border-color: var(--vt-c-pale-lavender);
+  }
+  .border-color-lavenderweb{
+    border-style: solid;
+    border-color: var(--vt-c-lavender-web);
+  }
+  .border-color-mistyrose{
+    border-style: solid;
+    border-color: var(--vt-c-misty-rose);
+  }
+  .border-color-champagnepink{
+    border-style: solid;
+    border-color: var(--vt-c-champagne-pink);
+  }
+  .border-color-chinesegreen{
+    border-style: solid;
+    border-color: var(--vt-c-chinese-green);
+  }
+  .border-color-columbiagreen{
+    border-style: solid;
+    border-color: var(--vt-c-columbia-green);
+  }
+  .border-color-platinum{
+    border-style: solid;
+    border-color: var(--vt-c-platinum);
+  }
+  .border-color-englishvermillion{
+    border-style: solid;
+    border-color: var(--vt-c-english-vermillion);
+    border-width: thin;
+  }
+  .border-b-color-indigo{
+    border-bottom:solid var(--vt-c-indigo);
+  }
+  .border-color-dashed-frenchskyblue{
+    border-style: dashed;
+    border-color: var(--vt-c-frenchsky-blue);
+  }
+  .border-color-dashed-indigo{
+    border-style: dashed;
+    border-color: var(--vt-c-indigo);
+  }
+  .border-color-none{
+    border-style: none;
+  }
+  
+  /* border Colors */
+
+/* random */
+  .bg-inputbox-Error{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-error-rgb), var(--bs-bg-opacity)) !important;
+  }
+  .bg-red{
+    background-color: #DB524E;
+  }
+  .color-red{
+    color:#DB524E;
+  }
+  .color-table-button{
+    background: #F3F6FF;
+  }
+  .color-table-button-text{
+    color: #7E9FFF;
+  }
+  .color-table-pagination-text{
+    color:#6E41E2;
+    font-style: normal;
+    font-weight:200;
+    font-size: 16px;
+  }
+  .color-component-default-bg{
+    background: var(--vt-c-indigo);
+  }
+  .color-component-default-text{
+    color: var(--vt-c-white);
+  }
+  .color-component-disabled-bg{
+    background-color: var(--vt-c-dim-gray);
+  }
+/* random */
