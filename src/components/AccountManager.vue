@@ -28,6 +28,7 @@
        <!-- table Header Row7 -->
        <!-- table Header  -->
        <!-- table Body  -->
+       
        <div class="table-responsive shadow-sm " >
           <table class="table  table-striped table-hover font-table-text" >
              <thead >
@@ -43,7 +44,7 @@
              <tbody class="border rounded-1">
                 <!-- row1  -->
                 <tr class="size-table-tabledata column border-rouded-5px ">
-                   <td class="text-start px-20px p-3">Juan dela Cruz</td>
+                   <td class="text-start px-20px p-3">Juan dela Crussz</td>
                    <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px p-3">Pasig City</td>
@@ -230,7 +231,7 @@
                             <span>
                             <i class="isax isax-more"></i>
                             </span>
-                            <div class="dropdown-content dropdown-content-position ">
+                            <div class="dropdown-content dropdown-content-position">
                                <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">View</p>
                                <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Edit</p>
                                <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Send Invite</p>
@@ -290,3 +291,13 @@
        </div>
     </div>
  </template>
+
+<script>
+export default {
+   data() {
+      return {
+         is_check: false
+      }
+   }
+}
+</script>
