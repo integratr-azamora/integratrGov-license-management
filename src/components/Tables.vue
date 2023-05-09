@@ -150,7 +150,6 @@
                      <button class="button-pagination bg-none color-dimgray border-color-none ">Previous</button>
                      <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10">1</button>
                      <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 ">2</button>
-                     <button class="button-pagination bg-none color-dimgray border-color-none"><i class="isax isax-more icon-button-round-24px"></i></button>
                      <button class="button-pagination bg-none color-indigo border-color-none ">Next</button>
                      <button class="button-pagination bg-none color-indigo border-color-none"><i class="isax isax-arrow-right-34 icon-button-round-24px"></i></button>
                   </div>
