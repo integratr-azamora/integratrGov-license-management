@@ -41,9 +41,9 @@
                      </div>
                      <!-- table Header Row4 Col2 -->
                      <div class="ms-20px">
-                        <button type="button" class=" size-table-filter color-table-button bor-style-none shadow-sm color-table-button-text">
+                        <button type="button" class=" size-table-filter color-table-button bor-style-none shadow-sm color-table-button-text d-flex align-items-center justify-content-center">
                            <i class="isax isax-filter-search size-icon-24px me-1"></i>
-                           <span class="">Filter</span>
+                           <span class="ms-12px">Filter</span>
                         </button>
                      </div>
                      <!-- table Header Row4 Col2 -->
@@ -57,33 +57,17 @@
                   <div class=" size-box-20"></div>
                   <!-- px box  -->
                </div>
-               <!-- table Header Row5 -->
-               <!-- table Header Row6 -->
-               <div class="bor-style-solid d-flex flex-row px-20px mb-10px">
-                   <!-- col1  -->
-                   <div>
-                      <span class="font-table-column" > Column <i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></span>
-                   </div>
-                   <!-- col1  -->
-                   <!-- col2  -->
-                   <div>
-                      <span class="font-table-column margin-left-165px"> Column <i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></span>
-                   </div>
-                   <!-- col2  -->
-                   <!-- col3  -->
-                   <div>
-                      <span class="font-table-column margin-left-165px"> Column <i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></span>
-                   </div>
-                   <!-- col3  -->
-                </div>
-               <!-- table Header Row6 -->
-               <!-- table Header Row7 -->
-               <!-- table Header Row7 -->
-               <!-- table Header  -->
                <!-- table Body  -->
-               <div class="table-responsive border border rounded-1 shadow-sm " >
-                  <table class="table table-striped table-hover font-table-text" >
-                     <tbody>
+               <div class="table-responsive border border rounded-1 shadow-sm border-color-none" >
+                  <table class="table table-striped table-hover font-table-text " >
+                     <thead >
+                        <tr > 
+                           <th class="text-start px-20px p-3 font-table-column border-rouded-left-5px">Column<i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></th>
+                           <th class="text-start px-20px p-3 font-table-column">Column<i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></th>
+                           <th class="text-start px-20px p-3 font-table-column">Column<i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></th>
+                        </tr>
+                     </thead>
+                     <tbody class="border rounded-1">
                         <!-- row1  -->
                         <tr class="size-table-tabledata column">
                            <td class="text-start px-20px p-3">Text</td>
@@ -166,6 +150,7 @@
                      <button class="button-pagination bg-none color-dimgray border-color-none ">Previous</button>
                      <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10">1</button>
                      <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 ">2</button>
+                     <button class="button-pagination bg-none color-dimgray border-color-none"><i class="isax isax-more icon-button-round-24px"></i></button>
                      <button class="button-pagination bg-none color-indigo border-color-none ">Next</button>
                      <button class="button-pagination bg-none color-indigo border-color-none"><i class="isax isax-arrow-right-34 icon-button-round-24px"></i></button>
                   </div>

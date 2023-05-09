@@ -190,7 +190,7 @@
     border-color: var(--vt-c-indigo);
   }
   .border-color-none{
-    border-style: none;
+    border-style: none !important;
   }
   
   /* border Colors */

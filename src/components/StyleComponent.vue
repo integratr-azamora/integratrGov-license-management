@@ -1,5 +1,5 @@
 <template>
-    <div class="d-flex flex-column bor-style-solid">
+    <div class="d-flex flex-column bor-style-solid container" >
        <div class="container bor-style-solid">
           Components: Users
        </div>
@@ -266,12 +266,12 @@
        <!-- row11  -->
        <div class="d-flex flex-row align-items-center">
           <div class=" mt-1">
-             <input type="checkbox"  id="check1" class="toggle" >
-             <label for="check1"></label>
+             <input type="checkbox"  id="check3" class="toggle" >
+             <label for="check3"></label>
           </div>
           <div class="mt-1">
-             <input type="checkbox"  id="check2" class="toggle" checked>
-             <label for="check2"></label>
+             <input type="checkbox"  id="check4" class="toggle" checked>
+             <label for="check4"></label>
           </div>
           <div class="form-check m-2">
              <input class="form-check-input size-square-24" type="checkbox" value="" id="flexCheckDefault" checked>
@@ -304,11 +304,11 @@
        <!-- row11 -->
        Badge(Assessment)
        <div class="d-flex flex-row">
-          <div class="badge-pill bg-dimgray color-white border-color-dimgray">Unassigned</div>
-          <div class="badge-pill bg-indigo color-white border-color-indigo">In Progress</div>
-          <div class="badge-pill bg-frenchskyblue color-white border-color-frenchskyblue">Pre-Approved</div>
-          <div class="badge-pill bg-valencia color-white border-color-valencia">Denied</div>
-          <div class="badge-pill bg-eucalyptus color-white border-color-eucalyptus">Approved</div>
+          <div class="badge-pill bg-dimgray color-white border-color-dimgray ">Unassigned </div>
+          <div class="badge-pill bg-indigo color-white border-color-indigo"> In Progress </div>
+          <div class="badge-pill bg-frenchskyblue color-white border-color-frenchskyblue">Pre-Approved </div>
+          <div class="badge-pill bg-valencia color-white border-color-valencia">Denied </div>
+          <div class="badge-pill bg-eucalyptus color-white border-color-eucalyptus">Approved </div>
        </div>
        Badge(Payment)
        <div class="d-flex flex-row">

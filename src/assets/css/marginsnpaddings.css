@@ -8,6 +8,9 @@
   }
 /* margin  */
 /* margin-start  */
+.ms-12px{
+  margin-left:var(--c-size-7px);
+}
 .ms-20px{
     margin-left: 1.25rem !important;
   }
