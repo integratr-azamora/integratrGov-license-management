@@ -7,6 +7,7 @@ import Typography from '../components/Typography.vue';
 import StyleComponent from '../components/StyleComponent.vue';
 import AccountManager from '../components/AccountManager.vue';
 import LicenseManger from '../components/LicenseManger.vue';
+import LicensekeyIssue from '../components/Licensekey-Issue.vue';
 </script>
 
 <template>
@@ -14,11 +15,14 @@ import LicenseManger from '../components/LicenseManger.vue';
       <LicenseManger/>
       <AccountManager/>
       <InputBox />
+      <Components />
+       <Buttons />
       <Tables />
       <StyleComponent/> 
       <div class="mt-5"></div>
       <Iconography/>
       <Modal/>
       <Typography/>
+      <LicensekeyIssue/>  
   </main>
 </template>

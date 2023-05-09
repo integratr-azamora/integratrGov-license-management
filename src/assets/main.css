@@ -11,6 +11,7 @@
 @import './css/colors.css';
 @import './css/transform.css';
 
+@import './/css/licensekey-issue.css';
 
 @font-face {
   font-family: 'Poppins';
@@ -54,5 +55,18 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Inter-ExtraBold';
+  src: url(../assets/font_styles/Inter-ExtraBold.ttf) format(truetype); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins-ExtraBold';
+  src: url(../assets/font_styles/Poppins-ExtraBold.ttf) format(truetype); 
+  font-weight: normal;
+  font-style: normal;
+}
 
 

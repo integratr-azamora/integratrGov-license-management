@@ -1,68 +1,68 @@
 <template>
    <div class="container bor-style-solid-perma container2" >
-        <div class="bor-bottom row justify-content-center">
-         <p class="colors m-1 border-bottom-1">Colors</p>
+      <div class="row justify-content-center">
+         <p class="colors fw-bold border-bottom-1 mb-2 p-3">Colors</p>
       </div>
       <div class="row ">
          <div class="d-flex justify-content-start">
             <!-- color1  -->
             <div class="colors-font">
-               <div class="color1 square-colors-size"></div>
-               <p class="fw-bold">#FFFFFF</p>
+               <div class="bg-white square-colors-size shadow-sm"></div>
+               <p class="fw-bold p-1">#FFFFFF</p>
             </div>
             <!-- color2  -->
             <div class="colors-font">
-               <div class="color2 square-colors-size"></div>
-               <p class="fw-bold">#6A00FF</p>
+               <div class="bg-indigo square-colors-size shadow-sm"></div>
+               <p class="fw-bold p-1">#6A00FF</p>
             </div>
             <!-- color3  -->
             <div class="colors-font">
-               <div class="color3 square-colors-size"></div>
-               <p class="fw-bold">#000000</p>
+               <div class="bg-black square-colors-size shadow-sm"></div>
+               <p class="fw-bold p-1">#000000</p>
             </div>
          </div>
          <div class="d-flex justify-content-start">
             <!-- color4  -->
             <div class="colors-font">
-               <div class="color4 square-colors-size"></div>
-               <p class="fw-bold">#F3F6FF</p>
+               <div class="bg-ghostwhite square-colors-size shadow-sm"></div>
+               <p class="fw-bold p-1">#F3F6FF</p>
             </div>
             <!-- color5  -->
             <div class="colors-font">
-               <div class="color5 square-colors-size"></div>
-               <p class="fw-bold">#C6C7F9</p>
+               <div class="bg-lavenderblue square-colors-size shadow-sm"></div>
+               <p class="fw-bold p-1">#C6C7F9</p>
             </div>
             <!-- color6  -->
             <div class="colors-font">
-               <div class="color6 square-colors-size"></div>
-               <p class="fs-16 fw-bold">#7E9FFF</p>
+               <div class="bg-frenchskyblue square-colors-size shadow-sm"></div>
+               <p class="fw-bold p-1">#7E9FFF</p>
             </div>
             <!-- color7  -->
             <div class="colors-font">
-               <div class="color7 square-colors-size"></div>
-               <p class="fw-bold">#666666</p>
+               <div class="bg-darkgray square-colors-size shadow-sm"></div>
+               <p class="fw-bold p-1">#666666</p>
             </div>
          </div>
          <div class="d-flex justify-content-start">
             <!-- color8  -->
             <div class="colors-font">
-               <div class="color7 square-colors-size"></div>
-               <p class="fw-bold">#ACACAC</p>
+               <div class="bg-dimgray square-colors-size shadow-sm"></div>
+               <p class="fw-bold p-1">#ACACAC</p>
             </div>
             <!-- color9  -->
             <div class="colors-font">
-               <div class="color9 square-colors-size"></div>
-               <p class="fw-bold">#5500CD</p>
+               <div class="bg-purpleheart square-colors-size shadow-sm"></div>
+               <p class="fw-bold p-1">#5500CD</p>
             </div>
             <!-- color10  -->
             <div class="colors-font">
-               <div class="color10 square-colors-size"></div>
-               <p class="fw-bold">#27AE60</p>
+               <div class="bg-eucalyptus square-colors-size shadow-sm"></div>
+               <p class="fw-bold p-1">#27AE60</p>
             </div>
             <!-- color11  -->
             <div class="colors-font">
-               <div class="color11 square-colors-size"></div>
-               <p class="fw-bold">#DB524E</p>
+               <div class="bg-valencia square-colors-size shadow-sm"></div>
+               <p class="fw-bold p-1">#DB524E</p>
             </div>
          </div>
       </div>
@@ -70,8 +70,8 @@
    <br>
    <!-- ICONS -->
    <div class="container bor-style-solid-perma container3">
-      <div class="bor-bottom row justify-content-center">
-         <p class="iconography m-1 border-bottom-1">Iconography</p>
+      <div class="row justify-content-center">
+         <p class="iconography fw-bold border-bottom-1 mb-3 p-3">Iconography</p>
       </div>
       <div class="row ">
          <div class="d-flex justify-content-start">
@@ -125,15 +125,15 @@
          <!-- Row 4  -->
          <div class="d-flex justify-content-start">
             <!-- icon1  -->
-            <i class="icon-size isax isax-calendar-1"></i>
+            <i class="icon-size gray isax isax-calendar-1"></i>
             <!-- icon2  -->
-            <i class="icon-size isax isax-gps"></i>
+            <i class="icon-size gray isax isax-gps"></i>
             <!-- icon3  -->
             <i class="icon-size isax isax-import-1"></i>
             <!-- icon4  -->
             <i class="icon-size blue isax isax-message-text"></i>
             <!-- icon5  -->
-            <img src="../assets/icon/copy.svg" class="icon-size1" alt="copy">
+            <img src="../assets/icon/copy.svg" class="icon-size" alt="copy">
             <!-- icon6  -->
             <img src="../assets/icon/Up.svg" class="icon-size" alt="Fdown">
             <!-- icon7  -->
@@ -147,11 +147,11 @@
          </div>
          <!-- Row 5 -->
          <div class="d-flex justify-content-start">
-            <i class="icon-size isax isax-eye"></i>
+            <i class="icon-size gray isax isax-eye"></i>
             <!-- icon1  -->
-            <i class="icon-size isax isax-eye-slash"></i>
+            <i class="icon-size gray isax isax-eye-slash"></i>
             <!-- icon2  -->
-            <i class="icon-size isax isax-search-normal-1"></i>
+            <i class="icon-size gray isax isax-search-normal-1"></i>
             <!-- icon3  -->
             <i class="icon-size violet isax isax-link-21"></i>
             <!-- icon4  -->
@@ -218,7 +218,7 @@
             <img src="../assets/icon/File-3.svg" class="icon-size" alt="file3">
          </div>
          <!-- Row 10 -->   
-         <div class="d-flex justify-content-start">
+         <div class="d-flex justify-content-start mt-3">
             <!-- icon1  -->
             <img src="../assets/icon/info.svg" class="icon1" alt="info">
             <!-- icon2  -->
@@ -231,7 +231,7 @@
             <img src="../assets/icon/Subtract.svg" class="icon1" alt="info">
          </div>
          <!-- Row 11 -->    
-         <div class="d-flex justify-content-start">
+         <div class="d-flex justify-content-start mt-3">
             <!-- icon1  -->
             <img src="../assets/icon/favorite.svg" class="icon1" alt="info">
             <!-- icon2  -->
