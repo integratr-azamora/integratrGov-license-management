@@ -108,6 +108,11 @@
     left: 340px;
     bottom: 15px;
   }
+  .icon-position-gps{
+    position: absolute;
+    left: 366px;
+    bottom: 15px;
+  }
   .icon-position{
     position: absolute;
     left: 370px;
@@ -116,6 +121,11 @@
   .icon-position2{
     position: absolute;
     left: 370px;
+    bottom: 10px;
+  }
+  .icon-position-updown{
+    position: absolute;
+    left: 369px;
     bottom: 10px;
   }
   .icon-position3{

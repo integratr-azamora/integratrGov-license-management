@@ -49,19 +49,19 @@
                    <td class="text-start px-20px p-3">Pasig City</td>
                    <td class="text-start px-20px p-3">+63 9012345678</td>
                    <td class="text-end px-20px p-3">
-                      <span class="d-flex align-items-center justify-content-between">
+                      <span class="d-flex align-items-center">
                          <p >00000000000</p>
                          <div class="dropdown d-flex ms-20px">
                             <span>
                             <i class="isax isax-more"></i>
                             </span>
-                            <div class="dropdown-content dropdown-content-position ">
+                            <span class="dropdown-content dropdown-content-position ">
                                <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">View</p>
                                <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Edit</p>
                                <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Send Invite</p>
                                <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Reset Password</p>
                                <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Delete</p>
-                            </div>
+                            </span>
                          </div>
                       </span>
                    </td>
@@ -74,7 +74,7 @@
                    <td class="text-start px-20px p-3">ABC Smart Organization </td>
                    <td class="text-start px-20px p-3">+63 9012345678</td>
                    <td class="text-end px-20px p-3">
-                      <span class="d-flex align-items-center justify-content-between">
+                      <span class="d-flex align-items-center">
                          <p >00000000000</p>
                          <div class="dropdown d-flex ms-20px">
                             <span>
@@ -99,7 +99,7 @@
                    <td class="text-start px-20px p-3">Mariveles Bataan</td>
                    <td class="text-start px-20px p-3">+63 9012345678</td>
                    <td class="text-end px-20px p-3">
-                      <span class="d-flex align-items-center justify-content-between">
+                      <span class="d-flex align-items-center">
                          <p >00000000000</p>
                          <div class="dropdown d-flex ms-20px">
                             <span>
@@ -124,7 +124,7 @@
                    <td class="text-start px-20px p-3">Aztec Gov Agency</td>
                    <td class="text-start px-20px p-3">+63 9012345678</td>
                    <td class="text-end px-20px p-3">
-                      <span class="d-flex align-items-center justify-content-between">
+                      <span class="d-flex align-items-center">
                          <p >00000000000</p>
                          <div class="dropdown d-flex ms-20px">
                             <span>
@@ -149,7 +149,7 @@
                    <td class="text-start px-20px p-3">Aztec Gov Agency</td>
                    <td class="text-start px-20px p-3">+63 9012345678</td>
                    <td class="text-end px-20px p-3">
-                      <span class="d-flex align-items-center justify-content-between">
+                      <span class="d-flex align-items-center">
                          <p >00000000000</p>
                          <div class="dropdown d-flex ms-20px">
                             <span>
@@ -174,7 +174,7 @@
                    <td class="text-start px-20px p-3">Aztec Gov Agency</td>
                    <td class="text-start px-20px p-3">+63 9012345678</td>
                    <td class="text-end px-20px p-3">
-                      <span class="d-flex align-items-center justify-content-between">
+                      <span class="d-flex align-items-center">
                          <p >00000000000</p>
                          <div class="dropdown d-flex ms-20px">
                             <span>
@@ -199,7 +199,7 @@
                    <td class="text-start px-20px p-3">Aztec Gov Agency</td>
                    <td class="text-start px-20px p-3">+63 9012345678</td>
                    <td class="text-end px-20px p-3">
-                      <span class="d-flex align-items-center justify-content-between">
+                      <span class="d-flex align-items-center">
                          <p >00000000000</p>
                          <div class="dropdown d-flex ms-20px">
                             <span>
@@ -224,7 +224,7 @@
                    <td class="text-start px-20px p-3">Aztec Gov Agency</td>
                    <td class="text-start px-20px p-3">+63 9012345678</td>
                    <td class="text-end px-20px p-3">
-                      <span class="d-flex align-items-center justify-content-between">
+                      <span class="d-flex align-items-center">
                          <p >00000000000</p>
                          <div class="dropdown d-flex ms-20px">
                             <span>
@@ -249,7 +249,7 @@
                    <td class="text-start px-20px p-3">Aztec Gov Agency</td>
                    <td class="text-start px-20px p-3">+63 9012345678</td>
                    <td class="text-end px-20px p-3">
-                      <span class="d-flex align-items-center justify-content-between">
+                      <span class="d-flex align-items-center">
                          <p >00000000000</p>
                          <div class="dropdown d-flex ms-20px">
                             <span>
