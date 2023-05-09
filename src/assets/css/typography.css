@@ -9,20 +9,22 @@
     background: #FFFFFF;
     border: 1px solid #000000;
     border-radius: 4px;
-    border-color: var(--vt-c-black);             
+           
 }
-
-.inter{
-    font-family: 'Inter', sans-serif;
+/* gotham */
+.Inter-ExtraBold{
+    font-family: 'Inter-ExtraBold', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
-    line-height: 29px;
+    line-height: 29px;    
     display: flex;
-    align-items: center; 
+    align-items: center;
+    color: #000000;
 
 }
-.h1{
+
+.fontfamily-gotham-heading-1{
     font-family: 'Gotham', sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -32,7 +34,7 @@
     align-items: center;
 }
 
-.h2{
+.fontfamily-gotham-heading-2{
     font-family: 'Gotham', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -41,7 +43,7 @@
     display: flex;
     align-items: center;
 }
-.h3{
+.fontfamily-gotham-heading-3{
     font-family: 'Gotham', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -58,7 +60,9 @@
     display: flex;
     align-items: center;
     color: #000000;
-    border-color: var(--vt-c-black);             
+    border-color: var(--vt-c-black);    
+    padding-left: 20px; 
+    padding-right: 20px;
 }
 
 .body{
@@ -85,14 +89,15 @@
 
 /* .Roboto */
 .roboto-headings{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto-black', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
     display: flex;
-    align-items: center;    
+    align-items: center;  
 }
+
 .heading1 {
     font-family: 'Roboto-black', sans-serif;
     font-style: normal;
@@ -107,8 +112,9 @@
     line-height: 24px;
     display: flex;
     align-items: center;
-    color: #000000;
-    border-color: var(--vt-c-black);             
+    color: #000000 var(--vt-c-black); 
+    padding-left: 20px; 
+    padding-right: 20px;         
 }
 
 .heading2{
@@ -171,11 +177,13 @@
     border-color: var(--vt-c-black);     
 }
 /* poppins */
-.poppins-paragraph{
-    font-family: 'Poppins', sans-serif;  
+.Poppins-ExtraBold{
+    font-family: 'Poppins-ExtraBold', sans-serif;  
     font-size: 24px;
     color: #000000;
-    border-color: var(--vt-c-black);             
+    border-color: var(--vt-c-black);
+    font-weight: 700;
+    line-height: 36px;
 }
 
 .paragraph1{
@@ -189,5 +197,8 @@
     font-size: 20px;
     align-items: center;
     color: #000000;
-    border-color: var(--vt-c-black);             
+    border-color: var(--vt-c-black);   
+    padding-left: 20px; 
+    padding-right: 20px;          
 }
+

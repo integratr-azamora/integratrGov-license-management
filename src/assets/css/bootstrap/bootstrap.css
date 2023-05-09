@@ -7228,11 +7228,16 @@ textarea.form-control-lg {
   border-bottom: 0 !important;
 }
 .border-bottom-1 {
-  border-bottom: 3px solid;
+  border-bottom: 1px solid;
 }
 
 .border-top-1{
-  border-bottom: 3px solid;
+  border-top: 1px solid;
+}
+
+.border-top{
+  border-top: 3px solid;
+
 }
 .border-start {
   border-left: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
@@ -10926,6 +10931,7 @@ a{
   .bor-style-solid-perma{
     border-style: solid;
   }
+
   .bor-style-red{
     border-style: solid;
     border-color: red;
