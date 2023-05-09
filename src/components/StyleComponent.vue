@@ -215,8 +215,8 @@
        <!-- row6  -->
        <!-- row7  -->
        <div class="d-flex flex-row">
-          <button class="button-pill bg-mistyrose color-venitianred border-color-mistyrose">Default</button>
-          <button class="button-pill bg-champagnepink color-venitianred border-color-champagnepink">Click/Hover</button>
+          <button class="button-pill bg-mistyrose color-venitianred border-color-mistyrose d-flex flex-row"><i class="isax isax-add icon-size-weight"></i>Default</button>
+          <button class="button-pill bg-champagnepink color-venitianred border-color-champagnepink d-flex flex-row"><i class="isax isax-add icon-size-weight"></i>Click/Hover</button>
           <button class="button-pill bg-chinesegreen color-seagreen border-color-chinesegreen d-flex flex-row">
              <i class="isax isax-add icon-size-weight"></i>
              <p>Default</p>
