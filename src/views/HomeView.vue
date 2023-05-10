@@ -11,6 +11,7 @@ import LicensekeyIssue from '../components/Licensekey-Issue.vue';
 import AddAccount from '../components/AddAccount.vue';
 </script>
 
+
 <template>
   <main>
       <AddAccount/>
@@ -18,13 +19,13 @@ import AddAccount from '../components/AddAccount.vue';
       <AccountManager/>
       <InputBox />
       <Components />
-       <Buttons />
+      <Buttons />
       <Tables />
       <StyleComponent/> 
       <div class="mt-5"></div>
       <Iconography/>
       <Modal/>
       <Typography/>
-      <LicensekeyIssue/>  
+      <LicensekeyIssue/>
   </main>
 </template>

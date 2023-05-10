@@ -12,3 +12,6 @@
     width: 1.5rem;
     height: 2.75rem;
 }
+.border-top-none{
+    border-top-style: none;
+}

@@ -1,6 +1,6 @@
 <template>
    <div class=" ">
-      <div class="bor-style-solid-perma font-table-heading p-2">Table </div>
+      <div class="bor-style-solid-perma font-table-heading p-2 ">Table </div>
       <div class="d-flex justify-content-center ">
          
          <div class="bor-style-solid-perma  rounded-3 shadow-sm">
@@ -36,14 +36,14 @@
                   <!-- table Header Row4 Col1 -->
                   <div class="d-flex flex-row">
                      <div class="shadow-sm  ">
-                        <i class="isax isax-search-normal-1 ps-2 table-inputbox-icon-size"></i>
-                        <input class="input-field border-color-none p-3 outline-none table-inputbox-size" type="text" placeholder="Search" name="usrnm">
+                        <i class="isax isax-search-normal-1  table-inputbox-icon-size ps-16px py-14py"></i>
+                        <input class="input-field border-color-none p-3 outline-none table-inputbox-size inputbox-font" type="text" placeholder="Search" name="usrnm">
                      </div>
                      <!-- table Header Row4 Col2 -->
                      <div class="ms-20px">
-                        <button type="button" class=" size-table-filter color-table-button bor-style-none shadow-sm color-table-button-text">
-                           <i class="isax isax-filter-search size-icon-24px me-1"></i>
-                           <span class="">Filter</span>
+                        <button type="button" class=" size-table-filter color-table-button bor-style-none shadow-sm color-table-button-text d-flex align-items-center justify-content-center">
+                           <i class="isax isax-filter-search size-icon-24px me-1 "></i>
+                           <span class="ms-12px">Filter</span>
                         </button>
                      </div>
                      <!-- table Header Row4 Col2 -->
@@ -57,38 +57,17 @@
                   <div class=" size-box-20"></div>
                   <!-- px box  -->
                </div>
-               <!-- table Header Row5 -->
-               <!-- table Header Row6 -->
-               <div class="bor-style-solid d-flex flex-row px-20px">
-                   <!-- col1  -->
-                   <div>
-                      <span class="font-table-column" > Column <i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></span>
-                   </div>
-                   <!-- col1  -->
-                   <!-- col2  -->
-                   <div>
-                      <span class="font-table-column margin-left-165px"> Column <i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></span>
-                   </div>
-                   <!-- col2  -->
-                   <!-- col3  -->
-                   <div>
-                      <span class="font-table-column margin-left-165px"> Column <i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></span>
-                   </div>
-                   <!-- col3  -->
-                </div>
-               <!-- table Header Row6 -->
-               <!-- table Header Row7 -->
-               <div class="bor-style-solid d-flex flex-row px-20px">
-                  <!-- px box  -->
-                  <div class=" size-box-10 mt-2"></div>
-                  <!-- px box  -->
-               </div>
-               <!-- table Header Row7 -->
-               <!-- table Header  -->
                <!-- table Body  -->
-               <div class="table-responsive border border rounded-1 shadow-sm " >
-                  <table class="table table-striped table-hover font-table-text" >
-                     <tbody>
+               <div class="table-responsive rounded-1 shadow-sm  table-borderless" >
+                  <table class="table table-striped table-hover font-table-text " >
+                     <thead >
+                        <tr > 
+                           <th class="text-start px-20px p-3 font-table-column ">Column<i class="isax isax-arrow-down5 size-icon-table-arrow ms-2"></i></th>
+                           <th class="text-start px-20px p-3 font-table-column">Column<i class="isax isax-arrow-down5 size-icon-table-arrow ms-2"></i></th>
+                           <th class="text-start px-20px p-3 font-table-column">Column<i class="isax isax-arrow-down5 size-icon-table-arrow ms-2"></i></th>
+                        </tr>
+                     </thead>
+                     <tbody class="border rounded-1">
                         <!-- row1  -->
                         <tr class="size-table-tabledata column">
                            <td class="text-start px-20px p-3">Text</td>
@@ -157,19 +136,24 @@
                      <p class=" ms-20px ">Show</p>
                      <!-- text  -->
                      <!-- button  -->
-                     <button class="button-default bg-none color-indigo border-color-indigo button-default-margin-none">10 rows</button>
+                     <button class="button-default bg-none color-indigo border-color-indigo d-flex flex-row ">
+                        <p class="me-2">10 rows</p>
+                        <i class="isax isax-arrow-down-1 icon-size-weight"></i>
+                     </button>
                      <!-- button  -->
                   </div>
                      
                   
                   <!-- pagination  -->
-                  <div class="d-flex flex-row">
-                     <button class="button-pagination bg-none color-dimgray border-color-none"><i class="isax isax-arrow-left-24 icon-button-round-24px"></i></button>
-                     <button class="button-pagination bg-none color-dimgray border-color-none ">Previous</button>
-                     <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10 mx-10">1</button>
-                     <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 mx-10 ">2</button>
-                     <button class="button-pagination bg-none color-indigo border-color-none ">Next</button>
-                     <button class="button-pagination bg-none color-indigo border-color-none"><i class="isax isax-arrow-right-34 icon-button-round-24px"></i></button>
+                  <div class="d-flex  align-items-center">
+                     <button class="button-pagination bg-none color-dimgray border-color-none"><fa class="font-size-24px" icon="angle-left" /></button>
+                     <button class="button-pagination bg-none color-dimgray border-color-none margin-y-none">Previous</button>
+                     <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10">1</button>
+                     <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 ">2</button>
+                     <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 pt-20px"><fa class="fs-16px" icon="ellipsis" /></button>
+                     <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 ">100</button>
+                     <button class="button-pagination bg-none color-indigo border-color-none margin-y-none">Next</button>
+                     <button class="button-pagination bg-none color-indigo border-color-none"><fa class="font-size-24px" icon="angle-right" /></button>
                   </div>
                   <!-- pagination  -->
                </div>

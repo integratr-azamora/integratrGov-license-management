@@ -1,5 +1,5 @@
 @import './base.css';
-@import './css/bootstrap/bootstrap.css';
+/* @import './css/bootstrap/bootstrap.css'; */
 @import './vuesax.css';
 @import './css/component-button.css';
 @import './tables.css';
@@ -10,6 +10,10 @@
 @import './css/marginsnpaddings.css';
 @import './css/colors.css';
 @import './css/transform.css';
+@import '/node_modules/bootstrap/dist/css/bootstrap.css';
+@import './css/custom.css';
+
+
 @import './/css/licensekey-issue.css';
 @import './/css/AddAccount.css';
 

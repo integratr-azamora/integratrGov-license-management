@@ -60,7 +60,7 @@
   background-color: var(--vt-c-platinum);
   }
   .bg-lavender-bush{
-    background-color: var(--vt-c-lavender-bush);
+    background-color: var(--vt-c-lavender-bush) !important;
   }
   .bg-lavender-blue{
     background-color: var(--vt-c-lavender-blue)
@@ -71,6 +71,9 @@
   /* bg Colors  */
 
   /* font Colors */
+  .color-black{
+    color: var(--vt-c-black);
+  }
   .color-indigo{
     color: var(--vt-c-indigo);
   }
@@ -190,7 +193,7 @@
     border-color: var(--vt-c-indigo);
   }
   .border-color-none{
-    border-style: none;
+    border-style: none !important;
   }
   
   /* border Colors */
@@ -228,3 +231,9 @@
     background-color: var(--vt-c-dim-gray);
   }
 /* random */
+
+/* outline  */
+.outline-none:focus{
+  outline: none !important;
+}
+/* outline  */
