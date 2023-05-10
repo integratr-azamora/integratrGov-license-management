@@ -5,7 +5,7 @@ import './assets/vuesax.css';
 import './assets/main.css';
 import 'bootstrap';
 import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
-import '../node_modules/@fortawesome/fontawesome-free-6.4.0-web/css/all.css';
+
 
 // import './assets/js/bootstrap/bootstrap';
 
