@@ -1,0 +1,158 @@
+/* custom css  */
+
+a{
+    text-decoration:none !important; 
+  }
+  /* custom-Border-Styles  */
+    .bor-style-none{
+      border-style: none !important;
+    }
+    /* .bor-style-solid{
+      border-style: solid;
+    } */
+    .bor-style-solid-perma{
+      border-style: solid;
+    }
+  
+    .bor-style-red{
+      border-style: solid;
+      border-color: red;
+      border-width: thin;
+      border-radius: var(--bs-border-radius-sm) !important;
+    }
+    .bor-style-pagination{
+      border-color: #6E41E2;
+      border-style: solid;
+    }
+    .bor-style-admin{
+      border: 2px dashed #7E9FFF;
+    }
+    .bor-style-consumer{
+      border: 2px dashed #6E41E2;
+    }
+  /* custom-Border-Styles  */
+  
+  /* custom-table  */
+  .table-custom {
+    --bs-table-color: var(--bs-body-color);
+    --bs-table-bg: transparent;
+    --bs-table-border-color: var(--bs-border-color);
+    --bs-table-accent-bg: transparent;
+    --bs-table-striped-color: var(--bs-body-color);
+    --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+    --bs-table-active-color: var(--bs-body-color);
+    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+    --bs-table-hover-color: var(--bs-body-color);
+    --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+    width: 100%;
+    margin-bottom: 1rem;
+    color: var(--bs-table-color);
+    vertical-align: top;
+    border-color: var(--bs-table-border-color);
+  }
+  .table-border-dot{
+    height: 33.75rem; border-style: dotted !important;
+  }
+  /* custom-table  */
+  
+  /* custom-fonts  */
+  .font-tablename{
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+  }
+  .font-table-column{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .font-table-text{
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .font-table-pagination{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .font-table-heading{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .font-table-excess-color-size{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #6A00FF;
+  }
+  .font-table-excess-color-black{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+  }
+  .font-component-roboto-white-16px{
+    color: var(--vt-c-white);
+    font-family: var(--c-font-styles-roboto);
+    font-size: var(--c-font-size-16px);
+    text-align: center;
+  }
+  /* custom-fonts  */
+  /* custom css  */
+  
+  .table-overflow-size{
+    height:30.75rem;
+  }
+  /*# sourceMappingURL=bootstrap.css.map */
+  .text-align-left{
+  
+  }
+  .column {
+    flex: 50%;
+    padding: 5px;
+  }
+  .icon-position-nolabel{
+    position: absolute;
+    left: 340px;
+    bottom: 15px;
+  }
+  .icon-position{
+    position: absolute;
+    left: 370px;
+    bottom: 20px;
+  }
+  .icon-position2{
+    position: absolute;
+    left: 370px;
+    bottom: 10px;
+  }
+  .icon-position3{
+    position: absolute;
+    left: 380px;
+    bottom: 5px;
+  }
+  .icon-position-long{
+    position: absolute;
+     left: 810px;
+     bottom: 20px;
+  }
+  
+  .outline-none{
+    outline: 0;
+  }
+  
+  .border-round-4px{
+    border-radius: var(--c-size-4px);
+  }
+  p{
+    margin-bottom: 0px !important;
+  }

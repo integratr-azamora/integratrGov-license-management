@@ -5,10 +5,28 @@
     <link rel="icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/assets/vuesax.css">
+    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
     <title>Vite App</title>
   </head>
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
+    <script>
+      import fontawesome from "@fortawesome/fontawesome";
+      import brands from "@fortawesome/fontawesome-free-brands";
+      // import 1 icon if you just need this one. Otherwise you can import the whole module
+      import faSpinner from "@fortawesome/fontawesome-free-solid/faSpinner"; 
+      import FontAwesomeIcon from "@fortawesome/vue-fontawesome";
+
+      fontawesome.library.add(brands, faSpinner);
+      // or .add(brands, solid) if you need the whole solid style icons library/module
+
+      export default {
+        name: "App",
+        components: {
+          FontAwesomeIcon
+        }
+      };
+    </script>
   </body>
 </html>

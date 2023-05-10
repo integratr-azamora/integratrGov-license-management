@@ -75,3 +75,15 @@
     color: #666666;
     border-color: var(--vt-c-dim-gray);
 }
+
+
+.icon-size-svg{
+    width: 24px;
+    height: 24px;
+}
+.font-size-24px{
+    font-size:var(--c-size-24px);
+}
+.font-size-12px{
+    font-size:var(--c-size-12px);
+}

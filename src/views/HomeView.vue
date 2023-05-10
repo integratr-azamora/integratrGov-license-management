@@ -10,19 +10,20 @@ import LicenseManger from '../components/LicenseManger.vue';
 import LicensekeyIssue from '../components/Licensekey-Issue.vue';
 </script>
 
+
 <template>
   <main>
       <LicenseManger/>
       <AccountManager/>
       <InputBox />
       <Components />
-       <Buttons />
+      <Buttons />
       <Tables />
       <StyleComponent/> 
       <div class="mt-5"></div>
       <Iconography/>
       <Modal/>
       <Typography/>
-      <LicensekeyIssue/>  
+      <LicensekeyIssue/>
   </main>
 </template>

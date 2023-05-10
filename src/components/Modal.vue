@@ -1,7 +1,7 @@
 <template>
    <!-- con1 -->
    <br>
-   <div class="container container1" >
+   <div class=" container1 size-modal-container mx-auto" >
       <div class="modal-header">
          <hr>
          <div class="position-absolute top-0 end-0">
@@ -15,10 +15,10 @@
       <div id="info" class="text-center">
          <img src="../assets/icon/info.svg" class="center info2" alt="info">
       </div>
-      <div class="text-center">
-         <div class="modal-body">
-            <p class="font-style-roboto mt-1">Do you want to submit?</p>
-            <p class="font-style-gotham mt-1">You can always go back and update if there are any changes.</p>
+      <div class="text-center ">
+         <div class="modal-body text-center">
+            <p class="font-style-roboto mt-1 ">Do you want to submit?</p>
+            <p class="font-style-gotham mt-1 d-flex justify-content-center">You can always go back and update if there are any changes.</p>
          </div>
       </div>
       <div class="text-center mt-3">

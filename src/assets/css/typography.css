@@ -15,6 +15,7 @@
 .Inter-ExtraBold{
     font-family: 'Inter-ExtraBold', sans-serif;
     font-style: normal;
+    font-size: 20px;
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;    
@@ -51,6 +52,21 @@
     line-height: 18px;    
     display: flex;
     align-items: center;
+}
+
+.font-gotham-body-16px{
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+}
+.font-gotham-body-14px{
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
 }
 
 .font-style-inter{
@@ -130,6 +146,7 @@
 .heading3{
     font-family: 'Roboto', sans-serif;  
     font-size: 16px;
+    font-weight:400;
     line-height: 19px;
     display: flex;
     align-items: center;
@@ -197,8 +214,26 @@
     font-size: 20px;
     align-items: center;
     color: #000000;
+    
     border-color: var(--vt-c-black);   
     padding-left: 20px; 
     padding-right: 20px;          
 }
+.font-weight-bold{
+    font-weight: bold;
+}
 
+.inputbox-font{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.button-fonts{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
