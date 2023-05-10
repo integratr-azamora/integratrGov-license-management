@@ -1,7 +1,6 @@
 .container5{
     flex-direction: column;
     align-items: flex-start;
-    padding: 10px 0px;
     gap: 40px;
     position: relative;
     width: 707px;
@@ -9,7 +8,6 @@
     background: #FFFFFF;
     border: 1px solid #000000;
     border-radius: 4px;
-           
 }
 /* gotham */
 .Inter-ExtraBold{
@@ -18,10 +16,8 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;    
-    display: flex;
     align-items: center;
     color: #000000;
-
 }
 
 .fontfamily-gotham-heading-1{

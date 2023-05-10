@@ -1,209 +1,99 @@
 <template>
+   <!-- con1 -->
    <br>
-    <div class="container bor-style-solid-perma container5" >
-       <div class="container">
-         <div class="bor-bottom row justify-content-center">
-             <p class="Inter-ExtraBold fw-bold border-bottom-1 p-2"><b></b> Gotham</p>
-          </div>
-          <!-- heading1 -->
-          <div class="row">
-             <div class="col d-flex align-items-center">
-                <p class="fontfamily-gotham-heading-1 mt-4">Heading 1</p>
-             </div>
-             <div class="col">
-                <div class="row">
-                   <p class="font-style-inter mt-4 m-1"><b>Font size:</b>32px/2(em/rem)</p>
-                </div>
-                <div class="row">
-                   <p class="font-style-inter mt-1"><b>Font weight:</b>Bold</p>
-                </div>
-             </div>
-          </div>
-          <!-- heading 2 -->
-          <div class="row">
-             <div class="col d-flex align-items-center">
-                <p class="fontfamily-gotham-heading-2 mt-4">Heading 2</p>
-             </div>
-             <div class="col">
-                <div class="row">
-                   <p class="font-style-inter mt-3"><b>Font size:</b>24px/1.5(em/rem)</p>
-                </div>
-                <div class="row">
-                   <p class="font-style-inter mt-1"><b>Font weight:</b>Bold</p>
-                </div>
-             </div>
-          </div>
-          <!-- heading 3 -->
-          <div class="row">
-             <div class="col d-flex align-items-center">
-                <p class="fontfamily-gotham-heading-3 fw-bold mt-4">Heading 3</p>
-             </div>
-             <div class="col">
-                <div class="row">
-                   <p class="font-style-inter mt-3"><b>Font size:</b>16px/1(em/rem)</p>
-                </div>
-                <div class="row">
-                   <p class="font-style-inter mt-1"><b>Font weight:</b>Book</p>
-                </div>
-             </div>
-          </div>
-          <!--Body/Paragraph 4-->
-          <div class="row">
-             <div class="col d-flex align-items-center">
-                <p class="body fs-16 mt-4">Body/Paragraph</p>
-             </div>
-             <div class="col">
-                <div class="row">
-                   <p class="font-style-inter mt-3"><b>Font size:</b>16px/1(em/rem)</p>
-                </div>
-                <div class="row">
-                   <p class="font-style-inter mt-1"><b>Font weight:</b>Book</p>
-                </div>
-             </div>
-          </div>
-          <!--Body/Paragraph 5-->
-          <div class="row">
-             <div class="col d-flex align-items-center">
-                <p class="body2 fs-14 mt-4">Body/Paragraph</p>
-             </div>
-             <div class="col">
-                <div class="row">
-                   <p class="font-style-inter mt-3"><b>Font size:</b>14px/0.875(em/rem)</p>
-                </div>
-                <div class="row">
-                   <p class="font-style-inter mt-1"><b>Font weight:</b>Book</p>
-                </div>
-             </div>
-          </div>
-       </div>
-       <!-- Roboto-headings-->
-       <div class="container">
-          <div class="border-top-1 border-bottom-1 row justify-content-center mt-4">
-             <div class="col borderStyle">
-                <p class=" roboto-headings fw-bold p-2">Roboto</p>
-             </div>
-          </div>
-          <!-- heading 1-->
-          <div class="row">
-             <div class="col d-flex align-items-center">
-                <p class="heading1 mt-4">Heading 1</p>
-             </div>
-             <div class="col">
-                <div class="row">
-                   <p class="font-style-roboto-h mt-4"><b> Font size:</b>32px/2(em/rem)</p>
-                </div>
-                <div class="row">
-                   <p class="font-style-roboto-h mt-2"><b>Font weight:</b>Black</p>
-                </div>
-             </div>
-          </div>
-          <!-- heading 2 -->
-          <div class="row">
-             <div class="col d-flex align-items-center">
-                <p class="heading2 fw-bold mt-4">Heading 2</p>
-             </div>
-             <div class="col">
-                <div class="row">
-                   <p class="font-style-roboto-h mt-4"><b>Font size:</b>24px/1.5(em/rem)</p>
-                </div>
-                <div class="row">
-                   <p class="font-style-roboto-h mt-2"><b>Font weight:</b>Bold</p>
-                </div>
-             </div>
-          </div>
-          <!-- heading 3 -->
-          <div class="row">
-             <div class="col d-flex align-items-center">
-                <p class="heading3 fw-bold mt-4">Heading 3</p>
-             </div>
-             <div class="col">
-                <div class="row">
-                   <p class="font-style-roboto-h  mt-4"><b>Font size:</b>16px/1(em/rem)</p>
-                </div>
-                <div class="row">
-                   <p class="font-style-roboto-h  mt-2"><b>Font weight:</b>bold</p>
-                </div>
-             </div>
-          </div>
-          <!-- heading 4 -->
-          <div class="row">
-             <div class="col d-flex align-items-center">
-                <p class="heading4 fw-bold mt-4">Heading 4</p>
-             </div>
-             <div class="col">
-                <div class="row">
-                   <p class="font-style-roboto-h  mt-4"><b>Font size:</b>16px/1(em/rem)</p>
-                </div>
-                <div class="row">
-                   <p class="font-style-roboto-h  mt-2"><b>Font weight:</b>Meduim</p>
-                </div>
-             </div>
-          </div>
-          <!-- heading 5 -->
-          <div class="row">
-             <div class="col d-flex align-items-center">
-                <p class="heading5 fw-bold mt-4">Heading 5</p>
-             </div>
-             <div class="col">
-                <div class="row">
-                   <p class="font-style-roboto-h mt-4"><b>Font size:</b>14px/0.875(em/rem)</p>
-                </div>
-                <div class="row">
-                   <p class="font-style-roboto-h mt-2"><b>Font weight:</b>Bold</p>
-                </div>
-             </div>
-          </div>
-          <!--Body/Paragraph 6-->
-          <div class="row">
-             <div class="col d-flex align-items-center">
-                <p class="font-style-roboto-p1 mt-4"> Body/Paragraph</p>
-             </div>
-             <div class="col">
-                <div class="row">
-                   <p class="font-style-roboto-h mt-4"><b>Font size:</b>14px/0.875(em/rem)</p>
-                </div>
-                <div class="row">
-                   <p class="font-style-roboto-h mt-2"><b>Font weight:</b>Regular</p>
-                </div>
-             </div>
-          </div>
-         
-          <!--Body/Paragraph 7-->
-          <div class="row">
-             <div class="col d-flex align-items-center">
-                <p class="font-style-roboto-p2 mt-4">Body/Paragraph</p>
-             </div>
-             <div class="col">
-                <div class="row">
-                   <p class="font-style-roboto-h fs-20 mt-4"><b>Font size:</b>16px/0.875(em/rem)</p>
-                </div>
-                <div class="row">
-                   <p class="font-style-roboto-h fs-20 mt-2"><b>Font weight:</b>Regular</p>
-                </div>
-             </div>
-          </div>
-       </div>
-       <!-- Poppins    -->
-       <div class="container">
-          <div class="border-top-1 border-bottom-1 row justify-content-center mt-4">
-             <div class="col borderStyle">
-                <p class="Poppins-ExtraBold p-2 fw-bold">Poppins</p>
-             </div>
-          </div>
-          <!--Body/Paragraph -->
-          <div class="row">
-             <div class="col d-flex align-items-center">
-                <p class="paragraph1 mt-4"> Body/Paragraph</p>
-             </div>
-             <div class="col">
-                <div class="row">
-                   <p class="poppins-body1 mt-4"><b>Font size:</b>16px/1(em/rem)</p>
-                </div>
-                <div class="row">
-                   <p class="poppins-body1 fs-20 mt-2"><b>Font weight:</b>Regular</p>
-                </div>
-             </div>
-          </div>
-       </div>
-    </div>
- </template>
+   <div class="container container1" >
+      <div class="modal-header">
+         <hr>
+         <div class="position-absolute top-0 end-0">
+            <img src="../assets/icon/Button.svg" class="icon-size" alt="button">
+         </div>
+      </div>
+      <div id="info" class="text-center">
+         <img src="../assets/icon/info.svg" class="center info2" alt="info">
+      </div>
+      <div class="text-center">
+         <div class="modal-body">
+            <p class="font-style-roboto mt-1">Do you want to submit?</p>
+            <p class="font-style-gotham mt-1">You can always go back and update if there are any changes.</p>
+         </div>
+      </div>
+      <div class="text-center mt-3">
+         <button class="button-default bg-white border-color-indigo color-indigo me-0">Cancel</button>      
+         <button class="button-default bg-indigo border-color-indigo color-white me-0">Submit</button>      
+      </div>
+   </div>
+   <!-- con2 -->
+   <br>
+   <div class="container con2" >
+      <div class="modal-header">
+         <p class="modal-header1"><b>Tag User</b></p>
+         <div class="position-absolute top-0 end-0">
+            <img src="../assets/icon/Button.svg" class="icon-size" alt="button">
+         </div>
+      </div>
+      <div class="row d-flex align-items-center">
+         <div class="modal-body2">
+            <span class="modal2 mt-2">
+               <p>Give this user the authority to process transactions</p>
+            </span>
+            <span class="modal2">
+               <p>for this business on your behalf.</p>
+            </span>
+         </div>
+      </div>
+      <input type="email" class="form-control mt-3" id="input-form1" placeholder="Email Address">      
+      <div class="input-group ">
+         <select class="form-select border-0 shadow-sm mt-3" id="admin">
+            <option selected>[Owner; Admin]</option>
+         </select>
+      </div>
+      <div class="modal-footer">
+         <button class="button-default bg-indigo border-color-indigo color-white me-0 mt-3">Send Request</button>      
+      </div>
+   </div>
+   <!-- con3 -->
+   <br>
+   <div class="container con3" >
+      <div class="modal-header">
+         <p class="modal-header1"><b>Transfer Ownership</b></p>
+         <img src="../assets/icon/Button.svg" class="icon-size" alt="button">
+      </div>
+      <div class="row d-flex align-items-center">
+         <div class="modal-body2">
+            <span class="modal2">
+               <p>Provide the email address of the recipient to</p>
+            </span>
+            <span class="modal2">
+               <p>who you want to transfer the ownership right of</p>
+            </span>
+            <span class="modal2">
+               <p>the business.</p>
+            </span>
+         </div>
+      </div>
+      <input type="email" class="form-control mt-3" id="Inputform1" placeholder="Email Address">
+      <div class="modal-footer">
+         <button class="button-default bg-indigo border-color-indigo color-white me-0 mt-3">Send Request</button>      
+      </div>
+   </div>
+   <!-- con4 -->
+   <br>
+   <div class="container con4" >
+      <div class="modal-header">
+         <p class="modal-header1 p-2"><b>Existing Business</b></p>
+         <img src="../assets/icon/Button.svg" class="icon-size" alt="button">
+      </div>
+      <span class="modal2">
+         <p>Search using the following numbers to find existing business.</p>
+      </span>
+      <p class="modal3">Business does not exist on our system.</p>
+      <input type="email" class="form-control form-control-1 mt-2" id="input-form1" placeholder="Transaction No.">   
+      <input type="email" class="form-control form-control-1 mt-2" id="input-form1" placeholder="License No.">   
+      <input type="email" class="form-control form-control-1 mt-2" id="input-form1" placeholder="TIN No.">  
+      <input type="email" class="form-control form-control-1 mt-2" id="input-form1" placeholder="Date Established">   
+      <i class="icon-calendar gray isax isax-calendar-1" style="position:absolute;left:440px; bottom: 85px;"></i>
+      <div class="modal-footer">
+         <button class="button-default bg-indigo border-color-indigo color-white me-0">Search</button>      
+      </div>
+   </div>
+</template>

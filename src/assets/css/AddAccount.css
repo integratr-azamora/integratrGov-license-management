@@ -1,0 +1,57 @@
+.cont10{
+    position: relative;
+    width: 1536px;
+    height: 1247px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cont11{
+    position: absolute;
+    width: 1536px;
+    height: 1088px;
+    left: 0px;
+    top: 76px;
+    background: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cont12{
+    position: absolute;
+    width: 1536px;
+    height: 1088px;
+    left: 0px;
+    top: 76px;    
+    background: #FFFFFF;
+}
+.add-icon{
+    position: absolute;
+    left: 365px; 
+    bottom: 15px;
+    font-size: 20px;
+}
+
+.scroll-table {
+    width: 600x;
+    height: 650px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.default-label{
+    font-family: 'Roboto', sans-serif;  
+    font-size: 16px;
+}
+
+.info{
+    font-family: 'Roboto', sans-serif;  
+    font-size: 13px;
+}
+
+.labelfield{
+    height: 56px;
+    width: 457px;
+    border-radius: 4px;
+}
+

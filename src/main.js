@@ -4,6 +4,8 @@ import router from './router';
 import './assets/vuesax.css';
 import './assets/main.css';
 import './assets/js/bootstrap/bootstrap';
+import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
+
 
 const app = createApp(App)
 

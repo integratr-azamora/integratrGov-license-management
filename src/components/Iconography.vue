@@ -29,7 +29,7 @@
             </div>
             <!-- color5  -->
             <div class="colors-font">
-               <div class="bg-lavenderblue square-colors-size shadow-sm"></div>
+               <div class="bg-lavender-blue square-colors-size shadow-sm"></div>
                <p class="fw-bold p-1">#C6C7F9</p>
             </div>
             <!-- color6  -->
@@ -39,14 +39,14 @@
             </div>
             <!-- color7  -->
             <div class="colors-font">
-               <div class="bg-darkgray square-colors-size shadow-sm"></div>
+               <div class="bg-dimgray square-colors-size shadow-sm"></div>
                <p class="fw-bold p-1">#666666</p>
             </div>
          </div>
          <div class="d-flex justify-content-start">
             <!-- color8  -->
             <div class="colors-font">
-               <div class="bg-dimgray square-colors-size shadow-sm"></div>
+               <div class="bg-darkgray square-colors-size shadow-sm"></div>
                <p class="fw-bold p-1">#ACACAC</p>
             </div>
             <!-- color9  -->
@@ -175,7 +175,7 @@
             <!-- icon1  -->
             <i class="icon-size isax isax-coin-1"></i>
             <!-- icon2  -->
-            <img src="../assets/icon/Cash.svg" class="icon-size" alt="cash1">
+            <img src="../assets/icon/Cash.svg" class="icon-size" alt="cash2">
             <!-- icon3  -->
             <img src="../assets/icon/Map-Alt.svg" class="icon-size" alt="Map1">
             <!-- icon4  -->
@@ -187,9 +187,9 @@
          </div>
          <!-- Row 8-->
          <div class="d-flex justify-content-start">
-            <i class="icon-size blue  isax isax-profile-tick"></i>
+            <i class="icon-size blue isax isax-profile-tick"></i>
             <!-- icon1  -->
-            <i class="icon-size blue isax isax-coin-1"></i>
+            <i class="icon-size isax blue isax-coin-1"></i>
             <!-- icon2  -->
             <img src="../assets/icon/Cash2.svg" class="icon-size" alt="cash2">
             <!-- icon3  -->
@@ -222,24 +222,24 @@
             <!-- icon1  -->
             <img src="../assets/icon/info.svg" class="icon1" alt="info">
             <!-- icon2  -->
-            <img src="../assets/icon/Credit.svg" class="icon1" alt="info">
+            <img src="../assets/icon/Credit.svg" class="icon1" alt="credit">
             <!-- icon3  -->
-            <i class="icon1 isax isax-shield-tick"></i>
+            <i class="icon1 isax isax-shield-tick5"></i>
             <!-- icon4  -->
-            <img src="../assets/icon/wallet-fill.svg" class="icon1" alt="info">
+            <img src="../assets/icon/wallet-fill.svg" class="icon1" alt="fill">
             <!-- icon5  -->
-            <img src="../assets/icon/Subtract.svg" class="icon1" alt="info">
+            <img src="../assets/icon/Subtract.svg" class="icon1" alt="subtract">
          </div>
          <!-- Row 11 -->    
          <div class="d-flex justify-content-start mt-3">
             <!-- icon1  -->
-            <img src="../assets/icon/favorite.svg" class="icon1" alt="info">
+            <img src="../assets/icon/favorite.svg" class="icon1" alt="favorite">
             <!-- icon2  -->
             <i class="icon1 isax isax-main-component5"></i>
             <!-- icon3  -->
             <i class="icon1 isax isax-profile-2user5"></i>
             <!-- icon4  -->            
-            <img src="../assets/icon/message-question.svg" class="icon1" alt="info">
+            <img src="../assets/icon/message-question.svg" class="icon1" alt="question">
          </div>
       </div>
    </div>

@@ -62,6 +62,9 @@
   .bg-lavender-bush{
     background-color: var(--vt-c-lavender-bush);
   }
+  .bg-lavender-blue{
+    background-color: var(--vt-c-lavender-blue)
+  }
   .bg-none{
     background-color: transparent;
   }

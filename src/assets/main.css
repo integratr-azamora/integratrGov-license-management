@@ -10,8 +10,8 @@
 @import './css/marginsnpaddings.css';
 @import './css/colors.css';
 @import './css/transform.css';
-
 @import './/css/licensekey-issue.css';
+@import './/css/AddAccount.css';
 
 @font-face {
   font-family: 'Poppins';

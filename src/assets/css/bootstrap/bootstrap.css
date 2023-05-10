@@ -2010,9 +2010,9 @@ progress {
   /* transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; */
 }
 @media (prefers-reduced-motion: reduce) {
-  .form-control {
+  /* .form-control {
     transition: none;
-  }
+  } */
 }
 .form-control[type=file] {
   overflow: hidden;
