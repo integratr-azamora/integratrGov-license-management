@@ -296,4 +296,11 @@
       </div>
    </div>
    <br>
+   <div class="container bor-style-solid-perma cont12">
+      <div class="container cont13">
+         <div class="row justify-content-center p-3">
+            <span class="heading1">Juan Dela Cruz</span>
+         </div>
+      </div>
+   </div>
 </template>

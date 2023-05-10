@@ -18,13 +18,18 @@
 }
 
 .cont12{
-    position: absolute;
+    position: relative;
     width: 1536px;
-    height: 1088px;
-    left: 0px;
-    top: 76px;    
+    height: 1061px;
     background: #FFFFFF;
 }
+
+.cont13{
+    width: 1536px;
+    height: 902px;
+    background: #FFFFFF;
+}
+
 .add-icon{
     position: absolute;
     left: 365px; 
