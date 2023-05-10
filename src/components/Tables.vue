@@ -1,6 +1,6 @@
 <template>
    <div class=" ">
-      <div class="bor-style-solid-perma font-table-heading p-2">Table </div>
+      <div class="bor-style-solid-perma font-table-heading p-2 ">Table </div>
       <div class="d-flex justify-content-center ">
          
          <div class="bor-style-solid-perma  rounded-3 shadow-sm">
@@ -37,12 +37,12 @@
                   <div class="d-flex flex-row">
                      <div class="shadow-sm  ">
                         <i class="isax isax-search-normal-1  table-inputbox-icon-size ps-16px py-14py"></i>
-                        <input class="input-field border-color-none p-3 outline-none table-inputbox-size" type="text" placeholder="Search" name="usrnm">
+                        <input class="input-field border-color-none p-3 outline-none table-inputbox-size inputbox-font" type="text" placeholder="Search" name="usrnm">
                      </div>
                      <!-- table Header Row4 Col2 -->
                      <div class="ms-20px">
                         <button type="button" class=" size-table-filter color-table-button bor-style-none shadow-sm color-table-button-text d-flex align-items-center justify-content-center">
-                           <i class="isax isax-filter-search size-icon-24px me-1"></i>
+                           <i class="isax isax-filter-search size-icon-24px me-1 "></i>
                            <span class="ms-12px">Filter</span>
                         </button>
                      </div>
@@ -58,11 +58,11 @@
                   <!-- px box  -->
                </div>
                <!-- table Body  -->
-               <div class="table-responsive border border rounded-1 shadow-sm border-color-none" >
+               <div class="table-responsive rounded-1 shadow-sm  table-borderless" >
                   <table class="table table-striped table-hover font-table-text " >
                      <thead >
                         <tr > 
-                           <th class="text-start px-20px p-3 font-table-column border-rouded-left-5px">Column<i class="isax isax-arrow-down5 size-icon-table-arrow ms-2"></i></th>
+                           <th class="text-start px-20px p-3 font-table-column ">Column<i class="isax isax-arrow-down5 size-icon-table-arrow ms-2"></i></th>
                            <th class="text-start px-20px p-3 font-table-column">Column<i class="isax isax-arrow-down5 size-icon-table-arrow ms-2"></i></th>
                            <th class="text-start px-20px p-3 font-table-column">Column<i class="isax isax-arrow-down5 size-icon-table-arrow ms-2"></i></th>
                         </tr>

@@ -15,7 +15,7 @@
           <div class=" d-flex justify-content-start align-items-center d-inline-flex mb-20px">
              <div class="shadow-sm  ">
                 <i class="isax isax-search-normal-1 ps-2 table-inputbox-icon-size"></i>
-                <input class="input-field border-color-none p-3 outline-none table-inputbox-size" type="text" placeholder="Search">
+                <input class="input-field border-color-none p-3 outline-none table-inputbox-size inputbox-font" type="text" placeholder="Search">
              </div>
              <button class="button-default bg-ghostwhite color-frenchskyblue border-color-ghostwhite d-flex flex-row ">
                 <i class="isax isax-filter-search icon-size-weight me-2"></i>

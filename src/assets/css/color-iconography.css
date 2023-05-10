@@ -75,3 +75,8 @@
     color: #666666;
     border-color: var(--vt-c-dim-gray);
 }
+
+.icon-size-svg{
+    width: 24px;
+    height: 24px;
+}

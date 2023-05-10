@@ -12,11 +12,6 @@
     width: 1.5rem;
     height: 2.75rem;
 }
-
-.table-striped tbody tr:nth-of-type(odd) {
-    background-color: #f2f2f2 !important; /* Set the background color of odd rows */
-  }
-  
-  .table-striped tbody tr:nth-of-type(even) {
-    background-color: #ffffff !important; /* Set the background color of even rows */
-  }
+.border-top-none{
+    border-top-style: none;
+}

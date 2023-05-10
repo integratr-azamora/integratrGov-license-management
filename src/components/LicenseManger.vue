@@ -24,7 +24,7 @@
          <div class=" d-flex justify-content-start align-items-center d-inline-flex mb-20px">
             <div class="shadow-sm  ">
                <i class="isax isax-search-normal-1 ps-2 table-inputbox-icon-size"></i>
-               <input class="input-field border-color-none p-3 outline-none table-inputbox-size" type="text" placeholder="Search">
+               <input class="input-field border-color-none p-3 outline-none table-inputbox-size inputbox-font" type="text" placeholder="Search">
             </div>
             <button class="button-default bg-ghostwhite color-frenchskyblue border-color-ghostwhite d-flex flex-row ">
                <i class="isax isax-filter-search icon-size-weight me-2"></i>
@@ -40,7 +40,7 @@
       <div class="table-responsive " >
          <table class="table  table-striped table-hover font-table-text" >
             <thead >
-               <tr >
+               <tr>
                   <th class="text-start px-20px p-3 font-table-column border-rouded-left-5px">Activation Code<i class="isax isax-arrow-down5 size-icon-table-arrow ms-2"></i></th>
                   <th class="text-start px-20px p-3 font-table-column">Module<i class="isax isax-arrow-down5 size-icon-table-arrow ms-2"></i></th>
                   <th class="text-start px-20px p-3 font-table-column">Version<i class="isax isax-arrow-down5 size-icon-table-arrow ms-2"></i></th>
