@@ -62,9 +62,9 @@
                   <table class="table table-striped table-hover font-table-text " >
                      <thead >
                         <tr > 
-                           <th class="text-start px-20px p-3 font-table-column border-rouded-left-5px">Column<i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></th>
-                           <th class="text-start px-20px p-3 font-table-column">Column<i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></th>
-                           <th class="text-start px-20px p-3 font-table-column">Column<i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></th>
+                           <th class="text-start px-20px p-3 font-table-column border-rouded-left-5px">Column<i class="isax isax-arrow-down5 size-icon-table-arrow ms-2"></i></th>
+                           <th class="text-start px-20px p-3 font-table-column">Column<i class="isax isax-arrow-down5 size-icon-table-arrow ms-2"></i></th>
+                           <th class="text-start px-20px p-3 font-table-column">Column<i class="isax isax-arrow-down5 size-icon-table-arrow ms-2"></i></th>
                         </tr>
                      </thead>
                      <tbody class="border rounded-1">
@@ -150,6 +150,7 @@
                      <button class="button-pagination bg-none color-dimgray border-color-none ">Previous</button>
                      <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10">1</button>
                      <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 ">2</button>
+                     <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 pt-20px"><i class="isax isax-more"></i></button>
                      <button class="button-pagination bg-none color-indigo border-color-none ">Next</button>
                      <button class="button-pagination bg-none color-indigo border-color-none"><i class="isax isax-arrow-right-34 icon-button-round-24px"></i></button>
                   </div>

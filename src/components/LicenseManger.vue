@@ -39,7 +39,7 @@
        <!-- table Header  -->
        <!-- table Body  -->
        <div class="table-responsive shadow-sm " >
-          <table class="table  table-striped table-hover table-custom font-table-text" >
+          <table class="table  table-striped table-hover font-table-text" >
              <thead >
                 <tr > 
                    <th class="text-start px-20px p-3 font-table-column border-rouded-left-5px">Activation Code<i class="isax isax-arrow-down5 size-icon-table-arrow ms-2"></i></th>

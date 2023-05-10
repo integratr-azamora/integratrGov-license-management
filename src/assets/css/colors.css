@@ -60,7 +60,7 @@
   background-color: var(--vt-c-platinum);
   }
   .bg-lavender-bush{
-    background-color: var(--vt-c-lavender-bush);
+    background-color: var(--vt-c-lavender-bush) !important;
   }
   .bg-none{
     background-color: transparent;

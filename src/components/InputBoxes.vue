@@ -15,7 +15,7 @@
                      <!-- inputbox1  -->
                      <div class="input-group mb-3 size-inputbox ">
                         <form class="form-floating ">
-                           <input type="text" class="default-password form-control inputbox-font" id="floatingPassword" placeholder="Default Password Field" value="Input Field">
+                           <input type="text" class="default-password form-control inputbox-font shadow-sm border-color-none" id="floatingPassword" placeholder="Default Password Field" value="Input Field">
                               <label for="floatingPassword " class="inputbox-font">Label</label>
                         </form>
                      </div>
@@ -23,7 +23,7 @@
                      <!-- inputbox2  -->
                      <div class="input-group mb-3 size-inputbox inputbox-font">
                         <form class="form-floating ">
-                           <input type="password" class="default-password form-control color-dimgray" id="floatingPassword" placeholder="Default Password Field" value="Password">
+                           <input type="password" class="default-password form-control shadow-sm border-color-none color-dimgray" id="floatingPassword" placeholder="Default Password Field" value="Password">
                               <i class="icon isax isax-eye icon-position-nolabel size-icon-24px color-dimgray" ></i>
                               <label for="floatingPassword">Label</label>
                         </form>
@@ -32,7 +32,7 @@
                      <!-- inputbox3  -->
                      <div class="input-group mb-3 size-inputbox inputbox-font">
                         <form class="form-floating">
-                           <input type="password" class="default-password form-control color-dimgray" id="floatingPassword" placeholder="Default Password Field" value="Password">
+                           <input type="password" class="default-password form-control shadow-sm border-color-none color-dimgray" id="floatingPassword" placeholder="Default Password Field" value="Password">
                               <i class="icon isax isax-eye-slash icon-position-nolabel size-icon-24px color-dimgray" ></i>
                               <label for="floatingPassword">Label</label>
                         </form>
@@ -50,7 +50,7 @@
                   <!-- inputbox2  -->
                   <div class="input-group mb-3 size-inputbox inputbox-font">
                         <form class="form-floating border-color-englishvermillion border-round-4px">
-                           <input type="text" class="default-password form-control bg-lavender-bush " id="floatingPassword" placeholder="Input Field" value="Input Field">
+                           <input type="text" class="default-password form-control shadow-sm border-color-none bg-lavender-bush " id="floatingPassword" placeholder="Input Field" value="Input Field">
                               <label for="floatingPassword">Label</label>
                         </form>
                      </div>
@@ -58,7 +58,7 @@
                      <!-- inputbox3  -->
                      <div class="input-group mb-3 size-inputbox inputbox-font">
                         <form class="form-floating border-color-englishvermillion border-round-4px">
-                           <input type="password" class="default-password form-control bg-lavender-bush" id="floatingPassword" placeholder="Default Password Field" value="Dropdown Field">
+                           <input type="password" class="default-password form-control shadow-sm border-color-none bg-lavender-bush" id="floatingPassword" placeholder="Default Password Field" value="Dropdown Field">
                               <i class="icon isax isax-eye-slash icon-position-nolabel size-icon-24px" ></i>
                               <label for="floatingPassword">Label</label>
                         </form>
@@ -90,7 +90,7 @@
                      <!-- inputbox1  -->
                      <div class="input-group mb-3 size-inputbox inputbox-font">
                         <form class="form-floating">
-                           <input type="text" class="default-password form-control" id="floatingPassword" placeholder="Default Password Field" value="Dropdown Field">
+                           <input type="text" class="default-password form-control shadow-sm border-color-none" id="floatingPassword" placeholder="Default Password Field" value="Dropdown Field">
                               <i class="icon isax isax-arrow-down-1 icon-position" ></i>
                               <label for="floatingPassword">Label</label>
                         </form>
@@ -99,7 +99,7 @@
                      <!-- inputbox2  -->
                      <div class="input-group mb-3 size-inputbox inputbox-font">
                         <form class="form-floating">
-                           <input type="text" class="default-password form-control" id="floatingPassword" placeholder="Default Password Field" value="Input Field" >
+                           <input type="text" class="default-password form-control shadow-sm border-color-none" id="floatingPassword" placeholder="Default Password Field" value="Input Field" >
                               <label for="floatingPassword">Label</label>
                         </form>
                      </div>
@@ -107,7 +107,7 @@
                      <!-- inputbox3  -->
                      <div class="input-group mb-3 size-inputbox inputbox-font">
                         <form class="form-floating">
-                           <input type="text" class="default-password form-control" id="floatingPassword" placeholder="Default Password Field" value="Table Reference Field">
+                           <input type="text" class="default-password form-control shadow-sm border-color-none" id="floatingPassword" placeholder="Default Password Field" value="Table Reference Field">
                               <i class="icon isax isax-more icon-position" ></i>
                               <label for="floatingPassword">Label</label>
                         </form>
@@ -116,7 +116,7 @@
                      <!-- inputbox4  -->
                      <div class="input-group mb-3 size-inputbox inputbox-font">
                         <form class="form-floating">
-                           <input type="text" class="default-password form-control" id="floatingPassword" placeholder="Default Password Field" value="Map Location">
+                           <input type="text" class="default-password form-control shadow-sm border-color-none" id="floatingPassword" placeholder="Default Password Field" value="Map Location">
                               <i class="icon isax isax-gps icon-position-gps size-icon-24px color-dimgray" ></i>
                               <label for="floatingPassword">Label</label>
                         </form>
@@ -125,7 +125,7 @@
                      <!-- inputbox5  -->
                      <div class="input-group mb-3 size-inputbox inputbox-font">
                         <form class="form-floating">
-                           <input type="text" class="default-password form-control" id="floatingPassword" placeholder="Default Password Field" value="Number Selector Field">
+                           <input type="text" class="default-password form-control shadow-sm border-color-none" id="floatingPassword" placeholder="Default Password Field" value="Number Selector Field">
                            <div class="icon-position2 d-flex flex-column">
                               <i class="icon isax isax-arrow-up-2" ></i>
                               <i class="icon isax isax-arrow-down-1 " ></i>
@@ -150,7 +150,7 @@
                   <!-- inputbox1  -->
                   <div class="input-group mb-3 size-inputbox inputbox-font">
                         <form class="form-floating">
-                           <input type="text" class="default-password form-control" id="floatingPassword" placeholder="Default Password Field" value="Dropdown Field">
+                           <input type="text" class="default-password form-control shadow-sm border-color-none" id="floatingPassword" placeholder="Default Password Field" value="Dropdown Field">
                               <i class="icon isax isax-arrow-down-1 icon-position" ></i>
                               <label for="floatingPassword">Label</label>
                         </form>
@@ -159,7 +159,7 @@
                      <!-- inputbox2  -->
                      <div class="input-group mb-3 size-inputbox inputbox-font">
                         <form class="form-floating">
-                           <input type="text" class="default-password form-control" id="floatingPassword" placeholder="Default Password Field" value="Input Field" >
+                           <input type="text" class="default-password form-control shadow-sm border-color-none" id="floatingPassword" placeholder="Default Password Field" value="Input Field" >
                               <label for="floatingPassword">Label</label>
                         </form>
                      </div>
@@ -167,7 +167,7 @@
                      <!-- inputbox3  -->
                      <div class="input-group mb-3 size-inputbox inputbox-font">
                         <form class="form-floating">
-                           <input type="text" class="default-password form-control" id="floatingPassword" placeholder="Default Password Field" value="Long Input Field" >
+                           <input type="text" class="default-password form-control shadow-sm border-color-none" id="floatingPassword" placeholder="Default Password Field" value="Long Input Field" >
                            <i class="icon isax isax-arrow-down-1 isax-sort rotate-45 icon-position3" ></i>
                            <label for="floatingPassword">Label</label>
                         </form>
@@ -183,7 +183,7 @@
          <div class="d-flex justify-content-center mt-3">
             <div class="input-group mb-3 size-inputbox-long inputbox-font">
             <form class="form-floating">
-               <input type="text" class="default-password form-control" id="floatingPassword" placeholder="Default Password Field" value="Input Field" >
+               <input type="text" class="default-password form-control shadow-sm border-color-none" id="floatingPassword" placeholder="Default Password Field" value="Input Field" >
                <i class="icon isax isax-link-21 icon-position-long violet" ></i>
                <label for="floatingPassword">Label</label>
             </form>
