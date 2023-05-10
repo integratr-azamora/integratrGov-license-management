@@ -1,4 +1,5 @@
 <template>
+   
    <div class="RInputbox bor-style-solid container-fluid">
       <!-- height: 66rem; width: 60rem; -->
       <div class="bor-style-solid-perma container size-inputbox-container" >
@@ -125,7 +126,7 @@
                      <div class="input-group mb-3 size-inputbox inputbox-font">
                         <form class="form-floating">
                            <input type="text" class="default-password form-control" id="floatingPassword" placeholder="Default Password Field" value="Number Selector Field">
-                           <div class="icon-position-updown d-flex flex-column">
+                           <div class="icon-position2 d-flex flex-column">
                               <i class="icon isax isax-arrow-up-2" ></i>
                               <i class="icon isax isax-arrow-down-1 " ></i>
                            </div>

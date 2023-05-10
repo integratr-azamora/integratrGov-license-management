@@ -181,4 +181,30 @@ input[type="checkbox"].toggle:checked + label::before{
   border-radius: 1rem;
   margin-right: 1rem;
 }
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: none;
+  box-shadow: none;
+}
 /* switch  */
+
+/* hovers  */
+/* table hovers  */
+.table-dropdown-hover:hover{
+background-color: var(--vt-c-lavender-blue) !important;
+color: var(--vt-c-white) !important;
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: var(--vt-c-lavender-blue) !important;
+  color: var(--vt-c-indigo) !important;
+}
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color:#F4F4F4 !important; 
+ }
+/* table hovers  */
+/* hovers  */

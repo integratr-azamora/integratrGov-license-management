@@ -3,12 +3,29 @@ import App from './App.vue';
 import router from './router';
 import './assets/vuesax.css';
 import './assets/main.css';
-import './assets/js/bootstrap/bootstrap';
+import 'bootstrap';
+import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
+import '../node_modules/@fortawesome/fontawesome-free-6.4.0-web/css/all.css';
+
+// import './assets/js/bootstrap/bootstrap';
+
+/* import the fontawesome core */
+import { library } from '@fortawesome/fontawesome-svg-core'
+
+/* import font awesome icon component */
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+/* import specific icons */
+import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
+
+/* add icons to the library */
+library.add(faUserSecret)
 
 const app = createApp(App)
 
 app.use(router)
 
+.component('font-awesome-icon', FontAwesomeIcon)
 app.mount('#app')
 
 

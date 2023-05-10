@@ -73,10 +73,11 @@
   --c-size-14px:0.875rem;
   --c-size-15px:0.938rem;
   --c-size-16px:1rem;
+  --c-size-17px:1.063rem;
   --c-size-20px:1.25rem;
-  --c-size-26px:1.625rem;
-  --c-size-30px:1.875rem;
+  --c-size-22px:1.375rem;
   --c-size-24px:1.5rem;
+  --c-size-26px:1.625rem;
   --c-size-30px:1.875rem;
   --c-size-40px:2.5rem;
   --c-size-44px:2.75rem;
@@ -142,7 +143,7 @@
   position: relative;
   font-weight: normal;
 }
-
+/* 
 body {
   min-height: 100vh;
   color: var(--color-text);
@@ -155,4 +156,4 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+} */

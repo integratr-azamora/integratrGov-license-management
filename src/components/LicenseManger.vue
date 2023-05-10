@@ -39,15 +39,15 @@
        <!-- table Header  -->
        <!-- table Body  -->
        <div class="table-responsive shadow-sm " >
-          <table class="table  table-striped table-hover font-table-text" >
+          <table class="table  table-striped table-hover table-custom font-table-text" >
              <thead >
                 <tr > 
-                   <th class="text-start px-20px p-3 font-table-column border-rouded-left-5px">Activation Code<i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></th>
-                   <th class="text-start px-20px p-3 font-table-column">Module<i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></th>
-                   <th class="text-start px-20px p-3 font-table-column">Version<i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></th>
-                   <th class="text-start px-20px p-3 font-table-column">Grace Period<i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></th>
-                   <th class="text-start px-20px p-3 font-table-column">Validity<i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></th>
-                   <th class="text-start px-20px p-3 font-table-column">License Description <i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></th>
+                   <th class="text-start px-20px p-3 font-table-column border-rouded-left-5px">Activation Code<i class="isax isax-arrow-down5 size-icon-table-arrow ms-2"></i></th>
+                   <th class="text-start px-20px p-3 font-table-column">Module<i class="isax isax-arrow-down5 size-icon-table-arrow ms-2"></i></th>
+                   <th class="text-start px-20px p-3 font-table-column">Version<i class="isax isax-arrow-down5 size-icon-table-arrow ms-2"></i></th>
+                   <th class="text-start px-20px p-3 font-table-column">Grace Period<i class="isax isax-arrow-down5 size-icon-table-arrow ms-2"></i></th>
+                   <th class="text-start px-20px p-3 font-table-column">Validity<i class="isax isax-arrow-down5 size-icon-table-arrow ms-2"></i></th>
+                   <th class="text-start px-20px p-3 font-table-column">License Description <i class="isax isax-arrow-down5 size-icon-table-arrow ms-2"></i></th>
                 </tr>
              </thead>
              <tbody class="border rounded-1">
@@ -61,19 +61,19 @@
                    <td class="text-end px-20px p-3">
                       <span class="d-flex align-items-center justify-content-between">
                          <p >Perpetual</p>
-                         <div class="dropdown d-flex ms-20px">
-                            <span>
-                            <i class="isax isax-more"></i>
-                            </span>
-                            <div class="dropdown-content dropdown-content-position ">
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">View</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Assign/Issue</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Validate</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Activate</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Remove License</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Destroy License</p>
-                            </div>
-                         </div>
+                         <div class="dropdown outline-none">
+                           <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="isax isax-more "></i>
+                           </button>
+                           <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">View</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Assign/Issue</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Validate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Activate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Remove License</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Destroy License</a></li>
+                           </ul>
+                        </div>
                       </span>
                    </td>
                 </tr>
@@ -87,19 +87,19 @@
                    <td class="text-end px-20px p-3">
                       <span class="d-flex align-items-center justify-content-between">
                          <p >SaaS - E</p>
-                         <div class="dropdown d-flex ms-20px">
-                            <span>
-                            <i class="isax isax-more"></i>
-                            </span>
-                            <div class="dropdown-content dropdown-content-position ">
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">View</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Assign/Issue</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Validate</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Activate</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Remove License</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Destroy License</p>
-                            </div>
-                         </div>
+                         <div class="dropdown outline-none">
+                           <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="isax isax-more "></i>
+                           </button>
+                           <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">View</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Assign/Issue</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Validate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Activate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Remove License</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Destroy License</a></li>
+                           </ul>
+                        </div>
                       </span>
                    </td>
                 </tr>
@@ -113,19 +113,19 @@
                    <td class="text-end px-20px p-3">
                       <span class="d-flex align-items-center justify-content-between">
                          <p >SaaS - I</p>
-                         <div class="dropdown d-flex ms-20px">
-                            <span>
-                            <i class="isax isax-more"></i>
-                            </span>
-                            <div class="dropdown-content dropdown-content-position ">
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">View</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Assign/Issue</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Validate</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Activate</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Remove License</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Destroy License</p>
-                            </div>
-                         </div>
+                         <div class="dropdown outline-none">
+                           <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="isax isax-more "></i>
+                           </button>
+                           <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">View</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Assign/Issue</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Validate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Activate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Remove License</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Destroy License</a></li>
+                           </ul>
+                        </div>
                       </span>
                    </td>
                 </tr>
@@ -139,19 +139,19 @@
                    <td class="text-end px-20px p-3">
                       <span class="d-flex align-items-center justify-content-between">
                          <p >Saas - B</p>
-                         <div class="dropdown d-flex ms-20px">
-                            <span>
-                            <i class="isax isax-more"></i>
-                            </span>
-                            <div class="dropdown-content dropdown-content-position ">
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">View</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Assign/Issue</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Validate</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Activate</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Remove License</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Destroy License</p>
-                            </div>
-                         </div>
+                         <div class="dropdown outline-none">
+                           <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="isax isax-more "></i>
+                           </button>
+                           <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">View</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Assign/Issue</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Validate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Activate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Remove License</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Destroy License</a></li>
+                           </ul>
+                        </div>
                       </span>
                    </td>
                 </tr>
@@ -165,19 +165,19 @@
                    <td class="text-end px-20px p-3">
                       <span class="d-flex align-items-center justify-content-between">
                          <p >Perpetual</p>
-                         <div class="dropdown d-flex ms-20px">
-                            <span>
-                            <i class="isax isax-more"></i>
-                            </span>
-                            <div class="dropdown-content dropdown-content-position ">
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">View</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Assign/Issue</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Validate</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Activate</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Remove License</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Destroy License</p>
-                            </div>
-                         </div>
+                         <div class="dropdown outline-none">
+                           <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="isax isax-more "></i>
+                           </button>
+                           <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">View</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Assign/Issue</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Validate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Activate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Remove License</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Destroy License</a></li>
+                           </ul>
+                        </div>
                       </span>
                    </td>
                 </tr>
@@ -191,19 +191,19 @@
                    <td class="text-end px-20px p-3">
                       <span class="d-flex align-items-center justify-content-between">
                          <p >Perpetual</p>
-                         <div class="dropdown d-flex ms-20px">
-                            <span>
-                            <i class="isax isax-more"></i>
-                            </span>
-                            <div class="dropdown-content dropdown-content-position ">
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">View</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Assign/Issue</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Validate</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Activate</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Remove License</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Destroy License</p>
-                            </div>
-                         </div>
+                         <div class="dropdown outline-none">
+                           <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="isax isax-more "></i>
+                           </button>
+                           <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">View</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Assign/Issue</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Validate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Activate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Remove License</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Destroy License</a></li>
+                           </ul>
+                        </div>
                       </span>
                    </td>
                 </tr>
@@ -217,19 +217,19 @@
                    <td class="text-end px-20px p-3">
                       <span class="d-flex align-items-center justify-content-between">
                          <p >Perpetual</p>
-                         <div class="dropdown d-flex ms-20px">
-                            <span>
-                            <i class="isax isax-more"></i>
-                            </span>
-                            <div class="dropdown-content dropdown-content-position ">
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">View</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Assign/Issue</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Validate</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Activate</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Remove License</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Destroy License</p>
-                            </div>
-                         </div>
+                         <div class="dropdown outline-none">
+                           <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="isax isax-more "></i>
+                           </button>
+                           <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">View</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Assign/Issue</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Validate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Activate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Remove License</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Destroy License</a></li>
+                           </ul>
+                        </div>
                       </span>
                    </td>
                 </tr>
@@ -243,19 +243,19 @@
                    <td class="text-end px-20px p-3">
                       <span class="d-flex align-items-center justify-content-between">
                          <p >Trial</p>
-                         <div class="dropdown d-flex ms-20px">
-                            <span>
-                            <i class="isax isax-more"></i>
-                            </span>
-                            <div class="dropdown-content dropdown-content-position ">
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">View</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Assign/Issue</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Validate</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Activate</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Remove License</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Destroy License</p>
-                            </div>
-                         </div>
+                         <div class="dropdown outline-none">
+                           <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="isax isax-more "></i>
+                           </button>
+                           <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">View</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Assign/Issue</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Validate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Activate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Remove License</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Destroy License</a></li>
+                           </ul>
+                        </div>
                       </span>
                    </td>
                 </tr>
@@ -269,19 +269,19 @@
                    <td class="text-end px-20px p-3">
                       <span class="d-flex align-items-center justify-content-between">
                          <p >Beta</p>
-                         <div class="dropdown d-flex ms-20px">
-                            <span>
-                            <i class="isax isax-more"></i>
-                            </span>
-                            <div class="dropdown-content dropdown-content-position ">
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">View</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Assign/Issue</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Validate</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Activate</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Remove License</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Destroy License</p>
-                            </div>
-                         </div>
+                         <div class="dropdown outline-none">
+                           <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="isax isax-more "></i>
+                           </button>
+                           <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">View</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Assign/Issue</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Validate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Activate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Remove License</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Destroy License</a></li>
+                           </ul>
+                        </div>
                       </span>
                    </td>
                 </tr>
@@ -295,19 +295,19 @@
                    <td class="text-end px-20px p-3">
                       <span class="d-flex align-items-center justify-content-between">
                          <p >Annual</p>
-                         <div class="dropdown d-flex ms-20px">
-                            <span>
-                            <i class="isax isax-more"></i>
-                            </span>
-                            <div class="dropdown-content dropdown-content-position ">
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">View</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Assign/Issue</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Validate</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Activate</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Remove License</p>
-                               <p class="d-flex justify-content-start dropdown-content-size dropdown-content-font dropdown-content-hover">Destroy License</p>
-                            </div>
-                         </div>
+                         <div class="dropdown outline-none">
+                           <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="isax isax-more "></i>
+                           </button>
+                           <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">View</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Assign/Issue</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Validate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Activate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Remove License</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Destroy License</a></li>
+                           </ul>
+                        </div>
                       </span>
                    </td>
                 </tr>
@@ -322,10 +322,10 @@
                 <div class="d-flex flex-row">
                    <button class="button-pagination bg-none color-dimgray border-color-none"><i class="isax isax-arrow-left-24 icon-button-round-24px"></i></button>
                    <button class="button-pagination bg-none color-dimgray border-color-none ">Previous</button>
-                   <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10 mx-10">1</button>
-                   <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 mx-10">2</button>
-                   <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 mx-10"><i class="isax isax-more"></i></button>
-                   <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 mx-10">100</button>
+                   <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10 ">1</button>
+                   <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 ">2</button>
+                   <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 pt-20px"><i class="isax isax-more"></i></button>
+                   <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 ">100</button>
                    <button class="button-pagination bg-none color-indigo border-color-none ">Next</button>
                    <button class="button-pagination bg-none color-indigo border-color-none"><i class="isax isax-arrow-right-34 icon-button-round-24px"></i></button>
                 </div>

@@ -20,8 +20,7 @@
              <button class="button-default bg-none color-indigo border-color-indigo">Default</button>
              <button class="button-default bg-none color-purpleheart border-color-purpleheart">Click/Hover</button>
              <button class="button-default bg-none color-dimgray border-color-dimgray">Disabled</button>
-             <button class="button-default bg-none color-indigo border-color-indigo d-flex flex-row ">
-                <i class="isax isax-add icon-size-weight icon-bold"></i>
+             <button class="button-default bg-none color-indigo border-color-indigo d-flex flex-row ">   
                 <p>Default</p>
              </button>
              <button class="button-default bg-none color-purpleheart border-color-purpleheart d-flex flex-row ">

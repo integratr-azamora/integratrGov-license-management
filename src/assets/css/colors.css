@@ -228,3 +228,9 @@
     background-color: var(--vt-c-dim-gray);
   }
 /* random */
+
+/* outline  */
+.outline-none:focus{
+  outline: none !important;
+}
+/* outline  */

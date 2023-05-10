@@ -6,6 +6,7 @@
   .m-20px{
     margin: 1.25rem !important;
   }
+  
 /* margin  */
 /* margin-start  */
 .ms-12px{
@@ -29,6 +30,9 @@
 /* margin-top  */
 .mt-10px{
     margin-top: 0.625rem !important;
+  }
+  .mt-17px{
+    margin-top: var(--c-size-17px) !important;
   }
   .mt-20px{
     margin-top: 1.25rem !important;
@@ -92,7 +96,20 @@
     padding: var(--c-size-20px);
 }
 .p-10px{
-    padding: var(--c-size-10px);
+    padding: var(--c-size-10px) !important;
+}
+.pt-20px{
+  padding-top: var(--c-size-20px) !important;
+}
+.px-10px{
+  padding-right: var(--c-size-10px) !important;
+  padding-left: var(--c-size-10px) !important;
+}
+.pt-17px{
+  padding-top: var(--c-size-17px) !important;
+}
+.pb-22px{
+  padding-bottom: var(--c-size-22px) !important;
 }
 .ps-10px{
   padding-left: var(--c-size-10px);
@@ -124,6 +141,10 @@
   padding-right: 1.25rem !important;
   padding-left: 1.25rem !important;
 }
+.px-10{
+    padding-left: var(--c-size-10px) !important;
+    padding-right: var(--c-size-10px) !important;
+}
 .px-20{
     padding-left: var(--c-size-20px);
     padding-right: var(--c-size-20px);
@@ -142,4 +163,30 @@
     padding-left: var(--c-size-20px);
 }
 
+/* padding none */
+.padding-none{
+  padding: 0px !important;
+}
+.padding-top-none{
+  padding-top: 0px !important;
+}
+.padding-bottom-none{
+  padding-bottom: 0px !important;
+}
+.padding-start-none{
+  padding-left: 0px !important;
+}
+.padding-end-none{
+  padding-right: 0px !important;
+}
+.padding-y-none{
+padding-top: 0px !important;
+padding-bottom: 0px !important;
+}
+.padding-x-none{
+ padding-left: 0px !important;
+ padding-right: 0px !important;
+}
+
+/* padding none  */
 /* custom-padding  */
