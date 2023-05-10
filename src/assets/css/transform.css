@@ -72,6 +72,10 @@
     height: 1.438rem;
     width: 1.313rem;
   }
+  .size-checkbox-24px{
+    height: var(--c-size-24px) !important;
+    width:  var(--c-size-24px) !important;
+  }
   .fs-16px {
     font-size: 1rem !important;
   }
@@ -153,5 +157,10 @@
     position: absolute;
      left: 810px;
      bottom: 20px;
+  }
+  .icon-position-dropdown{
+    position: absolute;
+     left: 367px;
+     bottom: 10px;
   }
   /* custom-position */

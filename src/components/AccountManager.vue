@@ -6,8 +6,8 @@
           <div class="d-flex justify-content-between align-items-center">
              <span class="h2">Registered Account</span>
              <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row">
-                <i class="isax isax-add icon-size-weight"></i>
-                <p>Add</p>
+               <fa class="font-size-24px me-8px" icon="plus" />
+                <p class="button-fonts">Add</p>
              </button>
           </div>
           <!-- row1  -->
@@ -54,7 +54,7 @@
                          <p >00000000000</p>
                          <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                              <i class="isax isax-more "></i>
+                              <fa class="font-size-24px" icon="ellipsis" />
                            </button>
                            <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">View</a></li>
@@ -79,7 +79,7 @@
                          <p >00000000000</p>
                          <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                              <i class="isax isax-more "></i>
+                              <fa class="font-size-24px" icon="ellipsis" />
                            </button>
                            <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">View</a></li>
@@ -104,7 +104,7 @@
                          <p >00000000000</p>
                          <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                              <i class="isax isax-more "></i>
+                              <fa class="font-size-24px" icon="ellipsis" />
                            </button>
                            <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">View</a></li>
@@ -129,7 +129,7 @@
                          <p >00000000000</p>
                          <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                              <i class="isax isax-more "></i>
+                              <fa class="font-size-24px" icon="ellipsis" />
                            </button>
                            <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">View</a></li>
@@ -154,7 +154,7 @@
                          <p >00000000000</p>
                          <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                              <i class="isax isax-more "></i>
+                              <fa class="font-size-24px" icon="ellipsis" />
                            </button>
                            <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">View</a></li>
@@ -179,7 +179,7 @@
                          <p >00000000000</p>
                          <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                              <i class="isax isax-more "></i>
+                              <fa class="font-size-24px" icon="ellipsis" />
                            </button>
                            <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">View</a></li>
@@ -204,7 +204,7 @@
                          <p >00000000000</p>
                          <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                              <i class="isax isax-more "></i>
+                              <fa class="font-size-24px" icon="ellipsis" />
                            </button>
                            <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">View</a></li>
@@ -229,7 +229,7 @@
                          <p >00000000000</p>
                          <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                              <i class="isax isax-more "></i>
+                              <fa class="font-size-24px" icon="ellipsis" />
                            </button>
                            <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">View</a></li>
@@ -254,7 +254,7 @@
                          <p >00000000000</p>
                          <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                              <i class="isax isax-more "></i>
+                              <fa class="font-size-24px" icon="ellipsis" />
                            </button>
                            <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">View</a></li>
@@ -276,16 +276,16 @@
              <!-- table Footer Row9 Column -->
              <div class="d-flex flex-row justify-content-end me-20px font-table-pagination d-flex align-items-center">
                 <!-- pagination  -->
-                <div class="d-flex flex-row">
-                   <button class="button-pagination bg-none color-dimgray border-color-none"><i class="isax isax-arrow-left-24 icon-button-round-24px"></i></button>
-                   <button class="button-pagination bg-none color-dimgray border-color-none ">Previous</button>
-                   <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10">1</button>
-                   <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 ">2</button>
-                   <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 pt-20 pt-20px"><i class="isax isax-more"></i></button>
-                   <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10">100</button>
-                   <button class="button-pagination bg-none color-indigo border-color-none ">Next</button>
-                   <button class="button-pagination bg-none color-indigo border-color-none"><i class="isax isax-arrow-right-34 icon-button-round-24px"></i></button>
-                </div>
+                <div class="d-flex  align-items-center">
+                     <button class="button-pagination bg-none color-dimgray border-color-none"><fa class="font-size-24px" icon="angle-left" /></button>
+                     <button class="button-pagination bg-none color-dimgray border-color-none margin-y-none">Previous</button>
+                     <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10">1</button>
+                     <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 ">2</button>
+                     <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 pt-20px"><fa class="fs-16px" icon="ellipsis" /></button>
+                     <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 ">100</button>
+                     <button class="button-pagination bg-none color-indigo border-color-none margin-y-none">Next</button>
+                     <button class="button-pagination bg-none color-indigo border-color-none"><fa class="font-size-24px" icon="angle-right" /></button>
+                  </div>
              </div>
           </div>
        </div>

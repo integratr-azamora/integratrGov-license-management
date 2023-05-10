@@ -91,7 +91,7 @@
                      <div class="input-group mb-3 size-inputbox inputbox-font">
                         <form class="form-floating">
                            <input type="text" class="default-password form-control shadow-sm border-color-none" id="floatingPassword" placeholder="Default Password Field" value="Dropdown Field">
-                              <i class="icon isax isax-arrow-down-1 icon-position" ></i>
+                              <fa class="font-size-24px icon-position-dropdown color-dimgray" icon="angle-down" />
                               <label for="floatingPassword">Label</label>
                         </form>
                      </div>
@@ -108,7 +108,7 @@
                      <div class="input-group mb-3 size-inputbox inputbox-font">
                         <form class="form-floating">
                            <input type="text" class="default-password form-control shadow-sm border-color-none" id="floatingPassword" placeholder="Default Password Field" value="Table Reference Field">
-                              <i class="icon isax isax-more icon-position" ></i>
+                              <fa class="fa-1x icon-position" icon="ellipsis" />
                               <label for="floatingPassword">Label</label>
                         </form>
                      </div>
@@ -151,7 +151,7 @@
                   <div class="input-group mb-3 size-inputbox inputbox-font">
                         <form class="form-floating">
                            <input type="text" class="default-password form-control shadow-sm border-color-none" id="floatingPassword" placeholder="Default Password Field" value="Dropdown Field">
-                              <i class="icon isax isax-arrow-down-1 icon-position" ></i>
+                           <fa class="font-size-24px icon-position-dropdown color-dimgray" icon="angle-down" />
                               <label for="floatingPassword">Label</label>
                         </form>
                      </div>

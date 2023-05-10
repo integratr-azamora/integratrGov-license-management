@@ -2,6 +2,16 @@
 import { RouterLink, RouterView } from 'vue-router'
 </script>
 <template>
+      <div>
+            <fa class="font-size-24px" icon="plus" />
+            <fa class="font-size-24px" icon="close" />
+            <fa class="font-size-24px" icon="angle-left" />
+            <fa class="font-size-24px" icon="angle-right" />
+            <fa class="font-size-24px" icon="angle-up" />
+            <fa class="font-size-24px" icon="angle-down" />
+            <fa class="font-size-24px" icon="ellipsis" />
+      </div>
+    
       <div class=" d-flex justify-content-center">
             <div class="dropdown outline-none button-tab mb-5">
                   <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">

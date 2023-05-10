@@ -146,13 +146,14 @@
                   
                   <!-- pagination  -->
                   <div class="d-flex  align-items-center">
-                     <button class="button-pagination bg-none color-dimgray border-color-none"><i class="isax isax-arrow-left-24 icon-button-round-24px"></i></button>
-                     <button class="button-pagination bg-none color-dimgray border-color-none ">Previous</button>
+                     <button class="button-pagination bg-none color-dimgray border-color-none"><fa class="font-size-24px" icon="angle-left" /></button>
+                     <button class="button-pagination bg-none color-dimgray border-color-none margin-y-none">Previous</button>
                      <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10">1</button>
                      <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 ">2</button>
-                     <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 pt-20px"><i class="isax isax-more"></i></button>
-                     <button class="button-pagination bg-none color-indigo border-color-none ">Next</button>
-                     <button class="button-pagination bg-none color-indigo border-color-none"><i class="isax isax-arrow-right-34 icon-button-round-24px"></i></button>
+                     <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 pt-20px"><fa class="fs-16px" icon="ellipsis" /></button>
+                     <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 ">100</button>
+                     <button class="button-pagination bg-none color-indigo border-color-none margin-y-none">Next</button>
+                     <button class="button-pagination bg-none color-indigo border-color-none"><fa class="font-size-24px" icon="angle-right" /></button>
                   </div>
                   <!-- pagination  -->
                </div>
