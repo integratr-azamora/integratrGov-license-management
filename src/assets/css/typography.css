@@ -21,7 +21,7 @@
 }
 
 .fontfamily-gotham-heading-1{
-    font-family: 'Gotham', sans-serif;
+    font-family: 'Gotham-meduim', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 32px;
@@ -31,7 +31,7 @@
 }
 
 .fontfamily-gotham-heading-2{
-    font-family: 'Gotham', sans-serif;
+    font-family: 'Gotham-meduim', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -40,7 +40,7 @@
     align-items: center;
 }
 .fontfamily-gotham-heading-3{
-    font-family: 'Gotham', sans-serif;
+    font-family: 'Gotham-meduim', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -50,7 +50,7 @@
 }
 
 .font-style-inter{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter-regular', sans-serif;
     font-size: 20px;
     line-height: 24px;
     display: flex;
@@ -111,7 +111,7 @@
     align-items: center;
 }
 .font-style-roboto-h{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter-regular', sans-serif;
     font-size: 20px;
     line-height: 24px;
     display: flex;
@@ -122,7 +122,7 @@
 }
 
 .heading2{
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto-regular', sans-serif;  
     font-size: 24px;
     line-height: 28px;
     display: flex;
@@ -132,7 +132,7 @@
 }
 
 .heading3{
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto-regular', sans-serif;  
     font-size: 16px;
     line-height: 19px;
     display: flex;
@@ -142,7 +142,7 @@
 }
 
 .heading4 {
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto-regular', sans-serif;  
     font-size: 16px;
     line-height: 19px;
     display: flex;
@@ -151,7 +151,7 @@
     border-color: var(--vt-c-black);             
 }
 .heading5{
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto-regular', sans-serif;  
     font-size: 14px;
     font-weight: 700;
     line-height: 16px;
@@ -162,7 +162,7 @@
 }
 
 .font-style-roboto-p1{
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto-regular', sans-serif;  
     font-size: 16px;
     line-height: 19px;
     display: flex;
@@ -172,7 +172,7 @@
 }
 
 .font-style-roboto-p2{
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto-regular', sans-serif;  
     font-size: 14px;
     line-height: 16px;
     display: flex;
@@ -191,13 +191,13 @@
 }
 
 .paragraph1{
-    font-family: 'Poppins', sans-serif;  
+    font-family: 'Poppins-regular', sans-serif;  
     font-size: 16px;
     color: #000000;
     border-color: var(--vt-c-black);             
 }
 .poppins-body1{
-    font-family: 'Poppins', sans-serif;  
+    font-family: 'Poppins-regular', sans-serif;  
     font-size: 20px;
     align-items: center;
     color: #000000;

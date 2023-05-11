@@ -298,76 +298,79 @@
    <br>
    <div class="container bor-style-solid-perma add-cont2">
          <div class="row justify-content-center p-3">
-            <span class="heading1 mt-4">Juan Dela Cruz</span>
+            <span class="heading1 mt-5">Juan Dela Cruz</span>
          </div>
-         <div class="add-cont3 mt-5">
+         <div class="add-cont3 mt-3">
             <div class="modal-header">
             <p class="fontfamily-gotham-heading-2 p-4"><b>Client Information</b></p>
             <div class="position-absolute top-0 end-0">
-               <button class="button-default bg-white border-color-indigo color-indigo me-0">Cancel</button>     
+               <button class="button-default bg-white border-color-indigo color-indigo">Cancel</button>     
             </div>
          </div>
          <div class="scroll-table table-responsive shadow-sm overflow-auto" >
             <table class="table  table-striped table-hover font-table-text" >
                <thead >
                   <tr >
-                     <th class="text-start px-20px p-3 font-table-column border-rouded-left-5px">Label<i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></th>
-                     <th class="text-start px-20px p-3 font-table-column">Details<i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></th>
+                     <th class="text-start font-table-column border-rouded-left-5px">Label<i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></th>
+                     <th class="text-start font-table-column">Details<i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></th>
                   </tr>
                </thead>
                <tr class="size-table-tabledata column border-rouded-5px">
-                  <td class="table-text-bold">First Name</td>
-                  <td class="text-start1 px-20px p-3">Juan</td>
+                  <td class="text-start table-text-roboto-reg">First Name</td>
+                  <td class="text-start table-text-light">Juan</td>
                </tr>
                <tr class="size-table-tabledata column border-rouded-5px">
-                  <td class="table-text-bold">Last Name</td>
-                  <td class="text-start1 px-20px p-3">Dela Cruz</td>
+                  <td class="text-start table-text-roboto-reg">Last Name</td>
+                  <td class="text-start table-text-light">Dela Cruz</td>
                </tr>
                <tr class="size-table-tabledata column border-rouded-5px">
-                  <td class="table-text-bold">Middle Name</td>
-                  <td class="text-start1 px-20px p-3">Santos</td>
+                  <td class="text-start table-text-roboto-reg">Middle Name</td>
+                  <td class="text-start table-text-light">Santos</td>
                </tr>
                <tr class="size-table-tabledata column border-rouded-5px">
-                  <td class="table-text-bold">Email</td>
-                  <td class="text-start1 px-20px p-3">juandelacruz@gmail.com</td>
+                  <td class="text-start table-text-roboto-reg">Email</td>
+                  <td class="text-start table-text-light">juandelacruz@gmail.com</td>
                </tr>
                <tr class="size-table-tabledata column border-rouded-5px">
-                  <td class="table-text-bold">Mobile No.</td>
-                  <td class="text-start1 px-20px p-3">+639091234567</td>
+                  <td class="text-start table-text-roboto-reg">Mobile No.</td>
+                  <td class="text-start table-text-light">+639091234567</td>
                </tr>
                <tr class="size-table-tabledata column border-rouded-5px">
-                  <td class="table-text-bold">TIN</td>
-                  <td class="text-start1 px-20px p-3">00000000000</td>
+                  <td class="text-start table-text-roboto-reg">TIN</td>
+                  <td class="text-start table-text-light">00000000000</td>
                </tr>
                <tr class="size-table-tabledata column border-rouded-5px">
-                  <td class="table-text-bold">LGU/Organization</td>
-                  <td class="text-start1 px-20px p-3">Pasig City</td>
+                  <td class="text-start table-text-roboto-reg">LGU/Organization</td>
+                  <td class="text-start table-text-light">Pasig City</td>
                </tr>
                <tr class="size-table-tabledata column border-rouded-5px">
-                  <td class="table-text-bold">Position</td>
-                  <td class="text-start1 px-20px p-3">Mayor</td>
+                  <td class="text-start table-text-roboto-reg">Position</td>
+                  <td class="text-start table-text-light">Mayor</td>
                </tr>
                <tr class="size-table-tabledata column border-rouded-5px">
-                  <td class="table-text-bold">Unit/House/Bldg No.</td>
-                  <td class="text-start1 px-20px p-3">1</td>
+                  <td class="text-start table-text-roboto-reg">Unit/House/Bldg No.</td>
+                  <td class="text-start table-text-light">1</td>
                </tr>
                <tr class="size-table-tabledata column border-rouded-5px">
-                  <td class="table-text-bold">Building Name</td>
-                  <td class="text-start1 px-20px p-3">SM City Light Mall Residence</td>
+                  <td class="text-start table-text-roboto-reg">Building Name</td>
+                  <td class="text-start table-text-light">SM City Light Mall Residence</td>
                </tr>
             </table>
          </div>
-         <div class="add-cont4" style="position:absolute;left:890px; bottom: 5px;">
-         <div class="d-flex flex-row">
-            <p class="fontfamily-gotham-heading-2 p-4 blue"><b>Action</b></p>
+         <div class="add-cont4" style="position:absolute;left:790px; bottom: 5px;">
+         <div class="d-flex flex-row pt-2">
+          <p class="fontfamily-gotham-heading-2 p-4 blue"><b>Actions</b></p>
           <button class="button-default bg-valencia color-white border-color-valencia d-flex flex-row"><i class="isax isax-minus icon-size-weight me-1"></i>Reset Password</button>
           <button class="button-default bg-purpleheart color-white border-color-purpleheart d-flex flex-row"><i class="isax isax-trash icon-size-weight me-1"></i>Delete</button>
+         </div>
+         <form>
+         <div class="row">
+            <div class="col">
+            <input type="text" class="form-control" style="height: 540px; width: 460px;">
+         </div>
+         </div>
+         </form>
        </div>
-         </div>
-         
-
-
-
-         </div>
+      </div>
    </div>
 </template>

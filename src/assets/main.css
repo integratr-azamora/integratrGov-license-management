@@ -16,14 +16,14 @@
 @import './/css/AddAccount.css';
 
 @font-face {
-  font-family: 'Poppins';
+  font-family: 'Poppins-regular';
   src: url(../assets/font_styles/Poppins-Regular.ttf) format(truetype); 
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto-regular';
   src: url(../assets/font_styles/Roboto-Regular.ttf) format(truetype); 
   font-weight: normal;
   font-style: normal;
@@ -37,14 +37,14 @@
 }
 
 @font-face {
-  font-family: 'Gotham';
+  font-family: 'Gotham-meduim';
   src: url(../assets/font_styles/Gotham-Medium.otf) format(truetype); 
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Inter';
+  font-family: 'Inter-regular';
   src: url(../assets/font_styles/Inter-Regular.ttf) format(truetype); 
   font-weight: normal;
   font-style: normal;
@@ -56,12 +56,7 @@
   font-weight: 600;
   font-style: normal;
 }
-@font-face {
-  font-family: 'Inter';
-  src: url(../assets/font_styles/Inter-Regular.ttf) format(truetype); 
-  font-weight: normal;
-  font-style: normal;
-}
+
 
 @font-face {
   font-family: 'Gotham-light';
