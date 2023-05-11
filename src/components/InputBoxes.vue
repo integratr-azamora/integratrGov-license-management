@@ -108,7 +108,7 @@
                      <div class="input-group mb-3 size-inputbox inputbox-font">
                         <form class="form-floating">
                            <input type="text" class="default-password form-control shadow-sm border-color-none" id="floatingPassword" placeholder="Default Password Field" value="Table Reference Field">
-                              <fa class="fa-1x icon-position" icon="ellipsis" />
+                              <fa class="fa-1x icon-position color-dimgray" icon="ellipsis" />
                               <label for="floatingPassword">Label</label>
                         </form>
                      </div>
@@ -126,18 +126,18 @@
                      <div class="input-group mb-3 size-inputbox inputbox-font">
                         <form class="form-floating">
                            <input type="text" class="default-password form-control shadow-sm border-color-none" id="floatingPassword" placeholder="Default Password Field" value="Number Selector Field">
-                           <div class="icon-position2 d-flex flex-column">
-                              <i class="icon isax isax-arrow-up-2" ></i>
-                              <i class="icon isax isax-arrow-down-1 " ></i>
+                           <div class="icon-position2 d-flex flex-column icon-position-dropdown">
+                              <fa class="font-size-16px  color-black" icon="angle-up" />
+                              <fa class="font-size-16px  color-black" icon="angle-down" />
                            </div>
                               
                               <label for="floatingPassword">Label</label>
                         </form>
                      </div>
                      <!-- inputbox6  -->
-                        <div class="shadow-sm size-inputbox inputbox-font">
+                        <div class="shadow-sm size-inputbox inputbox-font border-round-4px">
                         <i class="isax isax-search-normal-1 ps-10px size-icon  ms-1"></i>
-                        <input class="input-field  p-3 outline-none border-color-none size-inputbox-search" type="text" placeholder="Search">
+                        <input class="input-field  p-3 outline-none border-color-none size-inputbox-search border-round-4px" type="text" placeholder="Search">
                         </div>
                      <!-- inputbox6  -->
                   </div>

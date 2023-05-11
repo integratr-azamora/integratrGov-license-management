@@ -35,10 +35,22 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Roboto-bold';
+  src: url(../assets/Fonts/Roboto/Roboto-Bold.ttf) format(truetype); 
+  font-weight: normal;
+  font-style: normal;
+}
 
 @font-face {
   font-family: 'Gotham-meduim';
   src: url(../assets/font_styles/Gotham-Medium.otf) format(truetype); 
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham-bold';
+  src: url(../assets/Fonts/Gotham-Font/Gotham-Bold.otf) format(truetype); 
   font-weight: normal;
   font-style: normal;
 }
@@ -61,6 +73,12 @@
 @font-face {
   font-family: 'Gotham-light';
   src: url(../assets/font_styles/Gotham-Light.otf) format(truetype); 
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham-book';
+  src: url(../assets/Fonts/Gotham-Font/GothamBook.ttf) format(truetype); 
   font-weight: normal;
   font-style: normal;
 }

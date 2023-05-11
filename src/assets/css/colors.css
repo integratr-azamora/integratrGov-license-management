@@ -195,8 +195,9 @@
   .border-color-none{
     border-style: none !important;
   }
-  
-  
+  .border-round-4px{
+    border-radius: 4px;
+  }
   /* border Colors */
 
 /* random */

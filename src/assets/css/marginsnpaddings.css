@@ -12,6 +12,9 @@
 .ms-12px{
   margin-left:var(--c-size-7px);
 }
+.ms-10px{
+  margin-left:var(--c-size-10px);
+}
 .ms-20px{
     margin-left: 1.25rem !important;
   }
@@ -29,13 +32,26 @@
 .me-8px{
   margin-right: var(--c-size-8px);
 }
+.me-10px{
+  margin-right:var(--c-size-10px);
+}
 .me-20px{
     margin-right: 1.25rem !important;
   }
 /* margin-end  */
 /* margin-top  */
+.mt-1px{
+  margin-top:1px  !important;
+}
+
+.mt-1-5px{
+  margin-top: 1.5px !important;
+}
 .mt-10px{
     margin-top: 0.625rem !important;
+  }
+  .mt-6px{
+    margin-top: var(--c-size-6px) !important;
   }
   .mt-17px{
     margin-top: var(--c-size-17px) !important;
@@ -60,6 +76,10 @@
 .mx-10{
     margin-left: var(--c-size-10px);
     margin-right: var(--c-size-10px);
+  }
+  .mx-20px{
+    margin-left: var(--c-size-20px);
+    margin-right: var(--c-size-20px);
   }
   .my-20{
     
@@ -113,15 +133,31 @@
 .pt-20px{
   padding-top: var(--c-size-20px) !important;
 }
+.pt-20{
+  padding-top: var(--c-size-20px) !important;
+}
 .px-10px{
   padding-right: var(--c-size-10px) !important;
   padding-left: var(--c-size-10px) !important;
 }
+.pt-15px{
+  padding-top: var(--c-size-15px) !important;
+}
 .pt-17px{
   padding-top: var(--c-size-17px) !important;
 }
+.pb-5px{
+  padding-bottom: var(--c-size-5px) !important;
+}
+.pb-10px{
+  padding-bottom: var(--c-size-10px) !important;
+}
 .pb-22px{
   padding-bottom: var(--c-size-22px) !important;
+}
+
+.pb-20px{
+  padding-bottom: var(--c-size-20px) !important;
 }
 .ps-10px{
   padding-left: var(--c-size-10px);
@@ -207,3 +243,7 @@ padding-bottom: 0px !important;
 }
 /* margin none  */
 /* custom-padding  */
+
+.vertical-alignment-center{
+  vertical-align: middle;
+}
