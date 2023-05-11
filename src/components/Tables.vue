@@ -62,19 +62,19 @@
                   <table class="table table-striped table-hover font-table-text table-borderless" >
                      <thead >
                         <tr > 
-                           <th class="text-start px-20px  pb-10px">
+                           <th class="text-start px-20px  pb-10px padding-top-none">
                               <div class="d-flex align-items-center">
                                  <span class="font-table-column me-10px">Column</span>
                                  <i class="isax isax-arrow-down5 size-icon-table-arrow"></i>
                               </div>
                             </th>
-                            <th class="text-start px-20px  pb-10px ">
+                            <th class="text-start px-20px  pb-10px padding-top-none">
                               <div class="d-flex align-items-center">
                                  <span class="font-table-column me-10px">Column</span>
                                  <i class="isax isax-arrow-down5 size-icon-table-arrow"></i>
                               </div>
                             </th>
-                            <th class="text-start px-20px  pb-10px ">
+                            <th class="text-start px-20px  pb-10px padding-top-none">
                               <div class="d-flex align-items-center">
                                  <span class="font-table-column me-10px">Column</span>
                                  <i class="isax isax-arrow-down5 size-icon-table-arrow"></i>
