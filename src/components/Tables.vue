@@ -141,19 +141,19 @@
                         
                      </tbody>
                   </table>
-                  <div class="mt-4">
+                  <div class="mt-20px mb-20px">
                      <span class=""></span>
                      
                <!-- table Footer Row9 Column -->
-               <div class="d-flex flex-row justify-content-between me-20px font-table-pagination d-flex align-items-center">
-                  <div class="d-flex flex-row d-flex align-items-center ms-20px ">
+               <div class="d-flex flex-row justify-content-between me-20px ms-20px font-table-pagination d-flex align-items-center ">
+                  <div class="d-flex flex-row d-flex align-items-center  d-inline-flex">
                      <!-- text  -->
                      <p class="">Show</p>
                      <!-- text  -->
                      <!-- button  -->
                      <button class="button-default bg-none color-indigo border-color-indigo d-flex flex-row ">
                         <p class="me-2">10 rows</p>
-                        <fa class="font-size-16px  color-indigo mt-6px" icon="angle-down" />
+                        <fa class="font-size-24px  color-indigo mt-1px" icon="angle-down" />
                      </button>
                      <!-- button  -->
                   </div>
@@ -171,14 +171,6 @@
                   </div>
                   <!-- pagination  -->
                </div>
-               <!-- table Footer Row9 Column -->
-               <!-- table Footer Row10 Column -->
-               <div class="col d-flex flex-row px-20px">
-                  <!-- px box  -->
-                  <div class=" size-box-20 ms-60px"></div>
-                  <!-- px box  -->
-               </div>
-               <!-- table Footer Row10 Column -->
             </div>
                </div>
                <!-- table Body  -->

@@ -81,6 +81,9 @@
     width: 24px;
     height: 24px;
 }
+.font-size-20px{
+    font-size:var(--c-size-20px);
+}
 .font-size-24px{
     font-size:var(--c-size-24px);
 }

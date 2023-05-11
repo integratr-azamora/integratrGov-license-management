@@ -38,6 +38,7 @@
     border-radius: var(--bs-border-radius-pill);
     font-family: var(--c-font-styles-roboto);
     font-size: var(--c-font-size-16px);
+    font-style: normal;
     padding-left: var(--c-size-20px);
     padding-right: var(--c-size-20px);
     padding-top: var(--c-size-10px);
@@ -86,7 +87,7 @@
     border-radius: 4px;
     width: var(--c-size-152px);
     height: var(--c-size-30px);
-    font-family: 'Gotham';
+    font-family: 'Gotham-light', sans-serif;
     font-weight: 400;
     font-size: var(--c-size-16px);
     line-height: var(--c-size-15px);
