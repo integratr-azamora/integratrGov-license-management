@@ -1,4 +1,4 @@
-.cont10{
+.add-cont{
     position: relative;
     width: 1536px;
     height: 1247px;
@@ -6,7 +6,7 @@
     padding-right: 20px;
 }
 
-.cont11{
+.add-cont1{
     position: absolute;
     width: 1536px;
     height: 1088px;
@@ -17,17 +17,28 @@
     padding-right: 20px;
 }
 
-.cont12{
+.add-cont2{
     position: relative;
     width: 1536px;
     height: 1061px;
     background: #FFFFFF;
 }
 
-.cont13{
-    width: 1536px;
-    height: 902px;
+.add-cont3{
+    width: 880px;
+    height: 745px;
     background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+
+.add-cont4{
+    position: absolute;
+    width: 400px;
+    height: 745px;
+    background: #F3F6FF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
 }
 
 .add-icon{
@@ -55,8 +66,20 @@
 }
 
 .labelfield{
+    font-family: 'Roboto', sans-serif;  
     height: 56px;
     width: 457px;
     border-radius: 4px;
 }
+/* table-fonts */
+.table-text-bold{
+    font-family: 'Gotham', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
 
+/* .table-text- */

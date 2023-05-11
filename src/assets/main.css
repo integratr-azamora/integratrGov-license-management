@@ -12,8 +12,6 @@
 @import './css/transform.css';
 @import '/node_modules/bootstrap/dist/css/bootstrap.css';
 @import './css/custom.css';
-
-
 @import './/css/licensekey-issue.css';
 @import './/css/AddAccount.css';
 
@@ -45,6 +43,19 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Inter';
+  src: url(../assets/font_styles/Inter-Regular.ttf) format(truetype); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter-semi';
+  src: url(../assets/font_styles/Inter-SemiBold.ttf) format(truetype); 
+  font-weight: 600;
+  font-style: normal;
+}
 @font-face {
   font-family: 'Inter';
   src: url(../assets/font_styles/Inter-Regular.ttf) format(truetype); 

@@ -51,7 +51,7 @@
          </select>
          <label for="floatingSelect" class="info">Number of License</label>
       </div>
-      <div class="modal-footer">
+      <div class="modal-footer mt-3">
          <button class="button-default bg-white border-color-none color-indigo me-0">Cancel</button>
          <button class="button-default bg-indigo border-color-indigo color-white me-0">Save</button>
       </div>
@@ -89,7 +89,7 @@
          </select>
          <label for="floatingSelect" class="info">Email Address</label>
       </div>
-      <div class="modal-footer text-center justify-content">
+      <div class="modal-footer text-center justify-content mt-3">
          <button class="button-default bg-white border-color-none color-indigo me-0">Cancel</button>
          <button class="button-default bg-indigo border-color-indigo color-white me-0">Save</button>
       </div>

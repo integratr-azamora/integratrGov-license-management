@@ -51,8 +51,6 @@
 
 .icon-size{
     font-size: 24px;
-    margin-left: 15px;
-    margin-top: 15px;
 }
 
 .icon1{
@@ -76,14 +74,36 @@
     border-color: var(--vt-c-dim-gray);
 }
 
+.green{
+    color: #27AE60
+}
 
-.icon-size-svg{
-    width: 24px;
-    height: 24px;
+.red{
+    color:var(--vt-c-valencia);
+    border-radius: 138.148px;
 }
-.font-size-24px{
-    font-size:var(--c-size-24px);
+
+.icon-arrow-size{
+    width: 8px;
+    height: 30px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
-.font-size-12px{
-    font-size:var(--c-size-12px);
+
+.icon-arrow{
+  border-radius: 50% !important;
+  font-size: var(--c-size-24px);
+  color: var(--vt-c-);
+  width: var(--c-size-24px);
+  height: var(--c-size-24px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.arrow-icon{
+    width: var(--c-size-24px);
+    height: var(--c-size-24px);
 }

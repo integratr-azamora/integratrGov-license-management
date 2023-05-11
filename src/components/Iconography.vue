@@ -1,5 +1,5 @@
 <template>
-   <div class=" bor-style-solid-perma size-color-container mx-auto" >
+   <div class="container bor-style-solid-perma container2" >
       <div class="row justify-content-center">
          <p class="colors fw-bold border-bottom-1 mb-2 p-3">Colors</p>
       </div>
@@ -69,153 +69,165 @@
    </div>
    <br>
    <!-- ICONS -->
-   <div class="size-icon-container bor-style-solid-perma mx-auto">
+   <div class="container bor-style-solid-perma container3">
       <div class="row justify-content-center">
          <p class="iconography fw-bold border-bottom-1 mb-3 p-3">Iconography</p>
       </div>
       <div class="row ">
          <div class="d-flex justify-content-start">
             <!-- Row 1  -->
-            <i class="icon-size gray isax isax-home-2"></i>
+            <i class="icon-size margin-top-left gray isax isax-home-2"></i>
             <!-- icon2  -->
-            <i class="icon-size gray isax isax-chart-3"></i>
+            <i class="icon-size margin-top-left gray isax isax-chart-3"></i>
             <!-- icon3  -->
-            <i class="icon-size gray isax isax-bank"></i>
+            <i class="icon-size margin-top-left gray isax isax-bank"></i>
             <!-- icon4  -->
-            <i class="icon-size gray isax isax-setting-2"></i>
+            <i class="icon-size margin-top-left gray isax isax-setting-2"></i>
             <!-- icon5  -->
-            <i class="icon-size gray isax isax-call"></i>
+            <i class="icon-size margin-top-left gray isax isax-call"></i>
             <!-- icon6  -->
-            <i class="icon-size gray isax isax-logout"></i>
+            <i class="icon-size margin-top-left gray isax isax-logout"></i>
          </div>
          <!-- Row 2  -->
          <div class="d-flex justify-content-start">
             <!-- icon1 -->
-            <i class="icon-size violet isax isax-home-2"></i>
+            <i class="icon-size margin-top-left violet isax isax-home-2"></i>
             <!-- icon2  -->
-            <i class="icon-size violet isax isax-chart-3"></i>
+            <i class="icon-size margin-top-left violet isax isax-chart-3"></i>
             <!-- icon3  -->
-            <i class="icon-size violet isax isax-bank"></i>
+            <i class="icon-size margin-top-left violet isax isax-bank"></i>
             <!-- icon4 -->
-            <i class="icon-size violet isax isax-setting-2"></i>
+            <i class="icon-size margin-top-left violet isax isax-setting-2"></i>
             <!-- icon5  -->
-            <i class="icon-size violet isax isax-call"></i>
+            <i class="icon-size margin-top-left violet isax isax-call"></i>
             <!-- icon6  -->
-            <i class="icon-size violet isax isax-logout"></i>
+            <i class="icon-size margin-top-left violet isax isax-logout"></i>
          </div>
          <!-- Row 3  -->
          <div class="d-flex justify-content-start">
             <!-- icon1  -->
-            <i class="icon-size gray isax isax-arrow-left-2"></i>
+            <fa class="arrow-icon margin-top-left gray" icon="angle-left" />
             <!-- icon2 -->
-            <i class="icon-size gray isax isax-arrow-right-3"></i>
+            <fa class="arrow-icon margin-top-left gray" icon="angle-right" />
             <!-- icon3  -->
-            <i class="icon-size violet isax isax-arrow-left-2"></i>
+            <fa class="arrow-icon margin-top-left violet" icon="angle-left" />
             <!-- icon4  -->
-            <i class="icon-size violet isax isax-arrow-right-3"></i>
+            <fa class="arrow-icon margin-top-left violet" icon="angle-right" />
             <!-- icon5  -->
-            <i class="icon-size gray isax isax-arrow-down-1"></i>
+            <fa class="arrow-icon margin-top-left gray" icon="angle-down" />
             <!-- icon6  -->
-            <i class="icon-size gray isax isax-arrow-up-2"></i>
+            <fa class="arrow-icon margin-top-left gray" icon="angle-up" />
             <!-- icon7  -->
-            <i class="icon-size violet isax isax-arrow-down-1"></i>
+            <fa class="arrow-icon margin-top-left violet" icon="angle-down" />
             <!-- icon8 -->
-            <i class="icon-size violet isax isax-arrow-up-2"></i>
+            <fa class="arrow-icon margin-top-left violet" icon="angle-up" />
          </div>
          <!-- Row 4  -->
          <div class="d-flex justify-content-start">
             <!-- icon1  -->
-            <i class="icon-size gray isax isax-calendar-1"></i>
+            <i class="icon-size margin-top-left gray isax isax-calendar-1"></i>
             <!-- icon2  -->
-            <i class="icon-size gray isax isax-gps"></i>
+            <i class="icon-size margin-top-left gray isax isax-gps"></i>
             <!-- icon3  -->
-            <i class="icon-size isax isax-import-1"></i>
+            <i class="icon-size margin-top-left isax isax-import-1"></i>
             <!-- icon4  -->
-            <i class="icon-size blue isax isax-message-text"></i>
+            <i class="icon-size margin-top-left blue isax isax-message-text"></i>
             <!-- icon5  -->
-            <img src="../assets/icon/copy.svg" class="icon-size" alt="copy">
+            <img src="../assets/icon/copy.svg" class="icon-size margin-top-left" alt="copy">
             <!-- icon6  -->
-            <img src="../assets/icon/Up.svg" class="icon-size" alt="Fdown">
+            <div class="position-relative">
+            <div class="d-flex flex-row">
+               <span class="icon-arrow border-color-eucalyptus margin-top-left color-white bg-eucalyptus d-flex align-items-center">
+                  <fa class="icon-arrow-size" icon="arrow-up" />
+               </span>
+            </div>
+            </div>
             <!-- icon7  -->
-            <img src="../assets/icon/Down.svg" class="icon-size" alt="Down">
+            <div class="position-relative">
+            <div class="d-flex flex-row">
+               <span class="icon-arrow border-color-valencia margin-top-left color-white bg-valencia d-flex align-items-center">
+                  <fa class="icon-arrow-size" icon="arrow-down" />
+               </span>
+            </div>
+            </div>
             <!-- icon8  -->
-            <i class="icon-size isax isax-more"></i>
+            <fa class="arrow-icon margin-top-left" icon="ellipsis" />
             <!-- icon9  -->
-            <img src="../assets/icon/checked.svg" class="icon-size" alt="checked">
+            <fa class="arrow-icon margin-top-left green" icon="check" />
             <!-- icon10  -->
-            <img src="../assets/icon/close.svg" class="icon-size" alt="close">
+            <fa class="arrow-icon margin-top-left red" icon="close" />
          </div>
          <!-- Row 5 -->
          <div class="d-flex justify-content-start">
-            <i class="icon-size gray isax isax-eye"></i>
+            <i class="icon-size margin-top-left gray isax isax-eye"></i>
             <!-- icon1  -->
-            <i class="icon-size gray isax isax-eye-slash"></i>
+            <i class="icon-size margin-top-left gray isax isax-eye-slash"></i>
             <!-- icon2  -->
-            <i class="icon-size gray isax isax-search-normal-1"></i>
+            <i class="icon-size margin-top-left gray isax isax-search-normal-1"></i>
             <!-- icon3  -->
-            <i class="icon-size violet isax isax-link-21"></i>
+            <i class="icon-size margin-top-left violet isax isax-link-21"></i>
             <!-- icon4  -->
-            <i class="icon-size violet isax isax-document-1"></i>
+            <i class="icon-size margin-top-left violet isax isax-document-1"></i>
          </div>
          <!-- Row 6 -->
          <div class="d-flex justify-content-start">
-            <img src="../assets/icon/Twitter.svg" class="icon-size" alt="Twitter">
+            <img src="../assets/icon/Twitter.svg" class="icon-size margin-top-left" alt="Twitter">
             <!-- icon1  -->
-            <img src="../assets/icon/Facebook.svg" class="icon-size" alt="Fb">
+            <img src="../assets/icon/Facebook.svg" class="icon-size margin-top-left" alt="Fb">
             <!-- icon2  -->
-            <img src="../assets/icon/YouTube.svg" class="icon-size" alt="Yt">
+            <img src="../assets/icon/YouTube.svg" class="icon-size margin-top-left" alt="Yt">
             <!-- icon3  -->
-            <i class="icon-size isax isax-instagram"></i>
+            <i class="icon-size margin-top-left isax isax-instagram"></i>
             <!-- icon4  -->
-            <img src="../assets/icon/Google1.svg" class="icon-size" alt="google">
+            <img src="../assets/icon/Google1.svg" class="icon-size margin-top-left" alt="google">
          </div>
          <!-- Row 7 -->
          <div class="d-flex justify-content-start">
-            <i class="icon-size isax isax-profile-tick"></i>
+            <i class="icon-size margin-top-left isax isax-profile-tick"></i>
             <!-- icon1  -->
-            <i class="icon-size isax isax-coin-1"></i>
+            <i class="icon-size margin-top-left isax isax-coin-1"></i>
             <!-- icon2  -->
-            <img src="../assets/icon/Cash.svg" class="icon-size" alt="cash2">
+            <img src="../assets/icon/Cash.svg" class="icon-size margin-top-left" alt="cash2">
             <!-- icon3  -->
-            <img src="../assets/icon/Map-Alt.svg" class="icon-size" alt="Map1">
+            <img src="../assets/icon/Map-Alt.svg" class="icon-size margin-top-left" alt="Map1">
             <!-- icon4  -->
-            <i class="icon-size isax isax-people"></i>
+            <i class="icon-size margin-top-left isax isax-people"></i>
             <!-- icon5  -->
-            <img src="../assets/icon/home.svg" class="icon-size" alt="home1">
+            <img src="../assets/icon/home.svg" class="icon-size margin-top-left" alt="home1">
             <!-- icon6  -->
-            <img src="../assets/icon/File.svg" class="icon-size" alt="File">
+            <img src="../assets/icon/File.svg" class="icon-size margin-top-left" alt="File">
          </div>
          <!-- Row 8-->
          <div class="d-flex justify-content-start">
-            <i class="icon-size blue isax isax-profile-tick"></i>
+            <i class="icon-size margin-top-left blue isax isax-profile-tick"></i>
             <!-- icon1  -->
-            <i class="icon-size isax blue isax-coin-1"></i>
+            <i class="icon-size margin-top-left isax blue isax-coin-1"></i>
             <!-- icon2  -->
-            <img src="../assets/icon/Cash2.svg" class="icon-size" alt="cash2">
+            <img src="../assets/icon/Cash2.svg" class="icon-size margin-top-left" alt="cash2">
             <!-- icon3  -->
-            <img src="../assets/icon/Map-Alt2.svg" class="icon-size" alt="Map2">
+            <img src="../assets/icon/Map-Alt2.svg" class="icon-size margin-top-left" alt="Map2">
             <!-- icon4  -->
-            <i class="icon-size blue isax isax-people"></i>
+            <i class="icon-size margin-top-left blue isax isax-people"></i>
             <!-- icon5  -->
-            <img src="../assets/icon/home2.svg" class="icon-size" alt="home2">
+            <img src="../assets/icon/home2.svg" class="icon-size margin-top-left" alt="home2">
             <!-- icon6  -->
-            <img src="../assets/icon/File2.svg" class="icon-size" alt="File2">
+            <img src="../assets/icon/File2.svg" class="icon-size margin-top-left" alt="File2">
          </div>
          <!-- Row 9  -->
          <div class="d-flex justify-content-start">
-            <div class="icon-size gray isax isax-profile-tick"></div>
+            <div class="icon-size margin-top-left gray isax isax-profile-tick"></div>
             <!-- icon1  -->
-            <i class="icon-size gray isax isax-coin-1"></i>
+            <i class="icon-size margin-top-left gray isax isax-coin-1"></i>
             <!-- icon2  -->
-            <img src="../assets/icon/Cash3.svg" class="icon-size" alt="cash3">
+            <img src="../assets/icon/Cash3.svg" class="icon-size margin-top-left" alt="cash3">
             <!-- icon3  -->
-            <img src="../assets/icon/Map-Alt3.svg" class="icon-size" alt="Map3">
+            <img src="../assets/icon/Map-Alt3.svg" class="icon-size margin-top-left" alt="Map3">
             <!-- icon4  -->
-            <i class="icon-size gray isax isax-people"></i>
+            <i class="icon-size margin-top-left gray isax isax-people"></i>
             <!-- icon5  -->
-            <img src="../assets/icon/home3.svg" class="icon-size" alt="home3">
+            <img src="../assets/icon/home3.svg" class="icon-size margin-top-left" alt="home3">
             <!-- icon6  -->
-            <img src="../assets/icon/File-3.svg" class="icon-size" alt="file3">
+            <img src="../assets/icon/File-3.svg" class="icon-size margin-top-left" alt="file3">
          </div>
          <!-- Row 10 -->   
          <div class="d-flex justify-content-start mt-3">

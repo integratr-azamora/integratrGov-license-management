@@ -1,6 +1,6 @@
 <template>
-   <div class="container bor-style-solid-perma cont10">
-      <div class="container cont11">
+   <div class="container bor-style-solid-perma add-cont">
+      <div class="container add-cont1">
          <div class="row justify-content-center p-3">
             <span class="heading1">Account Details</span>
             <span class="heading3 mt-3 fw-bold">Basic Information</span>
@@ -296,11 +296,78 @@
       </div>
    </div>
    <br>
-   <div class="container bor-style-solid-perma cont12">
-      <div class="container cont13">
+   <div class="container bor-style-solid-perma add-cont2">
          <div class="row justify-content-center p-3">
-            <span class="heading1">Juan Dela Cruz</span>
+            <span class="heading1 mt-4">Juan Dela Cruz</span>
          </div>
-      </div>
+         <div class="add-cont3 mt-5">
+            <div class="modal-header">
+            <p class="fontfamily-gotham-heading-2 p-4"><b>Client Information</b></p>
+            <div class="position-absolute top-0 end-0">
+               <button class="button-default bg-white border-color-indigo color-indigo me-0">Cancel</button>     
+            </div>
+         </div>
+         <div class="scroll-table table-responsive shadow-sm overflow-auto" >
+            <table class="table  table-striped table-hover font-table-text" >
+               <thead >
+                  <tr >
+                     <th class="text-start px-20px p-3 font-table-column border-rouded-left-5px">Label<i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></th>
+                     <th class="text-start px-20px p-3 font-table-column">Details<i class="isax isax-arrow-down-1 size-icon-table-arrow ms-2"></i></th>
+                  </tr>
+               </thead>
+               <tr class="size-table-tabledata column border-rouded-5px">
+                  <td class="table-text-bold">First Name</td>
+                  <td class="text-start1 px-20px p-3">Juan</td>
+               </tr>
+               <tr class="size-table-tabledata column border-rouded-5px">
+                  <td class="table-text-bold">Last Name</td>
+                  <td class="text-start1 px-20px p-3">Dela Cruz</td>
+               </tr>
+               <tr class="size-table-tabledata column border-rouded-5px">
+                  <td class="table-text-bold">Middle Name</td>
+                  <td class="text-start1 px-20px p-3">Santos</td>
+               </tr>
+               <tr class="size-table-tabledata column border-rouded-5px">
+                  <td class="table-text-bold">Email</td>
+                  <td class="text-start1 px-20px p-3">juandelacruz@gmail.com</td>
+               </tr>
+               <tr class="size-table-tabledata column border-rouded-5px">
+                  <td class="table-text-bold">Mobile No.</td>
+                  <td class="text-start1 px-20px p-3">+639091234567</td>
+               </tr>
+               <tr class="size-table-tabledata column border-rouded-5px">
+                  <td class="table-text-bold">TIN</td>
+                  <td class="text-start1 px-20px p-3">00000000000</td>
+               </tr>
+               <tr class="size-table-tabledata column border-rouded-5px">
+                  <td class="table-text-bold">LGU/Organization</td>
+                  <td class="text-start1 px-20px p-3">Pasig City</td>
+               </tr>
+               <tr class="size-table-tabledata column border-rouded-5px">
+                  <td class="table-text-bold">Position</td>
+                  <td class="text-start1 px-20px p-3">Mayor</td>
+               </tr>
+               <tr class="size-table-tabledata column border-rouded-5px">
+                  <td class="table-text-bold">Unit/House/Bldg No.</td>
+                  <td class="text-start1 px-20px p-3">1</td>
+               </tr>
+               <tr class="size-table-tabledata column border-rouded-5px">
+                  <td class="table-text-bold">Building Name</td>
+                  <td class="text-start1 px-20px p-3">SM City Light Mall Residence</td>
+               </tr>
+            </table>
+         </div>
+         <div class="add-cont4" style="position:absolute;left:890px; bottom: 5px;">
+         <div class="d-flex flex-row">
+            <p class="fontfamily-gotham-heading-2 p-4 blue"><b>Action</b></p>
+          <button class="button-default bg-valencia color-white border-color-valencia d-flex flex-row"><i class="isax isax-minus icon-size-weight me-1"></i>Reset Password</button>
+          <button class="button-default bg-purpleheart color-white border-color-purpleheart d-flex flex-row"><i class="isax isax-trash icon-size-weight me-1"></i>Delete</button>
+       </div>
+         </div>
+         
+
+
+
+         </div>
    </div>
 </template>

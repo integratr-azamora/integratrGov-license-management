@@ -71,6 +71,12 @@
     margin-right: var(--c-size-20px);
   }
 /* margin-x  */
+
+.margin-top-left{
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
 /* margin-y  */
 .my-10{
     margin-top: var(--c-size-10px);
