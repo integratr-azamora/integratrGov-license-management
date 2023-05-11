@@ -57,19 +57,19 @@ a{
   
   /* custom-fonts  */
   .font-tablename{
-    font-family: 'Gotham';
+    font-family: 'Gotham-bold';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
   }
   .font-table-column{
-    font-family: 'Roboto';
+    font-family: 'Roboto-bold';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
   }
   .font-table-text{
-    font-family: 'Gotham';
+    font-family: 'Gotham-book';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;

@@ -24,11 +24,11 @@
                 <p button-fonts>Default</p>
              </button>
              <button class="button-default bg-none color-purpleheart border-color-purpleheart d-flex flex-row align-items-center ">
-               <fa class="font-size-24px me-8px" icon="plus" />
+               <fa class="font-size-20px me-8px" icon="plus" />
                 <p>Click/Hover</p>
              </button>
              <button class="button-default bg-none color-dimgray border-color-dimgray d-flex flex-row align-items-center">
-                <fa class="font-size-24px me-8px" icon="plus" />
+                <fa class="font-size-20px me-8px" icon="plus" />
                 <p>Disabled</p>
              </button>
           </div>
@@ -49,11 +49,11 @@
           <!-- row4 -->
           <!-- row5 -->
           <div class="d-flex flex-row">
-             <button class="button-default bg-ghostwhite color-frenchskyblue border-color-ghostwhite d-flex flex-row align-items-center">
+             <button class="button-default bg-ghostwhite color-frenchskyblue border-color-ghostwhite d-flex flex-row align-items-center shadow-sm">
                 <i class="isax isax-filter-search icon-size-weight me-2"></i>
                 <p>Default</p>
              </button>
-             <button class="button-default bg-frenchskyblue color-ghostwhite border-color-frenchskyblue d-flex flex-row align-items-center">
+             <button class="button-default bg-frenchskyblue color-ghostwhite border-color-frenchskyblue d-flex flex-row align-items-center shadow-sm">
                 <i class="isax isax-filter-search icon-size-weight me-2"></i>
                 <p>Click/Hover</p>
              </button>
@@ -62,10 +62,10 @@
           <!-- row6 -->
           <div class="d-flex flex-row">
             <button class="button-round bg-indigo color-white border-color-indigo d-flex align-items-center">
-               <fa class="font-size-24px" icon="close" />
+               <fa class="font-size-20px" icon="close" />
             </button>
             <button class="button-round bg-purpleheart color-white border-color-purpleheart d-flex align-items-center">
-               <fa class="font-size-24px" icon="close" />
+               <fa class="font-size-20px" icon="close" />
             </button>
              <button class="button-round bg-dimgray color-white border-color-dimgray "><i class="isax isax-camera icon-button-round-24px"></i></button>
              <button class="button-round bg-lightlavender color-white border-color-lightlavender "><i class="isax isax-camera icon-button-round-24px"></i></button>
@@ -73,12 +73,13 @@
           <!-- row6  -->
           <!-- row7  -->
           <div class="d-flex flex-row align-items-center">
-          <button class="button-pagination bg-none color-dimgray border-color-none"><fa class="font-size-24px" icon="angle-left" /></button>
+          <button class="button-pagination bg-none color-dimgray border-color-none"><fa class="font-size-20px mt-1" icon="angle-left" /></button>
           <button class="button-pagination bg-none color-dimgray border-color-none">Previous</button>
           <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10 mx-10 ">1</button>
           <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 mx-10 ">2</button>
+          <button class="button-pagination bg-none color-dimgray border-color-none px-20 pb-5px pt-15px mx-10"><fa class="fs-16px" icon="ellipsis" /></button>
           <button class="button-pagination bg-none color-indigo border-color-none">Next</button>
-          <button class="button-pagination bg-none color-indigo border-color-none"><fa class="font-size-24px" icon="angle-right" /></button>
+          <button class="button-pagination bg-none color-indigo border-color-none"><fa class="font-size-20px mt-1" icon="angle-right" /></button>
        </div>
           <!-- row7  -->
           <!-- row8  -->
@@ -149,15 +150,15 @@
           <button class="button-default bg-none color-purpleheart border-color-purpleheart">Click/Hover</button>
           <button class="button-default bg-none color-dimgray border-color-dimgray">Disabled</button>
           <button class="button-default bg-none color-indigo border-color-indigo d-flex flex-row align-items-center">
-             <fa class="font-size-24px me-8px" icon="plus" />
+             <fa class="font-size-20px me-8px" icon="plus" />
              <p>Default</p>
           </button>
           <button class="button-default bg-none color-purpleheart border-color-purpleheart d-flex flex-row align-items-center">
-             <fa class="font-size-24px me-8px" icon="plus" />
+             <fa class="font-size-20px me-8px" icon="plus" />
              <p>Click/Hover</p>
           </button>
           <button class="button-default bg-none color-dimgray border-color-dimgray d-flex flex-row align-items-center">
-             <fa class="font-size-24px me-8px" icon="plus" />
+             <fa class="font-size-20px me-8px" icon="plus" />
              <p>Disabled</p>
           </button>
        </div>
@@ -197,31 +198,31 @@
           <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb">Default</button>
           <button class="button-pill bg-palelavender color-indigo border-color-palelavender">Click/Hover</button>
           <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center">
-             <fa class="font-size-24px me-8px" icon="plus" />
+             <fa class="font-size-20px me-8px" icon="plus" />
              <p>Default</p>
           </button>
-          <button class="button-pill bg-palelavender color-indigo border-color-palelavender d-flex flex-row align-items-center"><fa class="font-size-24px me-8px" icon="plus" />Click/Hover</button>
+          <button class="button-pill bg-palelavender color-indigo border-color-palelavender d-flex flex-row align-items-center"><fa class="font-size-20px me-8px" icon="plus" />Click/Hover</button>
        </div>
        <!-- row6  -->
        <!-- row7  -->
        <div class="d-flex flex-row">
-          <button class="button-pill bg-mistyrose color-venitianred border-color-mistyrose d-flex flex-row align-items-center"><fa class="font-size-24px me-8px" icon="plus" />Default</button>
-          <button class="button-pill bg-champagnepink color-venitianred border-color-champagnepink d-flex flex-row align-items-center" ><fa class="font-size-24px me-8px" icon="plus" />Click/Hover</button>
+          <button class="button-pill bg-mistyrose color-venitianred border-color-mistyrose d-flex flex-row align-items-center"><fa class="font-size-20px me-8px" icon="plus" />Default</button>
+          <button class="button-pill bg-champagnepink color-venitianred border-color-champagnepink d-flex flex-row align-items-center" ><fa class="font-size-20px me-8px" icon="plus" />Click/Hover</button>
           <button class="button-pill bg-chinesegreen color-seagreen border-color-chinesegreen d-flex flex-row align-items-center">
-             <fa class="font-size-24px me-8px" icon="plus" />
+             <fa class="font-size-20px me-8px" icon="plus" />
              <p>Default</p>
           </button>
-          <button class="button-pill bg-columbiagreen color-seagreen border-color-columbiagreen d-flex flex-row align-items-center"><fa class="font-size-24px me-8px" icon="plus" />Click/Hover</button>
-          <button class="button-pill bg-platinum color-darkgray border-color-platinum d-flex flex-row align-items-center"><fa class="font-size-24px me-8px" icon="plus" />Disabled</button>
+          <button class="button-pill bg-columbiagreen color-seagreen border-color-columbiagreen d-flex flex-row align-items-center"><fa class="font-size-20px me-8px" icon="plus" />Click/Hover</button>
+          <button class="button-pill bg-platinum color-darkgray border-color-platinum d-flex flex-row align-items-center"><fa class="font-size-20px me-8px" icon="plus" />Disabled</button>
        </div>
        <!-- row7  -->
        <!-- row8 -->
        <div class="d-flex flex-row">
-          <button class="button-default bg-ghostwhite color-frenchskyblue border-color-ghostwhite d-flex flex-row">
+          <button class="button-default bg-ghostwhite color-frenchskyblue border-color-ghostwhite d-flex flex-row shadow-sm">
              <i class="isax isax-filter-search icon-size-weight me-2"></i>
              <p>Default</p>
           </button>
-          <button class="button-default bg-frenchskyblue color-ghostwhite border-color-frenchskyblue d-flex flex-row">
+          <button class="button-default bg-frenchskyblue color-ghostwhite border-color-frenchskyblue d-flex flex-row shadow-sm">
              <i class="isax isax-filter-search icon-size-weight me-2"></i>
              <p>Click/Hover</p>
           </button>
@@ -230,10 +231,10 @@
        <!-- row9  -->
        <div class="d-flex flex-row">
             <button class="button-round bg-indigo color-white border-color-indigo d-flex align-items-center">
-               <fa class="font-size-24px" icon="close" />
+               <fa class="font-size-20px" icon="close" />
             </button>
             <button class="button-round bg-purpleheart color-white border-color-purpleheart d-flex align-items-center">
-               <fa class="font-size-24px" icon="close" />
+               <fa class="font-size-20px" icon="close" />
             </button>
           <button class="button-round bg-none color-indigo border-color-none "><i class="isax isax-trash icon-button-round-24px"></i></button>
           <button class="button-round bg-none color-purpleheart border-color-none "><i class="isax isax-trash icon-button-round-24px"></i></button>
@@ -241,12 +242,13 @@
        <!-- row9  -->
        <!-- row10 -->
        <div class="d-flex flex-row align-items-center">
-          <button class="button-pagination bg-none color-dimgray border-color-none"><fa class="font-size-24px" icon="angle-left" /></button>
+          <button class="button-pagination bg-none color-dimgray border-color-none"><fa class="font-size-20px mt-1" icon="angle-left" /></button>
           <button class="button-pagination bg-none color-dimgray border-color-none">Previous</button>
           <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10 mx-10 ">1</button>
           <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 mx-10 ">2</button>
+          <button class="button-pagination bg-none color-dimgray border-color-none px-20 pb-5px pt-15px mx-10"><fa class="fs-16px" icon="ellipsis" /></button>
           <button class="button-pagination bg-none color-indigo border-color-none">Next</button>
-          <button class="button-pagination bg-none color-indigo border-color-none"><fa class="font-size-24px" icon="angle-right" /></button>
+          <button class="button-pagination bg-none color-indigo border-color-none"><fa class="font-size-20px mt-1" icon="angle-right" /></button>
        </div>
        <!-- row10 -->
        <!-- row11  -->
