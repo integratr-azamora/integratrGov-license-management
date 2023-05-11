@@ -135,9 +135,9 @@
                         </form>
                      </div>
                      <!-- inputbox6  -->
-                        <div class="shadow-sm size-inputbox inputbox-font">
+                        <div class="shadow-sm size-inputbox inputbox-font border-round-4px">
                         <i class="isax isax-search-normal-1 ps-10px size-icon  ms-1"></i>
-                        <input class="input-field  p-3 outline-none border-color-none size-inputbox-search" type="text" placeholder="Search">
+                        <input class="input-field  p-3 outline-none border-color-none size-inputbox-search border-round-4px" type="text" placeholder="Search">
                         </div>
                      <!-- inputbox6  -->
                   </div>

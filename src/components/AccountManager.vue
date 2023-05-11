@@ -4,11 +4,11 @@
        <div class="p-header-20px ">
           <!-- row1  -->
           <div class="d-flex justify-content-between align-items-center">
-             <span class="h2">Registered Account</span>
-             <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row">
-               <fa class="font-size-24px me-8px" icon="plus" />
-                <p class="button-fonts">Add</p>
-             </button>
+             <span class="font-tablename">Registered Account</span>
+             <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center">
+             <fa class="font-size-20px me-8px" icon="plus" />
+             <p>Add</p>
+          </button>
           </div>
           <!-- row1  -->
           <!-- row2 -->
@@ -30,7 +30,7 @@
        <!-- table Body  -->
        
        <div class="table-responsive shadow-sm " >
-          <table class="table  table-striped table-hover font-table-text overflow-scroll" >
+          <table class="table  table-striped table-hover font-table-text overflow-scroll table-responsive" >
              <thead >
                 <tr > 
                    <th class="text-start px-20px p-3 font-table-column border-rouded-left-5px">Name<i class="isax isax-arrow-down5 size-icon-table-arrow ms-2"></i></th>
@@ -43,20 +43,19 @@
              </thead>
              <tbody class="border rounded-1">
                 <!-- row1  -->
-                <tr class="size-table-tabledata column border-rouded-5px ">
-                   <td class="text-start px-20px p-3">Juan dela Crussz</td>
+                <tr class="size-table-tabledata column border-rouded-5px">
+                   <td class="text-start px-20px p-3">Juan dela Cruz</td>
                    <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
-                   <td class="text-start px-20px p-3">Pasig City</td>
+                   <td class="text-start px-20px p-3">ABC Smart Organization </td>
                    <td class="text-start px-20px p-3">+63 9012345678</td>
-                   <td class="text-end px-20px p-3">
-                      <span class="d-flex align-items-center justify-content-between">
-                         <p >00000000000</p>
-                         <div class="dropdown outline-none">
+                   <td class="text-start px-20px p-3">00000000000</td>
+                   <td class="text-end px-20px p-3  ">
+                     <div class="dropdown outline-none ">
                            <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
-                           <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
+                           <ul class="dropdown-menu pt-17px pb-22px fontfamily-gotham-heading-3 color-darkgray" aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Edit</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Send Invite</a></li>
@@ -64,7 +63,6 @@
                               <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Delete</a></li>
                            </ul>
                         </div>
-                      </span>
                    </td>
                 </tr>
                 <!-- row2  -->
@@ -74,10 +72,9 @@
                    <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px p-3">ABC Smart Organization </td>
                    <td class="text-start px-20px p-3">+63 9012345678</td>
-                   <td class="text-end px-20px p-3">
-                      <span class="d-flex align-items-center justify-content-between">
-                         <p >00000000000</p>
-                         <div class="dropdown outline-none">
+                   <td class="text-start px-20px p-3">00000000000</td>
+                    <td class="text-end px-20px p-3 fontfamily-gotham-heading-3 ">
+                     <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
@@ -89,7 +86,6 @@
                               <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Delete</a></li>
                            </ul>
                         </div>
-                      </span>
                    </td>
                 </tr>
                 <!-- row3  -->
@@ -99,10 +95,9 @@
                    <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px p-3">Mariveles Bataan</td>
                    <td class="text-start px-20px p-3">+63 9012345678</td>
-                   <td class="text-end px-20px p-3">
-                      <span class="d-flex align-items-center justify-content-between">
-                         <p >00000000000</p>
-                         <div class="dropdown outline-none">
+                   <td class="text-start px-20px p-3">00000000000</td>
+                    <td class="text-end px-20px p-3 fontfamily-gotham-heading-3 ">
+                     <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
@@ -114,7 +109,6 @@
                               <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Delete</a></li>
                            </ul>
                         </div>
-                      </span>
                    </td>
                 </tr>
                 <!-- row4  -->
@@ -124,10 +118,9 @@
                    <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px p-3">Aztec Gov Agency</td>
                    <td class="text-start px-20px p-3">+63 9012345678</td>
-                   <td class="text-end px-20px p-3">
-                      <span class="d-flex align-items-center justify-content-between">
-                         <p >00000000000</p>
-                         <div class="dropdown outline-none">
+                   <td class="text-start px-20px p-3">00000000000</td>
+                    <td class="text-end px-20px p-3 fontfamily-gotham-heading-3 ">
+                     <div class="dropdown outline-none ">
                            <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
@@ -139,7 +132,6 @@
                               <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Delete</a></li>
                            </ul>
                         </div>
-                      </span>
                    </td>
                 </tr>
                 <!-- row5  -->
@@ -149,10 +141,9 @@
                    <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px p-3">Aztec Gov Agency</td>
                    <td class="text-start px-20px p-3">+63 9012345678</td>
-                   <td class="text-end px-20px p-3">
-                      <span class="d-flex align-items-center justify-content-between">
-                         <p >00000000000</p>
-                         <div class="dropdown outline-none">
+                   <td class="text-start px-20px p-3">00000000000</td>
+                    <td class="text-end px-20px p-3 fontfamily-gotham-heading-3 ">
+                     <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
@@ -164,7 +155,6 @@
                               <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Delete</a></li>
                            </ul>
                         </div>
-                      </span>
                    </td>
                 </tr>
                 <!-- row6  -->
@@ -174,10 +164,9 @@
                    <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px p-3">Aztec Gov Agency</td>
                    <td class="text-start px-20px p-3">+63 9012345678</td>
-                   <td class="text-end px-20px p-3">
-                      <span class="d-flex align-items-center justify-content-between">
-                         <p >00000000000</p>
-                         <div class="dropdown outline-none">
+                   <td class="text-start px-20px p-3">00000000000</td>
+                    <td class="text-end px-20px p-3 fontfamily-gotham-heading-3 ">
+                     <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
@@ -189,7 +178,6 @@
                               <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Delete</a></li>
                            </ul>
                         </div>
-                      </span>
                    </td>
                 </tr>
                 <!-- row7  -->
@@ -199,10 +187,9 @@
                    <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px p-3">Aztec Gov Agency</td>
                    <td class="text-start px-20px p-3">+63 9012345678</td>
-                   <td class="text-end px-20px p-3">
-                      <span class="d-flex align-items-center justify-content-between">
-                         <p >00000000000</p>
-                         <div class="dropdown outline-none">
+                   <td class="text-start px-20px p-3">00000000000</td>
+                    <td class="text-end px-20px p-3 fontfamily-gotham-heading-3 ">
+                     <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
@@ -214,7 +201,6 @@
                               <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Delete</a></li>
                            </ul>
                         </div>
-                      </span>
                    </td>
                 </tr>
                 <!-- row8  -->
@@ -224,10 +210,9 @@
                    <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px p-3">Aztec Gov Agency</td>
                    <td class="text-start px-20px p-3">+63 9012345678</td>
-                   <td class="text-end px-20px p-3">
-                      <span class="d-flex align-items-center justify-content-between">
-                         <p >00000000000</p>
-                         <div class="dropdown outline-none">
+                   <td class="text-start px-20px p-3">00000000000</td>
+                    <td class="text-end px-20px p-3 fontfamily-gotham-heading-3 ">
+                     <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
@@ -239,7 +224,6 @@
                               <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Delete</a></li>
                            </ul>
                         </div>
-                      </span>
                    </td>
                 </tr>
                 <!-- row9  -->
@@ -249,10 +233,9 @@
                    <td class="text-start px-20px p-3">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px p-3">Aztec Gov Agency</td>
                    <td class="text-start px-20px p-3">+63 9012345678</td>
-                   <td class="text-end px-20px p-3">
-                      <span class="d-flex align-items-center justify-content-between">
-                         <p >00000000000</p>
-                         <div class="dropdown outline-none">
+                   <td class="text-start px-20px p-3">00000000000</td>
+                    <td class="text-end px-20px p-3 fontfamily-gotham-heading-3 ">
+                     <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
@@ -264,7 +247,6 @@
                               <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Delete</a></li>
                            </ul>
                         </div>
-                      </span>
                    </td>
                 </tr>
                 <!-- row10  -->
@@ -274,7 +256,7 @@
           <div class="mt-4 mb-4 ">
              <span class=""></span>
              <!-- table Footer Row9 Column -->
-             <div class="d-flex flex-row justify-content-end me-20px font-table-pagination d-flex align-items-center">
+             <div class="d-flex flex-row justify-content-end me-20px font-table-pagination d-flex align-items-center position-sticky">
                 <!-- pagination  -->
                 <div class="d-flex  align-items-center">
                      <button class="button-pagination bg-none color-dimgray border-color-none"><fa class="font-size-24px" icon="angle-left" /></button>

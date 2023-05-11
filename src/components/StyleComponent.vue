@@ -49,11 +49,11 @@
           <!-- row4 -->
           <!-- row5 -->
           <div class="d-flex flex-row">
-             <button class="button-default bg-ghostwhite color-frenchskyblue border-color-ghostwhite d-flex flex-row align-items-center">
+             <button class="button-default bg-ghostwhite color-frenchskyblue border-color-ghostwhite d-flex flex-row align-items-center shadow-sm">
                 <i class="isax isax-filter-search icon-size-weight me-2"></i>
                 <p>Default</p>
              </button>
-             <button class="button-default bg-frenchskyblue color-ghostwhite border-color-frenchskyblue d-flex flex-row align-items-center">
+             <button class="button-default bg-frenchskyblue color-ghostwhite border-color-frenchskyblue d-flex flex-row align-items-center shadow-sm">
                 <i class="isax isax-filter-search icon-size-weight me-2"></i>
                 <p>Click/Hover</p>
              </button>
@@ -73,13 +73,13 @@
           <!-- row6  -->
           <!-- row7  -->
           <div class="d-flex flex-row align-items-center">
-          <button class="button-pagination bg-none color-dimgray border-color-none"><fa class="font-size-20px" icon="angle-left" /></button>
+          <button class="button-pagination bg-none color-dimgray border-color-none"><fa class="font-size-20px mt-1" icon="angle-left" /></button>
           <button class="button-pagination bg-none color-dimgray border-color-none">Previous</button>
           <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10 mx-10 ">1</button>
           <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 mx-10 ">2</button>
           <button class="button-pagination bg-none color-dimgray border-color-none px-20 pb-5px pt-15px mx-10"><fa class="fs-16px" icon="ellipsis" /></button>
           <button class="button-pagination bg-none color-indigo border-color-none">Next</button>
-          <button class="button-pagination bg-none color-indigo border-color-none"><fa class="font-size-20px" icon="angle-right" /></button>
+          <button class="button-pagination bg-none color-indigo border-color-none"><fa class="font-size-20px mt-1" icon="angle-right" /></button>
        </div>
           <!-- row7  -->
           <!-- row8  -->
@@ -218,11 +218,11 @@
        <!-- row7  -->
        <!-- row8 -->
        <div class="d-flex flex-row">
-          <button class="button-default bg-ghostwhite color-frenchskyblue border-color-ghostwhite d-flex flex-row">
+          <button class="button-default bg-ghostwhite color-frenchskyblue border-color-ghostwhite d-flex flex-row shadow-sm">
              <i class="isax isax-filter-search icon-size-weight me-2"></i>
              <p>Default</p>
           </button>
-          <button class="button-default bg-frenchskyblue color-ghostwhite border-color-frenchskyblue d-flex flex-row">
+          <button class="button-default bg-frenchskyblue color-ghostwhite border-color-frenchskyblue d-flex flex-row shadow-sm">
              <i class="isax isax-filter-search icon-size-weight me-2"></i>
              <p>Click/Hover</p>
           </button>
@@ -242,13 +242,13 @@
        <!-- row9  -->
        <!-- row10 -->
        <div class="d-flex flex-row align-items-center">
-          <button class="button-pagination bg-none color-dimgray border-color-none"><fa class="font-size-20px" icon="angle-left" /></button>
+          <button class="button-pagination bg-none color-dimgray border-color-none"><fa class="font-size-20px mt-1" icon="angle-left" /></button>
           <button class="button-pagination bg-none color-dimgray border-color-none">Previous</button>
           <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10 mx-10 ">1</button>
           <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 mx-10 ">2</button>
           <button class="button-pagination bg-none color-dimgray border-color-none px-20 pb-5px pt-15px mx-10"><fa class="fs-16px" icon="ellipsis" /></button>
           <button class="button-pagination bg-none color-indigo border-color-none">Next</button>
-          <button class="button-pagination bg-none color-indigo border-color-none"><fa class="font-size-20px" icon="angle-right" /></button>
+          <button class="button-pagination bg-none color-indigo border-color-none"><fa class="font-size-20px mt-1" icon="angle-right" /></button>
        </div>
        <!-- row10 -->
        <!-- row11  -->
