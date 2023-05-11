@@ -77,6 +77,7 @@
           <button class="button-pagination bg-none color-dimgray border-color-none">Previous</button>
           <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10 mx-10 ">1</button>
           <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 mx-10 ">2</button>
+          <button class="button-pagination bg-none color-dimgray border-color-none px-20 pb-5px pt-15px mx-10"><fa class="fs-16px" icon="ellipsis" /></button>
           <button class="button-pagination bg-none color-indigo border-color-none">Next</button>
           <button class="button-pagination bg-none color-indigo border-color-none"><fa class="font-size-24px" icon="angle-right" /></button>
        </div>
@@ -245,6 +246,7 @@
           <button class="button-pagination bg-none color-dimgray border-color-none">Previous</button>
           <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10 mx-10 ">1</button>
           <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 mx-10 ">2</button>
+          <button class="button-pagination bg-none color-dimgray border-color-none px-20 pb-5px pt-15px mx-10"><fa class="fs-16px" icon="ellipsis" /></button>
           <button class="button-pagination bg-none color-indigo border-color-none">Next</button>
           <button class="button-pagination bg-none color-indigo border-color-none"><fa class="font-size-24px" icon="angle-right" /></button>
        </div>
