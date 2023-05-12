@@ -1,0 +1,77 @@
+.add-cont{
+    position: relative;
+    width: 1536px;
+    height: 1247px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.add-cont1{
+    position: absolute;
+    width: 1536px;
+    height: 1088px;
+    left: 0px;
+    top: 76px;
+    background: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.add-icon{
+    position: absolute;
+    left: 365px; 
+    bottom: 15px;
+    font-size: 20px;
+}
+
+.default-label{
+    font-family: 'Roboto', sans-serif;  
+    font-size: 16px;
+}
+
+.info{
+    font-family: 'Roboto', sans-serif;  
+    font-size: 13px;
+}
+
+.labelfield{
+    font-family: 'Roboto', sans-serif;  
+    height: 56px;
+    width: 457px;
+    border-radius: 4px;
+}
+/* table-fonts */
+.table-text-bold{
+    font-family: 'Gotham', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.table-text-roboto-reg{
+    font-family: 'Roboto-regular', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.table-text-light{
+    font-family: 'Gotham-light', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+}
+
+.notes{
+    width: 460px;
+    height: 540px;
+    left: 1008px;
+    top: 299px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}

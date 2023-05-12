@@ -8,11 +8,14 @@ import StyleComponent from '../components/StyleComponent.vue';
 import AccountManager from '../components/AccountManager.vue';
 import LicenseManger from '../components/LicenseManger.vue';
 import LicensekeyIssue from '../components/Licensekey-Issue.vue';
+import AddAccount from '../components/AddAccount.vue';
+import AddAccountClientDetails from '../components/AddAccountClientDetails.vue';
 </script>
 
 
 <template>
   <main>
+      <AddAccount/>
       <LicenseManger/>
       <AccountManager/>
       <InputBox />
@@ -25,5 +28,6 @@ import LicensekeyIssue from '../components/Licensekey-Issue.vue';
       <Modal/>
       <Typography/>
       <LicensekeyIssue/>
+      <AddAccountClientDetails/>
   </main>
 </template>

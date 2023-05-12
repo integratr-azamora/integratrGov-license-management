@@ -7,6 +7,8 @@ import Iconography from '../components/Iconography.vue';
 import InputBox from '../components/InputBoxes.vue'
 import Tables from '../components/Tables.vue'
 import Modal from '../components/Modal.vue';
+import AddAccount from'../components/AddAccount.vue'
+import AddAccountClientDetails from'../components/AddAccountClientDetails.vue'
 
 import AccountManager from '../components/AccountManager.vue';
 import LicenseManager from '../components/LicenseManger.vue';
@@ -66,6 +68,18 @@ const router = createRouter({
       path: '/licensekeyissue',
       name: 'licensekeyissue',
       component: LicensekeyIssue
+    }
+    ,
+    {
+      path: '/addaccount',
+      name: 'addaccount',
+      component: AddAccount
+    }
+    ,
+    {
+      path: '/addaccount-clientdetails',
+      name: 'addaccount-clientdetails',
+      component: AddAccountClientDetails
     }
     
   ]
