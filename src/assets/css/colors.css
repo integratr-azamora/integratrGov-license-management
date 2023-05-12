@@ -33,7 +33,7 @@
     background-color: var(--vt-c-eucalyptus);
   }
   .bg-valencia{
-    background-color: var(--vt-c-valencia);
+    background-color: var(--vt-c-valencia) !important;
   }
   .bg-darkvalencia{
     background-color: var(--vt-c-dark-valencia);
@@ -48,7 +48,7 @@
     background-color: var(--vt-c-misty-rose);
   }
   .bg-champagnepink{
-    background-color: var(--vt-c-champagne-pink);
+    background-color: var(--vt-c-champagne-pink) !important;
   }
   .bg-chinesegreen{
     background-color: var(--vt-c-chinese-green);
@@ -137,8 +137,8 @@
     border-color: var(--vt-c-eucalyptus);
   }
   .border-color-valencia{
-    border-style: solid;
-    border-color: var(--vt-c-valencia);
+    border-style: solid !important;
+    border-color: var(--vt-c-valencia) !important;
   }
   .border-color-darkvalencia{
     border-style: solid;
@@ -239,3 +239,6 @@
   outline: none !important;
 }
 /* outline  */
+.shadow-none{
+  box-shadow: none !important;
+}

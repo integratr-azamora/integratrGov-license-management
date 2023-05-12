@@ -43,7 +43,7 @@
       </div>
       <div class="row d-flex align-items-center">
          <div class="modal-body2">
-            <span class="modal2 mt-2">
+            <span class="modal2">
                <p>Give this user the authority to process transactions</p>
             </span>
             <span class="modal2">
@@ -51,7 +51,7 @@
             </span>
          </div>
       </div>
-      <input type="email" class="form-control mt-3" id="input-form1" placeholder="Email Address">      
+      <input type="email" class="form-control border-0 shadow-sm mt-3" id="Inputform1" placeholder="Email Address">
       <div class="input-group ">
          <select class="form-select border-0 shadow-sm mt-3" id="admin">
             <option selected>[Owner; Admin]</option>
@@ -87,7 +87,7 @@
             </span>
          </div>
       </div>
-      <input type="email" class="form-control mt-3" id="Inputform1" placeholder="Email Address">
+      <input type="email" class="form-control border-0 shadow-sm  mt-3" id="Inputform1" placeholder="Email Address">
       <div class="modal-footer">
          <button class="button-default bg-indigo border-color-indigo color-white me-0 mt-3">Send Request</button>      
       </div>
@@ -107,10 +107,10 @@
          <p>Search using the following numbers to find existing business.</p>
       </span>
       <p class="modal3">Business does not exist on our system.</p>
-      <input type="email" class="form-control bg-color-red mt-2" id="input-form1" placeholder="Transaction No.">   
-      <input type="email" class="form-control form-control-1 mt-2" id="input-form1" placeholder="License No.">   
-      <input type="email" class="form-control form-control-1 mt-2" id="input-form1" placeholder="TIN No.">  
-      <input type="email" class="form-control form-control-1 mt-2" id="input-form1" placeholder="Date Established">   
+      <input type="email" class="form-control mt-2 shadow-sm border-color-valencia bg-lavender-bush" id="input-form1" placeholder="Transaction No.">   
+      <input type="email" class="form-control mt-2 shadow-sm border-color-valencia bg-lavender-bush" id="input-form1" placeholder="License No.">   
+      <input type="email" class="form-control mt-2 shadow-sm border-color-valencia bg-lavender-bush" id="input-form1" placeholder="TIN No.">   
+      <input type="email" class="form-control mt-2 shadow-sm border-color-valencia bg-lavender-bush" id="input-form1" placeholder="Date Established">    
       <i class="icon-calendar gray isax isax-calendar-1" style="position:absolute;left:445px; bottom: 80px;"></i>
       <div class="modal-footer">
          <button class="button-default bg-indigo border-color-indigo color-white me-0 mt-2">Search</button>      

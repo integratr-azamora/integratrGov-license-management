@@ -35,7 +35,9 @@ import { RouterLink, RouterView } from 'vue-router'
                   <li><a class="dropdown-item p-10px table-dropdown-hover " href="/accmanager">Account Manager</a></li>
                   <li><a class="dropdown-item p-10px table-dropdown-hover " href="/licmanager">License Manager</a></li>
                   <li><a class="dropdown-item p-10px table-dropdown-hover " href="/licensekeyissue">License Key Issue</a></li>
-                  <li><a class="dropdown-item p-10px table-dropdown-hover " href="/addacc">Add Account</a></li>
+                  <li><a class="dropdown-item p-10px table-dropdown-hover " href="/addaccount">Add Account</a></li>
+                  <li><a class="dropdown-item p-10px table-dropdown-hover " href="/addaccount-clientdetails">Add Account - Client-details</a></li>
+
                </ul>
             </div>
       </div>

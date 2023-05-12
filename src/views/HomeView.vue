@@ -9,6 +9,7 @@ import AccountManager from '../components/AccountManager.vue';
 import LicenseManger from '../components/LicenseManger.vue';
 import LicensekeyIssue from '../components/Licensekey-Issue.vue';
 import AddAccount from '../components/AddAccount.vue';
+import AddAccountClientDetails from '../components/AddAccountClientDetails.vue';
 </script>
 
 
@@ -27,5 +28,6 @@ import AddAccount from '../components/AddAccount.vue';
       <Modal/>
       <Typography/>
       <LicensekeyIssue/>
+      <AddAccountClientDetails/>
   </main>
 </template>

@@ -84,8 +84,8 @@
       </div>
       <!-- 3rd -->
       <div class="form-floating ">
-         <select class="form-select bg-gray" id="floatingSelect" aria-label="Floating label select">
-            <option selected>juandelacruz@gmail.com</option>
+         <select class="form-select " id="floatingSelect" aria-label="Floating label select">
+            <option class="bg-dimgray" selected >juandelacruz@gmail.com</option>
          </select>
          <label for="floatingSelect" class="info">Email Address</label>
       </div>

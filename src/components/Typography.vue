@@ -1,5 +1,5 @@
 <template>
-   <br>
+
    <div class="container bor-style-solid-perma typo-cont5" >
       <div class="row justify-content-center">
          <p class="Inter-ExtraBold fw-bold border-bottom-1 p-2">Gotham</p>

@@ -104,3 +104,15 @@
     width: var(--c-size-24px);
     height: var(--c-size-24px);
 }
+
+.icon-arrow{
+    border-radius: 50% !important;
+    font-size: var(--c-size-24px);
+    color: var(--vt-c-);
+    width: var(--c-size-24px);
+    height: var(--c-size-24px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
