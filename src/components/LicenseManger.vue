@@ -1,336 +1,374 @@
 <template>
-   <div class="shadow-sm rounded-5 ">
-      <span class="heading1 mb-26px">License Manager</span>
-      <div class="d-flex align-items-end">
-         <button class="button-tab bg-none">Unassigned License Keys</button>
-         <button class="button-tab bg-none">Assigned License Keys</button>
-         <button class="button-tab bg-none">Software License Management</button>
-      </div>
-      <div class="p-header-20px pt-0">
-         <!-- row1  -->
-         <div class="d-flex justify-content-between align-items-center">
-            <div class="col"><span class="h2">Unassigned Licenses</span></div>
-            <div class="col d-flex justify-content-end">
-               <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row">
-                  <p>Validate License Key</p>
-               </button>
-               <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row">
-                  <p>Generate License Key</p>
-               </button>
-            </div>
-         </div>
-         <!-- row1  -->
-         <!-- row2 -->
-         <div class=" d-flex justify-content-start align-items-center d-inline-flex mb-20px">
-            <div class="shadow-sm  ">
-               <i class="isax isax-search-normal-1 ps-2 table-inputbox-icon-size"></i>
-               <input class="input-field border-color-none p-3 outline-none table-inputbox-size inputbox-font" type="text" placeholder="Search">
-            </div>
-            <button class="button-default bg-ghostwhite color-frenchskyblue border-color-ghostwhite d-flex flex-row ">
-               <i class="isax isax-filter-search icon-size-weight me-2"></i>
-               <p>Filter</p>
-            </button>
-         </div>
-      </div>
-      <!-- table Header Row6 -->
-      <!-- table Header Row7 -->
-      <!-- table Header Row7 -->
-      <!-- table Header  -->
-      <!-- table Body  -->
-      <div class="table-responsive " >
-         <table class="table  table-striped table-hover font-table-text" >
-            <thead >
-               <tr>
-                  <th class="text-start px-20px p-3 font-table-column border-rouded-left-5px">Activation Code<i class="isax isax-arrow-down5 size-icon-table-arrow ms-2"></i></th>
-                  <th class="text-start px-20px p-3 font-table-column">Module<i class="isax isax-arrow-down5 size-icon-table-arrow ms-2"></i></th>
-                  <th class="text-start px-20px p-3 font-table-column">Version<i class="isax isax-arrow-down5 size-icon-table-arrow ms-2"></i></th>
-                  <th class="text-start px-20px p-3 font-table-column">Grace Period<i class="isax isax-arrow-down5 size-icon-table-arrow ms-2"></i></th>
-                  <th class="text-start px-20px p-3 font-table-column">Validity<i class="isax isax-arrow-down5 size-icon-table-arrow ms-2"></i></th>
-                  <th class="text-start px-20px p-3 font-table-column">License Description <i class="isax isax-arrow-down5 size-icon-table-arrow ms-2"></i></th>
-               </tr>
-            </thead>
-            <tbody class="border rounded-1">
-               <!-- row1  -->
-               <tr class="size-table-tabledata column border-rouded-5px ">
+   <div class=" ">
+      <div class=" heading1 p-2 ">License Manager </div>
+      <div class="d-flex justify-content-center">
+         <div class=" rounded-3 container">
+            <!-- row1  -->
+            <div class=" shadow-sm border-round16px py-20px">
+               <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                     <p class="ps-20px fontfamily-gotham-heading-2">Unassigned Licenses</p>
+                  </div>
+                  <div class="d-flex justify-content-start">
+                  <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center">
+                     Validate License Key
+                  </button>
+                  <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center">
+                     Generate License Key
+                  </button>
+                  </div>
+                  
+               </div>
+               <!-- table Header Row2  -->
+               <!-- table Header Row3  -->
+               <div class="col d-flex flex-row px-20px">
+                  <!-- px box  -->
+                  <div class=" size-box-20">
+                  </div>
+                  <!-- px box  -->
+               </div>
+               <!-- table Header Row3  -->
+               <!-- table Header Row4  -->
+               <div class="  px-20px">
+                  <!-- table Header Row4 Col1 -->
+                  <div class="d-flex flex-row">
+                     <div class="shadow-sm  border-round-4px">
+                        <i class="isax isax-search-normal-1  table-inputbox-icon-size ps-16px py-14py"></i>
+                        <input class="input-field border-color-none p-3 outline-none table-inputbox-size inputbox-font border-round-4px" type="text" placeholder="Search" name="usrnm">
+                     </div>
+                     <!-- table Header Row4 Col2 -->
+                     <div class="mx-20px">
+                        <button class="button-default-no-margin bg-ghostwhite color-frenchskyblue border-color-ghostwhite d-flex flex-row margin-none shadow-sm">
+                           <i class="isax isax-filter-search icon-size-weight me-2"></i>
+                           <p>Filter</p>
+                        </button>   
+                     </div>
+                     <!-- table Header Row4 Col2 -->
+                  </div>
+                  <!-- table Header Row4 Col1 -->
+               </div>
+               <!-- table Header Row4  -->
+               <!-- table Header Row5  -->
+               <div class="d-flex flex-row px-20px">
+                  <!-- px box  -->
+                  <div class=" size-box-20"></div>
+                  <!-- px box  -->
+               </div>
+               <!-- table Body  -->
+               <div class="table-responsive rounded-1   table-borderless" >
+                  <table class="table  table-striped table-hover font-table-text overflow-scroll table-responsive table-borderless" >
+             <thead >
+                <tr > 
+                  <th class="text-start px-20px  pb-10px padding-top-none">
+                     <div class="d-flex align-items-center">
+                        <span class="font-table-column me-10px">Activation Code</span>
+                        <i class="isax isax-arrow-down5 size-icon-table-arrow"></i>
+                     </div>
+                  </th>
+                  <th class="text-start px-20px  pb-10px padding-top-none">
+                     <div class="d-flex align-items-center">
+                        <span class="font-table-column me-10px">Modules</span>
+                        <i class="isax isax-arrow-down5 size-icon-table-arrow"></i>
+                     </div>
+                  </th>
+                  <th class="text-start px-20px  pb-10px padding-top-none">
+                     <div class="d-flex align-items-center">
+                        <span class="font-table-column me-10px">Version</span>
+                        <i class="isax isax-arrow-down5 size-icon-table-arrow"></i>
+                     </div>
+                  </th>
+                  <th class="text-start px-20px  pb-10px padding-top-none">
+                     <div class="d-flex align-items-center">
+                        <span class="font-table-column me-10px">Grace Period</span>
+                        <i class="isax isax-arrow-down5 size-icon-table-arrow"></i>
+                     </div>
+                  </th>
+                  <th class="text-start px-20px  pb-10px padding-top-none">
+                     <div class="d-flex align-items-center">
+                        <span class="font-table-column me-10px">Validity</span>
+                        <i class="isax isax-arrow-down5 size-icon-table-arrow"></i>
+                     </div>
+                  </th>
+                  <th class="text-start px-20px  pb-10px padding-top-none">
+                     <div class="d-flex align-items-center">
+                        <span class="font-table-column me-10px">License Description</span>
+                        <i class="isax isax-arrow-down5 size-icon-table-arrow"></i>
+                     </div>
+                  </th>
+                </tr>
+             </thead>
+             <tbody class="border rounded-1">
+                <!-- row1  -->
+                <tr class="size-table-tabledata column border-rouded-5px">
                   <td class="text-start px-20px p-3">FSPDN-00000-00000-00000-00000</td>
                   <td class="text-start px-20px p-3">Business Permit and License</td>
                   <td class="text-start px-20px p-3">1.2</td>
                   <td class="text-start px-20px p-3">n/a</td>
                   <td class="text-start px-20px p-3">40 years</td>
-                  <td class="text-end px-20px p-3">
-                     <span class="d-flex align-items-center justify-content-between">
-                        <p >Perpetual</p>
-                        <div class="dropdown outline-none">
-                           <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                           <fa class="font-size-24px" icon="ellipsis" />
+                  <td class="text-start px-20px p-3">Perpetual</td>
+
+                   <td class="text-end px-20px p-3 vertical-alignment-center  ">
+                     <div class="dropdown outline-none ">
+                           <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButto" data-bs-toggle="dropdown" aria-expanded="false">
+                              <fa class="font-size-24px" icon="ellipsis" />
                            </button>
-                           <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">View</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Assign/Issue</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Validate</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Activate</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Remove License</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Destroy License</a></li>
+                           <ul class="dropdown-menu pt-17px pb-22px fontfamily-gotham-heading-3  " aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">View</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Assign/Issue</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Validate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Activate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Remove License</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Destroy License</a></li>
                            </ul>
                         </div>
-                     </span>
-                  </td>
-               </tr>
-               <!-- row2  -->
-               <tr class="size-table-tabledata column border-rouded-5px">
+                   </td>
+                </tr>
+                <!-- row2  -->
+                <tr class="size-table-tabledata column border-rouded-5px">
                   <td class="text-start px-20px p-3">FSEDE-00000-00000-00000-00000</td>
                   <td class="text-start px-20px p-3">Business Permit and License</td>
-                  <td class="text-start px-20px p-3">1.2</td>
+                  <td class="text-start px-20px p-3">1.1</td>
                   <td class="text-start px-20px p-3">7 days</td>
-                  <td class="text-start px-20px p-3">1 year</td>
-                  <td class="text-end px-20px p-3">
-                     <span class="d-flex align-items-center justify-content-between">
-                        <p >SaaS - E</p>
-                        <div class="dropdown outline-none">
+                  <td class="text-start px-20px p-3">1 years</td>
+                  <td class="text-start px-20px p-3">SaaS - I</td>
+                   
+                    <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
+                     <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                           <fa class="font-size-24px" icon="ellipsis" />
+                              <fa class="font-size-24px" icon="ellipsis" />
                            </button>
-                           <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">View</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Assign/Issue</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Validate</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Activate</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Remove License</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Destroy License</a></li>
+                           <ul class="dropdown-menu pt-17px pb-22px fontfamily-gotham-heading-3  " aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">View</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Assign/Issue</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Validate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Activate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Remove License</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Destroy License</a></li>
                            </ul>
                         </div>
-                     </span>
-                  </td>
-               </tr>
-               <!-- row3  -->
-               <tr class="size-table-tabledata column border-rouded-5px">
+                   </td>
+                </tr>
+                <!-- row3  -->
+                <tr class="size-table-tabledata column border-rouded-5px">
                   <td class="text-start px-20px p-3">FSIDE-00000-00000-00000-00000</td>
                   <td class="text-start px-20px p-3">Real Property Tax</td>
                   <td class="text-start px-20px p-3">1.1</td>
                   <td class="text-start px-20px p-3">7 days</td>
                   <td class="text-start px-20px p-3">2 years</td>
-                  <td class="text-end px-20px p-3">
-                     <span class="d-flex align-items-center justify-content-between">
-                        <p >SaaS - I</p>
-                        <div class="dropdown outline-none">
+                  <td class="text-start px-20px p-3">SaaS - B</td>
+                   
+                    <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
+                     <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                           <fa class="font-size-24px" icon="ellipsis" />
+                              <fa class="font-size-24px" icon="ellipsis" />
                            </button>
-                           <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">View</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Assign/Issue</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Validate</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Activate</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Remove License</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Destroy License</a></li>
+                           <ul class="dropdown-menu pt-17px pb-22px fontfamily-gotham-heading-3  " aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">View</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Assign/Issue</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Validate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Activate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Remove License</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Destroy License</a></li>
                            </ul>
                         </div>
-                     </span>
-                  </td>
-               </tr>
-               <!-- row4  -->
-               <tr class="size-table-tabledata column border-rouded-5px">
+                   </td>
+                </tr>
+                <!-- row4  -->
+                <tr class="size-table-tabledata column border-rouded-5px">
                   <td class="text-start px-20px p-3">FSBDE-00000-00000-00000-00000</td>
                   <td class="text-start px-20px p-3">Real Property Tax</td>
                   <td class="text-start px-20px p-3">1.0</td>
                   <td class="text-start px-20px p-3">30 days</td>
                   <td class="text-start px-20px p-3">5 years</td>
-                  <td class="text-end px-20px p-3">
-                     <span class="d-flex align-items-center justify-content-between">
-                        <p >Saas - B</p>
-                        <div class="dropdown outline-none">
+                  <td class="text-start px-20px p-3">Saas - B</td>
+                  
+                   
+                    <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
+                     <div class="dropdown outline-none ">
                            <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                           <fa class="font-size-24px" icon="ellipsis" />
+                              <fa class="font-size-24px" icon="ellipsis" />
                            </button>
-                           <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">View</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Assign/Issue</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Validate</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Activate</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Remove License</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Destroy License</a></li>
+                           <ul class="dropdown-menu pt-17px pb-22px fontfamily-gotham-heading-3  " aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">View</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Assign/Issue</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Validate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Activate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Remove License</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Destroy License</a></li>
                            </ul>
                         </div>
-                     </span>
-                  </td>
-               </tr>
-               <!-- row5  -->
-               <tr class="size-table-tabledata column border-rouded-5px">
+                   </td>
+                </tr>
+                <!-- row5  -->
+                <tr class="size-table-tabledata column border-rouded-5px">
                   <td class="text-start px-20px p-3">GOPDE-00000-00000-00000-00000</td>
                   <td class="text-start px-20px p-3">Community Tax</td>
                   <td class="text-start px-20px p-3">1.0</td>
                   <td class="text-start px-20px p-3">30 days</td>
                   <td class="text-start px-20px p-3">40 years</td>
-                  <td class="text-end px-20px p-3">
-                     <span class="d-flex align-items-center justify-content-between">
-                        <p >Perpetual</p>
-                        <div class="dropdown outline-none">
+                  <td class="text-start px-20px p-3">Perpetual</td>
+                   
+                    <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
+                     <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                           <fa class="font-size-24px" icon="ellipsis" />
+                              <fa class="font-size-24px" icon="ellipsis" />
                            </button>
-                           <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">View</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Assign/Issue</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Validate</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Activate</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Remove License</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Destroy License</a></li>
+                           <ul class="dropdown-menu pt-17px pb-22px fontfamily-gotham-heading-3  " aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">View</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Assign/Issue</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Validate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Activate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Remove License</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Destroy License</a></li>
                            </ul>
                         </div>
-                     </span>
-                  </td>
-               </tr>
-               <!-- row6  -->
-               <tr class="size-table-tabledata column border-rouded-5px">
+                   </td>
+                </tr>
+                <!-- row6  -->
+                <tr class="size-table-tabledata column border-rouded-5px">
                   <td class="text-start px-20px p-3">SIPDE-00000-00000-00000-00000</td>
                   <td class="text-start px-20px p-3">Community Tax</td>
                   <td class="text-start px-20px p-3">1.0</td>
                   <td class="text-start px-20px p-3">30 days</td>
                   <td class="text-start px-20px p-3">40 years</td>
-                  <td class="text-end px-20px p-3">
-                     <span class="d-flex align-items-center justify-content-between">
-                        <p >Perpetual</p>
-                        <div class="dropdown outline-none">
+                  <td class="text-start px-20px p-3">Perpetual</td>
+                   
+                    <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
+                     <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                           <fa class="font-size-24px" icon="ellipsis" />
+                              <fa class="font-size-24px" icon="ellipsis" />
                            </button>
-                           <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">View</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Assign/Issue</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Validate</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Activate</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Remove License</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Destroy License</a></li>
+                           <ul class="dropdown-menu pt-17px pb-22px fontfamily-gotham-heading-3  " aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">View</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Assign/Issue</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Validate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Activate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Remove License</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Destroy License</a></li>
                            </ul>
                         </div>
-                     </span>
-                  </td>
-               </tr>
-               <!-- row7  -->
-               <tr class="size-table-tabledata column border-rouded-5px">
+                   </td>
+                </tr>
+                <!-- row7  -->
+                <tr class="size-table-tabledata column border-rouded-5px">
                   <td class="text-start px-20px p-3">BBPDE-00000-00000-00000-00000</td>
                   <td class="text-start px-20px p-3">Building and Occupancy Permit</td>
                   <td class="text-start px-20px p-3">1.0</td>
                   <td class="text-start px-20px p-3">30 days</td>
                   <td class="text-start px-20px p-3">40 years</td>
-                  <td class="text-end px-20px p-3">
-                     <span class="d-flex align-items-center justify-content-between">
-                        <p >Perpetual</p>
-                        <div class="dropdown outline-none">
+                  <td class="text-start px-20px p-3">Perpetual</td>
+                   
+                    <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
+                     <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                           <fa class="font-size-24px" icon="ellipsis" />
+                              <fa class="font-size-24px" icon="ellipsis" />
                            </button>
-                           <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">View</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Assign/Issue</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Validate</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Activate</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Remove License</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Destroy License</a></li>
+                           <ul class="dropdown-menu pt-17px pb-22px fontfamily-gotham-heading-3  " aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">View</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Assign/Issue</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Validate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Activate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Remove License</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Destroy License</a></li>
                            </ul>
                         </div>
-                     </span>
-                  </td>
-               </tr>
-               <!-- row8  -->
-               <tr class="size-table-tabledata column border-rouded-5px">
+                   </td>
+                </tr>
+                <!-- row8  -->
+                <tr class="size-table-tabledata column border-rouded-5px">
                   <td class="text-start px-20px p-3">GOPTN-00000-00000-00000-00000</td>
                   <td class="text-start px-20px p-3">Building and Occupancy Permit</td>
                   <td class="text-start px-20px p-3">1.0</td>
                   <td class="text-start px-20px p-3">n/a</td>
                   <td class="text-start px-20px p-3">30 days</td>
-                  <td class="text-end px-20px p-3">
-                     <span class="d-flex align-items-center justify-content-between">
-                        <p >Trial</p>
-                        <div class="dropdown outline-none">
+                  <td class="text-start px-20px p-3">Trial</td>
+                   
+                    <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
+                     <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                           <fa class="font-size-24px" icon="ellipsis" />
+                              <fa class="font-size-24px" icon="ellipsis" />
                            </button>
-                           <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">View</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Assign/Issue</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Validate</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Activate</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Remove License</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Destroy License</a></li>
+                           <ul class="dropdown-menu pt-17px pb-22px fontfamily-gotham-heading-3  " aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">View</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Assign/Issue</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Validate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Activate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Remove License</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Destroy License</a></li>
                            </ul>
                         </div>
-                     </span>
-                  </td>
-               </tr>
-               <!-- row9  -->
-               <tr class="size-table-tabledata column border-rouded-5px">
-                  <td class="text-start px-20px p-3 ">GOPBN-00000-00000-00000-00000</td>
+                   </td>
+                </tr>
+                <!-- row9  -->
+                <tr class="size-table-tabledata column border-rouded-5px">
+                  <td class="text-start px-20px p-3">GOPBN-00000-00000-00000-00000</td>
                   <td class="text-start px-20px p-3">Base Cloud Platform</td>
                   <td class="text-start px-20px p-3">1.0</td>
                   <td class="text-start px-20px p-3">n/a</td>
                   <td class="text-start px-20px p-3">30 days</td>
-                  <td class="text-end px-20px p-3">
-                     <span class="d-flex align-items-center justify-content-between">
-                        <p >Beta</p>
-                        <div class="dropdown outline-none">
+                  <td class="text-start px-20px p-3">Beta</td>
+                   
+                    <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
+                     <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                           <fa class="font-size-24px" icon="ellipsis" />
+                              <fa class="font-size-24px" icon="ellipsis" />
                            </button>
-                           <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">View</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Assign/Issue</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Validate</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Activate</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Remove License</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Destroy License</a></li>
+                           <ul class="dropdown-menu pt-17px pb-22px fontfamily-gotham-heading-3  " aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">View</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Assign/Issue</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Validate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Activate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Remove License</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Destroy License</a></li>
                            </ul>
                         </div>
-                     </span>
-                  </td>
-               </tr>
-               <!-- row10  -->
-               <tr class="size-table-tabledata column border-rouded-5px">
-                  <td class="text-start px-20px p-3 ">FSPDE-00000-00000-00000-00000</td>
+                   </td>
+                </tr>
+                <!-- row10  -->
+                <tr class="size-table-tabledata column border-rouded-5px">
+                  <td class="text-start px-20px p-3">FSPDE-00000-00000-00000-00000</td>
                   <td class="text-start px-20px p-3">Base Cloud Platform</td>
                   <td class="text-start px-20px p-3">1.0</td>
                   <td class="text-start px-20px p-3">7 days</td>
                   <td class="text-start px-20px p-3">1 year</td>
-                  <td class="text-end px-20px p-3">
-                     <span class="d-flex align-items-center justify-content-between">
-                        <p >Annual</p>
-                        <div class="dropdown outline-none">
+                  <td class="text-start px-20px p-3">Annual</td>
+                   
+                    <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
+                     <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                           <fa class="font-size-24px" icon="ellipsis" />
+                              <fa class="font-size-24px" icon="ellipsis" />
                            </button>
-                           <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">View</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Assign/Issue</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Validate</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Activate</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Remove License</a></li>
-                              <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">Destroy License</a></li>
+                           <ul class="dropdown-menu pt-17px pb-22px fontfamily-gotham-heading-3  " aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">View</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Assign/Issue</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Validate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Activate</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Remove License</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray" href="#">Destroy License</a></li>
                            </ul>
                         </div>
-                     </span>
-                  </td>
-               </tr>
-               <!-- row11 -->
-            </tbody>
-         </table>
-         <div class="mt-4 mb-4 ">
-            <span class=""></span>
-            <!-- table Footer Row9 Column -->
-            <div class="d-flex flex-row justify-content-end me-20px font-table-pagination d-flex align-items-center">
-               <!-- pagination  -->
-               <div class="d-flex  align-items-center">
-                     <button class="button-pagination bg-none color-dimgray border-color-none"><fa class="font-size-24px" icon="angle-left" /></button>
-                     <button class="button-pagination bg-none color-dimgray border-color-none margin-y-none">Previous</button>
-                     <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10">1</button>
+                   </td>
+                </tr>
+             </tbody>
+          </table>
+               </div>
+               <!-- table Body  -->
+               <div class="d-flex flex-row justify-content-end mx-20px mt-20px font-table-pagination d-flex align-items-center ">
+                  <!-- pagination  -->
+                  <div class="d-flex  align-items-center">
+                     <button class="button-pagination bg-none color-dimgray border-color-none"><fa class="font-size-20px  mt-1" icon="angle-left" /></button>
+                     <button class="button-pagination bg-none color-dimgray border-color-none me-20px">Previous</button>
+                     <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10 ">1</button>
                      <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 ">2</button>
-                     <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 pt-20px"><fa class="fs-16px" icon="ellipsis" /></button>
-                     <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 ">100</button>
-                     <button class="button-pagination bg-none color-indigo border-color-none margin-y-none">Next</button>
-                     <button class="button-pagination bg-none color-indigo border-color-none"><fa class="font-size-24px" icon="angle-right" /></button>
+                     <button class="button-pagination bg-none color-dimgray border-color-none px-20 pb-5px pt-15px "><fa class="fs-16px" icon="ellipsis" /></button>
+                     <button class="button-pagination bg-none color-indigo border-color-none ms-20px">Next</button>
+                     <button class="button-pagination bg-none color-indigo border-color-none"><fa class="font-size-20px  mt-1" icon="angle-right" /></button>
                   </div>
+                  <!-- pagination  -->
+               </div>
             </div>
+            <!-- row1  -->        
          </div>
-         <!-- row3 -->
       </div>
    </div>
 </template>

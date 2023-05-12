@@ -5,8 +5,12 @@
          <div class=" rounded-3 container">
             <!-- row1  -->
             <div class=" shadow-sm border-round16px py-20px">
-               <div class="d-inline-flex">
+               <div class="d-flex justify-content-between ">
                   <p class="ps-20px fontfamily-gotham-heading-2">Registered Accounts</p>
+                  <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center">
+                     <fa class="font-size-20px me-8px" icon="plus" />
+                     Add
+                  </button>
                </div>
                <!-- table Header Row2  -->
                <!-- table Header Row3  -->
