@@ -1,5 +1,5 @@
 <template>
-   <div class="container bor-style-solid-perma container2" >
+   <div class="container bor-style-solid-perma container-colors" >
       <div class="row justify-content-center">
          <p class="colors fw-bold border-bottom-1 mb-2 p-3">Colors</p>
       </div>
@@ -69,7 +69,7 @@
    </div>
    <br>
    <!-- ICONS -->
-   <div class="container bor-style-solid-perma container3">
+   <div class="container bor-style-solid-perma container-icons">
       <div class="row justify-content-center">
          <p class="iconography fw-bold border-bottom-1 mb-3 p-3">Iconography</p>
       </div>

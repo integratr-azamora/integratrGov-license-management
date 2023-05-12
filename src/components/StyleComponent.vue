@@ -5,7 +5,7 @@
        </div>
        <!-- Consumer  -->
        <div class="container bor-style-solid ">
-          <p>Buttons</p>
+          Buttons
           <!-- row1  -->
           <!-- default buttons  -->
           <div class="d-flex flex-row">
@@ -21,15 +21,15 @@
              <button class="button-default bg-none color-purpleheart border-color-purpleheart">Click/Hover</button>
              <button class="button-default bg-none color-dimgray border-color-dimgray">Disabled</button>
              <button class="button-default bg-none color-indigo border-color-indigo d-flex flex-row ">   
-                <p button-fonts>Default</p>
+                 Default
              </button>
              <button class="button-default bg-none color-purpleheart border-color-purpleheart d-flex flex-row align-items-center ">
                <fa class="font-size-20px me-8px" icon="plus" />
-                <p>Click/Hover</p>
+                Click/Hover
              </button>
              <button class="button-default bg-none color-dimgray border-color-dimgray d-flex flex-row align-items-center">
                 <fa class="font-size-20px me-8px" icon="plus" />
-                <p>Disabled</p>
+                Disabled
              </button>
           </div>
           <!-- row2  -->
@@ -51,11 +51,11 @@
           <div class="d-flex flex-row">
              <button class="button-default bg-ghostwhite color-frenchskyblue border-color-ghostwhite d-flex flex-row align-items-center shadow-sm">
                 <i class="isax isax-filter-search icon-size-weight me-2"></i>
-                <p>Default</p>
+                Default
              </button>
              <button class="button-default bg-frenchskyblue color-ghostwhite border-color-frenchskyblue d-flex flex-row align-items-center shadow-sm">
                 <i class="isax isax-filter-search icon-size-weight me-2"></i>
-                <p>Click/Hover</p>
+                Click/Hover
              </button>
           </div>
           <!-- row5 -->
@@ -151,15 +151,15 @@
           <button class="button-default bg-none color-dimgray border-color-dimgray">Disabled</button>
           <button class="button-default bg-none color-indigo border-color-indigo d-flex flex-row align-items-center">
              <fa class="font-size-20px me-8px" icon="plus" />
-             <p>Default</p>
+             Default
           </button>
           <button class="button-default bg-none color-purpleheart border-color-purpleheart d-flex flex-row align-items-center">
              <fa class="font-size-20px me-8px" icon="plus" />
-             <p>Click/Hover</p>
+             Click/Hover
           </button>
           <button class="button-default bg-none color-dimgray border-color-dimgray d-flex flex-row align-items-center">
              <fa class="font-size-20px me-8px" icon="plus" />
-             <p>Disabled</p>
+             Disabled
           </button>
        </div>
        <!-- row2  -->
@@ -174,13 +174,13 @@
        <div class="d-flex flex-row">
           <button class="button-default bg-indigo color-white border-color-indigo d-flex flex-row">
              <i class="isax isax-trash icon-size-weight me-1"></i>
-             <p>Default</p>
+             Default
           </button>
           <button class="button-default bg-purpleheart color-white border-color-purpleheart d-flex flex-row"><i class="isax isax-trash icon-size-weight me-1"></i>Click/Hover</button>
           <button class="button-default bg-dimgray color-white border-color-dimgray d-flex flex-row"><i class="isax isax-trash icon-size-weight me-1"></i>Disabled</button>
           <button class="button-default bg-indigo color-white border-color-indigo d-flex flex-row">
              <i class="isax isax-edit icon-size-weight me-1"></i>
-             <p>Default</p>
+             Default
           </button>
           <button class="button-default bg-purpleheart color-white border-color-purpleheart d-flex flex-row"><i class="isax isax-edit icon-size-weight me-1"></i>Click/Hover</button>
           <button class="button-default bg-dimgray color-white border-color-dimgray d-flex flex-row"><i class="isax isax-edit icon-size-weight me-1"></i>Disabled</button>
@@ -199,7 +199,7 @@
           <button class="button-pill bg-palelavender color-indigo border-color-palelavender">Click/Hover</button>
           <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center">
              <fa class="font-size-20px me-8px" icon="plus" />
-             <p>Default</p>
+             Default
           </button>
           <button class="button-pill bg-palelavender color-indigo border-color-palelavender d-flex flex-row align-items-center"><fa class="font-size-20px me-8px" icon="plus" />Click/Hover</button>
        </div>
@@ -210,7 +210,7 @@
           <button class="button-pill bg-champagnepink color-venitianred border-color-champagnepink d-flex flex-row align-items-center" ><fa class="font-size-20px me-8px" icon="plus" />Click/Hover</button>
           <button class="button-pill bg-chinesegreen color-seagreen border-color-chinesegreen d-flex flex-row align-items-center">
              <fa class="font-size-20px me-8px" icon="plus" />
-             <p>Default</p>
+             Default
           </button>
           <button class="button-pill bg-columbiagreen color-seagreen border-color-columbiagreen d-flex flex-row align-items-center"><fa class="font-size-20px me-8px" icon="plus" />Click/Hover</button>
           <button class="button-pill bg-platinum color-darkgray border-color-platinum d-flex flex-row align-items-center"><fa class="font-size-20px me-8px" icon="plus" />Disabled</button>
@@ -220,11 +220,11 @@
        <div class="d-flex flex-row">
           <button class="button-default bg-ghostwhite color-frenchskyblue border-color-ghostwhite d-flex flex-row shadow-sm">
              <i class="isax isax-filter-search icon-size-weight me-2"></i>
-             <p>Default</p>
+             Default
           </button>
           <button class="button-default bg-frenchskyblue color-ghostwhite border-color-frenchskyblue d-flex flex-row shadow-sm">
              <i class="isax isax-filter-search icon-size-weight me-2"></i>
-             <p>Click/Hover</p>
+             Click/Hover
           </button>
        </div>
        <!-- row8 -->
