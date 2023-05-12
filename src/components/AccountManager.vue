@@ -1,29 +1,16 @@
 <template>
    <div class=" ">
-      <div class=" font-table-heading p-2 ">Table </div>
-      <div class="d-flex justify-content-center ">
-         <div class=" rounded-3 shadow-sm">
+      <div class=" heading1 p-2 ">Account Manager </div>
+      <div class="d-flex justify-content-center">
+         <div class=" rounded-3 container">
             <!-- row1  -->
-            <div class="bor-style-solid m-auto ">
-               <!-- table Header  -->
-               <!-- table Header Row1  -->
-               <div class="bor-style-solid ">
-                  <!-- table Header Row1 Column --> 
-                  <div class="col d-flex flex-row px-20px">
-                     <!-- px box  -->
-                     <div class=" size-box-20"></div>
-                     <!-- px box  -->
-                  </div>
-                  <!-- table Header Row1 Column -->
-               </div>
-               <!-- table Header Row1  -->
-               <!-- table Header Row2  -->
-               <div class="bor-style-solid d-inline-flex">
-                  <p class="ps-20px font-tablename">Table Name</p>
+            <div class=" shadow-sm border-round16px py-20px">
+               <div class="d-inline-flex">
+                  <p class="ps-20px fontfamily-gotham-heading-2">Registered Accounts</p>
                </div>
                <!-- table Header Row2  -->
                <!-- table Header Row3  -->
-               <div class="bor-style-solid col d-flex flex-row px-20px">
+               <div class="col d-flex flex-row px-20px">
                   <!-- px box  -->
                   <div class=" size-box-20">
                   </div>
@@ -31,7 +18,7 @@
                </div>
                <!-- table Header Row3  -->
                <!-- table Header Row4  -->
-               <div class="bor-style-solid d-inline-flex  px-20px">
+               <div class="  px-20px">
                   <!-- table Header Row4 Col1 -->
                   <div class="d-flex flex-row">
                      <div class="shadow-sm  border-round-4px">
@@ -51,14 +38,14 @@
                </div>
                <!-- table Header Row4  -->
                <!-- table Header Row5  -->
-               <div class="bor-style-solid d-flex flex-row px-20px">
+               <div class="d-flex flex-row px-20px">
                   <!-- px box  -->
                   <div class=" size-box-20"></div>
                   <!-- px box  -->
                </div>
                <!-- table Body  -->
                <div class="table-responsive rounded-1 shadow-sm  table-borderless" >
-                  <table class="table  table-striped table-hover font-table-text overflow-scroll table-responsive" >
+                  <table class="table  table-striped table-hover font-table-text overflow-scroll table-responsive table-borderless" >
              <thead >
                 <tr > 
                   <th class="text-start px-20px  pb-10px padding-top-none">
@@ -310,11 +297,9 @@
                 <!-- row10  -->
              </tbody>
           </table>
-                  <div class="mt-20px mb-20px">
-                     <span class=""></span>
-                     
-               <!-- table Footer Row9 Column -->
-               <div class="d-flex flex-row justify-content-end me-20px ms-20px font-table-pagination d-flex align-items-center ">
+               </div>
+               <!-- table Body  -->
+               <div class="d-flex flex-row justify-content-end mx-20px mt-20px font-table-pagination d-flex align-items-center ">
                   <!-- pagination  -->
                   <div class="d-flex  align-items-center">
                      <button class="button-pagination bg-none color-dimgray border-color-none"><fa class="font-size-20px  mt-1" icon="angle-left" /></button>
@@ -327,9 +312,6 @@
                   </div>
                   <!-- pagination  -->
                </div>
-            </div>
-               </div>
-               <!-- table Body  -->
             </div>
             <!-- row1  -->        
          </div>
