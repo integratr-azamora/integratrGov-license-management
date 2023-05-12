@@ -44,7 +44,7 @@
                   <!-- px box  -->
                </div>
                <!-- table Body  -->
-               <div class="table-responsive rounded-1 shadow-sm  table-borderless" >
+               <div class="table-responsive rounded-1   table-borderless" >
                   <table class="table  table-striped table-hover font-table-text overflow-scroll table-responsive table-borderless" >
              <thead >
                 <tr > 
@@ -295,6 +295,28 @@
                    </td>
                 </tr>
                 <!-- row10  -->
+                <tr class="size-table-tabledata column border-rouded-5px">
+                   <td class="text-start px-20px vertical-alignment-center ">Juan dela Cruz</td>
+                   <td class="text-start px-20px vertical-alignment-center">juandelacruz@gmail.com</td>
+                   <td class="text-start px-20px vertical-alignment-center">juandelacruz@gmail.com</td>
+                   <td class="text-start px-20px vertical-alignment-center">Aztec Gov Agency</td>
+                   <td class="text-start px-20px vertical-alignment-center">+63 9012345678</td>
+                   <td class="text-start px-20px vertical-alignment-center">00000000000</td>
+                    <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
+                     <div class="dropdown outline-none">
+                           <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <fa class="font-size-24px" icon="ellipsis" />
+                           </button>
+                           <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray " href="#">View</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray " href="#">Edit</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray " href="#">Send Invite</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray " href="#">Reset Password</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray " href="#">Delete</a></li>
+                           </ul>
+                        </div>
+                   </td>
+                </tr>
              </tbody>
           </table>
                </div>
