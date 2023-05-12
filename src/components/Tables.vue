@@ -1,6 +1,5 @@
 <template>
    <div class=" ">
-      <div class=" font-table-heading p-2 ">Table </div>
       <div class="d-flex justify-content-center ">
          
          <div class=" rounded-3 shadow-sm">

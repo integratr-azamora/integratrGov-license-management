@@ -3,8 +3,8 @@
     align-items: flex-start;
     gap: 40px;
     position: relative;
-    width: 707px;
-    height: 1211px;
+    width: 707px !important;
+    height: 1211px !important;
     background: #FFFFFF;
     border: 1px solid #000000;
     border-radius: 4px;

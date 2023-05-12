@@ -1,7 +1,7 @@
 <template>
    <!-- con1 -->
    <br>
-   <div class="container modal-container1" >
+   <div class="container container-modal" >
       <div class="modal-header">
          <hr>
          <div class="position-absolute top-0 end-0">
@@ -30,7 +30,7 @@
    </div>
    <!-- con2 -->
    <br>
-   <div class="container modal-con2" >
+   <div class="container container-modal" >
       <div class="modal-header">
          <p class="modal-header1"><b>Tag User</b></p>
          <div class="position-relative">
@@ -63,7 +63,7 @@
    </div>
    <!-- con3 -->
    <br>
-   <div class="container modal-con3" >
+   <div class="container container-modal-transferwnership shadow-sm" >
       <div class="modal-header">
          <p class="modal-header1"><b>Transfer Ownership</b></p>
          <div class="position-relative">
