@@ -91,12 +91,11 @@
          <fa class="arrow-icon margin-top-left gray" icon="angle-down" style="position:absolute;left:855px; bottom: 18px;"/>
       </div>
       <!-- 3rd -->
-      <div class="form-floating ">
-         <select class="form-select " id="floatingSelect" aria-label="Floating label select">
-            <option class="bg-dimgray" selected >juandelacruz@gmail.com</option>
-         </select>
-         <label for="floatingSelect" class="info">Email Address</label>
-         <fa class="arrow-icon margin-top-left gray" icon="angle-down" style="position:absolute;left:855px; bottom: 18px;"/>
+      <div class="input-group mt-4">
+         <form class="form-floating">
+            <input type="text" class="form-control inputbox-font shadow-sm border-color-none bg-whitesmoke" id="information" value="juandelacruz@gmail.com" >
+            <label for="information" class="info">Email Address</label>
+         </form>
       </div>
       <div class="modal-footer text-center justify-content mt-3">
          <button class="button-default bg-white border-color-none color-indigo me-0">Cancel</button>
