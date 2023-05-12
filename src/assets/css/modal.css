@@ -1,8 +1,14 @@
-.container1{
+.modal-container1{
+    width: 481px;
+    height: 314px;
     box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
     border-radius: 8px;
     background: var(--vt-c-white);  
     border-radius: 16px;
+    padding-top: 10px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 21px;
 }
 
 .font-style-roboto{
@@ -41,8 +47,6 @@
     font-size: 24px;
     line-height: 29px;
     color: var(--vt-c-black);  
-    padding-top: 20px;  
-    margin-left: 10px;
 }
 
 .modal1{
@@ -54,7 +58,6 @@
 
 .form-control{
     border-style: none;
-    box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
     border-radius: 4px;
 
 }
@@ -74,11 +77,8 @@
     height: 40px;
     background: #FFF5F5;    
     border: 1px solid #DB524E;    
-    box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
     border-radius: 4px;
-    border-color: var(--vt-c-valencia);
-    margin-left: 10px;  
-    margin-right: 10px;     
+    border-color: var(--vt-c-valencia);   
 }
 
 .modal2{
@@ -90,17 +90,19 @@
     align-self: stretch;  
     color: var(--vt-c-black); 
     display: flex;
-    margin-top: 10px;
-    padding-left: 10px
 }
 
 /* cont2 */
-.con2{
+.modal-con2{
     width: 496px;
     height: 294px;
     background: var(--vt-c-white);    
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
+    padding-top: 10px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 21px;
 }
 
 .form-select{
@@ -115,36 +117,32 @@
 }
 
 /* container 3 */
-.con3{
+.modal-con3{
     width: 496px;
     height: 259px;
     background: var(--vt-c-white);  
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
-}
-
-.modal3{
-    font-family: 'Gotham-light', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;    
-    color: #000000;
-    border-color: var(--vt-c-black);
-    margin-left: 5px;             
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 21px;
 }
 
 /* container 4 */
-.con4{
+.modal-con4{
     width: 496px;
     height: 393px;
-
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
     border-color: var(--vt-c-white-smoke);
+    padding-top: 10px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 21px;
 }
-.modal-4{
+.modal3{
     font-family:'Roboto', sans-serif;
     font-weight: 400;
     font-size: 13px;
@@ -154,24 +152,9 @@
     order: 0;
     align-self: stretch;
     flex-grow: 0;
-    margin-top: 5px;
-    margin-left: 10px;
+    margin-top: 10px;
 }
 
-.modal4{
-    font-family: 'Gotham-light', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;    
-    color: #000000;
-    border-color: var(--vt-c-black);  
-    margin-left: 10px;           
-}
-  
 .icon-calendar{
     font-size: 20px;
 }
-

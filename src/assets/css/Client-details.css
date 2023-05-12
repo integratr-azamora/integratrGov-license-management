@@ -1,0 +1,57 @@
+.add-cont2{
+    position: relative;
+    width: 1536px;
+    height: 1061px;
+    background: #FFFFFF;
+}
+
+.add-cont3{
+    width: 780px;
+    height: 745px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+/* container-addaccount-client  */
+.add-cont4{
+    
+    width: 550px;
+    height: 745px;
+    background: #F3F6FF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+
+/* Scroll style in AddAccount-Client Details */
+.scroll{
+    height:600px;
+    overflow-y: scroll;
+}
+
+/* width */
+.scroll::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+
+  }
+  
+  /* Track */
+  .scroll::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+   
+  /* Handle */
+  .scroll::-webkit-scrollbar-thumb {
+    background:  #C6C7F9;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .scroll::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  textarea {
+    width: 650px;
+    height:535px;
+ }

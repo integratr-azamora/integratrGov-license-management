@@ -1,7 +1,6 @@
-.container5{
+.typo-cont5{
     flex-direction: column;
     align-items: flex-start;
-    padding: 10px 0px;
     gap: 40px;
     position: relative;
     width: 707px;
@@ -9,24 +8,20 @@
     background: #FFFFFF;
     border: 1px solid #000000;
     border-radius: 4px;
-           
 }
 /* gotham */
 .Inter-ExtraBold{
     font-family: 'Inter-ExtraBold', sans-serif;
     font-style: normal;
-    font-size: 20px;
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;    
-    display: flex;
     align-items: center;
     color: #000000;
-
 }
 
 .fontfamily-gotham-heading-1{
-    font-family: 'Gotham', sans-serif;
+    font-family: 'Gotham-meduim', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 32px;
@@ -36,7 +31,7 @@
 }
 
 .fontfamily-gotham-heading-2{
-    font-family: 'Gotham', sans-serif;
+    font-family: 'Gotham-meduim', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -52,31 +47,24 @@
     line-height: 18px !important;    
 }
 
-.font-gotham-body-16px{
-    font-family: 'Gotham';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 15px;
-}
-.font-gotham-body-14px{
-    font-family: 'Gotham';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 13px;
-}
-
 .font-style-inter{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter-regular', sans-serif;
     font-size: 20px;
     line-height: 24px;
     display: flex;
     align-items: center;
     color: #000000;
-    border-color: var(--vt-c-black);    
-    padding-left: 20px; 
-    padding-right: 20px;
+    border-color: var(--vt-c-black);
+}
+.font-style-inter-semibold{
+    font-family: 'Inter-semi', sans-serif;
+    font-weight: 600px;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    border-color: var(--vt-c-black);
 }
 
 .body{
@@ -121,7 +109,7 @@
     align-items: center;
 }
 .font-style-roboto-h{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter-regular', sans-serif;
     font-size: 20px;
     line-height: 24px;
     display: flex;
@@ -132,7 +120,7 @@
 }
 
 .heading2{
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto-regular', sans-serif;  
     font-size: 24px;
     line-height: 28px;
     display: flex;
@@ -142,9 +130,8 @@
 }
 
 .heading3{
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto-regular', sans-serif;  
     font-size: 16px;
-    font-weight:400;
     line-height: 19px;
     display: flex;
     align-items: center;
@@ -153,7 +140,7 @@
 }
 
 .heading4 {
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto-regular', sans-serif;  
     font-size: 16px;
     line-height: 19px;
     display: flex;
@@ -162,7 +149,7 @@
     border-color: var(--vt-c-black);             
 }
 .heading5{
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto-regular', sans-serif;  
     font-size: 14px;
     font-weight: 700;
     line-height: 16px;
@@ -173,7 +160,7 @@
 }
 
 .font-style-roboto-p1{
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto-regular', sans-serif;  
     font-size: 16px;
     line-height: 19px;
     display: flex;
@@ -183,7 +170,7 @@
 }
 
 .font-style-roboto-p2{
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto-regular', sans-serif;  
     font-size: 14px;
     line-height: 16px;
     display: flex;
@@ -202,36 +189,25 @@
 }
 
 .paragraph1{
-    font-family: 'Poppins', sans-serif;  
+    font-family: 'Poppins-regular', sans-serif;  
     font-size: 16px;
     color: #000000;
     border-color: var(--vt-c-black);             
 }
 .poppins-body1{
-    font-family: 'Poppins', sans-serif;  
+    font-family: 'Poppins-regular', sans-serif;  
     font-size: 20px;
     align-items: center;
     color: #000000;
-    
     border-color: var(--vt-c-black);   
     padding-left: 20px; 
     padding-right: 20px;          
 }
-.font-weight-bold{
-    font-weight: bold;
-}
 
-.inputbox-font{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-}
-.button-fonts{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-}
+.border-bottom-1 {
+    border-bottom: 1px solid;
+  }
+
+  .border-top-1 {
+    border-top: 1px solid;
+  }
