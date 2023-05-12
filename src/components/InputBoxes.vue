@@ -188,12 +188,8 @@
                <label for="floatingPassword">Label</label>
             </form>
          </div>
-
          </div>
-         <!-- row3 -->
-         
-         
-         
+         <!-- row3 --> 
       </div>
    </div>
 </template>

@@ -50,9 +50,9 @@
   }
   .button-pill{
     border-radius: var(--bs-border-radius-pill);
-    font-family: var(--c-font-styles-roboto);
-    font-size: var(--c-font-size-16px);
-    font-style: normal;
+    font-family: 'Roboto' !important;
+    font-size: var(--c-font-size-16px) !important;
+    font-style: normal !important;
     padding-left: var(--c-size-20px);
     padding-right: var(--c-size-20px);
     padding-top: var(--c-size-10px);
@@ -115,10 +115,10 @@
   }
   .badge-pill{
     border-radius: var(--bs-border-radius-pill);
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-size: var(--c-size-13px);
-    font-weight: 700;
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-size: var(--c-size-13px) !important;
+    font-weight: 700 !important;
     line-height: var(--c-size-15px);
     text-align: center;
     padding-top: var(--c-size-7px);

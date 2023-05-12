@@ -1,6 +1,6 @@
-.container2{
-    width: 417px;
-    height: 573px;
+.container-colors{
+    width: 417px !important;
+    height: 573px !important;
     left: 0px;
     top: 0px;
     background: #FFFFFF;
@@ -39,9 +39,9 @@
     border-color: var(--vt-c-black);             
 }
 
-.container3{
-    width: 417px; 
-    height: 803px;
+.container-icons{
+    width: 417px !important; 
+    height: 803px !important;
     left: 0px;
     top: 0px;
     background: #FFFFFF var(--vt-c-white); 

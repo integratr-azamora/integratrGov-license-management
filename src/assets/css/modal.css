@@ -1,6 +1,7 @@
-.modal-container1{
-    width: 481px;
-    height: 314px;
+/* containers for modals  */
+.container-modal{
+    width: 481px !important;
+    height: 314px !important;
     box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
     border-radius: 8px;
     background: var(--vt-c-white);  
@@ -10,7 +11,28 @@
     padding-left: 20px;
     padding-right: 21px;
 }
+.container-modal-transferwnership{
+    height: 259px !important;
+    width: 496px !important;
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;    
+    color: #DB524E;    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-top: 10px;
+    border-radius: 16px;
+}
 
+
+
+
+/* containers for modals  */
+
+/* fonts for modals  */
 .font-style-roboto{
     font-family: 'Roboto-black', sans-serif;
     font-weight: 900;
@@ -34,6 +56,9 @@
     align-self: stretch;
     flex-grow: 0;            
 }
+/* fonts for modals  */
+
+
 
 .info2{
     width: 96px;
@@ -92,18 +117,7 @@
     display: flex;
 }
 
-/* cont2 */
-.modal-con2{
-    width: 496px;
-    height: 294px;
-    background: var(--vt-c-white);    
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 16px;
-    padding-top: 10px;
-    padding-bottom: 16px;
-    padding-left: 20px;
-    padding-right: 21px;
-}
+
 
 .form-select{
     font-family: 'Roboto', sans-serif;
@@ -117,17 +131,7 @@
 }
 
 /* container 3 */
-.modal-con3{
-    width: 496px;
-    height: 259px;
-    background: var(--vt-c-white);  
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 16px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 21px;
-}
+
 
 /* container 4 */
 .modal-con4{
@@ -142,18 +146,7 @@
     padding-left: 20px;
     padding-right: 21px;
 }
-.modal3{
-    font-family:'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 15px;    
-    color: #DB524E;    
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-    margin-top: 10px;
-}
+
 
 .icon-calendar{
     font-size: 20px;
