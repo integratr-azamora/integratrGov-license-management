@@ -90,7 +90,7 @@
     color: var(--vt-c-ghost-white);
   }
   .color-darkgray{
-    color: var(--vt-c-dark-gray);
+    color: var(--vt-c-dark-gray) !important;
   }
   .color-venitianred{
     color:var(--vt-c-venitian-red);
