@@ -15,3 +15,8 @@
 .border-top-none{
     border-top-style: none;
 }
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+    --bs-table-accent-bg: var(--vt-c-white-smoke);
+    color: var(--bs-table-striped-color);
+  }
