@@ -12,10 +12,10 @@
     background-color: var(--vt-c-purple-heart);
   }
   .bg-darkgray{
-    background-color: var(--vt-c-dark-gray);
+    background-color: var(--vt-c-dark-gray) !important;
   }
   .bg-dimgray{
-    background-color: var(--vt-c-dim-gray);
+    background-color: var(--vt-c-dim-gray) !important;
   }
   .bg-frenchskyblue{
     background-color: var(--vt-c-frenchsky-blue);
@@ -25,6 +25,9 @@
   }
   .bg-ghostwhite{
     background-color: var(--vt-c-ghost-white);
+  }
+  .bg-whitesmoke{
+    background-color: var(--vt-c-white-smoke) !important;
   }
   .bg-lightlavender{
     background-color: var(--vt-c-light-lavender);

@@ -26,7 +26,6 @@
     font-weight: 900;
     font-size: 32px;
     line-height: 35px;
-    display: flex;
     align-items: center;
 }
 
@@ -92,7 +91,6 @@
 /* .Roboto */
 .roboto-headings{
     font-family: 'Roboto-black', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
@@ -102,25 +100,16 @@
 
 .heading1 {
     font-family: 'Roboto-black', sans-serif;
-    font-style: normal;
+    font-weight: 900;
     font-size: 32px;
     line-height: 24px;
     display: flex;
-    align-items: center;
-}
-.font-style-roboto-h{
-    font-family: 'Inter-regular', sans-serif;
-    font-size: 20px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #000000 var(--vt-c-black); 
-    padding-left: 20px; 
-    padding-right: 20px;         
+    align-items: center;       
 }
 
 .heading2{
-    font-family: 'Roboto-regular', sans-serif;  
+    font-family: 'Roboto-regular', sans-serif; 
+    font-weight: 700; 
     font-size: 24px;
     line-height: 28px;
     display: flex;
@@ -131,6 +120,7 @@
 
 .heading3{
     font-family: 'Roboto-regular', sans-serif;  
+    font-weight: 700;
     font-size: 16px;
     line-height: 19px;
     display: flex;
@@ -141,6 +131,7 @@
 
 .heading4 {
     font-family: 'Roboto-regular', sans-serif;  
+    font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     display: flex;
@@ -161,6 +152,7 @@
 
 .font-style-roboto-p1{
     font-family: 'Roboto-regular', sans-serif;  
+    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     display: flex;
@@ -171,6 +163,7 @@
 
 .font-style-roboto-p2{
     font-family: 'Roboto-regular', sans-serif;  
+    font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     display: flex;
@@ -211,3 +204,45 @@
   .border-top-1 {
     border-top: 1px solid;
   }
+
+  /* modal fonts  */
+  .fontfamily-gotham-modal-text{
+    font-family: 'Gotham', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+}
+   /* modal fonts  */
+
+  /* Add Account fonts */
+
+.add-account-Roboto-font{
+    font-family: 'Roboto-regular', sans-serif;  
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 18.75px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    border-color: var(--vt-c-black);   
+}
+
+.Roboto-label-font{
+    font-family: 'Roboto-regular', sans-serif;  
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;    
+    color: #666666;
+}
+
+.Roboto-input-box-font{
+    font-family: 'Roboto-regular', sans-serif;  
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;    
+    color: #111111;
+}
