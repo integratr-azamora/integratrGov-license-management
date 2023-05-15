@@ -9,7 +9,7 @@
          <div class="col d-flex align-items-center">
             <p class="fontfamily-gotham-heading-1">Heading 1</p>
          </div>
-         <div class="col ">
+         <div class="col">
             <div class="row">
                <div class="row d-flex align-items-center ">
                   <span class=" d-flex justify-content-start">

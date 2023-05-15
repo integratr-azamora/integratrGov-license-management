@@ -2,11 +2,9 @@
    <div class="container container7" >
       <div class="license-header1 d-flex justify-content-between">
          <p class="license-header"><b>Generate License Key</b></p>
-         <div class="icon-button-close-rotate">
-            <button class="button-round bg-indigo color-white border-color-indigo">
-               <div class=" icon-close-center"><i class="isax isax-add icon-size-weight"></i></div>
+         <button class="button-round bg-indigo color-white border-color-indigo d-flex align-items-center">
+               <fa class="font-size-20px" icon="close" />
             </button>
-         </div>
       </div>
       <hr>
       <!-- 1st -->
@@ -67,11 +65,9 @@
    <div class="container container8" >
       <div class="license-header1 d-flex justify-content-between">
          <p class="license-header mt-3"><b>Assign License</b></p>
-         <div class="icon-button-close-rotate">
-            <button class="button-round bg-indigo color-white border-color-indigo ">
-               <div class=" icon-close-center"><i class="isax isax-add icon-size-weight "></i></div>
+         <button class="button-round bg-indigo color-white border-color-indigo d-flex align-items-center">
+               <fa class="font-size-20px" icon="close" />
             </button>
-         </div>
       </div>
       <hr>
       <!-- 1st -->

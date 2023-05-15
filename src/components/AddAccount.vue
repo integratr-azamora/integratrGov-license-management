@@ -1,297 +1,254 @@
+License Manager
 <template>
-   <div class="container bor-style-solid-perma add-cont">
-      <div class="container add-cont1">
-         <div class="row justify-content-center p-3">
-            <span class="heading1">Account Details</span>
-            <span class="heading3 mt-3 fw-bold">Basic Information</span>
-         </div>
-         <div class=" d-flex justify-content-start align-items-center d-inline-flex mb-20px">
-            <div class="container">
-               <div class="row align-items-start">
-                  <div class="col">
-                     <div class="input-group size-inputbox">
-                        <form class="form-floating">
-                           <input type="text" class="default-label form-control inputbox-font shadow-sm border-color-none" id="information" placeholder="labelfield" value="Juan" >
-                           <label for="information" class="info">First Name</label>
+   <div class="container">
+      <div>
+         <span class="heading1 p-3">Account Details</span>
+         <div class="d-flex flex-column">
+            <div>
+               <span class="add-account-Roboto-font p-3 ">Basic Information</span>
+               <!-- row1  -->
+               <div class="row row-cols-3">
+                  <div class="size-inputbox mx-10px my-10px">
+                     <div class="input-group mb-3 size-inputbox ">
+                        <form class="form-floating ">
+                           <input type="text" class="default-password form-control Roboto-input-box-font shadow-sm border-color-none" value="Juan">
+                           <label for="floatingPassword" class="Roboto-label-font">First Name</label>
                         </form>
                      </div>
                   </div>
-                  <div class="col">
-                     <div class="input-group size-inputbox ">
-                        <form class="form-floating">
-                           <input type="text" class="default-label form-control inputbox-font shadow-sm border-color-none" id="label" placeholder="labelfield" value="Santos" >
-                           <label for="information" class="info">Middle Name</label>
+                  <div class="size-inputbox mx-10px my-10px">
+                     <div class="input-group mb-3 size-inputbox ">
+                        <form class="form-floating ">
+                           <input type="text" class="default-password form-control Roboto-input-box-font shadow-sm border-color-none" value="Santos">
+                           <label for="floatingPassword" class="Roboto-label-font">Middle Name</label>
                         </form>
                      </div>
                   </div>
-                  <div class="col">
-                     <div class="input-group size-inputbox ">
-                        <form class="form-floating">
-                           <input type="text" class="default-label form-control inputbox-font shadow-sm border-color-none" id="information" placeholder="labelfield" value="Dela Cruz" >
-                           <label for="information" class="info">Last Name</label>
+                  <div class="size-inputbox mx-10px my-10px">
+                     <div class="input-group mb-3 size-inputbox ">
+                        <form class="form-floating ">
+                           <input type="text" class="default-password form-control Roboto-input-box-font shadow-sm border-color-none" value="Dela Cruz">
+                           <label for="floatingPassword" class="Roboto-label-font">Last name</label>
                         </form>
                      </div>
                   </div>
-               </div>
-            </div>
-         </div>
-         <div class=" d-flex justify-content-start align-items-center d-inline-flex mb-20px">
-            <div class="container">
-               <div class="row align-items-start">
-                  <div class="col">
-                     <div class="input-group size-inputbox ">
-                        <form class="form-floating">
-                           <input type="text" class="default-label form-control inputbox-font shadow-sm border-color-none" id="information" placeholder="labelfield" value="juandelacruz@gmail.com" >
-                           <label for="information" class="info">Email Address</label>
+                  <div class="size-inputbox mx-10px my-10px">
+                     <div class="input-group mb-3 size-inputbox ">
+                        <form class="form-floating ">
+                           <input type="text" class="default-password form-control Roboto-input-box-font shadow-sm border-color-none" value="juandelacruz@gmail.com">
+                           <label for="floatingPassword" class="Roboto-label-font">Email Address</label>
                         </form>
                      </div>
                   </div>
-                  <div class="col">
-                     <div class="input-group size-inputbox ">
-                        <form class="form-floating">
-                           <input type="text" class="default-label form-control inputbox-font shadow-sm border-color-none" id="information" placeholder="labelfield" value="+639091234567" >
-                           <label for="information" class="info">TIN</label>
+                  <div class="size-inputbox mx-10px my-10px">
+                     <div class="input-group mb-3 size-inputbox ">
+                        <form class="form-floating ">
+                           <input type="text" class="default-password form-control Roboto-input-box-font shadow-sm border-color-none" value="639091234567">
+                           <label for="floatingPassword" class="Roboto-label-font">Mobile Number</label>
                         </form>
                      </div>
                   </div>
-                  <div class="col">
-                     <div class="input-group size-inputbox ">
-                        <form class="form-floating">
-                           <input type="text" class="default-label form-control inputbox-font shadow-sm border-color-none" id="information" placeholder="labelfield" value="00000000000" >
-                           <label for="information" class="info">TIN</label>
+                  <div class="size-inputbox mx-10px my-10px">
+                     <div class="input-group mb-3 size-inputbox ">
+                        <form class="form-floating ">
+                           <input type="text" class="default-password form-control Roboto-input-box-font shadow-sm border-color-none" value="00000000000">
+                           <label for="floatingPassword" class="Roboto-label-font">TIN</label>
                         </form>
                      </div>
                   </div>
-               </div>
-            </div>
-         </div>
-         <div class=" d-flex justify-content-start align-items-center d-inline-flex mb-20px">
-            <div class="container">
-               <div class="row align-items-start">
-                  <div class="col">
-                     <div class="input-group size-inputbox ">
-                        <form class="form-floating">
-                           <input type="text" class="default-label form-control inputbox-font shadow-sm border-color-none" id="information" placeholder="labelfield" value="Pasig  City" >
-                           <label for="information" class="info">LGU/Organization</label>
+                  <div class="size-inputbox mx-10px my-10px">
+                     <div class="input-group mb-3 size-inputbox ">
+                        <form class="form-floating ">
+                           <input type="text" class="default-password form-control Roboto-input-box-font shadow-sm border-color-none" value="Pasig">
+                           <label for="floatingPassword" class="Roboto-label-font">LGU/Organization</label>
                         </form>
                      </div>
                   </div>
-                  <div class="col">
-                     <div class="input-group size-inputbox ">
-                        <form class="form-floating">
-                           <input type="text" class="default-label form-control inputbox-font shadow-sm border-color-none" id="information" placeholder="labelfield" value="Mayor" >
-                           <label for="information" class="info">Position</label>
+                  <div class="size-inputbox mx-10px my-10px">
+                     <div class="input-group mb-3 size-inputbox ">
+                        <form class="form-floating ">
+                           <input type="text" class="default-password form-control Roboto-input-box-font shadow-sm border-color-none" value="Mayor">
+                           <label for="floatingPassword" class="Roboto-label-font">Position</label>
                         </form>
                      </div>
                   </div>
                </div>
+               <!-- row1  -->
             </div>
-         </div>
-         <span class="heading3 p-3 mb-2 fw-bold">Address</span>
-         <div class=" d-flex justify-content-start align-items-center d-inline-flex mb-20px">
-            <div class="container">
-               <div class="row align-items-start">
-                  <div class="col">
-                     <div class="input-group size-inputbox ">
-                        <form class="form-floating">
-                           <input type="text" class="default-label form-control inputbox-font shadow-sm border-color-none" id="information" placeholder="labelfield" value="1" >
-                           <label for="information" class="info">Unit/House/Bldg No.</label>
+            <div>
+               <span class="add-account-Roboto-font ms-10px mt-2 mb-2">Address</span>
+               <!-- row2  -->
+               <div class="row row-cols-3">
+                  <div class="size-inputbox mx-10px my-10px">
+                     <div class="input-group mb-3 size-inputbox ">
+                        <form class="form-floating ">
+                           <input type="text" class="default-password form-control Roboto-input-box-font shadow-sm border-color-none"  value="1">
+                           <label for="floatingPassword" class="Roboto-label-font">Unit/House/Bldg No.</label>
                         </form>
                      </div>
                   </div>
-                  <div class="col">
-                     <div class="input-group size-inputbox ">
-                        <form class="form-floating">
-                           <input type="text" class="default-label form-control inputbox-font shadow-sm border-color-none" id="information" placeholder="labelfield" value="SM Light Mall Residence" >
-                           <label for="information" class="info">Building Name</label>
+                  <div class="size-inputbox mx-10px my-10px">
+                     <div class="input-group mb-3 size-inputbox ">
+                        <form class="form-floating ">
+                           <input type="text" class="default-password form-control Roboto-input-box-font shadow-sm border-color-none"  value="SM Light Mall Residence">
+                           <label for="floatingPassword" class="Roboto-label-font">Building Name</label>
                         </form>
                      </div>
                   </div>
-                  <div class="col">
-                     <div class="input-group size-inputbox ">
+                  <div class="size-inputbox mx-10px my-10px">
+                     <div class="input-group mb-3 size-inputbox ">
+                        <form class="form-floating ">
+                           <input type="text" class="default-password form-control Roboto-input-box-font shadow-sm border-color-none"  value="2">
+                           <label for="floatingPassword" class="Roboto-label-font">Street No.</label>
+                        </form>
+                     </div>
+                  </div>
+                  <div class="size-inputbox mx-10px my-10px">
+                     <div class="input-group mb-3 size-inputbox ">
+                        <form class="form-floating ">
+                           <input type="text" class="default-password form-control Roboto-input-box-font shadow-sm border-color-none"  value="3">
+                           <label for="floatingPassword" class="Roboto-label-font">Block No.</label>
+                        </form>
+                     </div>
+                  </div>
+                  <div class="size-inputbox mx-10px my-10px">
+                     <div class="input-group mb-3 size-inputbox ">
+                        <form class="form-floating ">
+                           <input type="text" class="default-password form-control Roboto-input-box-font shadow-sm border-color-none"  value="San Roque">
+                           <label for="floatingPassword" class="Roboto-label-font">Street Name</label>
+                        </form>
+                     </div>
+                  </div>
+                  <div class="size-inputbox mx-10px my-10px">
+                     <div class="input-group mb-3 size-inputbox ">
+                        <form class="form-floating ">
+                           <input type="text" class="default-password form-control Roboto-input-box-font shadow-sm border-color-none"  value="4">
+                           <label for="floatingPassword" class="Roboto-label-font">Lot No.</label>
+                        </form>
+                     </div>
+                  </div>
+                  <div class="size-inputbox mx-10px my-10px">
+                     <div class="input-group mb-3 size-inputbox ">
+                        <form class="form-floating ">
+                           <input type="text" class="default-password form-control Roboto-input-box-font shadow-sm border-color-none"  value="5">
+                           <label for="floatingPassword" class="Roboto-label-font">Phase No.</label>
+                        </form>
+                     </div>
+                  </div>
+                  <div class="size-inputbox mx-10px my-10px">
+                     <div class="input-group mb-3 size-inputbox Roboto-input-box-font">
                         <form class="form-floating">
-                           <input type="text" class="default-label form-control inputbox-font shadow-sm border-color-none" id="information" placeholder="labelfield" value="2" >
-                           <label for="information" class="info">Street No.</label>
+                           <input type="text" class="default-password form-control shadow-sm border-color-none"  value="NCR">
+                           <fa class="font-size-24px icon-position-dropdown color-dimgray" icon="angle-down" />
+                           <label for="floatingPassword">Province/State</label>
+                        </form>
+                     </div>
+                  </div>
+                  <div class="size-inputbox mx-10px my-10px">
+                     <div class="input-group mb-3 size-inputbox Roboto-input-box-font">
+                        <form class="form-floating">
+                           <input type="text" class="default-password form-control shadow-sm border-color-none"  value="Philippines">
+                           <fa class="font-size-24px icon-position-dropdown color-dimgray" icon="angle-down" />
+                           <label for="floatingPassword">Country</label>
+                        </form>
+                     </div>
+                  </div>
+                  <div class="size-inputbox mx-10px my-10px">
+                     <div class="input-group mb-3 size-inputbox Roboto-input-box-font">
+                        <form class="form-floating">
+                           <input type="text" class="default-password form-control shadow-sm border-color-none"  value="City/Municipality">
+                           <fa class="font-size-24px icon-position-dropdown color-dimgray" icon="angle-down" />
+                           <label for="floatingPassword">Mandaluyong</label>
+                        </form>
+                     </div>
+                  </div>
+                  <div class="size-inputbox mx-10px my-10px">
+                     <div class="input-group mb-3 size-inputbox Roboto-input-box-font">
+                        <form class="form-floating">
+                           <input type="text" class="default-password form-control shadow-sm border-color-none"  value="Highway Hills">
+                           <fa class="font-size-24px icon-position-dropdown color-dimgray" icon="angle-down" />
+                           <label for="floatingPassword">Barangay</label>
+                        </form>
+                     </div>
+                  </div>
+                  <div class="size-inputbox mx-10px my-10px">
+                     <div class="input-group mb-3 size-inputbox Roboto-input-box-font">
+                        <form class="form-floating">
+                           <input type="text" class="default-password form-control shadow-sm border-color-none"  value="1111">
+                           <fa class="font-size-24px icon-position-dropdown color-dimgray" icon="angle-down" />
+                           <label for="floatingPassword">Zip Code</label>
                         </form>
                      </div>
                   </div>
                </div>
+               <!-- row2  -->
             </div>
-         </div>
-         <div class=" d-flex justify-content-start align-items-center d-inline-flex mb-20px">
-            <div class="container">
-               <div class="row align-items-start">
-                  <div class="col">
-                     <div class="input-group size-inputbox ">
-                        <form class="form-floating">
-                           <input type="text" class="default-label form-control inputbox-font shadow-sm border-color-none" id="information" placeholder="labelfield" value="3" >
-                           <label for="information" class="info">Block No.</label>
+            <div>
+               <span class="add-account-Roboto-font ms-10px mt-2 mb-2">Billing Details</span>
+               <!-- row2  -->
+               <div class="row row-cols-3">
+                  <div class="size-inputbox mx-10px my-10px">
+                     <div class="input-group mb-3 size-inputbox ">
+                        <form class="form-floating ">
+                           <input type="text" class="default-password form-control Roboto-input-box-font shadow-sm border-color-none"  value="Juan Dela Cruz">
+                           <label for="floatingPassword" class="Roboto-label-font">Card Name</label>
                         </form>
                      </div>
                   </div>
-                  <div class="col">
-                     <div class="input-group size-inputbox ">
-                        <form class="form-floating">
-                           <input type="text" class="default-label form-control inputbox-font shadow-sm border-color-none" id="information" placeholder="labelfield" value="San Roque" >
-                           <label for="information" class="info">Street Name</label>
+                  <div class="size-inputbox mx-10px my-10px">
+                     <div class="input-group mb-3 size-inputbox ">
+                        <form class="form-floating ">
+                           <input type="text" class="default-password form-control Roboto-input-box-font shadow-sm border-color-none"  value="0000-0000-0000-0000">
+                           <label for="floatingPassword" class="Roboto-label-font">Card Number</label>
                         </form>
                      </div>
                   </div>
-                  <div class="col">
-                     <div class="input-group size-inputbox ">
+                  <div class="size-inputbox mx-10px my-10px">
+                     <div class="input-group mb-3 size-inputbox ">
                         <form class="form-floating">
-                           <input type="text" class="default-label form-control inputbox-font shadow-sm border-color-none" id="information" placeholder="labelfield" value="4" >
-                           <label for="information" class="info">Lot No.</label>
-                        </form>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class=" d-flex justify-content-start align-items-center d-inline-flex mb-20px">
-            <div class="container">
-               <div class="row align-items-start">
-                  <div class="col">
-                     <div class="input-group size-inputbox ">
-                        <form class="form-floating">
-                           <input type="text" class="default-label form-control inputbox-font shadow-sm border-color-none" id="information" placeholder="labelfield" value="5" >
-                           <label for="information" class="info">Phase No.</label>
-                        </form>
-                     </div>
-                  </div>
-                  <div class="col">
-                     <div class="input-group size-inputbox ">
-                        <form class="form-floating">
-                           <select class="form-control" id="floatingSelect" aria-label="Floating select">
-                              <option selected>NCR</option>
-                           </select>
-                           <label for="floatingSelect" class="info">Province/State</label>
-                           <fa class="arrow-icon margin-top-left gray" icon="angle-down" style="position:absolute;left:350px; bottom: 14px;"/>
-                        </form>
-                     </div>
-                  </div>
-                  <div class="col">
-                     <div class="input-group size-inputbox ">
-                        <form class="form-floating">
-                           <select class="default-label form-control inputbox-font shadow-sm border-color-none" id="floatingSelect" aria-label="Floating select">
-                              <option selected>Philippines</option>
-                           </select>
-                           <label for="floatingSelect" class="info">Country</label>
-                           <fa class="arrow-icon margin-top-left gray" icon="angle-down" style="position:absolute;left:345px; bottom: 14px;"/>
-                        </form>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class=" d-flex justify-content-start align-items-center d-inline-flex mb-20px">
-            <div class="container">
-               <div class="row align-items-start">
-                  <div class="col">
-                     <div class="input-group size-inputbox ">
-                        <form class="form-floating">
-                           <select class="default-label form-control inputbox-font shadow-sm border-color-none" id="floatingSelect" aria-label="Floating select">
-                              <option selected>Mandaluyong</option>
-                           </select>
-                           <label for="floatingSelect" class="info">City/Municipality</label>
-                           <fa class="arrow-icon margin-top-left gray" icon="angle-down" style="position:absolute;left:345px; bottom: 14px;"/>
-                        </form>
-                     </div>
-                  </div>
-                  <div class="col">
-                     <div class="input-group size-inputbox ">
-                        <form class="form-floating">
-                           <select class="default-label form-control inputbox-font shadow-sm border-color-none" id="floatingSelect" aria-label="Floating select">
-                              <option selected>Highway Hills</option>
-                           </select>
-                           <label for="floatingSelect" class="info">Barangay</label>
-                           <fa class="arrow-icon margin-top-left gray" icon="angle-down" style="position:absolute;left:345px; bottom: 14px;"/>
-                        </form>
-                     </div>
-                  </div>
-                  <div class="col">
-                     <div class="input-group size-inputbox ">
-                        <form class="form-floating">
-                           <select class="default-label form-control inputbox-font shadow-sm border-color-none" id="floatingSelect" aria-label="Floating select">
-                              <option selected>1111</option>
-                           </select>
-                           <label for="floatingSelect" class="info">Zip code</label>
-                           <fa class="arrow-icon margin-top-left gray" icon="angle-down" style="position:absolute;left:345px; bottom: 14px;"/>
-                        </form>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <span class="heading3 p-3 mb-2 fw-bold">Billing Details</span>
-         <div class=" d-flex justify-content-start align-items-center d-inline-flex mb-20px">
-            <div class="container">
-               <div class="row align-items-start">
-                  <div class="col">
-                     <div class="input-group size-inputbox ">
-                        <form class="form-floating">
-                           <input type="text" class="default-label form-control inputbox-font shadow-sm border-color-none" id="information" placeholder="labelfield" value="Juan Dela Cruz" >
-                           <label for="information" class="info">Card Name</label>
-                        </form>
-                     </div>
-                  </div>
-                  <div class="col">
-                     <div class="input-group size-inputbox ">
-                        <form class="form-floating">
-                           <input type="text" class="default-label form-control inputbox-font shadow-sm border-color-none" id="information" placeholder="labelfield" value="0000-0000-0000-0000" >
-                           <label for="information" class="info">Card Number</label>
-                        </form>
-                     </div>
-                  </div>
-                  <div class="col">
-                     <div class="input-group size-inputbox ">
-                        <form class="form-floating">
-                           <input type="text" class="default-label form-control inputbox-font shadow-sm border-color-none" id="information" placeholder="labelfield" value="01/2022" >
-                           <label for="information" class="info">Expiration</label>
+                           <input type="text" class="default-password form-control Roboto-input-box-font shadow-sm border-color-none"  value="01/2022">
+                           <label for="floatingPassword" class="Roboto-label-font">Expiration</label>
                            <i class="add-icon gray isax isax-calendar-1"></i>
                         </form>
                      </div>
                   </div>
                </div>
-            </div>
-         </div>
-         <br>
-         <div class=" d-flex justify-content-start align-items-center d-inline-flex mb-20px">
-            <div class="container">
-               <div class="row align-items-start">
-                  <div class="col">
-                     <div class="input-group size-inputbox ">
-                        <form class="form-floating">
-                           <input type="text" class="default-label form-control inputbox-font shadow-sm border-color-none" id="information" placeholder="labelfield" value="###" >
-                           <label for="information" class="info">CVC</label>
-                        </form>
-                     </div>
+               <!-- row2  -->
+               <div class="size-inputbox mx-10px my-10px">
+                  <div class="input-group mb-3 size-inputbox ">
+                     <form class="form-floating">
+                        <input type="text" class="default-password form-control Roboto-input-box-font shadow-sm border-color-none"  value="###">
+                        <label for="floatingPassword" class="Roboto-input-box-font">CVC</label>
+                     </form>
                   </div>
                </div>
-            </div>
-         </div>
-         <span class="heading3 p-3 mb-2 fw-bold">Password</span>
-         <div class=" d-flex justify-content-start align-items-center d-inline-flex mb-20px">
-            <div class="container">
-               <div class="row align-items-start">
-                  <div class="col">
-                     <div class="input-group size-inputbox ">
-                        <form class="form-floating">
-                           <input type="text" class="default-label form-control inputbox-font shadow-sm border-color-none" id="information" placeholder="labelfield" value="Azy8vbXt0@&$" >
-                           <label for="information" class="info">Password</label>
+               <span class="add-account-Roboto-font ms-10px mt-3 mb-3">Password</span>
+               <!-- row2  -->
+               <div class="row row-cols-3">
+                  <div class="size-inputbox mx-10px my-10px">
+                     <div class="input-group mb-3 size-inputbox ">
+                        <form class="form-floating ">
+                           <input type="text" class="default-password form-control Roboto-input-box-font shadow-sm border-color-none"  value="Azy8vbXt0@&$">
+                           <label for="floatingPassword" class="Roboto-label-font">Password</label>
                            <img src="../assets/icon/copy.svg" class="icon-size" alt="copy" style="position:absolute;left:360px; bottom: 16px;">
                         </form>
                      </div>
                   </div>
+                  <div class="row row-cols-3">
+                     <div class="size-inputbox mx-10px my-10px">
+                        <div class="input-group mb-3 size-inputbox ">
+                           <div class="modal-footer">
+                              <button class="button-default bg-indigo border-color-indigo color-white">Generate</button>   
+                           </div>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
-            <div class="modal-footer">
-               <button class="button-default bg-indigo border-color-indigo color-white me-0 mt-2">Generate</button>      
+            <div class="modal-footer text-center justify-content">
+               <button class="button-default bg-white border-color-none color-indigo me-0">Cancel</button>
+               <button class="button-default bg-indigo border-color-indigo color-white me-0">Save</button>
             </div>
-         </div>
-         <div class="modal-footer text-center justify-content">
-            <button class="button-default bg-white border-color-none color-indigo me-0">Cancel</button>
-            <button class="button-default bg-indigo border-color-indigo color-white me-0">Save</button>
          </div>
       </div>
    </div>

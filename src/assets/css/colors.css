@@ -27,7 +27,7 @@
     background-color: var(--vt-c-ghost-white);
   }
   .bg-whitesmoke{
-    background-color: var(--vt-c-white-smoke);
+    background-color: var(--vt-c-white-smoke) !important;
   }
   .bg-lightlavender{
     background-color: var(--vt-c-light-lavender);

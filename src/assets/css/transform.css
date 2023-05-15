@@ -8,6 +8,9 @@
     height: 3.5rem !important;
     width: 25rem !important;
   }
+  .size-inputbox-maxwidth-minwidth{
+    max-width: 25rem !important ;
+  }
   .size-inputbox-search{
     height: 3.5rem !important;
     width: 23.125rem !important;
