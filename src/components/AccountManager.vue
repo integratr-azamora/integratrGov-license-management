@@ -1,11 +1,12 @@
 <template>
    <div class=" ">
-      <div class=" heading1 p-3  ">Account Manager </div>
+      
       <div class="d-flex justify-content-center">
          <div class=" rounded-3 container">
+            <div class=" heading1  ">Account Manager </div>
             <!-- row1  -->
             <div class=" shadow-sm border-round16px pb-20px">
-               <div class="d-flex justify-content-between mt-12px">
+               <div class="d-flex justify-content-between mt-20px pt-12px">
                   <p class="ps-20px fontfamily-gotham-heading-2">Registered Accounts</p>
                   <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center margin-none">
                      <fa class="font-size-20px me-8px" icon="plus" />
@@ -25,7 +26,7 @@
                <div class="  px-20px">
                   <!-- table Header Row4 Col1 -->
                   <div class="d-flex flex-row">
-                     <div class="shadow-sm  border-round-4px">
+                     <div class="shadow-sm  border-round-4px min-width-inputbox">
                         <i class="isax isax-search-normal-1  table-inputbox-icon-size ps-16px py-14py"></i>
                         <input class="input-field border-color-none btn-hover p-3 outline-none table-inputbox-size inputbox-font border-round-4px" type="text" placeholder="Search" name="usrnm">
                      </div>

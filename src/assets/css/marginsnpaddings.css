@@ -136,6 +136,9 @@
 .p-10px{
     padding: var(--c-size-10px) !important;
 }
+.pt-12px{
+  padding-top: var(--c-size-12px) ;
+}
 .pt-20px{
   padding-top: var(--c-size-20px) !important;
 }

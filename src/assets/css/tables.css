@@ -15,6 +15,9 @@
 .border-top-none{
     border-top-style: none;
 }
+.min-width-inputbox{
+    min-width: 300px;
+}
 
 .table-striped > tbody > tr:nth-of-type(odd) > * {
     --bs-table-accent-bg: var(--vt-c-white-smoke);
