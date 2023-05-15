@@ -104,15 +104,15 @@
                 <label class="form-check-label" for="flexCheckDefault"></label>
              </div>
              <div class="form-check m-2">
-                <input class="form-check-input bg-dimgray border-color-none size-checkbox-24px" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                <input class="form-check-input bg-dimgray border-color-none size-checkbox-24px radio-colors" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
                 <label class="form-check-label " for="flexRadioDefault1"></label>
              </div>
              <div class="form-check m-2">
-                <input class="form-check-input bg-dimgray border-color-none size-checkbox-24px" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <input class="form-check-input bg-dimgray border-color-none size-checkbox-24px radio-colors" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                 <label class="form-check-label " for="flexRadioDefault1"></label>
              </div>
              <div class="form-check m-2">
-                <input class="form-check-input bg-dimgray border-color-none size-checkbox-24px" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <input class="form-check-input bg-dimgray border-color-none size-checkbox-24px radio-colors" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                 <label class="form-check-label " for="flexRadioDefault1"></label>
              </div>
           </div>
@@ -213,7 +213,7 @@
              Default
           </button>
           <button class="button-pill bg-columbiagreen color-seagreen border-color-columbiagreen d-flex flex-row align-items-center"><fa class="font-size-20px me-8px" icon="plus" />Click/Hover</button>
-          <button class="button-pill bg-platinum color-darkgray border-color-platinum d-flex flex-row align-items-center"><fa class="font-size-20px me-8px" icon="plus" />Disabled</button>
+          <button class="button-pill bg-platinum color-dimgray border-color-platinum d-flex flex-row align-items-center"><fa class="font-size-20px me-8px" icon="plus" />Disabled</button>
        </div>
        <!-- row7  -->
        <!-- row8 -->
@@ -277,15 +277,15 @@
           <button class="button-tab m-3">Tab 1</button>
           <button class="button-tab m-3">Tab 2</button>
           <div class="form-check m-2">
-             <input class="form-check-input bg-dimgray border-color-none size-checkbox-24px" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+             <input class="form-check-input bg-dimgray border-color-none size-checkbox-24px radio-colors" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
              <label class="form-check-label " for="flexRadioDefault1"></label>
           </div>
           <div class="form-check m-2">
-             <input class="form-check-input bg-dimgray border-color-none size-checkbox-24px" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+             <input class="form-check-input bg-dimgray border-color-none size-checkbox-24px radio-colors" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
              <label class="form-check-label " for="flexRadioDefault1"></label>
           </div>
           <div class="form-check m-2">
-             <input class="form-check-input bg-dimgray border-color-none size-checkbox-24px" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+             <input class="form-check-input bg-dimgray border-color-none size-checkbox-24px radio-colors" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
              <label class="form-check-label " for="flexRadioDefault1"></label>
           </div>
        </div>
