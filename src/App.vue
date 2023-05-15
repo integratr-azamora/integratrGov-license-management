@@ -43,7 +43,7 @@ import { RouterLink, RouterView } from 'vue-router'
       </div>
       </div>
       
-      <div class=" shadow-none border-color-none">
+      <div class="shadow-none border-color-none">
             <RouterView />
       </div>
       
