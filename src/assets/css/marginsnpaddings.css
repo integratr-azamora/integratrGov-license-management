@@ -50,6 +50,9 @@
 .mt-10px{
     margin-top: 0.625rem !important;
   }
+.mt-12px{
+  margin-top: var(--c-size-12px)
+}
   .mt-6px{
     margin-top: var(--c-size-6px) !important;
   }
@@ -215,7 +218,7 @@
 }
 /* margin none  */
 .margin-none{
-  margin: none !important;
+  margin: 0px !important;
 }
 .margin-top-none{
 margin-top: none !important;
