@@ -69,11 +69,12 @@ a{
     font-size: 14px;
   }
   .font-table-text{
-    font-family: 'Gotham-book';
+    font-family: 'Gotham', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+    
   }
   .font-table-pagination{
     font-family: 'Roboto';
