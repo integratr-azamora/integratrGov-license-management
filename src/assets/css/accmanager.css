@@ -5,6 +5,14 @@
 
 
 /* dropdown */
+.border-radius-16px{
+  border-radius: 16px !important;
+}
+.dropdown-menu {
+  bottom: 2000px;
+}
+
+
 .dropdown {
     position: relative;
     display: inline-block;
