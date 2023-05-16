@@ -115,7 +115,7 @@
   }
   .badge-pill{
     border-radius: var(--bs-border-radius-pill);
-    font-family: 'Roboto' !important;
+    font-family: 'Roboto-regular' !important;
     font-style: normal !important;
     font-size: var(--c-size-13px) !important;
     font-weight: 700 !important;
