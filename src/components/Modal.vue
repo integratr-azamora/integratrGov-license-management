@@ -56,7 +56,7 @@
          <select class="form-select border-0 shadow-sm" id="admin">
             <option selected>[Owner; Admin]</option>
          </select>
-         <fa class="arrow-icon margin-top-left gray" icon="angle-down" style="position:absolute;left:425px; bottom: 7px;"/>
+         <fa class="arrow-icon arrow-icon-positon margin-top-left gray" icon="angle-down"/>
       </div>
       <div class="modal-footer">
          <button class="button-default bg-indigo border-color-indigo color-white me-0 mt-3">Send Request</button>      
@@ -65,34 +65,33 @@
    <!-- con3 -->
    <br>
    <div class="container container-transfer p-20px" >
-         <div class="modal-header">
-            <p class="container-modal-title"><b>Transfer Ownership</b></p>
-            <div class="position-relative">
-               <div class="d-flex flex-row">
-                  <button class="button-round-modal bg-indigo color-white border-color-indigo">
-                     <fa class="font-size-24px" icon="close"/>
-                  </button>
-               </div>
+      <div class="modal-header">
+         <p class="container-modal-title"><b>Transfer Ownership</b></p>
+         <div class="position-relative">
+            <div class="d-flex flex-row">
+               <button class="button-round-modal bg-indigo color-white border-color-indigo">
+                  <fa class="font-size-24px" icon="close"/>
+               </button>
             </div>
          </div>
-         <div class="row d-flex align-items-center">
-            <div class="modal-body2">
-               <span class="modal2">
-                  <p>Provide the email address of the recipient to</p>
-               </span>
-               <span class="modal2">
-                  <p>who you want to transfer the ownership right of</p>
-               </span>
-               <span class="modal2">
-                  <p>the business.</p>
-               </span>
+      </div>
+      <div class="row d-flex align-items-center">
+         <div class="modal-body2">
+            <span class="modal2">
+               <p>Provide the email address of the recipient to</p>
+            </span>
+            <span class="modal2">
+               <p>who you want to transfer the ownership right of</p>
+            </span>
+            <span class="modal2">
+               <p>the business.</p>
+            </span>
          </div>
-         </div>
-         <input type="email" class="form-control border-0 shadow-sm  mt-20px" id="Inputform1" placeholder="Email Address">
-         <div class="modal-footer">
-            <button class="button-default bg-indigo border-color-indigo color-white me-0 mt-3">Send Request</button>      
-         </div>
-      
+      </div>
+      <input type="email" class="form-control border-0 shadow-sm  mt-20px" id="Inputform1" placeholder="Email Address">
+      <div class="modal-footer">
+         <button class="button-default bg-indigo border-color-indigo color-white me-0 mt-3">Send Request</button>      
+      </div>
    </div>
    <!-- con4 -->
    <br>
@@ -113,7 +112,7 @@
       <input type="email" class="form-control mt-10px shadow-sm border-color-valencia bg-lavender-bush" id="input-form1" placeholder="License No.">   
       <input type="email" class="form-control mt-10px shadow-sm border-color-valencia bg-lavender-bush" id="input-form1" placeholder="TIN No.">   
       <input type="email" class="form-control mt-10px shadow-sm border-color-valencia bg-lavender-bush" id="input-form1" placeholder="Date Established">    
-      <i class="icon-calendar gray isax isax-calendar-1" style="position:absolute;left:448px; bottom: 87px;"></i>
+      <i class="icon-calendar calendar-modal gray isax isax-calendar-1"></i>
       <div class="modal-footer">
          <button class="button-default bg-indigo border-color-indigo color-white me-0 mt-10px">Search</button>      
       </div>

@@ -168,3 +168,15 @@
     border-radius: 16px;
     padding: 20px;
 }
+
+.arrow-icon-positon{
+    position:absolute;
+    left:425px; 
+    bottom: 7px;
+}
+
+.calendar-modal{
+    position:absolute;
+    left:445px; 
+    bottom: 87px;
+}
