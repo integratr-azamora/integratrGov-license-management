@@ -130,6 +130,9 @@
   
 /* custom-margin  */
 /* custom-padding  */
+.p-5px{
+  padding: var(--c-size-5px);
+}
 .p-20px{
     padding: var(--c-size-20px);
 }
