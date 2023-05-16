@@ -1,7 +1,7 @@
 <template>
    <!-- con1 -->
    <br>
-   <div class="container container-modal" >
+   <div class="container container-modal p-20px" >
       <div class="modal-header">
          <hr>
          <div class="position-absolute top-0 end-0">
@@ -23,16 +23,16 @@
             <p class="font-style-gotham mt-10px">You can always go back and update if there are any changes.</p>
          </div>
       </div>
-      <div class="text-center mt-24px">
-         <button class="button-default bg-white border-color-indigo color-indigo me-0 mt-0 mb-0 ">Cancel</button>      
-         <button class="button-default bg-indigo border-color-indigo color-white me-0 mt-0 mb-0">Submit</button>      
+      <div class="text-center mt-20px">
+         <button class="button-default bg-white border-color-indigo color-indigo me-5px ms-0 mt-0 mb-0 ">Cancel</button>      
+         <button class="button-default bg-indigo border-color-indigo color-white ms-5px me-0 mt-0 mb-0">Submit</button>      
       </div>
    </div>
    <!-- con2 -->
    <br>
    <div class="container container-user p-20px" >
       <div class="modal-header">
-         <p class="container-modal-title mb-3">Tag User</p>
+         <p class="container-modal-title">Tag User</p>
          <div class="position-relative">
             <div class="d-flex flex-row">
                <button class="button-round-modal bg-indigo color-white border-color-indigo">
@@ -41,9 +41,9 @@
             </div>
          </div>
       </div>
-      <div class="row d-flex align-items-center">
+      <div class="row d-flex align-items-center mt-10px">
          <div class="modal-body2">
-            <span class="modal2 mb">
+            <span class="modal2">
                <p>Give this user the authority to process transactions</p>
             </span>
             <span class="modal2">
@@ -51,15 +51,15 @@
             </span>
          </div>
       </div>
-      <input type="email" class="form-control border-0 shadow-sm mt-1" id="Inputform1" placeholder="Email Address">
+      <input type="email" class="form-control border-0 shadow-sm mt-20px" id="Inputform1" placeholder="Email Address">
       <div class="input-group ">
-         <select class="form-select border-0 shadow-sm" id="admin">
+         <select class="form-select border-0 shadow-sm mt-20px" id="admin">
             <option selected>[Owner; Admin]</option>
          </select>
          <fa class="arrow-icon arrow-icon-positon margin-top-left gray" icon="angle-down"/>
       </div>
       <div class="modal-footer">
-         <button class="button-default bg-indigo border-color-indigo color-white me-0 mt-3">Send Request</button>      
+         <button class="button-default bg-indigo border-color-indigo color-white me-0 mt-20px">Send Request</button>      
       </div>
    </div>
    <!-- con3 -->
@@ -75,7 +75,7 @@
             </div>
          </div>
       </div>
-      <div class="row d-flex align-items-center">
+      <div class="row d-flex align-items-center mt-10px">
          <div class="modal-body2">
             <span class="modal2">
                <p>Provide the email address of the recipient to</p>
@@ -90,7 +90,7 @@
       </div>
       <input type="email" class="form-control border-0 shadow-sm  mt-20px" id="Inputform1" placeholder="Email Address">
       <div class="modal-footer">
-         <button class="button-default bg-indigo border-color-indigo color-white me-0 mt-3">Send Request</button>      
+         <button class="button-default bg-indigo border-color-indigo color-white me-0 mt-20px">Send Request</button>      
       </div>
    </div>
    <!-- con4 -->
@@ -98,15 +98,19 @@
    <div class="container modal-existing p-20px" >
       <div class="modal-header">
          <p class="container-modal-title"><b>Existing Business</b></p>
-         <div class="d-flex flex-row">
+         <div class="d-flex flex-row mt-10px">
             <button class="button-round-modal bg-indigo color-white border-color-indigo d-flex align-items-center">
                <fa class="font-size-24px" icon="close"/>
             </button>
          </div>
       </div>
-      <span class="modal2">
+      <div class="row d-flex align-items-center mt-10px">
+         <div class="modal-body2">
+         <span class="modal2">
          <p>Search using the following numbers to find existing business.</p>
       </span>
+      </div>
+      </div>
       <p class="font-style-roboto-modal4 mt-10px">Business does not exist on our system.</p>
       <input type="email" class="form-control mt-10px shadow-sm border-color-valencia bg-lavender-bush" id="input-form1" placeholder="Transaction No.">   
       <input type="email" class="form-control mt-10px shadow-sm border-color-valencia bg-lavender-bush" id="input-form1" placeholder="License No.">   
@@ -114,7 +118,7 @@
       <input type="email" class="form-control mt-10px shadow-sm border-color-valencia bg-lavender-bush" id="input-form1" placeholder="Date Established">    
       <i class="icon-calendar calendar-modal gray isax isax-calendar-1"></i>
       <div class="modal-footer">
-         <button class="button-default bg-indigo border-color-indigo color-white me-0 mt-10px">Search</button>      
+         <button class="button-default bg-indigo border-color-indigo color-white me-0 mt-20px">Search</button>      
       </div>
    </div>
 </template>
