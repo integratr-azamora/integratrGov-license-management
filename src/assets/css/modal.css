@@ -1,30 +1,40 @@
-.modal-container1{
-    width: 481px;
-    height: 314px;
+/* containers for modals  */
+.container-modal{
+    width: 481px !important;
     box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
     border-radius: 8px;
     background: var(--vt-c-white);  
     border-radius: 16px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
 }
 
-.modal-container-submit-padding{
-    padding:25px;
-    border-radius: 8px;
-}
-.modal-container-taguser{
-    padding:20px;
-    border-radius: 8px;
+.container-user{
+    width: 496px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    padding: 20px;
 }
 
-.modal-container-width{
-    width: 30%;
-    
+.container-modal-transferownership{
+    height: 259px !important;
+    width: 496px !important;
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;    
+    color: #DB524E;    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-top: 10px;
+    border-radius: 16px;
 }
-.font-style-roboto-modal{
+/* containers for modals  */
+
+/* fonts for modals  */
+.font-style-roboto{
     font-family: 'Roboto-black', sans-serif;
     font-weight: 900;
     font-size: 32px;
@@ -34,17 +44,29 @@
     color: var(--vt-c-black);
 }
 
-.fontfamily-gotham-modal-text{
-    font-family: 'Gotham-light', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;  
-    align-self: stretch;  
-    color: var(--vt-c-black); 
-    display: flex;          
+.container-modal-title{
+    font-family: 'Gotham-bold', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+
 }
 
+.font-style-gotham{
+    font-family: 'Gotham', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    font-weight: 400;
+    display: flex;
+    color: var(--vt-c-black);             
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;            
+}
+/* fonts for modals  */
 .info2{
     width: 96px;
     height: 96px;
@@ -55,22 +77,51 @@
     font-weight: 700;
     font-size: 24px;
     font-size: 24px;
-    line-height: 29px;
     color: var(--vt-c-black);  
 }
 
+.modal1{
+    font-family: 'Gotham', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
 .form-control{
-    font-family: 'Roboto';
+    border-style: none;
+    border-radius: 4px;
+
+}
+
+.alert-font{
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     display: flex;
     align-items: center;
-    color: #666666;
-    border-style: none;
-    box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
 }
 
+.form-control-1{
+    width: 455px;
+    height: 40px;
+    background: #FFF5F5;    
+    border: 1px solid #DB524E;    
+    border-radius: 4px;
+    border-color: var(--vt-c-valencia);   
+}
+
+.modal2{
+    font-family: 'Gotham', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;  
+    align-self: stretch;  
+    color: var(--vt-c-black); 
+    display: flex;
+}
 
 .form-select{
     font-family: 'Roboto', sans-serif;
@@ -83,8 +134,22 @@
     color: var(--vt-c-black); 
 }
 
+/* container 4 */
+.modal-existing{
+    width: 496px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    border-color: var(--vt-c-white-smoke);
+    padding: 20px;
+}
+
+.icon-calendar{
+    font-size: 20px;
+}
+
 .font-style-roboto-modal4{
-    font-family:'Roboto', sans-serif;
+    font-family:'Roboto-', sans-serif;
     font-weight: 400;
     font-size: 13px;
     line-height: 15px;    
@@ -96,15 +161,22 @@
     margin-top: 10px;
 }
 
-.icon-calendar{
-    font-size: 20px;
+.container-transfer{
+    width: 496px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    padding: 20px;
 }
 
-.font-admin{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #111111;
+.arrow-icon-positon{
+    position:absolute;
+    left:425px; 
+    bottom: 7px;
+}
+
+.calendar-modal{
+    position:absolute;
+    left:445px; 
+    bottom: 87px;
 }
