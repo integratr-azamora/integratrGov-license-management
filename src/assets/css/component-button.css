@@ -16,6 +16,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
+    white-space: nowrap;
   }
   .button-default-no-margin{
     border-radius: var(--c-size-4px);
@@ -237,8 +238,8 @@ color: var(--vt-c-white) !important;
   background-color: var(--vt-c-lavender-blue) !important;
   color: var(--vt-c-indigo) !important;
 }
-.table-striped>tbody>tr:nth-child(odd)>td, 
-.table-striped>tbody>tr:nth-child(odd)>th {
+.table-striped-custom>tbody>tr:nth-child(odd)>td, 
+.table-striped-custom>tbody>tr:nth-child(odd)>th {
    background-color:#F4F4F4 !important; 
  }
 /* table hovers  */
