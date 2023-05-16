@@ -21,7 +21,7 @@
 }
 
 .fontfamily-gotham-heading-1{
-    font-family: 'Gotham-meduim', sans-serif;
+    font-family: 'Gotham-medium', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 32px;
@@ -30,7 +30,7 @@
 }
 
 .fontfamily-gotham-heading-2{
-    font-family: 'Gotham-meduim', sans-serif;
+    font-family: 'Gotham-medium', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -204,15 +204,6 @@
   .border-top-1 {
     border-top: 1px solid;
   }
-
-  /* modal fonts  */
-  .fontfamily-gotham-modal-text{
-    font-family: 'Gotham', sans-serif !important;
-    font-style: normal !important;
-    font-weight: 400 !important;
-    font-size: 16px !important;
-}
-   /* modal fonts  */
 
   /* Add Account fonts */
 

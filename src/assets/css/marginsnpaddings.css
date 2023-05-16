@@ -43,6 +43,9 @@
 .mt-1px{
   margin-top:1px  !important;
 }
+.mt-24px{
+  margin-top: var(--c-size-24px);
+}
 
 .mt-1-5px{
   margin-top: 1.5px !important;
@@ -128,7 +131,7 @@
 /* custom-margin  */
 /* custom-padding  */
 .p-20px{
-    padding: var(--c-size-20px);
+    padding: var(--c-size-20px) !important;
 }
 .p-10px{
     padding: var(--c-size-10px) !important;
