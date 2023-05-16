@@ -116,7 +116,7 @@
                 </tr>
                 <!-- row2  -->
                 <tr class="size-table-tabledata column border-rouded-5px">
-                   <td class="text-start px-20px vertical-alignment-center">Juan Dela Cruz</td>
+                   <td class="text-start px-20px vertical-alignment-center"> Juan Dela Cruz</td>
                    <td class="text-start px-20px vertical-alignment-center">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px vertical-alignment-center">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px vertical-alignment-center">ABC Smart Organization </td>
