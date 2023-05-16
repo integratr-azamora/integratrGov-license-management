@@ -61,7 +61,7 @@
                </div>
                <!-- table Body  -->
                <div class="table-responsive rounded-1   table-borderless" >
-                  <table class="table  table-striped table-hover font-table-text overflow-scroll table-responsive table-borderless" >
+                  <table class="table  table-striped-custom table-hover font-table-text overflow-scroll table-responsive table-borderless" >
              <thead >
                 <tr > 
                   <th class="text-start px-20px  pb-10px padding-top-none">

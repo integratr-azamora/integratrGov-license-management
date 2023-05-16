@@ -58,7 +58,7 @@
                </div>
                <!-- table Body  -->
                <div class="table-responsive rounded-1 shadow-sm  table-borderless" >
-                  <table class="table table-striped table-hover font-table-text table-borderless" >
+                  <table class="table table-striped-custom table-hover font-table-text table-borderless " >
                      <thead >
                         <tr > 
                            <th class="text-start px-20px  pb-10px padding-top-none">
