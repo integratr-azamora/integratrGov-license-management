@@ -8,6 +8,11 @@
 .border-radius-16px{
   border-radius: 16px !important;
 }
+.dropdown-menu {
+  max-height: 300px; /* Change the height to your desired value */
+  overflow-y: auto;
+}
+
 .dropdown {
     position: relative;
     display: inline-block;

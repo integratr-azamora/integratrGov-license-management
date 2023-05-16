@@ -104,7 +104,7 @@
                            <button class="btn btn-custom padding-none border-color-none btn-hover" type="button" id="dropdownMenuButto" data-bs-toggle="dropdown" aria-expanded="false">
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
-                           <ul class="dropdown-menu pt-17px pb-22px border-radius-16px" aria-labelledby="dropdownMenuButton1">
+                           <ul class="dropdown-menu pt-17px pb-22px border-radius-16px" style="margin-bottom:100px;" aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Edit</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Send Invite</a></li>
@@ -127,7 +127,7 @@
                            <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
-                           <ul class="dropdown-menu pt-17px pb-22px border-radius-16px " aria-labelledby="dropdownMenuButton1">
+                           <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Edit</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Send Invite</a></li>
@@ -150,7 +150,7 @@
                            <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
-                           <ul class="dropdown-menu pt-17px pb-22px border-radius-16px " aria-labelledby="dropdownMenuButton1">
+                           <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Edit</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Send Invite</a></li>
@@ -173,7 +173,7 @@
                            <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
-                           <ul class="dropdown-menu pt-17px pb-22px border-radius-16px " aria-labelledby="dropdownMenuButton1">
+                           <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Edit</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Send Invite</a></li>
@@ -196,7 +196,7 @@
                            <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
-                           <ul class="dropdown-menu pt-17px pb-22px border-radius-16px " aria-labelledby="dropdownMenuButton1">
+                           <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Edit</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Send Invite</a></li>
@@ -219,7 +219,7 @@
                            <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
-                           <ul class="dropdown-menu pt-17px pb-22px border-radius-16px " aria-labelledby="dropdownMenuButton1">
+                           <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Edit</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Send Invite</a></li>
@@ -242,7 +242,7 @@
                            <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
-                           <ul class="dropdown-menu pt-17px pb-22px border-radius-16px " aria-labelledby="dropdownMenuButton1">
+                           <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Edit</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Send Invite</a></li>
@@ -265,7 +265,7 @@
                            <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
-                           <ul class="dropdown-menu pt-17px pb-22px border-radius-16px " aria-labelledby="dropdownMenuButton1">
+                           <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Edit</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Send Invite</a></li>
@@ -288,7 +288,7 @@
                            <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
-                           <ul class="dropdown-menu pt-17px pb-22px border-radius-16px " aria-labelledby="dropdownMenuButton1">
+                           <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Edit</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Send Invite</a></li>
@@ -311,7 +311,7 @@
                            <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
-                           <ul class="dropdown-menu pt-17px pb-22px border-radius-16px " aria-labelledby="dropdownMenuButton1">
+                           <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Edit</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Send Invite</a></li>
