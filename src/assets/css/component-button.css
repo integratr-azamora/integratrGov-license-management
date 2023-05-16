@@ -16,6 +16,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
+    white-space: nowrap;
   }
   .button-default-no-margin{
     border-radius: var(--c-size-4px);
