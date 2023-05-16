@@ -156,8 +156,6 @@
                      </button>
                      <!-- button  -->
                   </div>
-                     
-                  
                   <!-- pagination  -->
                   <div class="d-flex  align-items-center">
                      <button class="button-pagination bg-none color-dimgray border-color-none"><fa class="font-size-20px  mt-1" icon="angle-left" /></button>
@@ -173,9 +171,7 @@
             </div>
                </div>
                <!-- table Body  -->
-               
             </div>
-            
             <!-- row1  -->        
          </div>
       </div>

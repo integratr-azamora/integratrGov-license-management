@@ -125,7 +125,7 @@
   }
   .badge-pill{
     border-radius: var(--bs-border-radius-pill);
-    font-family: 'Roboto' !important;
+    font-family: 'Roboto', sans-serif !important; 
     font-style: normal !important;
     font-size: var(--c-size-13px) !important;
     font-weight: 700 !important;
@@ -222,6 +222,9 @@ input[type="checkbox"].toggle:checked + label::before{
   outline: none;
   box-shadow: none;
 }
+.btn{
+  transition: none!important;
+}
 /* switch  */
 
 /* hovers  */
@@ -230,7 +233,7 @@ input[type="checkbox"].toggle:checked + label::before{
 background-color: var(--vt-c-lavender-blue) !important;
 color: var(--vt-c-white) !important;
 }
-.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th,.table-hover tbody tr:hover .btn-hover  {
   background-color: var(--vt-c-lavender-blue) !important;
   color: var(--vt-c-indigo) !important;
 }
@@ -240,3 +243,13 @@ color: var(--vt-c-white) !important;
  }
 /* table hovers  */
 /* hovers  */
+
+/* .radio-colors[type="radio"]:hover {
+  background-color: var(--vt-c-lavender-web) !important;
+} */
+.radio-colors[type=radio]:active{
+  background-color: var(--vt-c-lavender-web) !important;
+}
+.radio-colors:checked{
+background-color: var(--vt-c-indigo) !important;
+}
