@@ -115,7 +115,7 @@
   }
   .badge-pill{
     border-radius: var(--bs-border-radius-pill);
-    font-family: 'Roboto' !important;
+    font-family: 'Roboto-regular' !important;
     font-style: normal !important;
     font-size: var(--c-size-13px) !important;
     font-weight: 700 !important;
@@ -233,3 +233,13 @@ color: var(--vt-c-white) !important;
  }
 /* table hovers  */
 /* hovers  */
+
+/* .radio-colors[type="radio"]:hover {
+  background-color: var(--vt-c-lavender-web) !important;
+} */
+.radio-colors[type=radio]:active{
+  background-color: var(--vt-c-lavender-web) !important;
+}
+.radio-colors:checked{
+background-color: var(--vt-c-indigo) !important;
+}

@@ -1,12 +1,12 @@
 <template>
    <div class=" ">
-      <div class=" heading1 p-3  ">Account Manager </div>
       <div class="d-flex justify-content-center">
          <div class=" rounded-3 container">
+            <div class=" heading1  ">Account Manager </div>
             <!-- row1  -->
             <div class=" shadow-sm border-round16px pb-20px">
-               <div class="d-flex justify-content-between mt-12px">
-                  <p class="ps-20px fontfamily-gotham-heading-2">Registered Accounts</p>
+               <div class="d-flex justify-content-between mt-20px pt-12px mx-20px">
+                  <p class="fontfamily-gotham-heading-2">Registered Accounts</p>
                   <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center margin-none">
                      <fa class="font-size-20px me-8px" icon="plus" />
                      Add
@@ -25,7 +25,7 @@
                <div class="  px-20px">
                   <!-- table Header Row4 Col1 -->
                   <div class="d-flex flex-row">
-                     <div class="shadow-sm  border-round-4px">
+                     <div class="shadow-sm  border-round-4px min-width-inputbox">
                         <i class="isax isax-search-normal-1  table-inputbox-icon-size ps-16px py-14py"></i>
                         <input class="input-field border-color-none btn-hover p-3 outline-none table-inputbox-size inputbox-font border-round-4px" type="text" placeholder="Search" name="usrnm">
                      </div>
@@ -93,7 +93,7 @@
              <tbody class="border rounded-1">
                 <!-- row1  -->
                 <tr class="size-table-tabledata column border-rouded-5px">
-                   <td class="text-start px-20px vertical-alignment-center">Juan dela Cruz</td>
+                   <td class="text-start px-20px vertical-alignment-center">Juan Dela Cruz</td>
                    <td class="text-start px-20px vertical-alignment-center">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px vertical-alignment-center">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px vertical-alignment-center">ABC Smart Organization </td>
@@ -116,7 +116,7 @@
                 </tr>
                 <!-- row2  -->
                 <tr class="size-table-tabledata column border-rouded-5px">
-                   <td class="text-start px-20px vertical-alignment-center">Juan dela Cruz</td>
+                   <td class="text-start px-20px vertical-alignment-center">Juan Dela Cruz</td>
                    <td class="text-start px-20px vertical-alignment-center">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px vertical-alignment-center">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px vertical-alignment-center">ABC Smart Organization </td>
@@ -139,7 +139,7 @@
                 </tr>
                 <!-- row3  -->
                 <tr class="size-table-tabledata column border-rouded-5px">
-                   <td class="text-start px-20px vertical-alignment-center">Juan dela Cruz</td>
+                   <td class="text-start px-20px vertical-alignment-center">Juan Dela Cruz</td>
                    <td class="text-start px-20px vertical-alignment-center">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px vertical-alignment-center">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px vertical-alignment-center">Mariveles Bataan</td>
@@ -162,7 +162,7 @@
                 </tr>
                 <!-- row4  -->
                 <tr class="size-table-tabledata column border-rouded-5px">
-                   <td class="text-start px-20px vertical-alignment-center">Juan dela Cruz</td>
+                   <td class="text-start px-20px vertical-alignment-center">Juan Dela Cruz</td>
                    <td class="text-start px-20px vertical-alignment-center">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px vertical-alignment-center">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px vertical-alignment-center">Aztec Gov Agency</td>
@@ -185,7 +185,7 @@
                 </tr>
                 <!-- row5  -->
                 <tr class="size-table-tabledata column border-rouded-5px">
-                   <td class="text-start px-20px vertical-alignment-center">Juan dela Cruz</td>
+                   <td class="text-start px-20px vertical-alignment-center">Juan Dela Cruz</td>
                    <td class="text-start px-20px vertical-alignment-center">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px vertical-alignment-center">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px vertical-alignment-center">Aztec Gov Agency</td>
@@ -208,7 +208,7 @@
                 </tr>
                 <!-- row6  -->
                 <tr class="size-table-tabledata column border-rouded-5px">
-                   <td class="text-start px-20px vertical-alignment-center">Juan dela Cruz</td>
+                   <td class="text-start px-20px vertical-alignment-center">Juan Dela Cruz</td>
                    <td class="text-start px-20px vertical-alignment-center">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px vertical-alignment-center">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px vertical-alignment-center">Aztec Gov Agency</td>
@@ -231,7 +231,7 @@
                 </tr>
                 <!-- row7  -->
                 <tr class="size-table-tabledata column border-rouded-5px">
-                   <td class="text-start px-20px vertical-alignment-center">Juan dela Cruz</td>
+                   <td class="text-start px-20px vertical-alignment-center">Juan Dela Cruz</td>
                    <td class="text-start px-20px vertical-alignment-center">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px vertical-alignment-center">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px vertical-alignment-center">Aztec Gov Agency</td>
@@ -254,7 +254,7 @@
                 </tr>
                 <!-- row8  -->
                 <tr class="size-table-tabledata column border-rouded-5px">
-                   <td class="text-start px-20px vertical-alignment-center">Juan dela Cruz</td>
+                   <td class="text-start px-20px vertical-alignment-center">Juan Dela Cruz</td>
                    <td class="text-start px-20px vertical-alignment-center">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px vertical-alignment-center">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px vertical-alignment-center">Aztec Gov Agency</td>
@@ -277,7 +277,7 @@
                 </tr>
                 <!-- row9  -->
                 <tr class="size-table-tabledata column border-rouded-5px">
-                   <td class="text-start px-20px vertical-alignment-center ">Juan dela Cruz</td>
+                   <td class="text-start px-20px vertical-alignment-center ">Juan Dela Cruz</td>
                    <td class="text-start px-20px vertical-alignment-center">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px vertical-alignment-center">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px vertical-alignment-center">Aztec Gov Agency</td>
@@ -300,7 +300,7 @@
                 </tr>
                 <!-- row10  -->
                 <tr class="size-table-tabledata column border-rouded-5px">
-                   <td class="text-start px-20px vertical-alignment-center ">Juan dela Cruz</td>
+                   <td class="text-start px-20px vertical-alignment-center ">Juan Dela Cruz</td>
                    <td class="text-start px-20px vertical-alignment-center">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px vertical-alignment-center">juandelacruz@gmail.com</td>
                    <td class="text-start px-20px vertical-alignment-center">Aztec Gov Agency</td>
