@@ -4,7 +4,7 @@
   margin: var(--c-size-5px) !important;
 }
 .m-10px{
-    margin: 0.625rem !important;
+    margin: var(--c-size-10px) !important;
   }
   
   .m-20px{
@@ -70,7 +70,7 @@
     margin-top: var(--c-size-17px) !important;
   }
   .mt-20px{
-    margin-top: 1.25rem !important;
+    margin-top: var(--c-size-20px) !important;
   }
 /* margin-top  */  
 /* margin-bottom  */

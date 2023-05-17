@@ -2,20 +2,21 @@
     <div class=" ">
        <div class="d-flex justify-content-center">
           <div class=" rounded-3 container">
-             <div class=" heading1  mb-20px">License Manager </div>
+             <div class=" heading1 mb-20px mt-20px">License Manager </div>
              <div>
-                <button class="button-tab">Unassigned License Keys</button>
+                <button class="button-tab"><a class="dropdown-item " href="/licmanager">Unassigned License Keys</a></button>
                 <button class="button-tab-active">Assigned License Keys</button>
                 <button class="button-tab">Software License Management</button>
+
              </div>
              <!-- row1  -->
-             <div class=" shadow-sm border-round16px pb-20px ">
-                <div class="d-flex justify-content-start mt-10px mx-20px flex-container">
+             <div class=" shadow-sm border-round16px pb-20px">
+                <div class="d-flex justify-content-start mt-20px mx-20px flex-container">
                    <p class="fontfamily-gotham-heading-2">Licenses</p>
                 </div>
                 <div class="  px-20px">
                    <!-- table Header Row4 Col1 -->
-                   <div class="d-flex align-items-center mt-14px">
+                   <div class="d-flex align-items-center mt-20px">
                       <div class="input-group shadow-sm border-round-4px align-items-center size-search-table">
                          <span class="input-group-text bg-none border-color-none" id="basic-addon1"><i class="isax isax-search-normal-1  table-inputbox-icon-size py-14py"></i></span>
                          <input type="text" class="form-control border-color-none shadow-none" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
@@ -186,7 +187,7 @@
                     <td class="text-start px-20px vertical-alignment-center">
                         <div class="badge-default-license bg-dimgray color-white border-color-dimgray margin-none ">Suspended </div>
                     </td>
-                    <td class="text-start px-20px vertical-alignment-center"></td>
+                    <td class="text-start px-20px vertical-alignment-center">SaaS - I</td>
                      <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
                       <div class="dropdown outline-none">
                             <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -217,7 +218,7 @@
                     <td class="text-start px-20px vertical-alignment-center">
                         <div class="badge-default-license bg-eucalyptus color-white border-color-eucalyptus margin-none ">Active </div>
                     </td>
-                    <td class="text-start px-20px vertical-alignment-center"></td>
+                    <td class="text-start px-20px vertical-alignment-center">Saas - B</td>
                      <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
                       <div class="dropdown outline-none">
                             <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -248,7 +249,7 @@
                     <td class="text-start px-20px vertical-alignment-center">
                         <div class="badge-default-license bg-eucalyptus color-white border-color-eucalyptus margin-none ">Active </div>
                     </td>
-                    <td class="text-start px-20px vertical-alignment-center"></td>
+                    <td class="text-start px-20px vertical-alignment-center">Perpetual</td>
                      <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
                       <div class="dropdown outline-none">
                             <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -279,7 +280,7 @@
                     <td class="text-start px-20px vertical-alignment-center">
                         <div class="badge-default-license bg-eucalyptus color-white border-color-eucalyptus margin-none ">Active </div>
                     </td>
-                    <td class="text-start px-20px vertical-alignment-center"></td>
+                    <td class="text-start px-20px vertical-alignment-center">Perpetual</td>
                      <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
                       <div class="dropdown outline-none">
                             <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">

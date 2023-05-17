@@ -1,11 +1,11 @@
 <template>
    <div class=" ">
       <div class="d-flex justify-content-center">
-         <div class=" rounded-3 container">
+         <div class=" rounded-3 container ">
             <div class=" heading1  mb-20px">License Manager </div>
             <div>
                <button class="button-tab-active">Unassigned License Keys</button>
-               <button class="button-tab">Assigned License Keys</button>
+               <button class="button-tab"><a class="dropdown-item " href="/licensekey-assigned">Unassigned License Keys</a></button>
                <button class="button-tab">Software License Management</button>
             </div>
             <!-- row1  -->

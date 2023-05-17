@@ -145,7 +145,7 @@
                      <p class="">Show</p>
                      <!-- text  -->
                      <!-- button  -->
-                     <button class="button-default bg-none color-indigo border-color-indigo d-flex flex-row ">
+                     <button class="button-default bg-none color-indigo border-color-indigo d-flex flex-row mx-10px">
                         <p class="me-2">10 rows</p>
                         <fa class="font-size-20px  color-indigo mt-1" icon="angle-down" />
                      </button>
