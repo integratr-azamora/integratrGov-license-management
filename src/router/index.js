@@ -14,6 +14,7 @@ import AccountManager from '../components/AccountManager.vue';
 import LicenseManager from '../components/LicenseManger.vue';
 import LicensekeyIssue from '../components/Licensekey-Issue.vue';
 
+import LicenseKeyAssigned from '../components/Sprint3/LicenseManagerAssigned.vue';
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -81,6 +82,15 @@ const router = createRouter({
       name: 'addaccount-clientdetails',
       component: AddAccountClientDetails
     }
+    // sprint 3 
+    ,
+    {
+      path: '/licensekey-assigned',
+      name: 'licensekey-assigned',
+      component: LicenseKeyAssigned
+    }
+
+    // sprint 3
     
   ]
 })
