@@ -45,7 +45,7 @@
 }
 
 @font-face {
-  font-family: 'Gotham-meduim';
+  font-family: 'Gotham-medium';
   src: url(../assets/font_styles/Gotham-Medium.otf) format(truetype); 
   font-weight: normal;
   font-style: normal;
@@ -81,6 +81,20 @@
 @font-face {
   font-family: 'Gotham-book';
   src: url(../assets/Fonts/Gotham-Font/Gotham-Book.otf) format(truetype); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham-xLight';
+  src: url(../assets/Fonts/Gotham-Font/Gotham-XLight.otf) format(truetype); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham-sm-medium';
+  src: url(../assets/font_styles/GothamXNarrSSm-Medium.otf) format(truetype); 
   font-weight: normal;
   font-style: normal;
 }
