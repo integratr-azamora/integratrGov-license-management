@@ -31,7 +31,7 @@
                </div>
                <!-- table Header Row3  -->
                <!-- table Header Row4  -->
-               <div class="d-flex align-items-center">
+               <div class="d-flex align-items-center ms-20px">
                      <div class="input-group shadow-sm border-round-4px align-items-center size-search-table">
                         <span class="input-group-text bg-none border-color-none" id="basic-addon1"><i class="isax isax-search-normal-1  table-inputbox-icon-size py-14py"></i></span>
                         <input type="text" class="form-control border-color-none shadow-none" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
