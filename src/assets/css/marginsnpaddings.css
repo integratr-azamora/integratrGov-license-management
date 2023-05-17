@@ -1,8 +1,12 @@
 /* custom-margin  */
 /* margin  */
+.m-5px{
+  margin: var(--c-size-5px) !important;
+}
 .m-10px{
     margin: 0.625rem !important;
   }
+  
   .m-20px{
     margin: 1.25rem !important;
   }

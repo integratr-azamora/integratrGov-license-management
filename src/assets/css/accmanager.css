@@ -2,16 +2,11 @@
   width: 1412px;
   height:846px ;
 }
-.size-table-data
 
 /* dropdown */
-.border-radius-16px{
-  border-radius: 16px !important;
+.dropdown-menu{
+  border-radius:16px !important;
 }
-.dropdown-menu {
-  bottom: 2000px;
-}
-
 
 .dropdown {
     position: relative;
@@ -56,3 +51,11 @@
   }
   .dropdown-menu{background:rgba(0,0,0,0.5); color:var(--vt-c-dark-gray); }
 /* dropdown */
+
+.dropdown-transform{
+  transform :translate(-23px,0px) !important;
+}
+.size-search-table{
+  max-width: 300px !important;
+  height: 44px !important;
+}
