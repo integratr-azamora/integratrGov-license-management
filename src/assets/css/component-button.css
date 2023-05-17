@@ -148,6 +148,22 @@
     margin-top: var(--c-size-10px);
     margin-bottom: var(--c-size-10px);
   }
+  .badge-default-license{
+    border-radius: 4px;
+    width: var(--c-size-100px);
+    height: var(--c-size-30px);
+    font-family: 'Gotham-light', sans-serif;
+    font-weight: 400;
+    font-size: var(--c-size-16px);
+    line-height: var(--c-size-15px);
+    text-align: center;
+    padding-top: var(--c-size-5px);
+    padding-bottom: var(--c-size-10px);
+    margin-left: var(--c-size-10px);
+    margin-right: var(--c-size-10px);
+    margin-top: var(--c-size-10px);
+    margin-bottom: var(--c-size-10px);
+  }
   .badge-pill{
     border-radius: var(--bs-border-radius-pill);
     font-family: 'Roboto', sans-serif !important; 
