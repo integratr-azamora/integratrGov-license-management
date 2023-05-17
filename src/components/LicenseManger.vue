@@ -9,20 +9,19 @@
                <button class="button-tab m-3">Software License Management</button>
             </div>
             <!-- row1  -->
-            <div class=" shadow-sm border-round16px pb-20px">
-               <div class="d-flex justify-content-between mt-20px pt-12px mx-20px">
+            <div class=" shadow-sm border-round16px pb-20px ">
+               <div class="d-flex justify-content-between mt-20px pt-12px mx-20px flex-container">
                   <p class="fontfamily-gotham-heading-2">Unassigned Licenses</p>
                   <div class="d-flex justify-content-end">
-                  <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center margin-none ">
-                     Validate License Key
-                  </button>
-                  <span class="p-5px"></span>
-                  <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center margin-none">
-                     Generate License Key
-                  </button>
-
+                     <div class="flex-container">
+                        <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center m-5px ">
+                           Validate License Key
+                        </button>
+                        <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center m-5px">
+                           Generate License Key
+                        </button>
+                     </div>
                   </div>
-                  
                </div>
                <!-- table Header Row2  -->
                <!-- table Header Row3  -->

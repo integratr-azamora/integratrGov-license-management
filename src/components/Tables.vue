@@ -155,7 +155,6 @@
                   <!-- pagination  -->
                   <div class=" col ">
                      <div class="d-flex justify-content-end">
-                        <div class="col"></div>
                      <button class="button-pagination bg-none color-dimgray border-color-none"><fa class="font-size-20px  mt-1" icon="angle-left" /></button>
                      <button class="button-pagination bg-none color-dimgray border-color-none me-20px">Previous</button>
                      <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10 ">1</button>
