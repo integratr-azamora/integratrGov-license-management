@@ -4,7 +4,7 @@
          <div class=" rounded-3 container">
             <div class=" heading1  mb-20px">License Manager </div>
             <div>
-               <button class="button-tab">Unassigned License Keys</button>
+               <button class="button-tab-active">Unassigned License Keys</button>
                <button class="button-tab">Assigned License Keys</button>
                <button class="button-tab">Software License Management</button>
             </div>

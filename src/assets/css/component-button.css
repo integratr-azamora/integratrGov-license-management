@@ -105,6 +105,26 @@
     white-space: nowrap;
   }
 
+  .button-tab-active{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    border-top: none;
+    border-left:none;
+    border-right:none;
+    border-bottom: solid;
+    border-color: var(--vt-c-marjorelle-blue);
+    color: var(--vt-c-black);
+    padding-top: 7px;
+    padding-bottom:15px;
+    margin-left:12px;
+    margin-right: 12px;
+    background-color: transparent;
+    white-space: nowrap;
+  }
+
   .button-tab:hover{
     border-bottom:solid;
     border-color: var(--vt-c-marjorelle-blue);
