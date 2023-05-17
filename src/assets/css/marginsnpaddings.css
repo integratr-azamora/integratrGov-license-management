@@ -60,6 +60,9 @@
 .mt-12px{
   margin-top: var(--c-size-12px)
 }
+.mt-14px{
+  margin-top: var(--c-size-14px)
+}
   .mt-6px{
     margin-top: var(--c-size-6px) !important;
   }
