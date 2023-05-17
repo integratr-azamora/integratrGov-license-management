@@ -1,13 +1,9 @@
 .add-cont{
-    position: relative;
-    width: 1536px;
     height: 1247px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px
 }
 
 .add-cont1{
-    position: absolute;
     width: 1536px;
     height: 1088px;
     left: 0px;
@@ -75,3 +71,5 @@
     background: #FFFFFF;
     border-radius: 4px;
 }
+
+/* clients table size */

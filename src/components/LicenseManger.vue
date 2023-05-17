@@ -2,7 +2,7 @@
    <div class=" ">
       <div class="d-flex justify-content-center">
          <div class=" rounded-3 container">
-            <div class=" heading1  ">License Manager </div>
+            <div class="heading1">License Manager </div>
             <div>
                <button class="button-tab m-3">Unassigned License Keys</button>
                <button class="button-tab m-3">Assigned License Keys</button>
@@ -60,7 +60,7 @@
                   <!-- px box  -->
                </div>
                <!-- table Body  -->
-               <div class="table-responsive rounded-1   table-borderless" >
+               <div class="table-responsive rounded-1 table-borderless" >
                   <table class="table  table-striped-custom table-hover font-table-text overflow-scroll table-responsive table-borderless" >
              <thead >
                 <tr > 

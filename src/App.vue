@@ -44,6 +44,7 @@ import { RouterLink, RouterView } from 'vue-router'
       </div>
       
       <div class="shadow-none border-color-none m-20px my-20px">
+      
             <RouterView />
       </div>
       

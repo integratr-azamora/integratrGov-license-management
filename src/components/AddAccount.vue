@@ -1,6 +1,6 @@
 License Manager
 <template>
-   <div class="container">
+   <div class="container bor-style-solid-perma add-cont ">
       <div>
          <span class="heading1 p-3">Account Details</span>
          <div class="d-flex flex-column">
@@ -241,13 +241,13 @@ License Manager
                               <button class="button-default bg-indigo border-color-indigo color-white">Generate</button>   
                            </div>
                         </div>
-                     </div>
+                     </div>      
                   </div>
+                  <div class="modal-footer pt-20px">
+                     <button class="button-default button-modal bg-white border-color-none color-indigo">Cancel</button>
+                     <button class="button-default bg-indigo border-color-indigo color-white">Save</button>
+                </div>
                </div>
-            </div>
-            <div class="modal-footer text-center justify-content">
-               <button class="button-default bg-white border-color-none color-indigo me-0">Cancel</button>
-               <button class="button-default bg-indigo border-color-indigo color-white me-0">Save</button>
             </div>
          </div>
       </div>
