@@ -1,6 +1,6 @@
 /* containers for modals  */
 .container-modal{
-    width: 481px !important;
+    width: 496px !important;
     box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
     border-radius: 8px;
     background: var(--vt-c-white);  
@@ -9,32 +9,35 @@
 }
 
 .container-user{
-    width: 496px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 496px !important;
+    box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
+    border-radius: 8px;
+    background: var(--vt-c-white);  
     border-radius: 16px;
     padding: 20px;
 }
 
-.container-modal-transferownership{
-    height: 259px !important;
+.container-transfer-ownership{
     width: 496px !important;
-    font-family:'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 15px;    
-    color: #DB524E;    
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-    margin-top: 10px;
+    box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
+    border-radius: 8px;
+    background: var(--vt-c-white);  
     border-radius: 16px;
+    padding: 20px;
+}
+
+.container-existing{
+    width: 496px !important;
+    box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
+    border-radius: 8px;
+    background: var(--vt-c-white);  
+    border-radius: 16px;
+    padding: 20px;
 }
 /* containers for modals  */
 
 /* fonts for modals  */
-.font-style-roboto{
+.modal-font-style-roboto{
     font-family: 'Roboto-black', sans-serif;
     font-weight: 900;
     font-size: 32px;
@@ -53,7 +56,7 @@
 
 }
 
-.font-style-gotham{
+.modal-font-style-gotham{
     font-family: 'Gotham', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -66,11 +69,6 @@
     align-self: stretch;
     flex-grow: 0;            
 }
-/* fonts for modals  */
-.info2{
-    width: 96px;
-    height: 96px;
-}
 
 .modal-header-font{
     font-family: 'Gotham-meduim', sans-serif;
@@ -80,27 +78,10 @@
     color: var(--vt-c-black);  
 }
 
-.modal1{
-    font-family: 'Gotham', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-}
-
 .form-control{
     border-style: none;
     border-radius: 4px;
 
-}
-
-.alert-font{
-    font-style: normal;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
 }
 
 .form-control-1{
@@ -112,9 +93,19 @@
     border-color: var(--vt-c-valencia);   
 }
 
+.modal-gotham-body{
+    font-family: 'Gotham', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--vt-c-black); 
+}
+
 .modal2{
     font-family: 'Gotham', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;  
@@ -132,20 +123,6 @@
     line-height: 24px;
     align-items: center;
     color: var(--vt-c-black); 
-}
-
-/* container 4 */
-.modal-existing{
-    width: 496px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 16px;
-    border-color: var(--vt-c-white-smoke);
-    padding: 20px;
-}
-
-.icon-calendar{
-    font-size: 20px;
 }
 
 .font-style-roboto-modal4{
@@ -178,5 +155,11 @@
 .calendar-modal{
     position:absolute;
     left:445px; 
-    bottom: 87px;
+    bottom: 85px;
+    font-size: 20px;
+}
+
+.info2{
+    width: 96px;
+    height: 96px;
 }

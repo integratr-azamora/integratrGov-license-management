@@ -1,101 +1,91 @@
 <template>
-   <div class="container container7" >
-      <div class="license-header1 d-flex justify-content-between">
-         <p class="license-header"><b>Generate License Key</b></p>
-         <button class="button-round bg-indigo color-white border-color-indigo d-flex align-items-center">
-               <fa class="font-size-20px" icon="close" />
-            </button>
+   <div class="d-flex justify-content-center " >
+      <div class="licensekey-container">
+         <p class="license-header m-20px">Generate License Key</p>
+         <button class="m-20px position-absolute top-0 end-0 button-round bg-indigo color-white border-color-indigo d-flex align-items-center">
+            <fa class="font-size-20px" icon="close" />
+         </button>
+         <div class="border-bottom-license mt-20px"></div>
+         <!-- 1st -->
+         <div class="form-floating m-20px">
+            <select class="form-select Roboto-input-box-font" id="floatingSelect" aria-label="Floating label select">
+               <option selected>Business Permit and License</option>
+            </select>
+            <label for="floatingSelect" class="Roboto-label-font">Module</label>
+         </div>
+         <!-- 2nd -->
+         <div class="form-floating m-20px">
+            <select class="form-select Roboto-input-box-font" id="floatingSelect" aria-label="Floating label select">
+               <option selected>1.0</option>
+            </select>
+            <label for="floatingSelect" class="Roboto-label-font">Version</label>
+         </div>
+         <!-- 3rd -->
+         <div class="form-floating m-20px">
+            <select class="form-select Roboto-input-box-font" id="floatingSelect" aria-label="Floating label select">
+               <option selected>n/a</option>
+            </select>
+            <label for="floatingSelect" class="Roboto-label-font">Grace Period</label>
+         </div>
+         <!-- 4th -->
+         <div class="form-floating m-20px">
+            <select class="form-select Roboto-input-box-font" id="floatingSelect" aria-label="Floating label select">
+               <option selected>1.0</option>
+            </select>
+            <label for="floatingSelect" class="Roboto-label-font">Version</label>
+         </div>
+         <!-- 5th -->
+         <div class="form-floating m-20px">
+            <select class="form-select Roboto-input-box-font" id="floatingSelect" aria-label="Floating label select">
+               <option selected>40 years</option>
+            </select>
+            <label for="floatingSelect" class="Roboto-label-font">Validity</label>
+         </div>
+         <!-- 6th -->
+         <div class="form-floating m-20px">
+            <select class="form-select Roboto-input-box-font" id="floatingSelect" aria-label="Floating label select">
+               <option selected>100</option>
+            </select>
+            <label for="floatingSelect" class="Roboto-label-font">Number of License</label>
+         </div>
+         <div class="modal-footer m-20px">
+            <button class="button-default bg-white border-color-none color-indigo me-0">Cancel</button>
+            <button class="button-default bg-indigo border-color-indigo color-white me-0">Save</button>
+         </div>
       </div>
-      <hr>
-      <!-- 1st -->
-      <div class="form-floating">
-         <select class="form-select default-label" id="floatingSelect" aria-label="Floating label select">
-            <option selected>Business Permit and License</option>
+   </div>
+   <br>
+   <div class="d-flex justify-content-center " >
+      <div class="licensekey-container">
+         <p class="license-header m-20px">Assign License</p>
+         <button class="m-20px position-absolute top-0 end-0 button-round bg-indigo color-white border-color-indigo d-flex align-items-center">
+            <fa class="font-size-20px" icon="close" />
+         </button>
+         <div class="border-bottom-license"></div>
+         <!-- 1st -->
+         <div class="form-floating m-20px">
+         <select class="form-select Roboto-input-box-font" id="floatingSelect" aria-label="Floating label select">
+            <option selected>Pasig City</option>
          </select>
-         <label for="floatingSelect" class="info">Module</label>
-         <fa class="arrow-icon margin-top-left gray" icon="angle-down" style="position:absolute;left:855px; bottom: 18px;"/>
+         <label for="floatingSelect" class="Roboto-label-font">LGU/Organization</label>
       </div>
       <!-- 2nd -->
-      <div class="form-floating">
-         <select class="form-select default-label" id="floatingSelect" aria-label="Floating label select">
-            <option selected>1.0</option>
+      <div class="form-floating m-20px">
+         <select class="form-select Roboto-input-box-font" id="floatingSelect" aria-label="Floating label select">
+            <option selected>Juan Dela Cruz</option>
          </select>
-         <label for="floatingSelect" class="info">Version</label>
-         <fa class="arrow-icon margin-top-left gray" icon="angle-down" style="position:absolute;left:855px; bottom: 18px;"/>
+         <label for="floatingSelect" class="Roboto-label-font">Client</label>
       </div>
       <!-- 3rd -->
-      <div class="form-floating">
-         <select class="form-select default-label" id="floatingSelect" aria-label="Floating label select">
-            <option selected>n/a</option>
-         </select>
-         <label for="floatingSelect" class="info">Grace Period</label>
-         <fa class="arrow-icon margin-top-left gray" icon="angle-down" style="position:absolute;left:855px; bottom: 18px;"/>
-      </div>
-      <!-- 4th -->
-      <div class="form-floating">
-         <select class="form-select default-label" id="floatingSelect" aria-label="Floating label select">
-            <option selected>1.0</option>
-         </select>
-         <label for="floatingSelect" class="info">Version</label>
-         <fa class="arrow-icon margin-top-left gray" icon="angle-down" style="position:absolute;left:855px; bottom: 18px;"/>
-      </div>
-      <!-- 5th -->
-      <div class="form-floating">
-         <select class="form-select default-label" id="floatingSelect" aria-label="Floating label select">
-            <option selected>40 years</option>
-         </select>
-         <label for="floatingSelect" class="info">Validity</label>
-         <fa class="arrow-icon margin-top-left gray" icon="angle-down" style="position:absolute;left:855px; bottom: 18px;"/>
-      </div>
-      <!-- 6th -->
-      <div class="form-floating">
-         <select class="form-select default-label" id="floatingSelect" aria-label="Floating label select">
-            <option selected>100</option>
-         </select>
-         <label for="floatingSelect" class="info">Number of License</label>
-         <fa class="arrow-icon margin-top-left gray" icon="angle-down" style="position:absolute;left:855px; bottom: 18px;"/>
-      </div>
-      <div class="modal-footer mt-3">
+         <form class="form-floating m-20px">
+            <input type="text" class="form-control Roboto-input-box-font shadow-sm border-color-none bg-whitesmoke" id="information" value="juandelacruz@gmail.com" >
+            <label for="information" class="Roboto-label-font">Email Address</label>
+         </form>
+
+      <div class="modal-footer text-center justify-content m-20px">
          <button class="button-default bg-white border-color-none color-indigo me-0">Cancel</button>
          <button class="button-default bg-indigo border-color-indigo color-white me-0">Save</button>
       </div>
    </div>
-   <!-- Issue License -->
-   <br>
-   <div class="container container8" >
-      <div class="license-header1 d-flex justify-content-between">
-         <p class="license-header mt-3"><b>Assign License</b></p>
-         <button class="button-round bg-indigo color-white border-color-indigo d-flex align-items-center">
-               <fa class="font-size-20px" icon="close" />
-            </button>
-      </div>
-      <hr>
-      <!-- 1st -->
-      <div class="form-floating">
-         <select class="form-select default-label" id="floatingSelect" aria-label="Floating label select">
-            <option selected>Business Permit and License</option>
-         </select>
-         <label for="floatingSelect" class="info">LGU/Organization</label>
-         <fa class="arrow-icon margin-top-left gray" icon="angle-down" style="position:absolute;left:855px; bottom: 18px;"/>
-      </div>
-      <!-- 2nd -->
-      <div class="form-floating">
-         <select class="form-select default-label" id="floatingSelect" aria-label="Floating label select">
-            <option selected>Juan Dela Cruz</option>
-         </select>
-         <label for="floatingSelect" class="info">Client</label>
-         <fa class="arrow-icon margin-top-left gray" icon="angle-down" style="position:absolute;left:855px; bottom: 18px;"/>
-      </div>
-      <!-- 3rd -->
-      <div class="input-group mt-4">
-         <form class="form-floating">
-            <input type="text" class="form-control inputbox-font shadow-sm border-color-none bg-whitesmoke" id="information" value="juandelacruz@gmail.com" >
-            <label for="information" class="info">Email Address</label>
-         </form>
-      </div>
-      <div class="modal-footer text-center justify-content mt-3">
-         <button class="button-default bg-white border-color-none color-indigo me-0">Cancel</button>
-         <button class="button-default bg-indigo border-color-indigo color-white me-0">Save</button>
-      </div>
    </div>
 </template>
