@@ -10,7 +10,7 @@
 
              </div>
              <!-- row1  -->
-             <div class=" shadow-sm border-round16px pb-20px">
+             <div class=" shadow-sm border-round16px pb-20px pt-10px">
                 <div class="d-flex justify-content-start mt-20px mx-20px flex-container">
                    <p class="fontfamily-gotham-heading-2">Licenses</p>
                 </div>
