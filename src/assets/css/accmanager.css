@@ -89,7 +89,9 @@
   height: 640px;
 }
 .size-textarea-licensemanager{
-  height: 108px
+  min-height: max-content;
+  height:150px !important;
+  max-width: 100%;
 }
 /* size  */
 
