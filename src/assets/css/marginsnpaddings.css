@@ -1,8 +1,12 @@
 /* custom-margin  */
 /* margin  */
+.m-5px{
+  margin: var(--c-size-5px) !important;
+}
 .m-10px{
-    margin: 0.625rem !important;
+    margin: var(--c-size-10px) !important;
   }
+  
   .m-20px{
     margin: 1.25rem !important;
   }
@@ -51,10 +55,13 @@
   margin-top: 1.5px !important;
 }
 .mt-10px{
-    margin-top: 0.625rem !important;
+    margin-top: var(--c-size-10px) !important;
   }
 .mt-12px{
   margin-top: var(--c-size-12px)
+}
+.mt-14px{
+  margin-top: var(--c-size-14px)
 }
   .mt-6px{
     margin-top: var(--c-size-6px) !important;
@@ -63,7 +70,7 @@
     margin-top: var(--c-size-17px) !important;
   }
   .mt-20px{
-    margin-top: 1.25rem !important;
+    margin-top: var(--c-size-20px) !important;
   }
 /* margin-top  */  
 /* margin-bottom  */
@@ -142,6 +149,9 @@
 .p-10px{
     padding: var(--c-size-10px) !important;
 }
+.pt-10px{
+  padding-top: var(--c-size-10px) ;
+}
 .pt-12px{
   padding-top: var(--c-size-12px) ;
 }
@@ -188,7 +198,7 @@
   padding-left: 1rem;
 }
 .ps-20px{
-  padding-left: 1.25rem !important;
+  padding-left: var(--c-size-20px) !important;
 }
 .pe-20px{
   padding-right: 1.25rem !important;

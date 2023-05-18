@@ -166,3 +166,12 @@
      bottom: 10px;
   }
   /* custom-position */
+
+  /* width  */
+  .mwmc{
+    min-width: max-content !important;
+  }
+  .width-50px{
+    width:50px;
+  }
+  /* width  */

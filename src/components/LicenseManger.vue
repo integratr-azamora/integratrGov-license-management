@@ -1,54 +1,41 @@
 <template>
    <div class=" ">
       <div class="d-flex justify-content-center">
-         <div class=" rounded-3 container">
-            <div class=" heading1  ">License Manager </div>
+         <div class=" rounded-3 container ">
+            <div class=" heading1  mb-20px">License Manager </div>
             <div>
-               <button class="button-tab m-3">Unassigned License Keys</button>
-               <button class="button-tab m-3">Assigned License Keys</button>
-               <button class="button-tab m-3">Software License Management</button>
+               <button class="button-tab-active">Unassigned License Keys</button>
+               <button class="button-tab"><a class="dropdown-item " href="/licensekey-assigned">Unassigned License Keys</a></button>
+               <button class="button-tab">Software License Management</button>
             </div>
             <!-- row1  -->
-            <div class=" shadow-sm border-round16px pb-20px">
-               <div class="d-flex justify-content-between mt-20px pt-12px mx-20px">
+            <div class=" shadow-sm border-round16px pb-20px ">
+               <div class="d-flex justify-content-between mt-10px mx-20px flex-container">
                   <p class="fontfamily-gotham-heading-2">Unassigned Licenses</p>
                   <div class="d-flex justify-content-end">
-                  <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center margin-none ">
-                     Validate License Key
-                  </button>
-                  <span class="p-5px"></span>
-                  <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center margin-none">
-                     Generate License Key
-                  </button>
-
+                     <div class="flex-container">
+                        <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center m-5px ">
+                           Validate License Key
+                        </button>
+                        <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center m-5px">
+                           Generate License Key
+                        </button>
+                     </div>
                   </div>
-                  
                </div>
-               <!-- table Header Row2  -->
-               <!-- table Header Row3  -->
-               <div class="col d-flex flex-row px-20px">
-                  <!-- px box  -->
-                  <div class=" size-box-20">
-                  </div>
-                  <!-- px box  -->
-               </div>
-               <!-- table Header Row3  -->
-               <!-- table Header Row4  -->
                <div class="  px-20px">
                   <!-- table Header Row4 Col1 -->
-                  <div class="d-flex flex-row">
-                     <div class="shadow-sm  border-round-4px min-width-inputbox">
-                        <i class="isax isax-search-normal-1  table-inputbox-icon-size ps-16px py-14py"></i>
-                        <input class="input-field border-color-none btn-hover p-3 outline-none table-inputbox-size inputbox-font border-round-4px" type="text" placeholder="Search" name="usrnm">
+                  <div class="d-flex align-items-center mt-14px">
+                     <div class="input-group shadow-sm border-round-4px align-items-center size-search-table">
+                        <span class="input-group-text bg-none border-color-none" id="basic-addon1"><i class="isax isax-search-normal-1  table-inputbox-icon-size py-14py"></i></span>
+                        <input type="text" class="form-control border-color-none shadow-none" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
                      </div>
-                     <!-- table Header Row4 Col2 -->
                      <div class="mx-20px">
                         <button class="button-default-no-margin bg-ghostwhite color-frenchskyblue border-color-ghostwhite d-flex flex-row margin-none shadow-sm">
                            <i class="isax isax-filter-search icon-size-weight me-2"></i>
                            <p>Filter</p>
                         </button>   
                      </div>
-                     <!-- table Header Row4 Col2 -->
                   </div>
                   <!-- table Header Row4 Col1 -->
                </div>
@@ -108,15 +95,15 @@
                    <td class="text-start px-20px vertical-alignment-center">FSPDN-00000-00000-00000-00000</td>
                    <td class="text-start px-20px vertical-alignment-center">Business Permit and License</td>
                    <td class="text-start px-20px vertical-alignment-center">1.2</td>
-                   <td class="text-start px-20px vertical-alignment-center">n/a </td>
+                   <td class="text-start px-20px vertical-alignment-center">n/a</td>
                    <td class="text-start px-20px vertical-alignment-center">40 years</td>
                    <td class="text-start px-20px vertical-alignment-center">Perpetual</td>
-                   <td class="text-end px-20px p-3 vertical-alignment-center  ">
-                     <div class="dropdown outline-none border-radius-16px">
-                           <button class="btn btn-custom padding-none border-color-none btn-hover" type="button" id="dropdownMenuButto" data-bs-toggle="dropdown" aria-expanded="false" data-reference="parent">
+                    <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
+                     <div class="dropdown outline-none">
+                           <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
-                           <ul class="dropdown-menu pt-17px pb-22px border-radius-16px"  aria-labelledby="dropdownMenuButton1">
+                           <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Assign/Issue</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Validate</a></li>
@@ -140,7 +127,7 @@
                            <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
-                           <ul class="dropdown-menu pt-17px pb-22px  border-radius-16px"  aria-labelledby="dropdownMenuButton1">
+                           <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Assign/Issue</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Validate</a></li>
@@ -164,7 +151,7 @@
                            <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
-                           <ul class="dropdown-menu pt-17px pb-22px  border-radius-16px"  aria-labelledby="dropdownMenuButton1">
+                           <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Assign/Issue</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Validate</a></li>
@@ -188,7 +175,7 @@
                            <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
-                           <ul class="dropdown-menu pt-17px pb-22px  border-radius-16px"  aria-labelledby="dropdownMenuButton1">
+                           <ul class="dropdown-menu pt-17px pb-22px" aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Assign/Issue</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Validate</a></li>
@@ -212,7 +199,7 @@
                            <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
-                           <ul class="dropdown-menu pt-17px pb-22px  border-radius-16px"  aria-labelledby="dropdownMenuButton1">
+                           <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Assign/Issue</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Validate</a></li>
@@ -236,7 +223,7 @@
                            <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
-                           <ul class="dropdown-menu pt-17px pb-22px  border-radius-16px"  aria-labelledby="dropdownMenuButton1">
+                           <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Assign/Issue</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Validate</a></li>
@@ -260,7 +247,7 @@
                            <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
-                           <ul class="dropdown-menu pt-17px pb-22px  border-radius-16px"  aria-labelledby="dropdownMenuButton1">
+                           <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Assign/Issue</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Validate</a></li>
@@ -284,7 +271,7 @@
                            <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
-                           <ul class="dropdown-menu pt-17px pb-22px  border-radius-16px"  aria-labelledby="dropdownMenuButton1">
+                           <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Assign/Issue</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Validate</a></li>
@@ -308,7 +295,7 @@
                            <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
-                           <ul class="dropdown-menu pt-17px pb-22px  border-radius-16px"  aria-labelledby="dropdownMenuButton1">
+                           <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Assign/Issue</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Validate</a></li>
@@ -332,7 +319,7 @@
                            <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
-                           <ul class="dropdown-menu pt-17px pb-22px  border-radius-16px"  aria-labelledby="dropdownMenuButton1">
+                           <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Assign/Issue</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Validate</a></li>

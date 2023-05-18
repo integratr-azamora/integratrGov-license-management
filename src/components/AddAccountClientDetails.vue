@@ -10,7 +10,7 @@
                <button class="button-default bg-none color-indigo border-color-indigo">Edit</button>
             </div>
             <div class="shadow-sm">
-               <div class="scroll" >
+               <div class="scroll client-details-table-height" >
                   <table class="table table-striped table-hover font-table-text" >
                      <thead >
                         <tr >

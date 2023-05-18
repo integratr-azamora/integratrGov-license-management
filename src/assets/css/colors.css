@@ -69,7 +69,7 @@
     background-color: var(--vt-c-lavender-blue)
   }
   .bg-none{
-    background-color: transparent;
+    background-color: transparent !important;
   }
   /* bg Colors  */
 
