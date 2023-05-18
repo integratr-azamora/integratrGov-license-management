@@ -107,6 +107,7 @@
   /* font Colors */
 
   /* border Colors */
+  
   .border-color-indigo{
     border-style: solid;
     border-color: var(--vt-c-indigo);
@@ -187,6 +188,11 @@
   .border-b-color-indigo{
     border-bottom:solid var(--vt-c-indigo);
   }
+  .border-b-color-thin-dimgray{
+    border-bottom: var(--vt-c-dim-gray);
+    border-style: solid;
+    border-width: thin !important; 
+  }
   .border-color-dashed-frenchskyblue{
     border-style: dashed;
     border-color: var(--vt-c-frenchsky-blue);
@@ -200,6 +206,9 @@
   }
   .border-round-4px{
     border-radius: 4px;
+  }
+  .border-round-none{
+    border-radius: 0px !important;
   }
   .border-round16px{
     border-radius: 16px;
