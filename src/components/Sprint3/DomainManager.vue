@@ -65,13 +65,13 @@
                          <i class="isax isax-arrow-down5 size-icon-table-arrow"></i>
                       </div>
                    </th>
-                   <th class="text-start  pb-10px padding-top-none">
+                   <th class="text-start  pb-10px padding-top-none ">
                       <div class="d-flex align-items-center">
                          <span class="font-table-column me-10px">Points to</span>
                          <i class="isax isax-arrow-down5 size-icon-table-arrow"></i>
                       </div>
                    </th>
-                   <th class="text-start  pb-10px padding-top-none">
+                   <th class="text-start  pb-10px padding-top-none pe-20px width-50px">
                       <div class="d-flex align-items-center">
                          <span class="font-table-column me-10px">TTL</span>
                          <i class="isax isax-arrow-down5 size-icon-table-arrow"></i>
@@ -91,7 +91,7 @@
                     <td class="text-start vertical-alignment-center">CNAME</td>
                     <td class="text-start vertical-alignment-center">www</td>
                     <td class="text-start vertical-alignment-center">www.integratrgov.net</td>
-                    <td class="text-start vertical-alignment-center">1 hour</td>
+                    <td class="text-start vertical-alignment-center pe-20px">1 hour</td>
                  </tr>
                  <!-- row2  -->
                  <tr class="size-table-tabledata column border-rouded-5px">
@@ -104,7 +104,7 @@
                     <td class="text-start vertical-alignment-center">A</td>
                     <td class="text-start vertical-alignment-center">@</td>
                     <td class="text-start vertical-alignment-center">23.236.62.147</td>
-                    <td class="text-start vertical-alignment-center">600 seconds</td>
+                    <td class="text-start vertical-alignment-center pe-20px">600 seconds</td>
                  </tr>
                  <!-- row3  -->
                  <tr class="size-table-tabledata column border-rouded-5px">
@@ -117,7 +117,7 @@
                     <td class="text-start vertical-alignment-center">CNAME</td>
                     <td class="text-start vertical-alignment-center">email</td>
                     <td class="text-start vertical-alignment-center">email.secureserver.net</td>
-                    <td class="text-start vertical-alignment-center">1 hour</td>
+                    <td class="text-start vertical-alignment-center pe-20px">1 hour</td>
                  </tr>
                  <!-- row4  -->
                  <tr class="size-table-tabledata column border-rouded-5px">
@@ -130,7 +130,7 @@
                     <td class="text-start vertical-alignment-center">CNAME</td>
                     <td class="text-start vertical-alignment-center">ftp</td>
                     <td class="text-start vertical-alignment-center">@</td>
-                    <td class="text-start vertical-alignment-center">1 hour</td>
+                    <td class="text-start vertical-alignment-center pe-20px">1 hour</td>
                  </tr>
                  <!-- row5  -->
                  <tr class="size-table-tabledata column border-rouded-5px">
@@ -143,7 +143,7 @@
                     <td class="text-start vertical-alignment-center">A</td>
                     <td class="text-start vertical-alignment-center">@</td>
                     <td class="text-start vertical-alignment-center">184.168.221.49</td>
-                    <td class="text-start vertical-alignment-center">600 seconds</td>
+                    <td class="text-start vertical-alignment-center pe-20px">600 seconds</td>
                  </tr>
                  <!-- row6  -->
                  <tr class="size-table-tabledata column border-rouded-5px">
@@ -156,7 +156,7 @@
                     <td class="text-start vertical-alignment-center">CNAME</td>
                     <td class="text-start vertical-alignment-center">_domainconnect</td>
                     <td class="text-start vertical-alignment-center">_domainconnect.gd.domaincontrol.com</td>
-                    <td class="text-start vertical-alignment-center">1 hour</td>
+                    <td class="text-start vertical-alignment-center pe-20px">1 hour</td>
                  </tr>
                  <!-- row7  -->
                  <tr class="size-table-tabledata column border-rouded-5px">
@@ -169,7 +169,7 @@
                     <td class="text-start vertical-alignment-center">CNAME</td>
                     <td class="text-start vertical-alignment-center">www</td>
                     <td class="text-start vertical-alignment-center">@</td>
-                    <td class="text-start vertical-alignment-center">1 hour</td>
+                    <td class="text-start vertical-alignment-center pe-20px">1 hour</td>
                  </tr>
                  <!-- row8  -->
                  <tr class="size-table-tabledata column border-rouded-5px">
@@ -182,7 +182,7 @@
                     <td class="text-start vertical-alignment-center">CNAME</td>
                     <td class="text-start vertical-alignment-center">email</td>
                     <td class="text-start vertical-alignment-center">email.secureserver.net</td>
-                    <td class="text-start vertical-alignment-center">1 hour</td>
+                    <td class="text-start vertical-alignment-center pe-20px">1 hour</td>
                  </tr>
                  <!-- row9  -->
                  <tr class="size-table-tabledata column border-rouded-5px">
@@ -195,7 +195,7 @@
                     <td class="text-start vertical-alignment-center">CNAME</td>
                     <td class="text-start vertical-alignment-center">ftp</td>
                     <td class="text-start vertical-alignment-center">@</td>
-                    <td class="text-start vertical-alignment-center">1 hour</td>
+                    <td class="text-start vertical-alignment-center pe-20px">1 hour</td>
                  </tr>
                  <!-- row10  -->
                  <tr class="size-table-tabledata column border-rouded-5px">
@@ -208,7 +208,7 @@
                     <td class="text-start vertical-alignment-center">CNAME</td>
                     <td class="text-start vertical-alignment-center">_domainconnect</td>
                     <td class="text-start vertical-alignment-center">_domainconnect.gd.domaincontrol.com</td>
-                    <td class="text-start vertical-alignment-center">1 hour</td>
+                    <td class="text-start vertical-alignment-center pe-20px">1 hour</td>
                  </tr>
               </tbody>
            </table>
