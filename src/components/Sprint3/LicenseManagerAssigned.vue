@@ -422,69 +422,6 @@
                          </div>
                     </td>
                  </tr>
-                 
-
-                 <tr class="size-table-tabledata column border-rouded-5px">
-                    <td class="text-start px-20px vertical-alignment-center">Juan Dela Cruz</td>
-                    <td class="text-start px-20px vertical-alignment-center">GOV112223300</td>
-                    <td class="text-start px-20px vertical-alignment-center">Base Cloud Platform</td>
-                    <td class="text-start px-20px vertical-alignment-center">1.0</td>
-                    <td class="text-start px-20px vertical-alignment-center">A01</td>
-                    <td class="text-start px-20px vertical-alignment-center">On-prem</td>
-                    <td class="text-start px-20px vertical-alignment-center">A1AA1AA</td>
-                    <td class="text-start px-20px vertical-alignment-center">FSEDE-00000-00000-00000-00000</td>
-                    <td class="text-start px-20px vertical-alignment-center">01/01/2022</td>
-                    <td class="text-start px-20px vertical-alignment-center">
-                        <div class="badge-default-license bg-eucalyptus color-white border-color-eucalyptus margin-none ">Active </div>
-                    </td>
-                    <td class="text-start px-20px vertical-alignment-center">Annual</td>
-                     <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
-                      <div class="dropdown outline-none">
-                            <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                               <fa class="font-size-24px" icon="ellipsis" />
-                            </button>
-                            <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Update</a></li>
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-dimgray fontfamily-gotham-heading-3 disabled" href="#">Renew(Soon)</a></li>
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Suspend</a></li>
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Remove License</a></li>
-                            </ul>
-                         </div>
-                    </td>
-                 </tr>
-
-                 <tr class="size-table-tabledata column border-rouded-5px">
-                    <td class="text-start px-20px vertical-alignment-center">Juan Dela Cruz</td>
-                    <td class="text-start px-20px vertical-alignment-center">GOV112223300</td>
-                    <td class="text-start px-20px vertical-alignment-center">Base Cloud Platform</td>
-                    <td class="text-start px-20px vertical-alignment-center">1.0</td>
-                    <td class="text-start px-20px vertical-alignment-center">A01</td>
-                    <td class="text-start px-20px vertical-alignment-center">On-prem</td>
-                    <td class="text-start px-20px vertical-alignment-center">A1AA1AA</td>
-                    <td class="text-start px-20px vertical-alignment-center">FSEDE-00000-00000-00000-00000</td>
-                    <td class="text-start px-20px vertical-alignment-center">01/01/2022</td>
-                    <td class="text-start px-20px vertical-alignment-center">
-                        <div class="badge-default-license bg-eucalyptus color-white border-color-eucalyptus margin-none ">Active </div>
-                    </td>
-                    <td class="text-start px-20px vertical-alignment-center">Annual</td>
-                     <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
-                      <div class="dropdown outline-none">
-                            <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                               <fa class="font-size-24px" icon="ellipsis" />
-                            </button>
-                            <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Update</a></li>
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-dimgray fontfamily-gotham-heading-3 disabled" href="#">Renew(Soon)</a></li>
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Suspend</a></li>
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Remove License</a></li>
-                            </ul>
-                         </div>
-                    </td>
-                 </tr>
               </tbody>
            </table>
                 </div>
