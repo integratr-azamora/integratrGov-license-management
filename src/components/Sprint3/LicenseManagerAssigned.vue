@@ -38,7 +38,7 @@
                    <!-- px box  -->
                 </div>
                 <!-- table Body  -->
-                <div class="table-responsive rounded-1 table-borderless scroll" style="height: 662px;">
+                <div class="table-responsive rounded-1 table-borderless scroll size-table-heigth">
                    <table class="table-striped-custom table-hover font-table-text table-borderless "  >
               <thead >
                  <tr > 
