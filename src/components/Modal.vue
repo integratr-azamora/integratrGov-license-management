@@ -64,7 +64,7 @@
    </div>
    <!-- con3 -->
    <br>
-   <div class="container container-transfer-ownership p-20px" >
+   <div class="container container-transfer-ownership p-20px">
       <div class="modal-header">
          <p class="container-modal-title"><b>Transfer Ownership</b></p>
          <div class="position-relative">
@@ -116,7 +116,7 @@
       <input type="email" class="form-control mt-10px shadow-sm border-color-valencia bg-lavender-bush" id="input-form1" placeholder="License No.">   
       <input type="email" class="form-control mt-10px shadow-sm border-color-valencia bg-lavender-bush" id="input-form1" placeholder="TIN No.">   
       <input type="email" class="form-control mt-10px shadow-sm border-color-valencia bg-lavender-bush" id="input-form1" placeholder="Date Established">    
-      <i class="icon-calendar calendar-modal gray isax isax-calendar-1"></i>
+      <i class="calendar-modal gray isax isax-calendar-1"></i>
       <div class="modal-footer">
          <button class="button-default bg-indigo border-color-indigo color-white me-0 mt-10px">Search</button>      
       </div>

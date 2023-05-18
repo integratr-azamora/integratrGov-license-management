@@ -90,8 +90,8 @@
     margin-right: var(--c-size-10px);
   }
   .mx-20px{
-    margin-left: var(--c-size-20px);
-    margin-right: var(--c-size-20px);
+    margin-left: var(--c-size-20px) !important;
+    margin-right: var(--c-size-20px) !important;
   }
   .my-20px{
     margin-top: var(--c-size-20px);
