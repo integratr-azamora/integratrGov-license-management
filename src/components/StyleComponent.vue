@@ -9,25 +9,25 @@
           <!-- row1  -->
           <!-- default buttons  -->
           <div class="d-flex flex-row">
-             <button class="button-default bg-indigo color-white border-color-indigo" >Default</button>
-             <button class="button-default bg-purpleheart color-white border-color-purpleheart">Click/Hover</button>
-             <button class="button-default bg-dimgray color-white border-color-dimgray">Disabled</button>
+             <button class="button-default m-10px bg-indigo color-white border-color-indigo" >Default</button>
+             <button class="button-default m-10px bg-purpleheart color-white border-color-purpleheart">Click/Hover</button>
+             <button class="button-default m-10px bg-dimgray color-white border-color-dimgray">Disabled</button>
           </div>
           <!-- row1  -->
           <!-- row2  -->
           <!-- no bg/ with outline button  -->
           <div class="d-flex flex-row">
-             <button class="button-default bg-none color-indigo border-color-indigo">Default</button>
-             <button class="button-default bg-none color-purpleheart border-color-purpleheart">Click/Hover</button>
-             <button class="button-default bg-none color-dimgray border-color-dimgray">Disabled</button>
-             <button class="button-default bg-none color-indigo border-color-indigo d-flex flex-row ">   
+             <button class="button-default m-10px bg-none color-indigo border-color-indigo">Default</button>
+             <button class="button-default m-10px bg-none color-purpleheart border-color-purpleheart">Click/Hover</button>
+             <button class="button-default m-10px bg-none color-dimgray border-color-dimgray">Disabled</button>
+             <button class="button-default m-10px bg-none color-indigo border-color-indigo d-flex flex-row ">   
                  Default
              </button>
-             <button class="button-default bg-none color-purpleheart border-color-purpleheart d-flex flex-row align-items-center ">
+             <button class="button-default m-10px bg-none color-purpleheart border-color-purpleheart d-flex flex-row align-items-center ">
                <fa class="font-size-20px me-8px" icon="plus" />
                 Click/Hover
              </button>
-             <button class="button-default bg-none color-dimgray border-color-dimgray d-flex flex-row align-items-center">
+             <button class="button-default m-10px bg-none color-dimgray border-color-dimgray d-flex flex-row align-items-center">
                 <fa class="font-size-20px me-8px" icon="plus" />
                 Disabled
              </button>
@@ -36,24 +36,24 @@
           <!-- row3  -->
           <!-- no bg,outline button  -->
           <div class="d-flex flex-row">
-             <button class="button-default bg-none color-indigo border-color-none">Default</button>
-             <button class="button-default bg-none color-purpleheart border-color-none">Click/Hover</button>
-             <button class="button-default bg-none color-dimgray border-color-none">Disabled</button>
+             <button class="button-default m-10px bg-none color-indigo border-color-none">Default</button>
+             <button class="button-default m-10px bg-none color-purpleheart border-color-none">Click/Hover</button>
+             <button class="button-default m-10px bg-none color-dimgray border-color-none">Disabled</button>
           </div>
           <!-- row3  -->
           <!-- row4 -->
           <div class="d-flex flex-row">
-             <button class="button-default bg-frenchskyblue color-white border-color-frenchskyblue">Download (Default)</button>
-             <button class="button-default bg-cornflowerblue color-white border-color-cornflowerblue">Download(Click/Hover)</button>
+             <button class="button-default m-10px bg-frenchskyblue color-white border-color-frenchskyblue">Download (Default)</button>
+             <button class="button-default m-10px bg-cornflowerblue color-white border-color-cornflowerblue">Download(Click/Hover)</button>
           </div>
           <!-- row4 -->
           <!-- row5 -->
           <div class="d-flex flex-row">
-             <button class="button-default bg-ghostwhite color-frenchskyblue border-color-ghostwhite d-flex flex-row align-items-center shadow-sm">
+             <button class="button-default m-10px bg-ghostwhite color-frenchskyblue border-color-ghostwhite d-flex flex-row align-items-center shadow-sm">
                 <i class="isax isax-filter-search icon-size-weight me-2"></i>
                 Default
              </button>
-             <button class="button-default bg-frenchskyblue color-ghostwhite border-color-frenchskyblue d-flex flex-row align-items-center shadow-sm">
+             <button class="button-default m-10px bg-frenchskyblue color-ghostwhite border-color-frenchskyblue d-flex flex-row align-items-center shadow-sm">
                 <i class="isax isax-filter-search icon-size-weight me-2"></i>
                 Click/Hover
              </button>
@@ -61,14 +61,14 @@
           <!-- row5 -->
           <!-- row6 -->
           <div class="d-flex flex-row">
-            <button class="button-round bg-indigo color-white border-color-indigo d-flex align-items-center">
+            <button class="button-round m-10px bg-indigo color-white border-color-indigo d-flex align-items-center">
                <fa class="font-size-20px" icon="close" />
             </button>
-            <button class="button-round bg-purpleheart color-white border-color-purpleheart d-flex align-items-center">
+            <button class="button-round m-10px bg-purpleheart color-white border-color-purpleheart d-flex align-items-center">
                <fa class="font-size-20px" icon="close" />
             </button>
-             <button class="button-round bg-dimgray color-white border-color-dimgray "><i class="isax isax-camera icon-button-round-24px"></i></button>
-             <button class="button-round bg-lightlavender color-white border-color-lightlavender "><i class="isax isax-camera icon-button-round-24px"></i></button>
+             <button class="button-round m-10px bg-dimgray color-white border-color-dimgray "><i class="isax isax-camera icon-button-round-24px"></i></button>
+             <button class="button-round m-10px bg-lightlavender color-white border-color-lightlavender "><i class="isax isax-camera icon-button-round-24px"></i></button>
           </div>
           <!-- row6  -->
           <!-- row7  -->
@@ -120,18 +120,18 @@
           <!-- row9 -->
           <!-- badges -->
           <div class="d-flex flex-row">
-             <div class="badge-default bg-dimgray color-white border-color-dimgray ">Ongoing </div>
-             <div class="badge-default bg-indigo color-white border-color-indigo">For Assessment</div>
-             <div class="badge-default bg-indigo color-white border-color-indigo">Pending Payment</div>
-             <div class="badge-default bg-eucalyptus color-white border-color-eucalyptus">Completed</div>
+             <div class="badge-default m-10px bg-dimgray color-white border-color-dimgray ">Ongoing </div>
+             <div class="badge-default m-10px bg-indigo color-white border-color-indigo">For Assessment</div>
+             <div class="badge-default m-10px bg-indigo color-white border-color-indigo">Pending Payment</div>
+             <div class="badge-default m-10px bg-eucalyptus color-white border-color-eucalyptus">Completed</div>
           </div>
           <!-- row9 -->
           <div class="d-flex flex-row">
-             <div class="badge-pill bg-dimgray color-white border-color-dimgray">Unassigned</div>
-             <div class="badge-pill bg-indigo color-white border-color-indigo">In Progress</div>
-             <div class="badge-pill bg-frenchskyblue color-white border-color-frenchskyblue">Pre-Approved</div>
-             <div class="badge-pill bg-valencia color-white border-color-valencia">Denied</div>
-             <div class="badge-pill bg-eucalyptus color-white border-color-eucalyptus">Approved</div>
+             <div class="badge-pill m-10px bg-dimgray color-white border-color-dimgray">Unassigned</div>
+             <div class="badge-pill m-10px bg-indigo color-white border-color-indigo">In Progress</div>
+             <div class="badge-pill m-10px bg-frenchskyblue color-white border-color-frenchskyblue">Pre-Approved</div>
+             <div class="badge-pill m-10px bg-valencia color-white border-color-valencia">Denied</div>
+             <div class="badge-pill m-10px bg-eucalyptus color-white border-color-eucalyptus">Approved</div>
           </div>
        </div>
        <!-- Consumer  -->
@@ -139,25 +139,25 @@
        Components: Admin
        <!-- row1  -->
        <div class="d-flex flex-row">
-          <button class="button-default bg-indigo color-white border-color-indigo" >Default</button>
-          <button class="button-default bg-purpleheart color-white border-color-purpleheart">Click/Hover</button>
-          <button class="button-default bg-dimgray color-white border-color-dimgray">Disabled</button>
+          <button class="button-default m-10px bg-indigo color-white border-color-indigo" >Default</button>
+          <button class="button-default m-10px bg-purpleheart color-white border-color-purpleheart">Click/Hover</button>
+          <button class="button-default m-10px bg-dimgray color-white border-color-dimgray">Disabled</button>
        </div>
        <!-- row1  -->
        <!-- row2  -->
        <div class="d-flex flex-row">
-          <button class="button-default bg-none color-indigo border-color-indigo">Default</button>
-          <button class="button-default bg-none color-purpleheart border-color-purpleheart">Click/Hover</button>
-          <button class="button-default bg-none color-dimgray border-color-dimgray">Disabled</button>
-          <button class="button-default bg-none color-indigo border-color-indigo d-flex flex-row align-items-center">
+          <button class="button-default m-10px bg-none color-indigo border-color-indigo">Default</button>
+          <button class="button-default m-10px bg-none color-purpleheart border-color-purpleheart">Click/Hover</button>
+          <button class="button-default m-10px bg-none color-dimgray border-color-dimgray">Disabled</button>
+          <button class="button-default m-10px bg-none color-indigo border-color-indigo d-flex flex-row align-items-center">
              <fa class="font-size-20px me-8px" icon="plus" />
              Default
           </button>
-          <button class="button-default bg-none color-purpleheart border-color-purpleheart d-flex flex-row align-items-center">
+          <button class="button-default m-10px bg-none color-purpleheart border-color-purpleheart d-flex flex-row align-items-center">
              <fa class="font-size-20px me-8px" icon="plus" />
              Click/Hover
           </button>
-          <button class="button-default bg-none color-dimgray border-color-dimgray d-flex flex-row align-items-center">
+          <button class="button-default m-10px bg-none color-dimgray border-color-dimgray d-flex flex-row align-items-center">
              <fa class="font-size-20px me-8px" icon="plus" />
              Disabled
           </button>
@@ -165,64 +165,64 @@
        <!-- row2  -->
        <!-- row3 -->
        <div class="d-flex flex-row">
-          <button class="button-default bg-none color-indigo border-color-none">Default</button>
-          <button class="button-default bg-none color-purpleheart border-color-none">Click/Hover</button>
-          <button class="button-default bg-none color-dimgray border-color-none">Disabled</button>
+          <button class="button-default m-10px bg-none color-indigo border-color-none">Default</button>
+          <button class="button-default m-10px bg-none color-purpleheart border-color-none">Click/Hover</button>
+          <button class="button-default m-10px bg-none color-dimgray border-color-none">Disabled</button>
        </div>
        <!-- row3  -->
        <!-- row4  -->
        <div class="d-flex flex-row">
-          <button class="button-default bg-indigo color-white border-color-indigo d-flex flex-row">
+          <button class="button-default m-10px bg-indigo color-white border-color-indigo d-flex flex-row">
              <i class="isax isax-trash icon-size-weight me-1"></i>
              Default
           </button>
-          <button class="button-default bg-purpleheart color-white border-color-purpleheart d-flex flex-row"><i class="isax isax-trash icon-size-weight me-1"></i>Click/Hover</button>
-          <button class="button-default bg-dimgray color-white border-color-dimgray d-flex flex-row"><i class="isax isax-trash icon-size-weight me-1"></i>Disabled</button>
-          <button class="button-default bg-indigo color-white border-color-indigo d-flex flex-row">
+          <button class="button-default m-10px bg-purpleheart color-white border-color-purpleheart d-flex flex-row"><i class="isax isax-trash icon-size-weight me-1"></i>Click/Hover</button>
+          <button class="button-default m-10px bg-dimgray color-white border-color-dimgray d-flex flex-row"><i class="isax isax-trash icon-size-weight me-1"></i>Disabled</button>
+          <button class="button-default m-10px bg-indigo color-white border-color-indigo d-flex flex-row">
              <i class="isax isax-edit icon-size-weight me-1"></i>
              Default
           </button>
-          <button class="button-default bg-purpleheart color-white border-color-purpleheart d-flex flex-row"><i class="isax isax-edit icon-size-weight me-1"></i>Click/Hover</button>
-          <button class="button-default bg-dimgray color-white border-color-dimgray d-flex flex-row"><i class="isax isax-edit icon-size-weight me-1"></i>Disabled</button>
+          <button class="button-default m-10px bg-purpleheart color-white border-color-purpleheart d-flex flex-row"><i class="isax isax-edit icon-size-weight me-1"></i>Click/Hover</button>
+          <button class="button-default m-10px bg-dimgray color-white border-color-dimgray d-flex flex-row"><i class="isax isax-edit icon-size-weight me-1"></i>Disabled</button>
        </div>
        <!-- row4  -->
        <!-- row5 -->
        <div class="d-flex flex-row">
-          <button class="button-default bg-valencia color-white border-color-valencia d-flex flex-row"><i class="isax isax-minus icon-size-weight me-1"></i>Default</button>
-          <button class="button-default bg-darkvalencia color-white border-color-darkvalencia d-flex flex-row"><i class="isax isax-minus icon-size-weight me-1"></i>Click/Hover</button>
-          <button class="button-default bg-dimgray color-white border-color-dimgray d-flex flex-row"><i class="isax isax-minus icon-size-weight me-1"></i>Disabled</button>
+          <button class="button-default m-10px bg-valencia color-white border-color-valencia d-flex flex-row"><i class="isax isax-minus icon-size-weight me-1"></i>Default</button>
+          <button class="button-default m-10px bg-darkvalencia color-white border-color-darkvalencia d-flex flex-row"><i class="isax isax-minus icon-size-weight me-1"></i>Click/Hover</button>
+          <button class="button-default m-10px bg-dimgray color-white border-color-dimgray d-flex flex-row"><i class="isax isax-minus icon-size-weight me-1"></i>Disabled</button>
        </div>
        <!-- row5 -->
        <!-- row6  -->
        <div class="d-flex flex-row">
-          <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb">Default</button>
-          <button class="button-pill bg-palelavender color-indigo border-color-palelavender">Click/Hover</button>
-          <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center">
+          <button class="button-pill m-10px bg-lavenderweb color-indigo border-color-lavenderweb">Default</button>
+          <button class="button-pill m-10px bg-palelavender color-indigo border-color-palelavender">Click/Hover</button>
+          <button class="button-pill m-10px bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center">
              <fa class="font-size-20px me-8px" icon="plus" />
              Default
           </button>
-          <button class="button-pill bg-palelavender color-indigo border-color-palelavender d-flex flex-row align-items-center"><fa class="font-size-20px me-8px" icon="plus" />Click/Hover</button>
+          <button class="button-pill m-10px bg-palelavender color-indigo border-color-palelavender d-flex flex-row align-items-center"><fa class="font-size-20px me-8px" icon="plus" />Click/Hover</button>
        </div>
        <!-- row6  -->
        <!-- row7  -->
        <div class="d-flex flex-row">
-          <button class="button-pill bg-mistyrose color-venitianred border-color-mistyrose d-flex flex-row align-items-center"><fa class="font-size-20px me-8px" icon="plus" />Default</button>
-          <button class="button-pill bg-champagnepink color-venitianred border-color-champagnepink d-flex flex-row align-items-center" ><fa class="font-size-20px me-8px" icon="plus" />Click/Hover</button>
-          <button class="button-pill bg-chinesegreen color-seagreen border-color-chinesegreen d-flex flex-row align-items-center">
+          <button class="button-pill m-10px bg-mistyrose color-venitianred border-color-mistyrose d-flex flex-row align-items-center"><fa class="font-size-20px me-8px" icon="plus" />Default</button>
+          <button class="button-pill m-10px bg-champagnepink color-venitianred border-color-champagnepink d-flex flex-row align-items-center" ><fa class="font-size-20px me-8px" icon="plus" />Click/Hover</button>
+          <button class="button-pill m-10px bg-chinesegreen color-seagreen border-color-chinesegreen d-flex flex-row align-items-center">
              <fa class="font-size-20px me-8px" icon="plus" />
              Default
           </button>
-          <button class="button-pill bg-columbiagreen color-seagreen border-color-columbiagreen d-flex flex-row align-items-center"><fa class="font-size-20px me-8px" icon="plus" />Click/Hover</button>
-          <button class="button-pill bg-platinum color-dimgray border-color-platinum d-flex flex-row align-items-center"><fa class="font-size-20px me-8px" icon="plus" />Disabled</button>
+          <button class="button-pill m-10px bg-columbiagreen color-seagreen border-color-columbiagreen d-flex flex-row align-items-center"><fa class="font-size-20px me-8px" icon="plus" />Click/Hover</button>
+          <button class="button-pill m-10px bg-platinum color-dimgray border-color-platinum d-flex flex-row align-items-center"><fa class="font-size-20px me-8px" icon="plus" />Disabled</button>
        </div>
        <!-- row7  -->
        <!-- row8 -->
        <div class="d-flex flex-row">
-          <button class="button-default bg-ghostwhite color-frenchskyblue border-color-ghostwhite d-flex flex-row shadow-sm">
+          <button class="button-default m-10px bg-ghostwhite color-frenchskyblue border-color-ghostwhite d-flex flex-row shadow-sm">
              <i class="isax isax-filter-search icon-size-weight me-2"></i>
              Default
           </button>
-          <button class="button-default bg-frenchskyblue color-ghostwhite border-color-frenchskyblue d-flex flex-row shadow-sm">
+          <button class="button-default m-10px bg-frenchskyblue color-ghostwhite border-color-frenchskyblue d-flex flex-row shadow-sm">
              <i class="isax isax-filter-search icon-size-weight me-2"></i>
              Click/Hover
           </button>
@@ -230,14 +230,14 @@
        <!-- row8 -->
        <!-- row9  -->
        <div class="d-flex flex-row">
-            <button class="button-round bg-indigo color-white border-color-indigo d-flex align-items-center">
+            <button class="button-round m-10px bg-indigo color-white border-color-indigo d-flex align-items-center">
                <fa class="font-size-20px" icon="close" />
             </button>
-            <button class="button-round bg-purpleheart color-white border-color-purpleheart d-flex align-items-center">
+            <button class="button-round m-10px bg-purpleheart color-white border-color-purpleheart d-flex align-items-center">
                <fa class="font-size-20px" icon="close" />
             </button>
-          <button class="button-round bg-none color-indigo border-color-none "><i class="isax isax-trash icon-button-round-24px"></i></button>
-          <button class="button-round bg-none color-purpleheart border-color-none "><i class="isax isax-trash icon-button-round-24px"></i></button>
+          <button class="button-round m-10px bg-none color-indigo border-color-none "><i class="isax isax-trash icon-button-round-24px"></i></button>
+          <button class="button-round m-10px bg-none color-purpleheart border-color-none "><i class="isax isax-trash icon-button-round-24px"></i></button>
        </div>
        <!-- row9  -->
        <!-- row10 -->
@@ -270,9 +270,9 @@
              <label class="form-check-label" for="flexCheckDefault"></label>
           </div>
           <div class="d-flex flex-row ">
-             <button class="button-round bg-none color-indigo border-color-none "><i class="isax isax-edit-25 icon-button-round-24px"></i></button>
-             <button class="button-round bg-none color-purpleheart border-color-none "><i class="isax isax-edit-25 icon-button-round-24px"></i></button>
-             <button class="button-round bg-none color-dimgray border-color-none "><i class="isax isax-edit-25 icon-button-round-24px"></i></button>
+             <button class="button-round m-10px bg-none color-indigo border-color-none "><i class="isax isax-edit-25 icon-button-round-24px"></i></button>
+             <button class="button-round m-10px bg-none color-purpleheart border-color-none "><i class="isax isax-edit-25 icon-button-round-24px"></i></button>
+             <button class="button-round m-10px bg-none color-dimgray border-color-none "><i class="isax isax-edit-25 icon-button-round-24px"></i></button>
           </div>
           <button class="button-tab m-3">Tab 1</button>
           <button class="button-tab m-3">Tab 2</button>
@@ -292,18 +292,18 @@
        <!-- row11 -->
        Badge(Assessment)
        <div class="d-flex flex-row">
-          <div class="badge-pill bg-dimgray color-white border-color-dimgray ">Unassigned </div>
-          <div class="badge-pill bg-indigo color-white border-color-indigo"> In Progress </div>
-          <div class="badge-pill bg-frenchskyblue color-white border-color-frenchskyblue">Pre-Approved </div>
-          <div class="badge-pill bg-valencia color-white border-color-valencia">Denied </div>
-          <div class="badge-pill bg-eucalyptus color-white border-color-eucalyptus">Approved </div>
+          <div class="badge-pill m-10px bg-dimgray color-white border-color-dimgray ">Unassigned </div>
+          <div class="badge-pill m-10px bg-indigo color-white border-color-indigo"> In Progress </div>
+          <div class="badge-pill m-10px bg-frenchskyblue color-white border-color-frenchskyblue">Pre-Approved </div>
+          <div class="badge-pill m-10px bg-valencia color-white border-color-valencia">Denied </div>
+          <div class="badge-pill m-10px bg-eucalyptus color-white border-color-eucalyptus">Approved </div>
        </div>
        Badge(Payment)
        <div class="d-flex flex-row">
-          <div class="badge-pill bg-dimgray color-white border-color-dimgray">New</div>
-          <div class="badge-pill bg-indigo color-white border-color-indigo">Ongoing</div>
-          <div class="badge-pill bg-eucalyptus color-white border-color-eucalyptus">Paid</div>
-          <div class="badge-pill bg-valencia color-white border-color-valencia">Late</div>
+          <div class="badge-pill m-10px bg-dimgray color-white border-color-dimgray">New</div>
+          <div class="badge-pill m-10px bg-indigo color-white border-color-indigo">Ongoing</div>
+          <div class="badge-pill m-10px bg-eucalyptus color-white border-color-eucalyptus">Paid</div>
+          <div class="badge-pill m-10px bg-valencia color-white border-color-valencia">Late</div>
        </div>
        <!-- Admin -->
     </div>

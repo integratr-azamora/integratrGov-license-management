@@ -1,5 +1,6 @@
   /* templates  */
   /* button Template  */
+  /* !  */
   .button-default{
     border-radius: var(--c-size-4px);
     font-family: var(--c-font-styles-roboto);
@@ -8,10 +9,6 @@
     padding-right: var(--c-size-20px);
     padding-top: var(--c-size-10px);
     padding-bottom: var(--c-size-10px);
-    margin-left: var(--c-size-10px);
-    margin-right: var(--c-size-10px);
-    margin-top: var(--c-size-10px);
-    margin-bottom: var(--c-size-10px);
     border-radius: 4px;
     font-family: 'Roboto';
     font-style: normal;
@@ -30,24 +27,24 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
+    white-space: nowrap;
   }
   .button-default-margin-none{
     margin-top: 0px !important;
     margin-bottom: 0px !important;
   }
+  /* !  */
   .button-round{
     border-radius: 50% !important;
     font-size: var(--c-size-24px);
     color: var(--vt-c-white);
     width: var(--c-size-44px);
     height: var(--c-size-44px);
-    margin-left: var(--c-size-10px);
-    margin-right: var(--c-size-12px);
-    margin-top: var(--c-size-10px);
-    margin-bottom: var(--c-size-10px);
+
     display: flex;
     justify-content: center;
     align-items: center;
+    white-space: nowrap;
   }
   .button-round-modal{
     border-radius: 50% !important;
@@ -59,6 +56,7 @@
     justify-content: center;
     align-items: center;
   }
+  /* !  */
   .button-pill{
     border-radius: var(--bs-border-radius-pill);
     font-family: 'Roboto' !important;
@@ -68,10 +66,7 @@
     padding-right: var(--c-size-20px);
     padding-top: var(--c-size-10px);
     padding-bottom: var(--c-size-10px);
-    margin-left: var(--c-size-10px);
-    margin-right: var(--c-size-10px);
-    margin-top: var(--c-size-10px);
-    margin-bottom: var(--c-size-10px);
+    white-space: nowrap;
   }
   .button-pagination{
     border-radius: var(--c-size-4px);
@@ -82,6 +77,7 @@
     font-weight: 400;
     line-height: 24px;
   }
+  /* ! 12 mlr*/
   .button-tab{
     color: var(--vt-c-dark-gray);
     font-family: 'Roboto';
@@ -99,6 +95,27 @@
     margin-left:12px;
     margin-right: 12px;
     background-color: transparent;
+    white-space: nowrap;
+  }
+
+  .button-tab-active{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    border-top: none;
+    border-left:none;
+    border-right:none;
+    border-bottom: solid;
+    border-color: var(--vt-c-marjorelle-blue);
+    color: var(--vt-c-black);
+    padding-top: 7px;
+    padding-bottom:15px;
+    margin-left:12px;
+    margin-right: 12px;
+    background-color: transparent;
+    white-space: nowrap;
   }
 
   .button-tab:hover{
@@ -108,6 +125,7 @@
   }
   /* button Template  */
   /* badge Templates  */
+  /* ! m10  */
   .badge-default{
     border-radius: 4px;
     width: var(--c-size-152px);
@@ -119,11 +137,23 @@
     text-align: center;
     padding-top: var(--c-size-5px);
     padding-bottom: var(--c-size-10px);
-    margin-left: var(--c-size-10px);
-    margin-right: var(--c-size-10px);
-    margin-top: var(--c-size-10px);
-    margin-bottom: var(--c-size-10px);
+
   }
+  /* ! m10 */
+  .badge-default-license{
+    border-radius: 4px;
+    width: var(--c-size-100px);
+    height: var(--c-size-30px);
+    font-family: 'Gotham-light', sans-serif;
+    font-weight: 400;
+    font-size: var(--c-size-16px);
+    line-height: var(--c-size-15px);
+    text-align: center;
+    padding-top: var(--c-size-5px);
+    padding-bottom: var(--c-size-10px);
+
+  }
+  /* ! m10 */
   .badge-pill{
     border-radius: var(--bs-border-radius-pill);
     font-family: 'Roboto', sans-serif !important; 
@@ -134,10 +164,7 @@
     text-align: center;
     padding-top: var(--c-size-7px);
     padding-bottom: var(--c-size-11px);
-    margin-left: var(--c-size-10px);
-    margin-right: var(--c-size-10px);
-    margin-top: var(--c-size-10px);
-    margin-bottom: var(--c-size-10px);
+
     padding-left: var(--c-size-10px);
     padding-right: var(--c-size-10px);
     padding-top: var(--c-size-2px);
