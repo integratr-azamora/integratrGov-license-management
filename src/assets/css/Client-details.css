@@ -1,11 +1,11 @@
 .client-cont1{
-    padding: 20px;
     background: #FFFFFF;
+    padding: 20px;
 }
 
 .border-color-frenchskyblue{
   border-top: none; 
-  border-left: none; 
+  border-left: none;
   border-right: none; 
   border-width: 1px;
 }
@@ -20,12 +20,13 @@
 }
 
 .client-container{
-  width: 895px;
   height: 745px;
+  width: 895px;
   box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
   border-radius: 8px;
   background: var(--vt-c-white);  
   border-radius: 16px;
+  margin-left: none;
 }
 
 .add-cont3{
@@ -37,9 +38,7 @@
 }
 /* container-addaccount-client  */
 .action-cont4{
-    height: 745px;
     width: 497px;
-    padding: 20px;
     background: #F3F6FF;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
@@ -82,4 +81,9 @@
     width: 650px;
     height:535px;
     border-color: none !important;
+ }
+
+ .button-container{
+  display: flex;
+  gap: 10px;
  }
