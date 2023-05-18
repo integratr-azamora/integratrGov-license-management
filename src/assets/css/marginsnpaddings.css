@@ -149,6 +149,9 @@
 .p-10px{
     padding: var(--c-size-10px) !important;
 }
+.p-15px{
+  padding: var(--c-size-15px) !important;
+}
 .pt-10px{
   padding-top: var(--c-size-10px) ;
 }
