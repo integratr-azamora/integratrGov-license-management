@@ -8,7 +8,7 @@
                <span class="font-style-inter-semibold px-20px">Client Information</span>
                <button class="button-default bg-none color-purpleheart border-color-purpleheart m-20px">Edit</button>
             </div>
-            <div class="scroll " >
+            <div class="scroll client-details-table-height">
                <table class="table table-striped-custom table-hover font-table-text table-borderless">
                   <thead class="table-header">
                      <tr >
