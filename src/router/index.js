@@ -14,7 +14,7 @@ import AccountManager from '../components/AccountManager.vue';
 import LicenseManager from '../components/LicenseManger.vue';
 import LicensekeyIssue from '../components/Licensekey-Issue.vue';
 import DomainManager from '../components/Sprint3/DomainManager.vue';
-
+import SoftwareLicenseManagement from '../components/Sprint3/SoftwareLicenseManagement.vue';
 import LicenseKeyAssigned from '../components/Sprint3/LicenseManagerAssigned.vue';
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -95,6 +95,12 @@ const router = createRouter({
       path: '/domain-manager',
       name: 'domain-manager',
       component: DomainManager
+    }
+    ,
+    {
+      path: '/software-license-management',
+      name: 'software-license-management',
+      component: SoftwareLicenseManagement
     }
 
     // sprint 3

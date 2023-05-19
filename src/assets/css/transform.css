@@ -172,7 +172,15 @@
   .mwmc{
     min-width: max-content !important;
   }
+  .width-max{
+    width: 100%;
+  }
   .width-50px{
     width:50px;
   }
   /* width  */
+  /* height  */
+  .height-30{
+    height: 30%;
+  }
+  /* height  */
