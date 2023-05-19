@@ -335,6 +335,7 @@
                      <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10 ">1</button>
                      <button class="button-pagination bg-none color-dimgray border-color-none btn-hover px-20 py-10 ">2</button>
                      <button class="button-pagination bg-none color-dimgray border-color-none btn-hover px-20 pb-5px pt-15px "><fa class="fs-16px" icon="ellipsis" /></button>
+                     <button class="button-pagination bg-none color-dimgray border-color-none btn-hover px-20 py-10 ">100</button>
                      <button class="button-pagination bg-none color-indigo border-color-none btn-hover ms-20px">Next</button>
                      <button class="button-pagination bg-none color-indigo border-color-none btn-hover"><fa class="font-size-20px  mt-1" icon="angle-right" /></button>
                   </div>

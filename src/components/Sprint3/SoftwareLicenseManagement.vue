@@ -4,9 +4,9 @@
           <div class=" rounded-3 container">
              <div class=" heading1 mb-20px mt-20px">License Manager </div>
              <div>
-                <button class="button-tab"><a class="dropdown-item " href="/licmanager">Unassigned License Keys</a></button>
-                <button class="button-tab"><a class="dropdown-item " href="/licensekey-assigned">Assigned License Keys</a></button>
-                <button class="button-tab-active"><a class="dropdown-item " href="/software-license-management">Software License Management</a></button>
+                <button class="button-tab padding-x-none"><a class="dropdown-item " href="/licmanager">Unassigned License Keys</a></button>
+                <button class="button-tab padding-x-none mx-20px"><a class="dropdown-item " href="/licensekey-assigned">Assigned License Keys</a></button>
+                <button class="button-tab-active padding-x-none"><a class="dropdown-item " href="/software-license-management">Software License Management</a></button>
              </div>
              <!-- row1  -->
              <div class=" shadow-sm border-round16px pb-20px pt-10px">
@@ -345,6 +345,7 @@
                       <button class="button-pagination bg-none color-dimgray border-color-none btn-hover px-20 pb-5px pt-15px ">
                          <fa class="fs-16px" icon="ellipsis" />
                       </button>
+                      <button class="button-pagination bg-none color-dimgray border-color-none btn-hover px-20 py-10 ">100</button>
                       <button class="button-pagination bg-none color-indigo border-color-none btn-hover ms-20px">Next</button>
                       <button class="button-pagination bg-none color-indigo border-color-none btn-hover">
                          <fa class="font-size-20px  mt-1" icon="angle-right" />

@@ -5,6 +5,10 @@
              <div class=" heading1  ">Domain Manager </div>
              <!-- row1  -->
              <div class=" shadow-sm border-round16px pb-20px">
+               <div class="d-flex justify-content-between mt-20px pt-20px mx-20px">
+                  <p class="fontfamily-gotham-heading-2">Domains</p>
+               </div>
+               
                 <!-- table Header Row2  -->
                 <!-- table Header Row3  -->
                 <div class="col d-flex flex-row">
@@ -23,7 +27,7 @@
                          <input type="text" class="form-control border-color-none shadow-none" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
                       </div>
                       <div class="mx-20px">
-                        <button class="button-default m-10px bg-indigo color-white border-color-indigo d-flex flex-row">
+                        <button class="button-default bg-indigo color-white border-color-indigo d-flex flex-row">
                             <i class="isax isax-trash icon-size-weight me-1"></i>
                             Delete
                         </button>
@@ -222,6 +226,7 @@
                       <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10 ">1</button>
                       <button class="button-pagination bg-none color-dimgray border-color-none btn-hover px-20 py-10 ">2</button>
                       <button class="button-pagination bg-none color-dimgray border-color-none btn-hover px-20 pb-5px pt-15px "><fa class="fs-16px" icon="ellipsis" /></button>
+                      <button class="button-pagination bg-none color-dimgray border-color-none btn-hover px-20 py-10 ">100</button>
                       <button class="button-pagination bg-none color-indigo border-color-none btn-hover ms-20px">Next</button>
                       <button class="button-pagination bg-none color-indigo border-color-none btn-hover"><fa class="font-size-20px  mt-1" icon="angle-right" /></button>
                    </div>
