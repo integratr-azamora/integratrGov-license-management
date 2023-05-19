@@ -9,9 +9,9 @@
                 <button class="button-tab-active padding-x-none"><a class="dropdown-item " href="/software-license-management">Software License Management</a></button>
              </div>
              <!-- row1  -->
-             <div class=" shadow-sm border-round16px pb-20px pt-10px">
-                <div class="d-flex justify-content-start mt-20px mx-20px flex-container">
-                   <p class="fontfamily-gotham-heading-2">Software License Management</p>
+             <div class=" shadow-sm border-round16px pb-20px mt-10px">
+                <div class="d-flex justify-content-start  mx-20px flex-container">
+                   <p class="fontfamily-gotham-heading-2 mt-20px">Software License Management</p>
                 </div>
                 <div class="  px-20px">
                    <!-- table Header Row4 Col1 -->
