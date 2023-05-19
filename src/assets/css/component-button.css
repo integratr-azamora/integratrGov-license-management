@@ -92,8 +92,6 @@
     border-color: transparent;
     padding-top: 7px;
     padding-bottom:15px;
-    margin-left:12px;
-    margin-right: 12px;
     background-color: transparent;
     white-space: nowrap;
   }
@@ -112,8 +110,6 @@
     color: var(--vt-c-black);
     padding-top: 7px;
     padding-bottom:15px;
-    margin-left:12px;
-    margin-right: 12px;
     background-color: transparent;
     white-space: nowrap;
   }

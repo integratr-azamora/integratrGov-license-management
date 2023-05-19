@@ -46,9 +46,9 @@
                   <!-- px box  -->
                </div>
                <!-- table Body  -->
-               <div class="table-responsive rounded-1   table-borderless" >
+               <div class="table-responsive rounded-1  scroll table-borderless size-table-heigth">
                   <table class="table  table-striped-custom table-hover font-table-text overflow-scroll table-responsive table-borderless" >
-             <thead >
+             <thead class="table-header">
                 <tr > 
                   <th class="text-start px-20px  pb-10px padding-top-none">
                      <div class="d-flex align-items-center">
@@ -85,6 +85,8 @@
                         <span class="font-table-column me-10px">TIN</span>
                         <i class="isax isax-arrow-down5 size-icon-table-arrow"></i>
                      </div>
+                  </th>
+                  <th class="text-start px-20px  pb-10px padding-top-none">
                   </th>
                 </tr>
              </thead>
@@ -319,6 +321,8 @@
                         </div>
                    </td>
                 </tr>
+
+                
              </tbody>
           </table>
                </div>
@@ -331,6 +335,7 @@
                      <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10 ">1</button>
                      <button class="button-pagination bg-none color-dimgray border-color-none btn-hover px-20 py-10 ">2</button>
                      <button class="button-pagination bg-none color-dimgray border-color-none btn-hover px-20 pb-5px pt-15px "><fa class="fs-16px" icon="ellipsis" /></button>
+                     <button class="button-pagination bg-none color-dimgray border-color-none btn-hover px-20 py-10 ">100</button>
                      <button class="button-pagination bg-none color-indigo border-color-none btn-hover ms-20px">Next</button>
                      <button class="button-pagination bg-none color-indigo border-color-none btn-hover"><fa class="font-size-20px  mt-1" icon="angle-right" /></button>
                   </div>

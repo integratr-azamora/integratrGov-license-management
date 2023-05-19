@@ -1,6 +1,6 @@
 License Manager
 <template>
-   <div class="container add-cont ">
+   <div class="container border add-cont ">
       <div>
          <span class="heading1 p-3">Account Details</span>
          <div class="d-flex flex-column">
@@ -224,7 +224,7 @@ License Manager
                </div>
                <span class="add-account-Roboto-font ms-10px mt-3 mb-3">Password</span>
                <!-- row2  -->
-               <div class="row row-cols-3">
+               <div class="row">
                   <div class="size-inputbox mx-10px my-10px">
                      <div class="input-group mb-3 size-inputbox ">
                         <form class="form-floating ">
@@ -234,19 +234,15 @@ License Manager
                         </form>
                      </div>
                   </div>
-                  <div class="row row-cols-2">
-                     <div class="size-inputbox mx-10px my-10px">
-                        <div class="input-group  size-inputbox ">
-                           <div class="modal-footer">
+                  <div class="input-group  size-inputbox  d-flex align-items-center ms-10px">
                               <button class="button-default bg-indigo border-color-indigo color-white">Generate</button>   
-                           </div>
                         </div>
-                     </div>      
-                  </div>
-                  <div class="modal-footer ">
+                  <div>   
+                  <div class="d-flex justify-content-end me-20px">
                      <button class="button-default button-modal bg-white border-color-none color-indigo">Cancel</button>
                      <button class="button-default bg-indigo border-color-indigo color-white">Save</button>
                 </div>
+                  </div>
                </div>
             </div>
          </div>
