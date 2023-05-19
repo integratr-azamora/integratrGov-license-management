@@ -8,7 +8,7 @@
   }
   
   .m-20px{
-    margin: 1.25rem !important;
+    margin: 1.25rem;
   }
   
 /* margin  */
@@ -43,8 +43,9 @@
   margin-right: var(--c-size-8px);
 }
 .me-10px{
-  margin-right:var(--c-size-10px);
+  margin-right:var(--c-size-10px) !important;
 }
+
 .me-20px{
     margin-right: 1.25rem !important;
   }

@@ -2,12 +2,12 @@
    <div class=" ">
       <div class="d-flex justify-content-center">
          <div class=" rounded-3 container">
-            <div class=" heading1  ">Account Manager </div>
+            <div class=" heading1  mb-20px">Account Manager </div>
             <!-- row1  -->
             <div class=" shadow-sm border-round16px pb-20px">
-               <div class="d-flex justify-content-between mt-20px pt-12px mx-20px">
-                  <p class="fontfamily-gotham-heading-2">Registered Accounts</p>
-                  <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center margin-none">
+               <div class="d-flex justify-content-between  mx-20px pt-12px">
+                  <p class="fontfamily-gotham-heading-2 pb-2">Registered Accounts</p>
+                  <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center margin-none ">
                      <fa class="font-size-20px me-8px" icon="plus" />
                      Add
                   </button>
