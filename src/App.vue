@@ -26,7 +26,7 @@ import { RouterLink, RouterView } from 'vue-router'
                </ul>
             </div>
             <div>
-            <div class="dropdown outline-none button-tab mb-5">
+            <div class="dropdown outline-none button-tab mb-5 mx-20px">
                   <button class="btn padding-none border-color-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                         Sprint 2
                   </button>
