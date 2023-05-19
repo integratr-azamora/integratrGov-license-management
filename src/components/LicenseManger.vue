@@ -47,7 +47,7 @@
                   <!-- px box  -->
                </div>
                <!-- table Body  -->
-               <div class="table-responsive rounded-1   table-borderless" >
+               <div class="table-responsive rounded-1 table-borderless" >
                   <table class="table  table-striped-custom table-hover font-table-text overflow-scroll table-responsive table-borderless" >
              <thead >
                 <tr > 

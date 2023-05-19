@@ -13,6 +13,9 @@
   
 /* margin  */
 /* margin-start  */
+.ms-5px{
+  margin-left: var(--c-size-5px) !important;
+}
 .ms-12px{
   margin-left:var(--c-size-7px);
 }
@@ -32,6 +35,9 @@
 /* margin-end  */
 .me-4px{
   margin-right: var(--c-size-4px);
+}
+.me-5px{
+  margin-right: var(--c-size-5px) !important;
 }
 .me-8px{
   margin-right: var(--c-size-8px);
@@ -91,8 +97,8 @@
     margin-right: var(--c-size-10px);
   }
   .mx-20px{
-    margin-left: var(--c-size-20px);
-    margin-right: var(--c-size-20px);
+    margin-left: var(--c-size-20px) !important;
+    margin-right: var(--c-size-20px) !important;
   }
   .my-20px{
     margin-top: var(--c-size-20px);
