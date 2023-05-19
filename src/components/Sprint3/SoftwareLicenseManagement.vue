@@ -358,17 +358,17 @@
        </div>
     </div>
 
-    <div class="">
+    <div class="mt-20px">
        <div class="d-flex justify-content-center">
           <div class=" rounded-3 container ">
              <!-- row1  -->
              <div class=" shadow-sm border-round16px pb-10px pt-10px">
-                <div class="d-flex justify-content-start mt-20px mx-20px flex-container">
+                <div class="d-flex justify-content-start mt-10px mx-20px flex-container">
                    <p class="fontfamily-gotham-heading-3">License Guidelines</p>
                 </div>
                 <div class="d-flex justify-content-start mt-20px mx-10px flex-container">
                     <div class="form-floating width-max ">
-                        <textarea class="form-control size-textarea-licensemanager bg-whitesmoke" placeholder="Leave a comment here" id="floatingTextarea2">
+                        <textarea class="form-control size-textarea-licensemanager bg-whitesmoke box-shadow-none" placeholder="Leave a comment here" id="floatingTextarea2">
 License Key/Activation Code Format 
 1st Letter = represents the module 
 2nd Letter - represents the validty
