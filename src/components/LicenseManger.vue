@@ -47,9 +47,9 @@
                   <!-- px box  -->
                </div>
                <!-- table Body  -->
-               <div class="table-responsive rounded-1 table-borderless" >
+               <div class="table-responsive rounded-1 table-borderless scroll size-table-heigth" >
                   <table class="table  table-striped-custom table-hover font-table-text overflow-scroll table-responsive table-borderless" >
-             <thead >
+             <thead class="table-header">
                 <tr > 
                   <th class="text-start px-20px  pb-10px padding-top-none">
                      <div class="d-flex align-items-center">
