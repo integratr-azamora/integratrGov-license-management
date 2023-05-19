@@ -20,10 +20,9 @@
             </select>
             <label for="floatingSelect" class="Roboto-label-font">Version</label>
          </div>
-         <!-- 3rd -->
          <div class="form-floating m-20px">
             <select class="form-select Roboto-input-box-font" id="floatingSelect" aria-label="Floating label select">
-               <option selected>n/a</option>
+               <option selected>N/a</option>
             </select>
             <label for="floatingSelect" class="Roboto-label-font">Grace Period</label>
          </div>
@@ -64,28 +63,27 @@
          <div class="border-bottom-license"></div>
          <!-- 1st -->
          <div class="form-floating m-20px">
-         <select class="form-select Roboto-input-box-font" id="floatingSelect" aria-label="Floating label select">
-            <option selected>Pasig City</option>
-         </select>
-         <label for="floatingSelect" class="Roboto-label-font">LGU/Organization</label>
-      </div>
-      <!-- 2nd -->
-      <div class="form-floating m-20px">
-         <select class="form-select Roboto-input-box-font" id="floatingSelect" aria-label="Floating label select">
-            <option selected>Juan Dela Cruz</option>
-         </select>
-         <label for="floatingSelect" class="Roboto-label-font">Client</label>
-      </div>
-      <!-- 3rd -->
+            <select class="form-select Roboto-input-box-font" id="floatingSelect" aria-label="Floating label select">
+               <option selected>Pasig City</option>
+            </select>
+            <label for="floatingSelect" class="Roboto-label-font">LGU/Organization</label>
+         </div>
+         <!-- 2nd -->
+         <div class="form-floating m-20px">
+            <select class="form-select Roboto-input-box-font" id="floatingSelect" aria-label="Floating label select">
+               <option selected>Juan Dela Cruz</option>
+            </select>
+            <label for="floatingSelect" class="Roboto-label-font">Client</label>
+         </div>
+         <!-- 3rd -->
          <form class="form-floating m-20px">
             <input type="text" class="form-control Roboto-input-box-font shadow-sm border-color-none bg-whitesmoke" id="information" value="juandelacruz@gmail.com" >
             <label for="information" class="Roboto-label-font">Email Address</label>
          </form>
-
-      <div class="modal-footer text-center justify-content m-20px">
-         <button class="button-default bg-white border-color-none color-indigo me-0">Cancel</button>
-         <button class="button-default bg-indigo border-color-indigo color-white me-0">Save</button>
+         <div class="modal-footer text-center justify-content m-20px">
+            <button class="button-default bg-white border-color-none color-indigo me-0">Cancel</button>
+            <button class="button-default bg-indigo border-color-indigo color-white me-0">Save</button>
+         </div>
       </div>
-   </div>
    </div>
 </template>
