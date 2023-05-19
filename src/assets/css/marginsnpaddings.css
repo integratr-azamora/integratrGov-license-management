@@ -54,6 +54,9 @@
 .mt-1px{
   margin-top:1px  !important;
 }
+.mt-5px{
+  margin-top: var(--c-size-5px);
+}
 .mt-24px{
   margin-top: var(--c-size-24px);
 }
@@ -81,6 +84,9 @@
   }
 /* margin-top  */  
 /* margin-bottom  */
+.mb-5px{
+  margin-bottom: var(--c-size-5px);
+}
 .mb-10px{
     margin-bottom: var(--c-size-10px);
   }
