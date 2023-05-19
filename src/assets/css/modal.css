@@ -164,15 +164,16 @@
     bottom: 7px;
 }
 
-.calendar-modal{
-    display: inline-block;
-    position:absolute;
-    left:445px; 
-    bottom: 85px;
-    font-size: 20px;
-}
-
 .info2{
     width: 96px;
     height: 96px;
+}
+/* modal */
+.calendar-toggle {
+    position:absolute;
+    right: 10px; 
+    transform: translateY(-145%);
+    cursor: pointer;
+    font-size: 20px;
+    
 }
