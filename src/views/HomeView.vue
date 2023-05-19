@@ -29,5 +29,6 @@ import AddAccountClientDetails from '../components/AddAccountClientDetails.vue';
       <Typography/>
       <LicensekeyIssue/>
       <AddAccountClientDetails/>
+      <DomainManagerViewRecord/>
   </main>
 </template>
