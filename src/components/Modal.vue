@@ -1,7 +1,8 @@
 <template>
    <!-- con1 -->
    <br>
-   <div class="container container-modal p-20px" >
+   <div class="d-flex justify-content-center " >
+   <div class="container-modal" >
       <div class="modal-header">
          <hr>
          <div class="position-absolute top-0 end-0">
@@ -28,9 +29,11 @@
          <button class="button-default bg-indigo border-color-indigo color-white ms-5px mt-0 mb-0">Submit</button>      
       </div>
    </div>
+   </div>
    <!-- con2 -->
    <br>
-   <div class="container container-user p-20px" >
+   <div class="d-flex justify-content-center">
+   <div class="container-user" >
       <div class="modal-header">
          <p class="container-modal-title">Tag User</p>
          <div class="position-relative">
@@ -56,15 +59,16 @@
          <select class="form-select border-0 shadow-sm mt-20px" id="admin">
             <option selected>[Owner; Admin]</option>
          </select>
-         <fa class="arrow-icon arrow-icon-positon margin-top-left gray" icon="angle-down"/>
       </div>
       <div class="modal-footer">
          <button class="button-default bg-indigo border-color-indigo color-white me-0 mt-20px">Send Request</button>      
       </div>
    </div>
+   </div>
    <!-- con3 -->
    <br>
-   <div class="container container-transfer-ownership p-20px">
+   <div class="d-flex justify-content-center">
+   <div class="container-transfer-ownership">
       <div class="modal-header">
          <p class="container-modal-title"><b>Transfer Ownership</b></p>
          <div class="position-relative">
@@ -93,9 +97,11 @@
          <button class="button-default bg-indigo border-color-indigo color-white me-0 mt-20px">Send Request</button>      
       </div>
    </div>
+   </div>
    <!-- con4 -->
    <br>
-   <div class="container container-existing p-20px" >
+   <div class="d-flex justify-content-center">
+   <div class="container-existing" >
       <div class="modal-header">
          <p class="container-modal-title"><b>Existing Business</b></p>
          <div class="d-flex flex-row">
@@ -111,14 +117,15 @@
             </span>
          </div>
       </div>
-      <p class="font-style-roboto-modal4 mt-20px">Business does not exist on our system.</p>
+      <p class="font-style-roboto-modal4">Business does not exist on our system.</p>
       <input type="email" class="form-control mt-10px shadow-sm border-color-valencia bg-lavender-bush" id="input-form1" placeholder="Transaction No.">   
       <input type="email" class="form-control mt-10px shadow-sm border-color-valencia bg-lavender-bush" id="input-form1" placeholder="License No.">   
       <input type="email" class="form-control mt-10px shadow-sm border-color-valencia bg-lavender-bush" id="input-form1" placeholder="TIN No.">   
       <input type="email" class="form-control mt-10px shadow-sm border-color-valencia bg-lavender-bush" id="input-form1" placeholder="Date Established">    
-      <i class=" calendar-modal gray isax isax-calendar-1"></i>
+      <i class="icon-calendar calendar-modal gray isax isax-calendar-1"></i>
       <div class="modal-footer">
          <button class="button-default bg-indigo border-color-indigo color-white me-0 mt-10px">Search</button>      
       </div>
+   </div>
    </div>
 </template>
