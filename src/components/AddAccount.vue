@@ -135,6 +135,16 @@ License Manager
                         </form>
                      </div>
                   </div>
+
+                  <div class="size-inputbox mx-10px my-10px">
+                        <div class="form-floating input-group mb-3 size-inputbox">
+                            <select class="default-password form-control shadow-sm border-color-none"  value="NCR">
+                           <option selected>Open this select menu</option>
+                           </select>
+                           <label for="floatingPassword">Works with selects</label>
+                        </div>
+                  </div>
+
                   <div class="size-inputbox mx-10px my-10px">
                      <div class="input-group mb-3 size-inputbox Roboto-input-box-font">
                         <form class="form-floating">
