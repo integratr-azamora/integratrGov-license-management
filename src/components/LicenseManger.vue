@@ -4,9 +4,9 @@
          <div class=" rounded-3 container ">
             <div class=" heading1  mb-20px">License Manager </div>
             <div>
-               <button class="button-tab-active">Unassigned License Keys</button>
-               <button class="button-tab"><a class="dropdown-item " href="/licensekey-assigned">Unassigned License Keys</a></button>
-               <button class="button-tab">Software License Management</button>
+               <button class="button-tab-active"><a class="dropdown-item " href="/licmanager">Unassigned License Keys</a></button>
+                <button class="button-tab"><a class="dropdown-item " href="/licensekey-assigned">Assigned License Keys</a></button>
+                <button class="button-tab"><a class="dropdown-item " href="/software-license-management">Software License Management</a></button>
             </div>
             <!-- row1  -->
             <div class=" shadow-sm border-round16px pb-20px ">

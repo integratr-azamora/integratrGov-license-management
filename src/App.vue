@@ -45,7 +45,7 @@ import { RouterLink, RouterView } from 'vue-router'
                   </button>
                   <ul class="dropdown-menu pt-17px pb-22px " aria-labelledby="dropdownMenuButton1">
                   <li><a class="dropdown-item p-10px table-dropdown-hover " href="/licensekey-assigned">MF - E-Gov>>License Manager>>Assigned License Keys - Develop Static Screen</a></li>
-                  <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">MF - E-Gov>>License Manager>>Software License Management - Develop Static Screen</a></li>
+                  <li><a class="dropdown-item p-10px table-dropdown-hover " href="/software-license-management">MF - E-Gov>>License Manager>>Software License Management - Develop Static Screen</a></li>
                   <li><a class="dropdown-item p-10px table-dropdown-hover " href="/domain-manager">MF - E-Gov>>Domain Manager - Develop Static Screen</a></li>
                   <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">MF - E-Gov>>Domain Manager>>View Record - Develop Static Screen</a></li>
                   <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">VC - E-Gov>>License Manager>>View License - Develop Static Screen</a></li>
