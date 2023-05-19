@@ -1,13 +1,6 @@
 .client-cont1{
     background: #FFFFFF;
-    padding: 20px;
-}
-
-.border-color-frenchskyblue{
-  border-top: none; 
-  border-left: none;
-  border-right: none; 
-  border-width: 1px;
+    
 }
 
 .client-roboto-fonts{
@@ -20,8 +13,8 @@
 }
 
 .client-container{
-  height: 745px;
-  width: 895px;
+  max-height: 745px;
+  max-width: 895px;
   box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
   border-radius: 8px;
   background: var(--vt-c-white);  
@@ -37,8 +30,10 @@
     border-radius: 16px;
 }
 /* container-addaccount-client  */
+/* 497px  */
 .action-cont4{
-    width: 497px;
+    max-width:497px;
+    min-height: max-content;
     background: #F3F6FF;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
@@ -87,3 +82,10 @@
   display: flex;
   gap: 10px;
  }
+
+ .border-bottom-client {
+  border-top: none; 
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid;
+}
