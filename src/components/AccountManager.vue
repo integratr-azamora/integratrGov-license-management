@@ -330,7 +330,7 @@
                <div class="d-flex flex-row justify-content-end mx-20px mt-20px font-table-pagination d-flex align-items-center ">
                   <!-- pagination  -->
                   <div class=" col padding-none">
-                     <div class=" responsive-center responsive-margin-end-5px mx-auto">
+                     <div class=" responsive-between responsive-margin-end-5px mx-auto">
                      <button class="button-pagination bg-none color-dimgray border-color-none"><fa class="font-size-20px  mt-1" icon="angle-left" /></button>
                      <button class="button-pagination bg-none color-dimgray border-color-none responsive-table-margin responsive-table-margin-end">Previous</button>
                      <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10 ">1</button>
