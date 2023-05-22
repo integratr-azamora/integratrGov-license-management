@@ -16,7 +16,10 @@
 @import './/css/AddAccount.css';
 @import './/css/Client-details.css';
 @import './css/borders.css';
-
+@import './css/viewrecord.css';
+@import './css/UpdateLicenseModal.css';
+@import './css/TransferLicenseModal.css';
+@import './css/SuspendLicense.css';
 @font-face {
   font-family: 'Poppins-regular';
   src: url(../assets/font_styles/Poppins-Regular.ttf) format(truetype); 
