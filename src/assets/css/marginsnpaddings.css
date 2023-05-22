@@ -82,6 +82,13 @@
   .mt-20px{
     margin-top: var(--c-size-20px) !important;
   }
+  .mt-30px{
+    margin-top: var(--c-size-30px) !important;
+  }
+  .mt-25px{
+    margin-top: var(--c-size-25px) !important;
+
+  }
 /* margin-top  */  
 /* margin-bottom  */
 .mb-5px{
@@ -137,6 +144,10 @@
     margin-top: -10px !important;
     margin-bottom: -10px !important;
 }
+.my-25px{
+  margin-top: 25px !important;
+  margin-bottom: 25px !important;
+}
 /* margin-y  */
   
   
@@ -149,6 +160,9 @@
   .m-auto{
     margin-right: auto;
     margin-left: auto;
+  }
+  .mb-35px{
+    margin-bottom: 35px !important;
   }
   
 /* custom-margin  */
@@ -299,6 +313,7 @@ padding-bottom: 0px !important;
  padding-left: 0px !important;
  padding-right: 0px !important;
 }
+ 
 /* padding none  */
 /* margin none  */
 

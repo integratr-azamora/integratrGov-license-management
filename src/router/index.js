@@ -120,7 +120,7 @@ const router = createRouter({
     }
     ,
     {
-      path: '/transfer-licenseodal',
+      path: '/transfer-license-modal',
       name: 'transfer-license-modal',
       component: TransferLicenseModal
     }
