@@ -87,7 +87,6 @@
   }
   .mt-25px{
     margin-top: var(--c-size-25px) !important;
-
   }
 /* margin-top  */  
 /* margin-bottom  */
@@ -147,6 +146,10 @@
 .my-25px{
   margin-top: 25px !important;
   margin-bottom: 25px !important;
+}
+.my-33px{
+  margin-top: 33px !important;
+  margin-bottom: 33px !important;
 }
 /* margin-y  */
   

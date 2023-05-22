@@ -1,18 +1,17 @@
 <template>
-<div class="d-flex justify-content-center" >
-   <div class="suspende-cont-modal" >
-      <div class="modal-header">
-         <div class="text-center">
-         <div class="">
-            <p class="modal-font-style-roboto">Are you sure you want to suspend this license?</p>
+   <div class="d-flex justify-content-center" >
+      <div class="suspend-cont-modal" >
+         <div class="modal-header">
+            <div class="text-center">
+               <div class="">
+                  <p class="modal-font-style-roboto">Are you sure you want to suspend this license?</p>
+               </div>
+            </div>
          </div>
-      </div>
-      </div>
-      <div id="info" class="text-center mt-20px">
-         <img src="/src/assets/icon/info.svg" class="center info2" alt="info">
-      </div>
-      
-      <div class="row mt-20">
+         <div id="info" class="text-center mt-20px">
+            <img src="/src/assets/icon/info.svg" class="center info2" alt="info">
+         </div>
+         <div class="row mt-20">
             <div class="col">
                <div class="row mt-20px">
                   <div class="row d-flex align-items-center">
@@ -46,30 +45,20 @@
                      </span>
                   </div>
                   <div class=" mt-10px">
-                     <div class="d-flex justify-content-start mt-20px mx-10px flex-container">
-                    <div class="form-floating width-max ">
-                        <textarea class="form-control size-textarea-licensemanager bg-whitesmoke box-shadow-none" placeholder="Leave a comment here" id="floatingTextarea2">
-License Key/Activation Code Format 
-1st Letter = represents the module 
-2nd Letter - represents the validty
-....
-                        </textarea>
-                        <label for="floatingTextarea2">Description</label>
-                        
-                    </div>
-                </div>
-                        <!-- <form class="form-floating">
-                           <input type="email" class="form-control shadow-sm border-color-none " id="floatingInputValue" placeholder="name@example.com" value="Lorem ipsum dolor sit amet">
-                           <label for="floatingInputValue " class="Roboto-label-font">Reason for suspension</label>
-                        </form> -->
-                     </div>
+                        <div class="form-floating">
+                           <input-box class="form-control size-textarea-suspend-license shadow-sm border-color-none " placeholder="Leave a comment here" id="floatingTextarea2">
+Lorem ipsum dolor sit amet  
+                           </input-box>
+                           <label for="floatingTextarea2">Reason for suspension</label>
+                        </div>
+                  </div>
                </div>
             </div>
          </div>
-      <div class="text-center mt-30px">
-         <button class="button-default bg-white border-color-indigo color-indigo me-5px mt-0 mb-0 ">Cancel</button>      
-         <button class="button-default bg-indigo border-color-indigo color-white ms-5px mt-0 mb-0">Submit</button>      
+         <div class="text-center mt-20px">
+            <button class="button-default bg-white border-color-indigo color-indigo me-5px mt-0 mb-0 ">Cancel</button>      
+            <button class="button-default bg-indigo border-color-indigo color-white ms-5px mt-0 mb-0">Submit</button>      
+         </div>
       </div>
-   </div>
    </div>
 </template>
