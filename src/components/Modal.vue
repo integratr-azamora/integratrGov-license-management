@@ -122,7 +122,9 @@
       <input type="email" class="form-control mt-10px shadow-sm border-color-valencia bg-lavender-bush" id="input-form1" placeholder="License No.">   
       <input type="email" class="form-control mt-10px shadow-sm border-color-valencia bg-lavender-bush" id="input-form1" placeholder="TIN No.">   
       <input type="email" class="form-control mt-10px shadow-sm border-color-valencia bg-lavender-bush" id="input-form1" placeholder="Date Established">    
-      <span class="icon-calendar calendar-modal gray isax isax-calendar-1"></span>
+      <div class="password-container form-floating border-light">
+     <i class="isax isax-calendar-1 gray calendar-toggle"></i>
+    </div>
       <div class="modal-footer">
          <button class="button-default bg-indigo border-color-indigo color-white me-0 mt-10px">Search</button>      
       </div>

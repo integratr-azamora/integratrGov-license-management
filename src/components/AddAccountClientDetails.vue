@@ -1,5 +1,5 @@
 <template>
-   <div class="client-cont1 container" >
+   <div class="client-cont1" >
       <span class="client-roboto-fonts mt-20px">Juan Dela Cruz</span>
       <div class="row">
          <!-- container-left  -->

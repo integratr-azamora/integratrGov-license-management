@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+
 import Welcome from '../views/Welcome.vue'
 import Typography from '../components/Typography.vue';
 import StyleComponent from '../components/StyleComponent.vue';
@@ -9,13 +9,17 @@ import Tables from '../components/Tables.vue'
 import Modal from '../components/Modal.vue';
 import AddAccount from'../components/AddAccount.vue'
 import AddAccountClientDetails from'../components/AddAccountClientDetails.vue'
-
 import AccountManager from '../components/AccountManager.vue';
 import LicenseManager from '../components/LicenseManger.vue';
 import LicensekeyIssue from '../components/Licensekey-Issue.vue';
 import DomainManager from '../components/Sprint3/DomainManager.vue';
 import SoftwareLicenseManagement from '../components/Sprint3/SoftwareLicenseManagement.vue';
 import LicenseKeyAssigned from '../components/Sprint3/LicenseManagerAssigned.vue';
+import DomainManagerViewRecord from '../components/Sprint3/DomainManagerViewRecord.vue';
+import UpdateLicenseModal from '../components/Sprint3/UpdateLicenseModal.vue';
+import TransferLicenseModal from  '../components/Sprint3/TransferLicenseModal.vue';
+import SuspendLicense from '../components/Sprint3/SuspendLicense.vue';
+import AddLicenseDevelopStaticScreen from '../components/Sprint3/AddLicenseDevelopStaticScreen.vue';
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -102,6 +106,40 @@ const router = createRouter({
       name: 'software-license-management',
       component: SoftwareLicenseManagement
     }
+    ,
+    {
+      path: '/domain-manager-viewRecord',
+      name: 'domain-manager-viewRecord',
+      component: DomainManagerViewRecord
+    }
+    ,
+    {
+      path: '/update-license-modal',
+      name: 'update-license-modal',
+      component: UpdateLicenseModal
+    }
+    ,
+    {
+      path: '/transfer-license-modal',
+      name: 'transfer-license-modal',
+      component: TransferLicenseModal
+    }
+    
+    ,
+    {
+      path: '/Suspend-License',
+      name: 'Suspend-License',
+      component: SuspendLicense
+    }
+    
+
+        ,
+    {
+      path: '/add-license-develop-static-screen',
+      name: 'add-license-develop-static-screen',
+      component: AddLicenseDevelopStaticScreen
+    }
+    
 
     // sprint 3
     

@@ -10,6 +10,9 @@ import LicenseManger from '../components/LicenseManger.vue';
 import LicensekeyIssue from '../components/Licensekey-Issue.vue';
 import AddAccount from '../components/AddAccount.vue';
 import AddAccountClientDetails from '../components/AddAccountClientDetails.vue';
+import UpdateLicenseModal from '../components/UpdateLicenseModal.vue';
+import TransferLicenseModal from '../components/TransferLicenseModal.vue';
+import SuspendLicense from '../components/SuspendLicense.vue';
 </script>
 
 
@@ -29,5 +32,9 @@ import AddAccountClientDetails from '../components/AddAccountClientDetails.vue';
       <Typography/>
       <LicensekeyIssue/>
       <AddAccountClientDetails/>
+      <DomainManagerViewRecord/>
+      <UpdateLicenseModal/>
+      <SuspendLicense/>
+      
   </main>
 </template>

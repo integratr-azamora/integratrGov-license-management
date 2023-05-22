@@ -140,9 +140,9 @@
                <!-- table Footer Row9 Column -->
                <div class="d-flex flex-row justify-content-between me-20px ms-20px font-table-pagination d-flex align-items-center row">
                   
-                  <div class="d-flex flex-row d-flex align-items-center  d-inline-flex col">
+                  <div class="d-flex flex-row d-flex align-items-center d-inline-flex col padding-none responsive-center-mb-20px">
                      <!-- text  -->
-                     <p class="">Show</p>
+                     <p class="me-1">Show</p>
                      <!-- text  -->
                      <!-- button  -->
                      <button class="button-default bg-none color-indigo border-color-indigo d-flex flex-row mx-10px">
@@ -151,16 +151,14 @@
                      </button>
                      <!-- button  -->
                   </div>
-                  <div class="col"></div>
                   <!-- pagination  -->
-                  <div class=" col ">
-                     <div class="d-flex justify-content-end">
+                  <div class=" col padding-none">
+                     <div class=" responsive-between responsive-margin-end-5px mx-auto">
                      <button class="button-pagination bg-none color-dimgray border-color-none"><fa class="font-size-20px  mt-1" icon="angle-left" /></button>
-                     <button class="button-pagination bg-none color-dimgray border-color-none me-20px">Previous</button>
+                     <button class="button-pagination bg-none color-dimgray border-color-none responsive-table-margin responsive-table-margin-end ">Previous</button>
                      <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10 ">1</button>
                      <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 ">2</button>
-                     <button class="button-pagination bg-none color-dimgray border-color-none px-20 pb-5px pt-15px "><fa class="fs-16px" icon="ellipsis" /></button>
-                     <button class="button-pagination bg-none color-indigo border-color-none ms-20px">Next</button>
+                     <button class="button-pagination bg-none color-indigo border-color-none responsive-table-margin responsive-table-margin-start ">Next</button>
                      <button class="button-pagination bg-none color-indigo border-color-none"><fa class="font-size-20px  mt-1" icon="angle-right" /></button>
                      </div>
                   </div>
