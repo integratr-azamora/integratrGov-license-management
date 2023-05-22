@@ -1,4 +1,4 @@
-@media screen and (min-width :771px){
+@media screen and (min-width :760px){
     .responsive-between{
       display: flex !important;
       justify-content: end !important;
@@ -30,7 +30,7 @@
         display: none;
     }
   }
-  @media screen and (max-width :770px){
+  @media screen and (max-width :760px){
     .responsive-between{
       display: flex !important;
       justify-content: space-between !important;
