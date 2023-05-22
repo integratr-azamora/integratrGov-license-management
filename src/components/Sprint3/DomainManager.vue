@@ -43,7 +43,7 @@
                    <!-- px box  -->
                 </div>
                 <!-- table Body  -->
-                <div class="table-responsive rounded-1 scroll  table-borderless size-table-heigth" >
+                <div class="table-responsive rounded-1 scroll-domain-manager  table-borderless size-table-heigth" >
                    <table class="table  table-striped-custom table-hover font-table-text overflow-scroll table-responsive table-borderless" >
               <thead class="table-header">
                  <tr > 
@@ -223,12 +223,12 @@
                    <div class=" col padding-none">
                      <div class=" responsive-between responsive-margin-end-5px mx-auto">
                      <button class="button-pagination bg-none color-dimgray border-color-none"><fa class="font-size-20px  mt-1" icon="angle-left" /></button>
-                     <button class="button-pagination bg-none color-dimgray border-color-none responsive-table-margin responsive-table-margin-end">Previous</button>
+                     <button class="button-pagination bg-none color-dimgray border-color-none responsive-table-margin responsive-table-margin-end r-display-none">Previous</button>
                      <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10 ">1</button>
                      <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 ">2</button>
                      <button class="button-pagination bg-none color-dimgray border-color-none px-20 pb-5px pt-15px "><fa class="fs-16px" icon="ellipsis" /></button>
                      <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 ">100</button>
-                     <button class="button-pagination bg-none color-indigo border-color-none responsive-table-margin responsive-table-margin-start">Next</button>
+                     <button class="button-pagination bg-none color-indigo border-color-none responsive-table-margin responsive-table-margin-start r-display-none">Next</button>
                      <button class="button-pagination bg-none color-indigo border-color-none"><fa class="font-size-20px  mt-1" icon="angle-right" /></button>
                      </div>
                   </div>

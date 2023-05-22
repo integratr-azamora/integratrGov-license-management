@@ -25,6 +25,11 @@
         margin: 5px;
     }
   }
+  @media screen and (max-width :500px){
+    .r-display-none{
+        display: none;
+    }
+  }
   @media screen and (max-width :770px){
     .responsive-between{
       display: flex !important;
