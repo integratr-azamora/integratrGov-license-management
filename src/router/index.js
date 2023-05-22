@@ -19,6 +19,7 @@ import DomainManagerViewRecord from '../components/Sprint3/DomainManagerViewReco
 import UpdateLicenseModal from '../components/Sprint3/UpdateLicenseModal.vue';
 import TransferLicenseModal from  '../components/Sprint3/TransferLicenseModal.vue';
 import SuspendLicense from '../components/Sprint3/SuspendLicense.vue';
+import AddLicenseDevelopStaticScreen from '../components/Sprint3/AddLicenseDevelopStaticScreen.vue';
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -132,7 +133,14 @@ const router = createRouter({
     }
     
 
+        ,
+    {
+      path: '/add-license-develop-static-screen',
+      name: 'add-license-develop-static-screen',
+      component: AddLicenseDevelopStaticScreen
+    }
     
+
     // sprint 3
     
   ]
