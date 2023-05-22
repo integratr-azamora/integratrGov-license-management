@@ -10,7 +10,7 @@
 
       </div>
       <div id="info" class="text-center mt-20px">
-        <img src="../" class="center info2" alt="info">
+        <img src="..." class="center info2" alt="info">
       </div>
       <div class="row mt-20">
             <div class="col ms-25px me-25px">

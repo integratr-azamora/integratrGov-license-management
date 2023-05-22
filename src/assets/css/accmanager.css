@@ -94,21 +94,7 @@
 }
 /* size  */
 
-@media screen and (min-width :771px){
-  .responsive-center{
-    display: flex !important;
-    justify-content: end !important;
-  }
-}
-@media screen and (max-width :770px){
-  .responsive-center{
-    display: flex !important;
-    justify-content: space-between !important;
-  }
-  .responsive-center-mb-20px{
-    margin-bottom: 20px;
-  }
-}
+
 
 /* .responsive-center{
   display: flex !important;

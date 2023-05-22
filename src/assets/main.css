@@ -20,6 +20,7 @@
 @import './css/UpdateLicenseModal.css';
 @import './css/TransferLicenseModal.css';
 @import './css/SuspendLicense.css';
+@import './css/mediascreen.css';
 @font-face {
   font-family: 'Poppins-regular';
   src: url(../assets/font_styles/Poppins-Regular.ttf) format(truetype); 

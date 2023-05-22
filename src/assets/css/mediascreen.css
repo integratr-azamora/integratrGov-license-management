@@ -1,0 +1,21 @@
+@media screen and (min-width :771px){
+    .responsive-center{
+      display: flex !important;
+      justify-content: end !important;
+    }
+    .responsive-table-margin-start{
+      margin-left: 20px;
+    }
+    .responsive-table-margin-end{
+      margin-right: 20px;
+    }
+  }
+  @media screen and (max-width :770px){
+    .responsive-center{
+      display: flex !important;
+      justify-content: space-between !important;
+    }
+    .responsive-center-mb-20px{
+      margin-bottom: 20px;
+    }
+  }
