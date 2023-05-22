@@ -1,8 +1,8 @@
 <template>
    <div class="d-flex justify-content-center " >
       <div class="licensekey-container">
-         <div class="d-flex justify-content-between my-20px">
-            <p class="license-header mx-20px">Update License</p>
+         <div class="d-flex justify-content-between my-25px">
+            <p class="license-header ms-20px">Update License</p>
             <button class="mx-20px button-round bg-indigo color-white border-color-indigo d-flex align-items-center">
                <fa class="font-size-20px" icon="close" />
             </button>
@@ -50,11 +50,17 @@
             <i class="isax isax-calendar-1 gray calendar-update-modals"></i>
          </div>
          <!-- 5th -->
-         <div class="form-floating m-20px">
-            <textarea type="text" class="textarea-license form-control Roboto-input-box-font" value="Lorem ipsum dolor sit amet" ></textarea>
-            <label for="information" class="Roboto-label-font">Remarks</label>
+         <div class="form-floating ms-10px me-10px mt-20px">
+            <div class="d-flex justify-content-start mt-20px mx-10px flex-container">
+               <div class="form-floating width-max ">
+                  <textarea class="form-control size-textarea-update-license-modal border-color-none" placeholder="Leave a comment here" id="floatingTextarea2">
+Lorem ipsum dolor sit amet 
+                  </textarea>
+                  <label for="information">Remarks</label>
+               </div>
+            </div>
          </div>
-         <div class="d-flex text-center justify-content-end mx-20px my-20px">
+         <div class="d-flex text-center justify-content-end ms-20px me-20px mb-35px mt-20px">
             <button class="button-default bg-none border-color-none color-indigo me-2">Cancel</button>
             <button class="button-default bg-indigo border-color-indigo color-white me-0">Save</button>
          </div>
