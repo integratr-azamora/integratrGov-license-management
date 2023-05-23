@@ -14,8 +14,8 @@
                   <p class="fontfamily-gotham-heading-2 m-10px">Unassigned Licenses</p>
                   <div class="d-flex justify-content-end">
                      <div class="responsive-end responsive-rows ">
-                        <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center r-text-sm mx-0">
-                           <fa class="font-size-20px r-text-sm me-8px" icon="plus" />
+                        <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center mx-0">
+                           <fa class="font-size-20px me-8px" icon="plus" />
                            Add
                         </button>
                      </div>
@@ -369,7 +369,7 @@
                    <p class="fontfamily-gotham-heading-3">License Guidelines</p>
                    <div class="d-flex justify-content-end">
                      <div class="responsive-end responsive-rows ">
-                        <button class="button-default bg-none color-indigo border-color-indigo d-flex flex-row align-items-center responsive-tab-content r-text-sm ">
+                        <button class="button-default bg-none color-indigo border-color-indigo d-flex flex-row align-items-center responsive-tab-content ">
                            Edit
                         </button>
                      </div>

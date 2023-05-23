@@ -7,8 +7,8 @@
             <div class=" shadow-sm border-round16px pb-20px">
                <div class="d-flex justify-content-between  mx-20px pt-12px">
                   <p class="fontfamily-gotham-heading-2 pb-2">Registered Accounts</p>
-                  <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center r-m-5px responsive-tab-content responsive-center-trb-10px responsive-table-margin-end-10px r-text-sm">
-                     <fa class="font-size-20px r-text-sm me-8px" icon="plus" />
+                  <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center r-m-5px responsive-tab-content responsive-center-trb-10px responsive-table-margin-end-10px">
+                     <fa class="font-size-20px me-8px" icon="plus" />
                      Add
                   </button>
                </div>
