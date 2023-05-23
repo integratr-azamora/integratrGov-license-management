@@ -20,10 +20,15 @@
         margin: 5px;
     }
   }
-  @media screen and (max-width :500px){
+  @media screen and (max-width :460px){
     .r-display-none{
         display: none;
     }
+    .responsive-table-margin-x-20px{
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+      }
+
   }
   @media screen and (max-width :520px){
     .r-text-sm{

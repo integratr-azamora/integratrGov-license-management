@@ -6,7 +6,10 @@
 /* dropdown */
 .dropdown-menu{
   border-radius:16px !important;
+  margin-top: -5px !important;
+  
 }
+
 
 .dropdown {
     position: relative;
