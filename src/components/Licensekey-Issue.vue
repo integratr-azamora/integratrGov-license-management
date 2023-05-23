@@ -7,7 +7,7 @@
             <fa class="font-size-20px" icon="close" />
          </button>
          </div>
-         
+      
          <div class="border-bottom-license mt-20px"></div>
          <!-- 1st -->
          <div class="form-floating mx-20px">

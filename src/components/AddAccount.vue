@@ -1,6 +1,6 @@
 <template>
    <div class="d-flex justify-content-center">
-      <div class="add-cont">
+      <div class="add-cont" id="exampleModal" aria-hidden="true">
          <div>
             <span class="add-account-Roboto-font p-3 ">Basic Information</span>
             <!-- row1  -->

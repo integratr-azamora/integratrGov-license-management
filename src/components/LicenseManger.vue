@@ -17,7 +17,7 @@
                         <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center r-m-5px responsive-tab-content responsive-center-trb-10px">
                            Validate License Key
                         </button>
-                        <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center r-m-5px responsive-tab-content responsive-center-trb-10px">
+                        <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center r-m-5px responsive-tab-content responsive-center-trb-10px" @click="generate_license_modal = true">
                            Generate License Key
                         </button>
                      </div>
@@ -355,4 +355,69 @@
          </div>
       </div>
    </div>
+   [1:39 PM] Jessa Mae Aruta
+
+<Teleport to="body">
+    <Modal :show="generate_license_modal" @close="generate_license_modal = false" class="w-100">
+      <template #header>
+         <div class="licensekey-container">
+         <div class="d-flex justify-content-between mt-20px">
+            <p class="license-header mx-20px">Generate License Key</p>
+         <button class="mx-20px button-round bg-indigo color-white border-color-indigo d-flex align-items-center">
+            <fa class="font-size-20px" icon="close" />
+         </button>
+         </div>
+      
+         <div class="border-bottom-license mt-20px"></div>
+         <!-- 1st -->
+         <div class="form-floating mx-20px">
+            <select class="form-select Roboto-input-box-font" id="floatingSelect" aria-label="Floating label select">
+               <option selected>Business Permit and License</option>
+            </select>
+            <label for="floatingSelect" class="Roboto-label-font">Module</label>
+         </div>
+         <!-- 2nd -->
+         <div class="form-floating mx-20px">
+            <select class="form-select Roboto-input-box-font" id="floatingSelect" aria-label="Floating label select">
+               <option selected>1.0</option>
+            </select>
+            <label for="floatingSelect" class="Roboto-label-font">Version</label>
+         </div>
+         <!-- 3rd -->
+         <div class="form-floating mx-20px">
+         <select class="form-select Roboto-input-box-font" id="floatingSelect" aria-label="Floating label select">
+            <option selected>n/a</option>
+         </select>
+         <label for="floatingSelect" class="Roboto-label-font">Grace Period</label>
+      </div>
+      </div>
+      </template>
+      <template #body>
+        <div class="row gx-0 g-0">
+            fhdsjfhkk
+        </div>
+      </template>
+      <template #footer>
+        <div class="row gx-0 g-0 mb-1 justify-content-end pad-top-20p">
+          Test
+        </div>
+      </template>
+   </Modal>
+  </Teleport>
 </template>
+
+<script>
+import Modal from "../components/Modal.vue"
+
+export default {
+   components: {
+      Modal
+   },
+   data() {
+      return {
+         generate_license_modal: false,
+      }
+   }
+}
+
+</script>
