@@ -11,10 +11,7 @@ import AccountManager from '../components/Account Manager/AccountManager.vue';
 import AddAccount from'../components/Account Manager/AddAccount.vue';
 import LicenseManager from '../components/License Manager/LicenseManager.vue';
 import AddAccountClientDetails from'../components/Account Manager/AddAccountClientDetails.vue';
-import LicensekeyIssue from '../components/Account Manager/Licensekey-Issue.vue';
-
-
-
+import LicensekeyIssue from '../components/License Manager/Modals/Licensekey-Issue.vue';
 import DomainManager from '../components/Domain Manager/DomainManager.vue';
 import SoftwareLicenseManagement from '../components/License Manager/SoftwareLicenseManagement.vue';
 import LicenseKeyAssigned from '../components/License Manager/LicenseManagerAssigned.vue';

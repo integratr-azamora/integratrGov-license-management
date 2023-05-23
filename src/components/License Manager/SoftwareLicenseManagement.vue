@@ -1,12 +1,12 @@
 <template>
-    <div class=" ">
+    <div>
        <div class="d-flex justify-content-center">
           <div class=" rounded-3 container">
              <div class=" heading1 mb-20px mt-20px">License Manager </div>
-             <div class="responsive-columns responsive-center">
-               <button class="button-tab padding-x-none responsive-tab-content responsive-center-mb-20px"><a class="dropdown-item " href="/licmanager">Unassigned License Keys</a></button>
-                <button class="button-tab padding-x-none responsive-table-margin-x-20px responsive-tab-content responsive-center-mb-20px"><a class="dropdown-item " href="/licensekey-assigned">Assigned License Keys</a></button>
-                <button class="button-tab-active padding-x-none responsive-tab-content responsive-center-mb-20px"><a class="dropdown-item" href="/software-license-management">Software License Management</a></button>
+             <div>
+                <button class="button-tab padding-x-none  responsive-center-mb-20px"><a class="dropdown-item " href="/licmanager">Unassigned License Keys</a></button>
+                <button class="button-tab padding-x-none responsive-table-margin-x-20px  responsive-center-mb-20px"><a class="dropdown-item " href="/licensekey-assigned">Assigned License Keys</a></button>
+                <button class="button-tab-active padding-x-none  responsive-center-mb-20px"><a class="dropdown-item" href="/software-license-management">Software License Management</a></button>
             </div>
              <!-- row1  -->
              <div class=" shadow-sm border-round16px pb-20px mt-10px">
@@ -336,15 +336,13 @@
                 <div class="d-flex flex-row justify-content-end mx-20px mt-20px font-table-pagination d-flex align-items-center ">
                    <!-- pagination  -->
                    <div class=" col padding-none">
-                     <div class=" responsive-between responsive-margin-end-5px mx-auto">
-                     <button class="button-pagination bg-none color-dimgray border-color-none"><fa class="font-size-20px  mt-1" icon="angle-left" /></button>
-                     <button class="button-pagination bg-none color-dimgray border-color-none responsive-table-margin responsive-table-margin-end r-display-none">Previous</button>
-                     <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10 ">1</button>
-                     <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 ">2</button>
-                     <button class="button-pagination bg-none color-dimgray border-color-none px-20 pb-5px pt-15px "><fa class="fs-16px" icon="ellipsis" /></button>
-                     <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 ">100</button>
-                     <button class="button-pagination bg-none color-indigo border-color-none responsive-table-margin responsive-table-margin-start r-display-none">Next</button>
-                     <button class="button-pagination bg-none color-indigo border-color-none"><fa class="font-size-20px  mt-1" icon="angle-right" /></button>
+                     <div class="d-flex justify-content-xl-end justify-content-lg-end justify-content-md-end justify-content-sm-end justify-content-between responsive-margin-end-5px mx-auto">
+                        <button class="button-pagination bg-none color-dimgray border-color-none"><fa class="font-size-20px  mt-1" icon="angle-left" /></button>
+                        <button class="button-pagination bg-none color-dimgray border-color-none responsive-table-margin responsive-table-margin-end">Previous</button>
+                        <button class="button-pagination bg-none color-indigo border-color-indigo px-20 py-10 ">1</button>
+                        <button class="button-pagination bg-none color-dimgray border-color-none px-20 py-10 ">2</button>
+                        <button class="button-pagination bg-none color-indigo border-color-none responsive-table-margin responsive-table-margin-start">Next</button>
+                        <button class="button-pagination bg-none color-indigo border-color-none"><fa class="font-size-20px  mt-1" icon="angle-right" /></button>
                      </div>
                   </div>
                    <!-- pagination  -->

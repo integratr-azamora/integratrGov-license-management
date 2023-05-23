@@ -7,7 +7,7 @@ import Typography from '../components/Style Guides/Typography.vue';
 import StyleComponent from '../components/Style Guides/StyleComponent.vue';
 import AccountManager from '../components/Account Manager/AccountManager.vue';
 import LicenseManger from '../components/License Manager/LicenseManager.vue';
-import LicensekeyIssue from '../components/Account Manager/Licensekey-Issue.vue';
+import LicensekeyIssue from '../components/License Manager/Modals/Licensekey-Issue.vue';
 import AddAccount from '../components/Account Manager/AddAccount.vue';
 import AddAccountClientDetails from '../components/Account Manager/AddAccountClientDetails.vue';
 import UpdateLicenseModal from '../components/UpdateLicenseModal.vue';
