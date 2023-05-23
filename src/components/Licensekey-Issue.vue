@@ -6,7 +6,6 @@
          <button class="mx-20px button-round bg-indigo color-white border-color-indigo d-flex align-items-center">
             <fa class="font-size-20px" icon="close" />
          </button>
-
          </div>
          
          <div class="border-bottom-license mt-20px"></div>
