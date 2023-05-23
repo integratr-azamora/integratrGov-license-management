@@ -57,7 +57,6 @@
                         </form>
                      </div>
                   </div>
-                  <!-- row1  -->
                </div>
                <div>
                   <span class="add-account-Roboto-font ms-10px mt-2 mb-2">Address</span>
@@ -115,7 +114,7 @@
                      </div>
                      <div class="size-inputbox ms-px">
                         <div class="form-floating">
-                           <select class="form-select margin-none margin-none" id="floatingSelect" aria-label="Floating label select example">
+                           <select class="form-select Roboto-input-box-font margin-none" id="floatingSelect" aria-label="Floating label select example">
                               <option selected class="Roboto-label-font">Philippines</option>
                            </select>
                            <label for="floatingSelect" class="Roboto-label-font">Country</label>
@@ -123,7 +122,7 @@
                      </div>
                      <div class="size-inputbox ms-10px">
                         <div class="form-floating">
-                           <select class="form-select Roboto-input-box-font margin-none margin-none" id="floatingSelect" aria-label="Floating label select example">
+                           <select class="form-select Roboto-input-box-font margin-none" id="floatingSelect" aria-label="Floating label select example">
                               <option selected  class="Roboto-label-font">Mandaluyong</option>
                            </select>
                            <label for="floatingSelect"  class="Roboto-label-font">City/Municipality</label>
