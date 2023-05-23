@@ -14,10 +14,10 @@
                   <p class="fontfamily-gotham-heading-2">Unassigned Licenses</p>
                   <div class="d-flex justify-content-end">
                      <div class="responsive-end responsive-rows ">
-                        <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center r-m-5px responsive-tab-content responsive-center-trb-10px r-text-sm my-0">
+                        <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center r-m-5px responsive-tab-content responsive-center-trb-10px r-text-sm mt-10px">
                            Validate License Key
                         </button>
-                        <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center r-m-5px responsive-tab-content responsive-center-trb-10px responsive-table-margin-end-10px r-text-sm my-0">
+                        <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center r-m-5px responsive-tab-content responsive-center-trb-10px responsive-table-margin-end-10px r-text-sm mt-10px">
                            Generate License Key
                         </button>
                      </div>
