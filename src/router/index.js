@@ -1,25 +1,25 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import Welcome from '../views/Welcome.vue'
-import Typography from '../components/Typography.vue';
-import StyleComponent from '../components/StyleComponent.vue';
-import Iconography from '../components/Iconography.vue';
-import InputBox from '../components/InputBoxes.vue'
-import Tables from '../components/Tables.vue'
-import Modal from '../components/Modal.vue';
-import AddAccount from'../components/AddAccount.vue'
-import AddAccountClientDetails from'../components/AddAccountClientDetails.vue'
-import AccountManager from '../components/AccountManager.vue';
-import LicenseManager from '../components/LicenseManger.vue';
-import LicensekeyIssue from '../components/Licensekey-Issue.vue';
-import DomainManager from '../components/Sprint3/DomainManager.vue';
-import SoftwareLicenseManagement from '../components/Sprint3/SoftwareLicenseManagement.vue';
-import LicenseKeyAssigned from '../components/Sprint3/LicenseManagerAssigned.vue';
-import DomainManagerViewRecord from '../components/Sprint3/DomainManagerViewRecord.vue';
-import UpdateLicenseModal from '../components/Sprint3/UpdateLicenseModal.vue';
-import TransferLicenseModal from  '../components/Sprint3/TransferLicenseModal.vue';
-import SuspendLicense from '../components/Sprint3/SuspendLicense.vue';
-import AddLicenseDevelopStaticScreen from '../components/Sprint3/AddLicenseDevelopStaticScreen.vue';
+import Typography from '../components/Style Guides/Typography.vue';
+import StyleComponent from '../components/Style Guides/StyleComponent.vue';
+import Iconography from '../components/Style Guides/Iconography.vue';
+import InputBox from '../components/Style Guides/InputBoxes.vue';
+import Tables from '../components/Style Guides/Tables.vue';
+import Modal from '../components/Style Guides/Modal.vue';
+import AccountManager from '../components/Account Manager/AccountManager.vue';
+import AddAccount from'../components/Account Manager/AddAccount.vue';
+import LicenseManager from '../components/License Manager/LicenseManager.vue';
+import AddAccountClientDetails from'../components/Account Manager/AddAccountClientDetails.vue';
+import LicensekeyIssue from '../components/License Manager/Modals/Licensekey-Issue.vue';
+import DomainManager from '../components/Domain Manager/DomainManager.vue';
+import SoftwareLicenseManagement from '../components/License Manager/SoftwareLicenseManagement.vue';
+import LicenseKeyAssigned from '../components/License Manager/LicenseManagerAssigned.vue';
+import DomainManagerViewRecord from '../components/Domain Manager/DomainManagerViewRecord.vue';
+import UpdateLicenseModal from '../components/License Manager/Modals/UpdateLicenseModal.vue';
+import TransferLicenseModal from  '../components/License Manager/Modals/TransferLicenseModal.vue';
+import SuspendLicense from '../components/License Manager/Modals/SuspendLicense.vue';
+import AddLicenseDevelopStaticScreen from '../components/License Manager/AddLicenseDevelopStaticScreen.vue';
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
