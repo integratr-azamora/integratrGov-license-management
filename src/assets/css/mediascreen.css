@@ -44,11 +44,23 @@
         margin-bottom: 10px;
         margin-left: none !important;
       }
+      .responsive-table-margin-x-20px{
+        margin-right: 20px;
+        margin-left: 20px;
+      }
+      .responsive-table-margin-end-10px{
+        margin-right: 10px;
+
+      }
         
    
     .responsive-columns{
         display: flex !important;
         flex-direction: column !important;
+    }
+    .responsive-rows{
+        display: flex !important;
+        flex-direction: row !important;
     }
     .responsive-tab-content{
         max-width: max-content;

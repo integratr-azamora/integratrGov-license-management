@@ -16,7 +16,7 @@
          </div>
       </div>
       <div id="info" class="text-center">
-         <img src="../assets/icon/info.svg" class="center info2" alt="info">
+         <img src="/src/assets/icon/info.svg" class="center info2" alt="info">
       </div>
       <div class="text-center">
          <div class="">
