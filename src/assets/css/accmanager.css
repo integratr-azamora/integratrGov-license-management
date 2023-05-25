@@ -72,12 +72,17 @@
   list-style: none;
 }
 
+
 /* scrollbar  */
 .overflow-scroll-x {
   overflow-x: scroll !important;
 }
 .overflow-scroll-y {
   overflow-y: scroll !important;
+}
+.scroll-none{
+  overflow-y: none !important;
+  overflow-x: none !important;
 }
 .table-header{
   position: sticky;

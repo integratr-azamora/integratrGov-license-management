@@ -11,7 +11,7 @@
             <!-- row1  -->
             <div class=" shadow-sm border-round16px pb-20px ">
                <div class="d-flex justify-content-between mt-10px mx-20px flex-container pt-12px">
-                  <p class="fontfamily-gotham-heading-2">Unassigned Licenses</p>
+                  <p class="fontfamily-gotham-heading-2 m-10px">Unassigned Licenses</p>
                   <div class="d-flex justify-content-end">
                      <div class="responsive-end ">
                         <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center r-m-5px responsive-tab-content responsive-center-trb-10px">
@@ -105,8 +105,8 @@
                                     <fa class="font-size-24px" icon="ellipsis" />
                                  </button>
                                  <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
-                                    <li><button class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">View</button></li>
-                                    <li><button @click="openModalAssign = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Assign/Issue</button></li>
+                                    <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" >View</a></li>
+                                    <li><button @click="openModalAssign = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Assign/Issue</button></li>
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Validate</a></li>
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Remove License</a></li>
@@ -130,7 +130,7 @@
                                  </button>
                                  <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
-                                    <li><button @click="openModalAssign = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Assign/Issue</button></li>
+                                    <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Assign/Issue</a></li>
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Validate</a></li>
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Remove License</a></li>
@@ -154,7 +154,7 @@
                                  </button>
                                  <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
-                                    <li><button @click="openModalAssign = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Assign/Issue</button></li>
+                                    <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Assign/Issue</a></li>
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Validate</a></li>
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Remove License</a></li>
@@ -178,7 +178,7 @@
                                  </button>
                                  <ul class="dropdown-menu pt-17px pb-22px" aria-labelledby="dropdownMenuButton1">
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
-                                    <li><button @click="openModalAssign = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Assign/Issue</button></li>
+                                    <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Assign/Issue</a></li>
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Validate</a></li>
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Remove License</a></li>
@@ -202,7 +202,7 @@
                                  </button>
                                  <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
-                                    <li><button @click="openModalAssign = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Assign/Issue</button></li>
+                                    <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Assign/Issue</a></li>
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Validate</a></li>
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Remove License</a></li>
@@ -226,7 +226,7 @@
                                  </button>
                                  <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
-                                    <li><button @click="openModalAssign = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Assign/Issue</button></li>
+                                    <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Assign/Issue</a></li>
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Validate</a></li>
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Remove License</a></li>
@@ -250,7 +250,7 @@
                                  </button>
                                  <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
-                                    <li><button @click="openModalAssign = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Assign/Issue</button></li>
+                                    <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Assign/Issue</a></li>
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Validate</a></li>
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Remove License</a></li>
@@ -274,7 +274,7 @@
                                  </button>
                                  <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
-                                    <li><button @click="openModalAssign = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Assign/Issue</button></li>
+                                    <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Assign/Issue</a></li>
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Validate</a></li>
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Remove License</a></li>
@@ -298,7 +298,7 @@
                                  </button>
                                  <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
-                                    <li><button @click="openModalAssign = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Assign/Issue</button></li>
+                                    <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Assign/Issue</a></li>
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Validate</a></li>
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Remove License</a></li>
@@ -322,7 +322,7 @@
                                  </button>
                                  <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
-                                    <li><button @click="openModalAssign = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Assign/Issue</button></li>
+                                    <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Assign/Issue</a></li>
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Validate</a></li>
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Remove License</a></li>
