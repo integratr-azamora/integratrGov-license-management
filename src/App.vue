@@ -52,7 +52,7 @@ import { RouterLink, RouterView } from 'vue-router'
                   <li><a class="dropdown-item p-10px table-dropdown-hover " href="/update-license-modal">VC - E-Gov>>License Manager>>Update License Modal - Develop Static Screen</a></li>
                   <li><a class="dropdown-item p-10px table-dropdown-hover " href="/transfer-license-modal">VC - E-Gov>>License Manager>>Transfer License Modal - Develop Static Screen</a></li>
                   <li><a class="dropdown-item p-10px table-dropdown-hover " href="/Suspend-License">VC - E-Gov>>License Manager>>Suspend License Manager - Develop Static Screen</a></li>
-                  <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">VC - E-Gov>>License Manager>>View License - Develop Static Screen</a></li>
+                  <li><a class="dropdown-item p-10px table-dropdown-hover " href="View-License">VC - E-Gov>>License Manager>>View License - Develop Static Screen</a></li>
                   
                </ul>
             </div>

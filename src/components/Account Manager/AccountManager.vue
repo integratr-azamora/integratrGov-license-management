@@ -105,7 +105,7 @@
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
                            <ul class="dropdown-menu pt-17px pb-22px "  aria-labelledby="dropdownMenuButton1">
-                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">View</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="/addaccount">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Edit</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Send Invite</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Reset Password</a></li>
@@ -128,7 +128,7 @@
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
                            <ul class="dropdown-menu pt-17px pb-22px "  aria-labelledby="dropdownMenuButton1">
-                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">View</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="/addaccount">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Edit</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Send Invite</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Reset Password</a></li>
@@ -151,7 +151,7 @@
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
                            <ul class="dropdown-menu pt-17px pb-22px "  aria-labelledby="dropdownMenuButton1">
-                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">View</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="/addaccount">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Edit</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Send Invite</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Reset Password</a></li>
@@ -174,7 +174,7 @@
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
                            <ul class="dropdown-menu pt-17px pb-22px "  aria-labelledby="dropdownMenuButton1">
-                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">View</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="/addaccount">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Edit</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Send Invite</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Reset Password</a></li>
@@ -197,7 +197,7 @@
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
                            <ul class="dropdown-menu pt-17px pb-22px "  aria-labelledby="dropdownMenuButton1">
-                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">View</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="/addaccount">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Edit</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Send Invite</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Reset Password</a></li>
@@ -220,7 +220,7 @@
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
                            <ul class="dropdown-menu pt-17px pb-22px "  aria-labelledby="dropdownMenuButton1">
-                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">View</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="/addaccount">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Edit</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Send Invite</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Reset Password</a></li>
@@ -243,7 +243,7 @@
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
                            <ul class="dropdown-menu pt-17px pb-22px "  aria-labelledby="dropdownMenuButton1">
-                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">View</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="/addaccount">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Edit</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Send Invite</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Reset Password</a></li>
@@ -266,7 +266,7 @@
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
                            <ul class="dropdown-menu pt-17px pb-22px "  aria-labelledby="dropdownMenuButton1">
-                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">View</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="/addaccount">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Edit</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Send Invite</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Reset Password</a></li>
@@ -289,7 +289,7 @@
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
                            <ul class="dropdown-menu pt-17px pb-22px "  aria-labelledby="dropdownMenuButton1">
-                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">View</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="/addaccount">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Edit</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Send Invite</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Reset Password</a></li>
@@ -312,7 +312,7 @@
                               <fa class="font-size-24px" icon="ellipsis" />
                            </button>
                            <ul class="dropdown-menu pt-17px pb-22px "  aria-labelledby="dropdownMenuButton1">
-                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">View</a></li>
+                              <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="/addaccount">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Edit</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Send Invite</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Reset Password</a></li>

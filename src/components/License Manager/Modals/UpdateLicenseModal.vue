@@ -1,6 +1,6 @@
 <template>
    <div class="d-flex justify-content-center " >
-      <div class="licensekey-container">
+      <div class="licensekey">
          <div class="d-flex justify-content-between my-25px">
             <p class="license-header ms-20px">Update License</p>
             <button class="mx-20px button-round bg-indigo color-white border-color-indigo d-flex align-items-center">

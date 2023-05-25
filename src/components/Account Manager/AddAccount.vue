@@ -109,7 +109,7 @@
                      <label for="floatingSelect" class="Roboto-label-font">Province/State</label>
                   </div>
                </div>
-               <div class="size-inputbox ms-px">
+               <div class="size-inputbox ms-10px">
                   <div class="form-floating">
                      <select class="form-select Roboto-input-box-font margin-none" id="floatingSelect" aria-label="Floating label select example">
                         <option selected class="Roboto-label-font">Philippines</option>
@@ -117,7 +117,7 @@
                      <label for="floatingSelect" class="Roboto-label-font">Country</label>
                   </div>
                </div>
-               <div class="size-inputbox ms-10px">
+               <div class="size-inputbox ms-20px">
                   <div class="form-floating">
                      <select class="form-select Roboto-input-box-font margin-none" id="floatingSelect" aria-label="Floating label select example">
                         <option selected  class="Roboto-label-font">Mandaluyong</option>
@@ -188,7 +188,7 @@
                <div>
                   <div class="d-flex justify-content-end me-20px">
                      <button class="button-default button-modal bg-white border-color-none color-indigo">Cancel</button>
-                     <button class="button-default bg-indigo border-color-indigo color-white">Save</button>
+                     <a href="/addaccount-clientdetails"><button class="button-default bg-indigo border-color-indigo color-white">Save</button></a>
                   </div>
                </div>
             </div>
