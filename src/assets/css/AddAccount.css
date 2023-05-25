@@ -73,3 +73,10 @@
 }
 
 /* clients table size */
+
+.add-botton-toggle {
+    position:absolute;
+    right: 150px; 
+    transform: translateY(-1%);
+    cursor: pointer;
+}

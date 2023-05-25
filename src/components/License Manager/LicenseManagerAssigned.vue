@@ -447,7 +447,7 @@
     <!-- assign license  -->
    <UpdateLicenseModal :show="openUpdateLicenseModal" @close="openUpdateLicenseModal = false">
       <template #body>
-         <div class="" >
+         <div class="d-flex justify-content-center" >
       <div class="">
          <div class="d-flex justify-content-between my-25px">
             <p class="license-header ms-20px">Update License</p>

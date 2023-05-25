@@ -1,11 +1,11 @@
 <template>
-   <div class="client-cont1" >
+   <div class="container" >
       <span class="client-roboto-fonts mt-20px">Juan Dela Cruz</span>
       <div class="row">
          <!-- container-left  -->
          <div class="col client-container mt-20px padding-none">
             <div class="d-flex justify-content-between">
-               <span class="font-style-inter-semibold px-20px">Client Information</span>
+               <span class="font-style-inter-semibold px-20px ">Client Information</span>
                <button class="button-default bg-none color-purpleheart border-color-purpleheart m-20px">Edit</button>
             </div>
             <div class="scroll-addacount scroll client-details-table-height">
@@ -75,11 +75,11 @@
             <div class="mt-20px">
                <div class="d-flex flex-row align-items-center border-bottom-client pb-20px border-color-frenchskyblue">
                   <div class="col-auto ">
-                     <span class="fontfamily-gotham-heading-2 blue ps-10px">Actions</span>
+                     <span class="fontfamily-gotham-heading-2 blue ps-10px ms-10px">Actions</span>
                   </div>
                   <div class="col button-container d-flex justify-content-end me-10px">
-                     <button class="button-default bg-valencia color-white border-color-valencia d-flex align-items-center"><i class="isax isax-minus icon-size-weight"></i>Reset Password</button>
-                     <button class="button-default bg-purpleheart color-white border-color-purpleheart d-flex align-items-center"><i class="isax isax-trash icon-size-weight"></i>Delete</button>
+                     <button class="button-default bg-valencia color-white border-color-valencia d-flex align-items-center add-botton-toggle"><i class="isax isax-minus icon-size-weight"></i>Reset Password</button>
+                     <button class="button-default bg-purpleheart color-white border-color-purpleheart d-flex align-items-center "><i class="isax isax-trash icon-size-weight"></i>Delete</button>
                   </div>
                </div>
             </div>
