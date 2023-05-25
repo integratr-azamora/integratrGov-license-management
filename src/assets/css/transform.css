@@ -112,6 +112,10 @@
   align-items: flex-start;
   padding: 29px 25px;
   }
+
+  .size-container-addlicensedevelop{
+    max-width: 1453px !important;
+  }
   /* containers  */
  
 /* custom-sizes  */
@@ -174,6 +178,9 @@
   }
   .width-max{
     width: 100%;
+  }
+  .mw-457px{
+    max-width: 457px !important;
   }
   .width-50px{
     width:50px;
