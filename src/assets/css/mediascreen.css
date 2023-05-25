@@ -30,10 +30,22 @@
       }
 
   }
+  @media screen and (max-width :499px){
+    .mw-457px{
+      width:100% ;
+    }
+  }
   @media screen and (max-width :520px){
     .r-text-sm{
         font-size:calc(var(--c-font-size-16px) - 20%) !important;
     }
+    .mw-457px{
+      width:calc(457px - 55px) !important ;
+    }
+    .r-px-20px{
+      padding:none;
+    }
+
   }
 
   @media screen and (min-width :575px){
@@ -78,4 +90,17 @@
         display: flex !important;
         justify-content: center !important;
       }
+  }
+
+  @media screen and(min-width:1450px) {
+    .r-mxmc{
+      max-width: max-content;
+    }
+    
+  }
+  @media screen and(max-width:1490px) {
+    .size-container-savecancel{
+      max-width: 200px !important;
+    }
+    
   }

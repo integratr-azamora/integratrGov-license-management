@@ -149,10 +149,6 @@ a{
      bottom: 20px;
   }
   
-  .outline-none{
-    outline: 0;
-  }
-  
   .border-round-4px{
     border-radius: var(--c-size-4px);
   }

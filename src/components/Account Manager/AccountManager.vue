@@ -1,5 +1,5 @@
 <template>
-   <div class=" ">
+   <div>
       <div class="d-flex justify-content-center">
          <div class=" rounded-3 container">
             <div class=" heading1  mb-20px">Account Manager </div>
