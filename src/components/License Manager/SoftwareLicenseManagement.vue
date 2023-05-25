@@ -11,7 +11,7 @@
              <!-- row1  -->
              <div class=" shadow-sm border-round16px pb-20px mt-10px">
                <div class="d-flex justify-content-between mt-10px mx-20px flex-container pt-12px">
-                  <p class="fontfamily-gotham-heading-2 m-10px">Unassigned Licenses</p>
+                  <p class="fontfamily-gotham-heading-2 ">Unassigned Licenses</p>
                   <div class="d-flex justify-content-end">
                      <div class="responsive-end responsive-rows ">
                         <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center mx-0">

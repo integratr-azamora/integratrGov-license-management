@@ -187,12 +187,16 @@
                         </form>
                      </div>
                      <div class="input-group  size-inputbox  d-flex align-items-center ms-10px">
+                        
                         <button class="button-default bg-indigo border-color-indigo color-white">Generate</button>   
+                        
                      </div>
                      <div>
                         <div class="d-flex justify-content-end me-20px">
                            <button class="button-default button-modal bg-white border-color-none color-indigo">Cancel</button>
+                           <a href="/addaccount-clientdetails">
                            <button class="button-default bg-indigo border-color-indigo color-white">Save</button>
+                           </a>
                         </div>
                      </div>
                   </div>
