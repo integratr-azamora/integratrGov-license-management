@@ -13,6 +13,7 @@ import AddAccountClientDetails from '../components/Account Manager/AddAccountCli
 import UpdateLicenseModal from '../components/UpdateLicenseModal.vue';
 import TransferLicenseModal from '../components/TransferLicenseModal.vue';
 import SuspendLicense from '../components/SuspendLicense.vue';
+import ViewLicense from '../components/Account Manager/ViewLicense.vue';
 </script>
 
 
@@ -35,6 +36,7 @@ import SuspendLicense from '../components/SuspendLicense.vue';
       <DomainManagerViewRecord/>
       <UpdateLicenseModal/>
       <SuspendLicense/>
+      <ViewLicense/>
       
   </main>
 </template>

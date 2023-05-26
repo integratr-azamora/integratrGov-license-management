@@ -14,9 +14,6 @@ const app = createApp(App)
 app.use(router)
 .component('fa', FontAwesomeIcon)
 app.mount('#app')
-
-
-
 Vue.use(Vuesax, {
     theme:{
         colors:{

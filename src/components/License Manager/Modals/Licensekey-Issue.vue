@@ -1,6 +1,6 @@
 <template>
    <div class="d-flex justify-content-center " >
-      <div class="licensekey-container">
+      <div class="licensekey">
          <div class="d-flex justify-content-between mt-20px">
             <p class="license-header mx-20px">Generate License Key</p>
          <button class="mx-20px button-round bg-indigo color-white border-color-indigo d-flex align-items-center">
@@ -58,7 +58,7 @@
    </div>
    <br>
    <div class="d-flex justify-content-center " >
-      <div class="licensekey-container">
+      <div class="licensekey">
          <div class="d-flex justify-content-between my-20px">
             <p class="license-header mx-20px">Assign License</p>
          <button class="mx-20px button-round bg-indigo color-white border-color-indigo d-flex align-items-center">
