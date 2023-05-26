@@ -36,9 +36,6 @@
     }
   }
   @media screen and (max-width :520px){
-    .r-text-sm{
-        font-size:calc(var(--c-font-size-16px) - 20%) !important;
-    }
     .mw-457px{
       width:calc(457px - 55px) !important ;
     }
