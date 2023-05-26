@@ -102,15 +102,15 @@
       <div class="border-color-indigo d-flex justify-content-center justify-content-lg-start">
          <!-- action container -->
          <div class=" border-color-eucalyptus">
-            <div class="size-container-action padding-x py-20px">
+            <div class="size-container-action padding-x py-20px rounded-3 border-color-ghostwhite">
             <div>
-               <div class="d-flex flex-row align-items-center border-bottom-client pb-20px border-color-frenchskyblue c-grid">
-                  <div class="col ">
+               <div class="d-flex flex-row align-items-between border-bottom-client pb-20px border-color-frenchskyblue">
+                  <div class=" ">
                      <span class="fontfamily-gotham-heading-2 blue ps-10px ms-10px">Actions</span>
                   </div>
-                  <div class="col button-container d-flex justify-content-end me-10px">
-                     <button class="button-default bg-valencia color-white border-color-valencia d-flex align-items-center add-botton-toggle"><i class="isax isax-minus icon-size-weight"></i>Reset Password</button>
-                     <button class="button-default bg-purpleheart color-white border-color-purpleheart d-flex align-items-center "><i class="isax isax-trash icon-size-weight"></i>Delete</button>
+                  <div class="col button-container me-10px">
+                     <button class="button-default bg-valencia color-white border-color-valencia"><i class="isax isax-minus align-middle icon-size-weight"></i>Reset Password</button>
+                     <button class="button-default bg-purpleheart color-white border-color-purpleheart "><i class="isax isax-trash align icon-size-weight"></i>Delete</button>
                   </div>
                </div>
             </div>
