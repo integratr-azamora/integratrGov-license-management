@@ -56,6 +56,11 @@
         margin-right: 20px;
       }
   }
+  @media screen and (max-width :575px){
+    .r-text-sm{
+        font-size:calc(var(--c-font-size-16px) - 20%) !important;
+    }
+  }
   @media screen and (max-width :760px){
     .responsive-between{
       display: flex !important;
