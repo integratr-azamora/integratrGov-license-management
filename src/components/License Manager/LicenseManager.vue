@@ -3,21 +3,21 @@
       <div class="d-flex justify-content-center">
          <div class=" rounded-3 container ">
             <div class=" heading1  mb-20px">License Manager </div>
-            <div class="responsive-columns responsive-center">
-               <button class="button-tab-active padding-x-none responsive-tab-content responsive-center-mb-20px"><a class="dropdown-item " href="/licmanager">Unassigned License Keys</a></button>
-               <button class="button-tab padding-x-none responsive-table-margin-x-20px responsive-tab-content responsive-center-mb-20px"><a class="dropdown-item " href="/licensekey-assigned">Assigned License Keys</a></button>
-               <button class="button-tab padding-x-none responsive-tab-content responsive-center-mb-20px"><a class="dropdown-item" href="/software-license-management">Software License Management</a></button>
+            <div>
+               <button class="button-tab-active padding-x-none  responsive-center-mb-20px"><a class="dropdown-item " href="/licmanager">Unassigned License Keys</a></button>
+                <button class="button-tab padding-x-none responsive-table-margin-x-20px  responsive-center-mb-20px"><a class="dropdown-item " href="/licensekey-assigned">Assigned License Keys</a></button>
+                <button class="button-tab padding-x-none  responsive-center-mb-20px"><a class="dropdown-item" href="/software-license-management">Software License Management</a></button>
             </div>
             <!-- row1  -->
             <div class=" shadow-sm border-round16px pb-20px ">
                <div class="d-flex justify-content-between mt-10px mx-20px flex-container pt-12px">
-                  <p class="fontfamily-gotham-heading-2 m-10px">Unassigned Licenses</p>
+                  <p class="fontfamily-gotham-heading-2 m-10px ms-0">Unassigned Licenses</p>
                   <div class="d-flex justify-content-end">
                      <div class="responsive-end ">
-                        <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center r-m-5px responsive-tab-content responsive-center-trb-10px">
+                        <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb align-items-center r-m-5px responsive-tab-content responsive-center-trb-10px r-text-sm">
                         Validate License Key
                         </button>
-                        <button @click="openModal = true" class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center r-m-5px responsive-tab-content responsive-center-trb-10px">
+                        <button @click="openModal = true" class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb align-items-center r-m-5px responsive-tab-content responsive-center-trb-10px r-text-sm">
                         Generate License Key
                         </button>
                      </div>
