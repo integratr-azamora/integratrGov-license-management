@@ -17,9 +17,9 @@
             <!-- text  -->
             <div class="c-grid">
                <form class=" form-floating">
-                     <input type="email" class="form-control Roboto-input-box-font shadow-sm border-color-none" id="floatingInputValue" placeholder="name@example.com" value="Juan">
-                     <label for="floatingInputValue" class="Roboto-label-font">First Name</label>
-                  </form>
+                  <input type="email" class="form-control Roboto-input-box-font shadow-sm border-color-none" id="floatingInputValue" placeholder="name@example.com" value="Juan">
+                  <label for="floatingInputValue" class="Roboto-label-font">First Name</label>
+               </form>
                <div class="">
                   <form class="form-floating">
                      <input type="email" class="form-control Roboto-input-box-font shadow-sm border-color-none" id="floatingInputValue" placeholder="name@example.com" value="Santos">
@@ -62,7 +62,6 @@
                      <label for="floatingInputValue" class="Roboto-label-font">Position</label>
                   </form>
                </div>
-              
             </div>
             <div>
                <span class="heading3 mt-20px mb-20px">Address</span>
@@ -77,8 +76,8 @@
                </div>
                <div class="">
                   <form class="form-floating">
-                     <input type="email" class="form-control Roboto-input-box-font shadow-sm border-color-none" id="floatingInputValue" placeholder="name@example.com" value="Building Name">
-                     <label for="floatingInputValue" class="Roboto-label-font">SM Light Mall Residence</label>
+                     <input type="email" class="form-control Roboto-input-box-font shadow-sm border-color-none" id="floatingInputValue" placeholder="name@example.com" value="SM Light Mall Residence">
+                     <label for="floatingInputValue" class="Roboto-label-font">Building Name</label>
                   </form>
                </div>
                <div class="">
@@ -94,36 +93,39 @@
                   </form>
                </div>
                <div class="">
+                  <div class="form-floating">
+                     <select class="form-select Roboto-input-box-font margin-none" id="floatingSelect" aria-label="Floating label select example">
+                        <option selected class="Roboto-label-font">NCR</option>
+                     </select>
+                     <label for="floatingSelect" class="Roboto-label-font">Province/State</label>
+                  </div>
+               </div>
+               <div class="">
                   <form class="form-floating">
-                     <input type="email" class="form-control Roboto-input-box-font shadow-sm border-color-none" id="floatingInputValue" placeholder="name@example.com" value="NCR">
-                     <label for="floatingInputValue" class="Roboto-label-font">Provice/State</label>
+                     <select class="form-select Roboto-input-box-font margin-none" id="floatingSelect" aria-label="Floating label select example">
+                        <option selected class="Roboto-label-font">Philippines</option>
+                     </select>
                   </form>
                </div>
                <div class="">
                   <form class="form-floating">
-                     <input type="email" class="form-control Roboto-input-box-font shadow-sm border-color-none" id="floatingInputValue" placeholder="name@example.com" value="Philippines">
-                     <label for="floatingInputValue" class="Roboto-label-font">Country</label>
-                  </form>
-               </div>
-               <div class="">
-                  <form class="form-floating">
-                     <input type="email" class="form-control Roboto-input-box-font shadow-sm border-color-none" id="floatingInputValue" placeholder="name@example.com" value="Mandaluyong">
-                     <label for="floatingInputValue" class="Roboto-label-font">City/Municipality</label>
+                     <select class="form-select Roboto-input-box-font margin-none" id="floatingSelect" aria-label="Floating label select example">
+                        <option selected class="Roboto-label-font">Mandaluyong</option>
+                     </select>
                   </form>
                </div>
                <div class="form-floating">
-                     <select class="form-select Roboto-input-box-font margin-none" id="floatingSelect" aria-label="Floating label select example">
-                        <option selected class="Roboto-label-font">Highway Hills</option>
-                     </select>
-                     <label for="floatingSelect" class="Roboto-label-font">Barangay</label>
-                  </div>
-                <div class="form-floating">
-                     <select class="form-select Roboto-input-box-font margin-none" id="floatingSelect" aria-label="Floating label select example">
-                        <option selected class="Roboto-label-font">1111</option>
-                     </select>
-                     <label for="floatingSelect" class="Roboto-label-font">Zip Co</label>
-                  </div>
-            
+                  <select class="form-select Roboto-input-box-font margin-none" id="floatingSelect" aria-label="Floating label select example">
+                     <option selected class="Roboto-label-font">Highway Hills</option>
+                  </select>
+                  <label for="floatingSelect" class="Roboto-label-font">Barangay</label>
+               </div>
+               <div class="form-floating">
+                  <select class="form-select Roboto-input-box-font margin-none" id="floatingSelect" aria-label="Floating label select example">
+                     <option selected class="Roboto-label-font">1111</option>
+                  </select>
+                  <label for="floatingSelect" class="Roboto-label-font">Zip Code</label>
+               </div>
             </div>
             <div>
                <span class="heading3 mt-20px mb-20px">Billing Details</span>
@@ -147,7 +149,6 @@
                      <input type="email" class="form-control Roboto-input-box-font shadow-sm border-color-none" id="floatingInputValue" placeholder="name@example.com" value="01/2022">
                      <label for="floatingInputValue" class="Roboto-label-font">Expiration</label>
                      <i class="isax isax-calendar-1 gray add-calendar-toggle"></i>
-
                   </form>
                </div>
                <div class="">
@@ -157,30 +158,27 @@
                   </form>
                </div>
                <div>
-               
                </div>
-               
             </div>
             <span class="heading3 mt-20px mb-20px">Password</span>
+         </div>
+         <!-- text  -->
+         <div class="c-grid">
+            <div class="">
+               <form class="form-floating">
+                  <input type="email" class="form-control Roboto-input-box-font shadow-sm border-color-none" id="floatingInputValue" placeholder="name@example.com" value="Azy8vbXt0@&$">
+                  <label for="floatingInputValue" class="Roboto-label-font">Password</label>
+                  <img src="/src/assets/icon/copy.svg" class="icon-size add-calendar-toggle1" alt="copy">
+               </form>
             </div>
-            <!-- text  -->
-            <div class="c-grid">
-               <div class="">
-                  <form class="form-floating">
-                     <input type="email" class="form-control Roboto-input-box-font shadow-sm border-color-none" id="floatingInputValue" placeholder="name@example.com" value="Azy8vbXt0@&$">
-                     <label for="floatingInputValue" class="Roboto-label-font">Password</label>
-                     <img src="/src/assets/icon/copy.svg" class="icon-size add-calendar-toggle" alt="copy">
-                  </form>
-               </div>
-               <div class="d-flex">
-                  <button class="button-default bg-indigo border-color-indigo color-white">Generate</button>   
-               </div>
+            <div class="d-flex">
+               <button class="button-default bg-indigo border-color-indigo color-white">Generate</button>   
+            </div>
          </div>
          <div class="d-flex justify-content-end mt-20px">
-                     <button class="button-default button-modal bg-white border-color-none color-indigo me-10px">Cancel</button>
-                     <button class="button-default bg-indigo border-color-indigo color-white ms-20px">Save</button>
-                  </div>
-         
+            <button class="button-default button-modal bg-white border-color-none color-indigo me-10px">Cancel</button>
+            <button class="button-default bg-indigo border-color-indigo color-white ms-20px">Save</button>
+         </div>
       </div>
    </div>
 </template>

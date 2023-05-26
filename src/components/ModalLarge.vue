@@ -1,7 +1,7 @@
 <template>
     <Transition name="modal2">
         <div v-if="show">
-            <div :class="`modal-manager modal-mask-2 modal-large-2 p-0  ${modalContainer}`">
+            <div :class="`modal-manager modal-mask-2 modal-large-2 p-0   ${modalContainer}`">
                 <div :class="`modal-dialog modal-dialog-2 modal-dialog-centered modal-dialog-scrollable ${modalDialog}`">
                     <div :class="`modal-content pad-y-20p ${modalContent}`">
                         <div :class="`modal-body modal-body-2 scrollpink pad-x-20p mb-0 pb-0 p-0 ${modalBody}`">

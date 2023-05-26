@@ -133,7 +133,7 @@
                             </button>
                             <ul class="dropdown-menu pt-17px pb-22px scroll-none"  aria-labelledby="dropdownMenuButton1">
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
-                               <li><button @click="openUpdateLicenseModal = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Update</button></li>
+                               <li><button @click="openModalupdate = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Update</button></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-dimgray fontfamily-gotham-heading-3 disabled" href="#">Renew(Soon)</a></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
                                <li><button @click="openModalSuspend = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Suspend</button></li>
@@ -164,7 +164,7 @@
                             </button>
                             <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
-                               <li><button @click="openUpdateLicenseModal = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Update</button></li>
+                               <li><button @click="openModalupdate = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Update</button></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-dimgray fontfamily-gotham-heading-3 disabled" href="#">Renew(Soon)</a></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
                                <li><button @click="openModalSuspend = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Suspend</button></li>
@@ -195,7 +195,7 @@
                             </button>
                             <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
-                               <li><button @click="openUpdateLicenseModal = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Update</button></li>
+                               <li><button @click="openModalupdate = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Update</button></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-dimgray fontfamily-gotham-heading-3 disabled" href="#">Renew(Soon)</a></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
                                <li><button @click="openModalSuspend = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Suspend</button></li>
@@ -226,7 +226,7 @@
                             </button>
                             <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
-                               <li><button @click="openUpdateLicenseModal = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Update</button></li>
+                               <li><button @click="openModalupdate = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Update</button></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-dimgray fontfamily-gotham-heading-3 disabled" href="#">Renew(Soon)</a></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
                                <li><button @click="openModalSuspend = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Suspend</button></li>
@@ -257,7 +257,7 @@
                             </button>
                             <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
-                               <li><button @click="openUpdateLicenseModal = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Update</button></li>
+                               <li><button @click="openModalupdate = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Update</button></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-dimgray fontfamily-gotham-heading-3 disabled" href="#">Renew(Soon)</a></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
                                <li><button @click="openModalSuspend = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Suspend</button></li>
@@ -288,7 +288,7 @@
                             </button>
                             <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
-                               <li><button @click="openUpdateLicenseModal = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Update</button></li>
+                               <li><button @click="openModalupdate = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Update</button></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-dimgray fontfamily-gotham-heading-3 disabled" href="#">Renew(Soon)</a></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
                                <li><button @click="openModalSuspend = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Suspend</button></li>
@@ -319,7 +319,7 @@
                             </button>
                             <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
-                               <li><button @click="openUpdateLicenseModal = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Update</button></li>
+                               <li><button @click="openModalupdate = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Update</button></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-dimgray fontfamily-gotham-heading-3 disabled" href="#">Renew(Soon)</a></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
                                <li><button @click="openModalSuspend = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Suspend</button></li>
@@ -350,7 +350,7 @@
                             </button>
                             <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
-                               <li><button @click="openUpdateLicenseModal = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Update</button></li>
+                               <li><button @click="openModalupdate = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Update</button></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-dimgray fontfamily-gotham-heading-3 disabled" href="#">Renew(Soon)</a></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
                                <li><button @click="openModalSuspend = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Suspend</button></li>
@@ -381,7 +381,7 @@
                             </button>
                             <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
-                               <li><button @click="openUpdateLicenseModal = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Update</button></li>
+                               <li><button @click="openModalupdate = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Update</button></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-dimgray fontfamily-gotham-heading-3 disabled" href="#">Renew(Soon)</a></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
                                <li><button @click="openModalSuspend = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Suspend</button></li>
@@ -412,7 +412,7 @@
                             </button>
                             <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
-                               <li><button @click="openUpdateLicenseModal = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Update</button></li>
+                               <li><button @click="openModalupdate = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Update</button></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-dimgray fontfamily-gotham-heading-3 disabled" href="#">Renew(Soon)</a></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
                                <li><button @click="openModalSuspend = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Suspend</button></li>
@@ -445,13 +445,13 @@
        </div>
     </div>
     <!-- assign license  -->
-   <UpdateLicenseModal :show="openUpdateLicenseModal" @close="openUpdateLicenseModal = false">
+   <UpdateLicenseModal :show="openModalupdate" @close="openModalupdate = false">
       <template #body>
          <div class="d-flex justify-content-center" >
       <div class="">
          <div class="d-flex justify-content-between my-25px">
             <p class="license-header ms-20px">Update License</p>
-            <button @click="openUpdateLicenseModal = false" class="mx-20px button-round bg-indigo color-white border-color-indigo d-flex align-items-center">
+            <button @click="openModalupdate = false" class="mx-20px button-round bg-indigo color-white border-color-indigo d-flex align-items-center">
                <fa class="font-size-20px" icon="close" />
             </button>
          </div>
@@ -509,7 +509,7 @@ Lorem ipsum dolor sit amet
             </div>
          </div>
          <div class="d-flex text-center justify-content-end ms-20px me-20px mb-35px mt-20px">
-            <button @click="openUpdateLicenseModal = false" class="button-default bg-none border-color-none color-indigo me-2">Cancel</button>
+            <button @click="openModalupdate = false" class="button-default bg-none border-color-none color-indigo me-2">Cancel</button>
             <button class="button-default bg-indigo border-color-indigo color-white me-0">Save</button>
          </div>
       </div>
@@ -598,7 +598,8 @@ export default {
    },
    data(){
       return {
-       openUpdateLicenseModal: false, 
+       openModal: false, 
+       openModalupdate: false ,
        openModalSuspend:false
       }
    }
