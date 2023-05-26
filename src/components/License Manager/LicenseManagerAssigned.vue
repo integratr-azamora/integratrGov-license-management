@@ -131,12 +131,12 @@
                             <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                <fa class="font-size-24px" icon="ellipsis" />
                             </button>
-                            <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
+                            <ul class="dropdown-menu pt-17px pb-22px scroll-none"  aria-labelledby="dropdownMenuButton1">
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Update</a></li>
+                               <li><button @click="openModalupdate = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Update</button></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-dimgray fontfamily-gotham-heading-3 disabled" href="#">Renew(Soon)</a></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Suspend</a></li>
+                               <li><button @click="openModalSuspend = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Suspend</button></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Remove License</a></li>
                             </ul>
                          </div>
@@ -164,10 +164,10 @@
                             </button>
                             <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Update</a></li>
+                               <li><button @click="openModalupdate = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Update</button></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-dimgray fontfamily-gotham-heading-3 disabled" href="#">Renew(Soon)</a></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Suspend</a></li>
+                               <li><button @click="openModalSuspend = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Suspend</button></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Remove License</a></li>
                             </ul>
                          </div>
@@ -195,10 +195,10 @@
                             </button>
                             <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Update</a></li>
+                               <li><button @click="openModalupdate = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Update</button></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-dimgray fontfamily-gotham-heading-3 disabled" href="#">Renew(Soon)</a></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Suspend</a></li>
+                               <li><button @click="openModalSuspend = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Suspend</button></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Remove License</a></li>
                             </ul>
                          </div>
@@ -226,10 +226,10 @@
                             </button>
                             <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Update</a></li>
+                               <li><button @click="openModalupdate = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Update</button></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-dimgray fontfamily-gotham-heading-3 disabled" href="#">Renew(Soon)</a></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Suspend</a></li>
+                               <li><button @click="openModalSuspend = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Suspend</button></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Remove License</a></li>
                             </ul>
                          </div>
@@ -257,10 +257,10 @@
                             </button>
                             <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Update</a></li>
+                               <li><button @click="openModalupdate = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Update</button></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-dimgray fontfamily-gotham-heading-3 disabled" href="#">Renew(Soon)</a></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Suspend</a></li>
+                               <li><button @click="openModalSuspend = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Suspend</button></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Remove License</a></li>
                             </ul>
                          </div>
@@ -288,10 +288,10 @@
                             </button>
                             <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Update</a></li>
+                               <li><button @click="openModalupdate = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Update</button></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-dimgray fontfamily-gotham-heading-3 disabled" href="#">Renew(Soon)</a></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Suspend</a></li>
+                               <li><button @click="openModalSuspend = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Suspend</button></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Remove License</a></li>
                             </ul>
                          </div>
@@ -319,10 +319,10 @@
                             </button>
                             <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Update</a></li>
+                               <li><button @click="openModalupdate = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Update</button></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-dimgray fontfamily-gotham-heading-3 disabled" href="#">Renew(Soon)</a></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Suspend</a></li>
+                               <li><button @click="openModalSuspend = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Suspend</button></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Remove License</a></li>
                             </ul>
                          </div>
@@ -350,10 +350,10 @@
                             </button>
                             <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Update</a></li>
+                               <li><button @click="openModalupdate = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Update</button></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-dimgray fontfamily-gotham-heading-3 disabled" href="#">Renew(Soon)</a></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Suspend</a></li>
+                               <li><button @click="openModalSuspend = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Suspend</button></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Remove License</a></li>
                             </ul>
                          </div>
@@ -381,10 +381,10 @@
                             </button>
                             <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Update</a></li>
+                               <li><button @click="openModalupdate = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Update</button></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-dimgray fontfamily-gotham-heading-3 disabled" href="#">Renew(Soon)</a></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Suspend</a></li>
+                               <li><button @click="openModalSuspend = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Suspend</button></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Remove License</a></li>
                             </ul>
                          </div>
@@ -412,10 +412,10 @@
                             </button>
                             <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Update</a></li>
+                               <li><button @click="openModalupdate = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Update</button></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-dimgray fontfamily-gotham-heading-3 disabled" href="#">Renew(Soon)</a></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Activate</a></li>
-                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Suspend</a></li>
+                               <li><button @click="openModalSuspend = true" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">Suspend</button></li>
                                <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Remove License</a></li>
                             </ul>
                          </div>
@@ -444,4 +444,160 @@
           </div>
        </div>
     </div>
+    <!-- assign license  -->
+   <UpdateLicenseModal :show="openModalupdate" @close="openModalupdate = false">
+      <template #body>
+         <div class="d-flex justify-content-between my-25px">
+            <p class="license-header ms-20px">Update License</p>
+            <button @click="openModalupdate = false" class="mx-20px button-round bg-indigo color-white border-color-indigo d-flex align-items-center">
+               <fa class="font-size-20px" icon="close" />
+            </button>
+         </div>
+         <div class="border-bottom-license mt-15px"></div>
+         <div class="row mt-20">
+            <div class="col ms-20px me-20px">
+               <div class="row mt-20px">
+                  <div class="row d-flex align-items-center">
+                     <span class=" d-flex justify-content-start">
+                     <span class="view-record-font-heading3 mt-1">Activation Code:</span> 
+                     <span class="font-style-roboto-p1 ms-2 mt-1">FSPDE-00000-00000-00000-00000</span>
+                     </span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- 1st -->
+         <div class="form-floating mx-20px">
+            <select class="form-select Roboto-input-box-font" id="floatingSelect" aria-label="Floating label select">
+               <option selected>Business Permit and License</option>
+            </select>
+            <label for="floatingSelect" class="Roboto-label-font">Module</label>
+         </div>
+         <!-- 2nd -->
+         <div class="form-floating mx-20px">
+            <select class="form-select Roboto-input-box-font" id="floatingSelect" aria-label="Floating label select">
+               <option selected>1.0</option>
+            </select>
+            <label for="floatingSelect" class="Roboto-label-font">Version</label>
+         </div>
+         <!-- 3rd -->
+         <div class="form-floating mx-20px">
+            <select class="form-select Roboto-input-box-font" id="floatingSelect" aria-label="Floating label select">
+               <option selected>7 days</option>
+            </select>
+            <label for="floatingSelect" class="Roboto-label-font">Grace Period</label>
+         </div>
+         <!-- 4th -->
+         <form class="form-floating m-20px">
+            <input type="text" class="form-control license-form Roboto-input-box-font border-color-none" id="information" value="01/01/2021" >
+            <label for="information" class="Roboto-label-font">License Validity</label>
+         </form>
+         <div class="form-floating border-light">
+            <i class="isax isax-calendar-1 gray calendar-update-modals"></i>
+         </div>
+         <!-- 5th -->
+         <div class="form-floating ms-10px me-10px mt-20px">
+            <div class="d-flex justify-content-start mt-20px mx-10px flex-container">
+               <div class="form-floating width-max ">
+                  <textarea class="form-control size-textarea-update-license-modal border-color-none" placeholder="Leave a comment here" id="floatingTextarea2">
+Lorem ipsum dolor sit amet 
+                  </textarea>
+                  <label for="information">Remarks</label>
+               </div>
+            </div>
+         </div>
+         <div class="d-flex text-center justify-content-end ms-20px me-20px mb-35px mt-20px">
+            <button @click="openModalupdate = false" class="button-default bg-none border-color-none color-indigo me-2">Cancel</button>
+            <button class="button-default bg-indigo border-color-indigo color-white me-0">Save</button>
+         </div>
+      </template>
+   </UpdateLicenseModal>
+<SuspendLicenseModal :show="openModalSuspend" @close="openModalSuspend = false">
+   <template #body>
+   <div class="d-flex justify-content-center" >
+      <div class="suspend-cont-modal" >
+         <div class="modal-header">
+            <div class="text-center">
+               <div class="">
+                  <p class="modal-font-style-roboto">Are you sure you want to suspend this license?</p>
+               </div>
+            </div>
+         </div>
+         <div id="info" class="text-center mt-20px">
+            <img src="/src/assets/icon/info.svg" class="center info2" alt="info">
+         </div>
+         <div class="row mt-20">
+            <div class="col">
+               <div class="row mt-20px">
+                  <div class="row d-flex align-items-center">
+                     <span class=" d-flex justify-content-start">
+                     <span class="view-record-font-heading3 mt-1">Activation Code:</span> 
+                     <span class="font-style-roboto-p1 ms-1 mt-1">FSPDE-00000-00000-00000-00000</span>
+                     </span>
+                  </div>
+                  <div class="row d-flex align-items-center mt-10px">
+                     <span class=" d-flex justify-content-start">
+                     <span class="view-record-font-heading3 mt-1">Status:</span> 
+                     <span class="font-style-roboto-p1 ms-1 mt-1">Active</span>
+                     </span>
+                  </div>
+                  <div class="row d-flex align-items-center mt-10px">
+                     <span class=" d-flex justify-content-start">
+                     <span class="view-record-font-heading3 mt-1">Module</span> 
+                     <span class="font-style-roboto-p1 ms-1 mt-1">Business Permit and License</span>
+                     </span>
+                  </div>
+                  <div class="row d-flex align-items-center mt-10px">
+                     <span class=" d-flex justify-content-start">
+                     <span class="view-record-font-heading3 mt-1">Version:</span> 
+                     <span class="font-style-roboto-p1 ms-1 mt-1">1.2</span>
+                     </span>
+                  </div>
+                  <div class="row d-flex align-items-center mt-10px">
+                     <span class=" d-flex justify-content-start">
+                     <span class="view-record-font-heading3 mt-1">Expiry Date:</span> 
+                     <span class="font-style-roboto-p1 ms-1 mt-1">n/a</span>
+                     </span>
+                  </div>
+                  <div class=" mt-10px">
+                        <div class="form-floating">
+                           <input-box class="form-control size-textarea-suspend-license shadow-sm border-color-none " placeholder="Leave a comment here" id="floatingTextarea2">
+Lorem ipsum dolor sit amet  
+                           </input-box>
+                           <label for="floatingTextarea2">Reason for suspension</label>
+                        </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="text-center mt-20px">
+            <button @click="openModalSuspend = false" class="button-default bg-white border-color-indigo color-indigo me-5px mt-0 mb-0 ">Cancel</button>      
+            <button class="button-default bg-indigo border-color-indigo color-white ms-5px mt-0 mb-0">Submit</button>      
+         </div>
+      </div>
+   </div>
+</template>
+</SuspendLicenseModal>
+   <!-- update license  -->
+   
  </template>
+
+<script>
+import SuspendLicenseModal from '../../components/SuspendLicenseModal.vue'
+import UpdateLicenseModal from '../../components/UpdateLicenseModal.vue'
+
+export default {
+   components: {
+      SuspendLicenseModal,
+      UpdateLicenseModal
+
+   },
+   data(){
+      return {
+       openModal: false, 
+       openModalupdate: false ,
+       openModalSuspend:false
+      }
+   }
+}
+</script>

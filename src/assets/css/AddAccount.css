@@ -73,3 +73,30 @@
 }
 
 /* clients table size */
+
+.add-botton-toggle {
+    position:absolute;
+    right: 150px; 
+    transform: translateY(-1%);
+    cursor: pointer;
+}
+
+.add-botton-toggle {
+    position:absolute;
+    right: 150px; 
+    transform: translateY(-1%);
+    cursor: pointer;
+}
+.add-calendar-toggle{
+    position:absolute;
+    right: 12px; 
+    transform: translateY(-225%);
+    cursor: pointer;
+}
+
+.add-calendar-toggle1{
+    position:absolute;
+    right: 12px; 
+    transform: translateY(-180%);
+    cursor: pointer;
+}

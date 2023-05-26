@@ -112,6 +112,8 @@
   align-items: flex-start;
   padding: 29px 25px;
   }
+
+  
   /* containers  */
  
 /* custom-sizes  */
@@ -175,6 +177,9 @@
   .width-max{
     width: 100%;
   }
+  .mw-457px{
+    max-width: 457px !important;
+  }
   .width-50px{
     width:50px;
   }
@@ -184,3 +189,7 @@
     height: 30%;
   }
   /* height  */
+
+  .r-pos-addlicense-buttons{
+    left: 1235px;
+  }

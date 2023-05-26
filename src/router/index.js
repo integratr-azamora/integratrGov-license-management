@@ -20,6 +20,7 @@ import UpdateLicenseModal from '../components/License Manager/Modals/UpdateLicen
 import TransferLicenseModal from  '../components/License Manager/Modals/TransferLicenseModal.vue';
 import SuspendLicense from '../components/License Manager/Modals/SuspendLicense.vue';
 import AddLicenseDevelopStaticScreen from '../components/License Manager/AddLicenseDevelopStaticScreen.vue';
+import ViewLicense from '../components/Account Manager/ViewLicense.vue';
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -138,6 +139,13 @@ const router = createRouter({
       path: '/add-license-develop-static-screen',
       name: 'add-license-develop-static-screen',
       component: AddLicenseDevelopStaticScreen
+    }
+
+    ,
+    {
+      path: '/view-license',
+      name: 'view-license',
+      component: ViewLicense
     }
     
 

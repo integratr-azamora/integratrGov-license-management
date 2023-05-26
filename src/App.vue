@@ -47,12 +47,12 @@ import { RouterLink, RouterView } from 'vue-router'
                   <li><a class="dropdown-item p-10px table-dropdown-hover " href="/licensekey-assigned">MF - E-Gov>>License Manager>>Assigned License Keys - Develop Static Screen</a></li>
                   <li><a class="dropdown-item p-10px table-dropdown-hover " href="/software-license-management">MF - E-Gov>>License Manager>>Software License Management - Develop Static Screen</a></li>
                   <li><a class="dropdown-item p-10px table-dropdown-hover " href="/domain-manager">MF - E-Gov>>Domain Manager - Develop Static Screen</a></li>
-                  <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">MF - E-Gov>>License Manager>>Software License Management >> Add License- Develop Static Screen</a></li>
+                  <li><a class="dropdown-item p-10px table-dropdown-hover " href="/add-license-develop-static-screen">MF - E-Gov>>License Manager>>Software License Management >> Add License- Develop Static Screen</a></li>
                   <li><a class="dropdown-item p-10px table-dropdown-hover " href="/domain-manager-viewRecord">VC - E-Gov>>Domain Manager>>View Record - Develop Static Screen</a></li>
                   <li><a class="dropdown-item p-10px table-dropdown-hover " href="/update-license-modal">VC - E-Gov>>License Manager>>Update License Modal - Develop Static Screen</a></li>
                   <li><a class="dropdown-item p-10px table-dropdown-hover " href="/transfer-license-modal">VC - E-Gov>>License Manager>>Transfer License Modal - Develop Static Screen</a></li>
                   <li><a class="dropdown-item p-10px table-dropdown-hover " href="/Suspend-License">VC - E-Gov>>License Manager>>Suspend License Manager - Develop Static Screen</a></li>
-                  <li><a class="dropdown-item p-10px table-dropdown-hover " href="#">VC - E-Gov>>License Manager>>View License - Develop Static Screen</a></li>
+                  <li><a class="dropdown-item p-10px table-dropdown-hover " href="View-License">VC - E-Gov>>License Manager>>View License - Develop Static Screen</a></li>
                   
                </ul>
             </div>
