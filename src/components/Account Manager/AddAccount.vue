@@ -105,6 +105,8 @@
                      <select class="form-select Roboto-input-box-font margin-none" id="floatingSelect" aria-label="Floating label select example">
                         <option selected class="Roboto-label-font">Philippines</option>
                      </select>
+                     <label for="floatingSelect" class="Roboto-label-font">Country</label>
+
                   </form>
                </div>
                <div class="">

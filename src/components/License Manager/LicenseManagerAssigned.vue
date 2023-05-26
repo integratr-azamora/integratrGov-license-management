@@ -447,8 +447,6 @@
     <!-- assign license  -->
    <UpdateLicenseModal :show="openModalupdate" @close="openModalupdate = false">
       <template #body>
-         <div class="d-flex justify-content-center" >
-      <div class="">
          <div class="d-flex justify-content-between my-25px">
             <p class="license-header ms-20px">Update License</p>
             <button @click="openModalupdate = false" class="mx-20px button-round bg-indigo color-white border-color-indigo d-flex align-items-center">
@@ -512,8 +510,6 @@ Lorem ipsum dolor sit amet
             <button @click="openModalupdate = false" class="button-default bg-none border-color-none color-indigo me-2">Cancel</button>
             <button class="button-default bg-indigo border-color-indigo color-white me-0">Save</button>
          </div>
-      </div>
-   </div>
       </template>
    </UpdateLicenseModal>
 <SuspendLicenseModal :show="openModalSuspend" @close="openModalSuspend = false">
