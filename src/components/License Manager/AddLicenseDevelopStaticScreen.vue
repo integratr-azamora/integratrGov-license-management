@@ -19,7 +19,7 @@
                 </div>
              </div>
              <!-- text  -->
-             <div class="c-grid">
+             <div class="c-grid mt-20px">
                 <div class="input-group shadow-sm p-1 mw-457px ">
                    <div class="form-floating ">
                       <input type="text" class="form-control border-color-none shadow-none " id="floatingInputGroup1" placeholder="#" value="Business Permit and License">
