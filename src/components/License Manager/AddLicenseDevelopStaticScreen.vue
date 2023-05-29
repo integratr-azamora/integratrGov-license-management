@@ -56,25 +56,25 @@
                   <input type="text" class="form-control border-color-none shadow-sm Roboto-input-box-font" id="floatingInputValue" placeholder="name@example.com" value="[Perpetual; Saas - E; SaaS - I; SaaS - B]">
                   <label for="floatingInputValue" class="Roboto-label-font">License Description</label>
                </form>
-               <form class="form-floating">
+               <form class="form-floating mw-457px">
                   <input type="text" class="form-control border-color-none shadow-sm Roboto-input-box-font " id="floatingInputValue" placeholder="name@example.com" value="A1AA1AA">
                   <label for="floatingInputValue" class="Roboto-label-font">Program/Part No.</label>
                </form>
-                <div class="input-group shadow-sm p-1 mw-457px bg-none rounded-2">
+                <div class="input-group shadow-sm mw-457px bg-none rounded-2">
                    <div class="form-floating">
                       <input type="text" class="form-control border-color-none shadow-none bg-none align-middle Roboto-input-box-font" id="floatingInputGroup1" placeholder="#" value="01/01/2023">
-                      <label for="floatingInputGroup1" class="Roboto-label-font">Release Date</label>
+                      <label for="floatingInputValue" class="Roboto-label-font">Release Date</label>
                    </div>
                    <span class="input-group-text border-color-none box-shadow-none shadow-none bg-none"><i class="isax isax-calendar-1 color-dimgray icon-size shadow-none"></i></span>
                 </div>
-                <div class="input-group shadow-sm p-1 mw-457px bg-none rounded-2">
+                <div class="input-group shadow-sm mw-457px bg-none rounded-2">
                    <div class="form-floating">
                       <input type="text" class="form-control border-color-none shadow-none bg-none align-middle Roboto-input-box-font" id="floatingInputGroup1" placeholder="#" value="01/01/2024">
                       <label for="floatingInputGroup1" class="Roboto-label-font">End-of-Sale Date</label>
                    </div>
                    <span class="input-group-text border-color-none box-shadow-none shadow-none bg-none"><i class="isax isax-calendar-1 color-dimgray icon-size shadow-none"></i></span>
                 </div>
-                <div class="input-group shadow-sm p-1 mw-457px bg-none rounded-2">
+                <div class="input-group shadow-sm mw-457px bg-none rounded-2">
                    <div class="form-floating">
                       <input type="text" class="form-control border-color-none shadow-none bg-none align-middle Roboto-input-box-font" id="floatingInputGroup1" placeholder="#" value="01/01/2025">
                       <label for="floatingInputGroup1" class="Roboto-label-font">End-of-Support-Life Date</label>
