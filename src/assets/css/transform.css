@@ -179,6 +179,7 @@
   }
   .mw-457px{
     max-width: 457px !important;
+    height: 57px;
   }
   .width-50px{
     width:50px;
@@ -192,4 +193,8 @@
 
   .r-pos-addlicense-buttons{
     left: 1235px;
+  }
+  .pos-relative-bottom-4px{
+    position:relative;
+    bottom:4px;
   }

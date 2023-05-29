@@ -19,91 +19,76 @@
                 </div>
              </div>
              <!-- text  -->
-             <div class="c-grid mt-20px">
-                <div class="input-group shadow-sm p-1 mw-457px ">
-                   <div class="form-floating ">
-                      <input type="text" class="form-control border-color-none shadow-none " id="floatingInputGroup1" placeholder="#" value="Business Permit and License">
-                      <label for="floatingInputGroup1">Module</label>
+             <div class="c-grid mt-20px ">
+
+               <div class="form-floating mw-457px ">
+                  <select class="form-select Roboto-input-box-font mt-0 shadow-sm" id="floatingSelect" aria-label="Floating label select">
+                     <option selected>Business Permit and License</option>
+                  </select>
+                  <label for="floatingSelect" class="Roboto-label-font">Module</label>
+               </div>
+
+               <form class="form-floating">
+                  <input type="text" class="form-control border-color-none shadow-sm Roboto-input-box-font " id="floatingInputValue" placeholder="name@example.com" value="A01">
+                  <label for="floatingInputValue"  class="Roboto-label-font">Product No.</label>
+               </form>
+
+                <form class="form-floating">
+                  <input type="text" class="form-control border-color-none shadow-sm Roboto-input-box-font" id="floatingInputValue" placeholder="name@example.com" value="1.0">
+                  <label for="floatingInputValue" class="Roboto-label-font">Version</label>
+               </form>
+
+               <div class="form-floating mw-457px margin-top-none">
+                  <select class="form-select Roboto-input-box-font mt-0 shadow-sm" id="floatingSelect" aria-label="Floating label select">
+                     <option selected>[SaaS; On-prem; Public Cloud; Private Cloud]</option>
+                  </select>
+                  <label for="floatingSelect" class="Roboto-label-font">Platform</label>
+               </div>
+
+               <div class="form-floating mw-457px margin-top-none">
+                  <select class="form-select Roboto-input-box-font mt-0 shadow-sm" id="floatingSelect" aria-label="Floating label select">
+                     <option selected>40 years</option>
+                  </select>
+                  <label for="floatingSelect" class="Roboto-label-font">Validity</label>
+               </div>
+
+               <form class="form-floating mw-457px ">
+                  <input type="text" class="form-control border-color-none shadow-sm Roboto-input-box-font" id="floatingInputValue" placeholder="name@example.com" value="[Perpetual; Saas - E; SaaS - I; SaaS - B]">
+                  <label for="floatingInputValue" class="Roboto-label-font">License Description</label>
+               </form>
+               <form class="form-floating">
+                  <input type="text" class="form-control border-color-none shadow-sm Roboto-input-box-font " id="floatingInputValue" placeholder="name@example.com" value="A1AA1AA">
+                  <label for="floatingInputValue" class="Roboto-label-font">Program/Part No.</label>
+               </form>
+                <div class="input-group shadow-sm p-1 mw-457px bg-none rounded-2">
+                   <div class="form-floating">
+                      <input type="text" class="form-control border-color-none shadow-none bg-none align-middle Roboto-input-box-font" id="floatingInputGroup1" placeholder="#" value="01/01/2023">
+                      <label for="floatingInputGroup1" class="Roboto-label-font">Release Date</label>
                    </div>
-                   <span class="input-group-text bg-none border-color-none box-shadow-none shadow-none">
-                      <fa class="arrow-icon  color-dimgray" icon="angle-down" />
-                   </span>
+                   <span class="input-group-text border-color-none box-shadow-none shadow-none bg-none"><i class="isax isax-calendar-1 color-dimgray icon-size shadow-none"></i></span>
                 </div>
-                <div class="input-group shadow-sm p-1 mw-457px ">
-                   <div class="form-floating ">
-                      <input type="text" class="form-control border-color-none shadow-none" id="floatingInputGroup1" placeholder="#" value="A01">
-                      <label for="floatingInputGroup1">Product No.</label>
+                <div class="input-group shadow-sm p-1 mw-457px bg-none rounded-2">
+                   <div class="form-floating">
+                      <input type="text" class="form-control border-color-none shadow-none bg-none align-middle Roboto-input-box-font" id="floatingInputGroup1" placeholder="#" value="01/01/2024">
+                      <label for="floatingInputGroup1" class="Roboto-label-font">End-of-Sale Date</label>
                    </div>
+                   <span class="input-group-text border-color-none box-shadow-none shadow-none bg-none"><i class="isax isax-calendar-1 color-dimgray icon-size shadow-none"></i></span>
                 </div>
-                <div class="input-group shadow-sm p-1 mw-457px ">
-                   <div class="form-floating ">
-                      <input type="text" class="form-control border-color-none shadow-none" id="floatingInputGroup1" placeholder="#" value="1.0">
-                      <label for="floatingInputGroup1">Version</label>
+                <div class="input-group shadow-sm p-1 mw-457px bg-none rounded-2">
+                   <div class="form-floating">
+                      <input type="text" class="form-control border-color-none shadow-none bg-none align-middle Roboto-input-box-font" id="floatingInputGroup1" placeholder="#" value="01/01/2025">
+                      <label for="floatingInputGroup1" class="Roboto-label-font">End-of-Support-Life Date</label>
                    </div>
+                   <span class="input-group-text border-color-none box-shadow-none shadow-none bg-none"><i class="isax isax-calendar-1 color-dimgray icon-size shadow-none"></i></span>
                 </div>
-                <div class="input-group shadow-sm p-1 mw-457px ">
-                   <div class="form-floating ">
-                      <input type="text" class="form-control border-color-none shadow-none " id="floatingInputGroup1" placeholder="#" value="[SaaS; On-prem; Public Cloud; Private Cloud]">  
-                      <label for="floatingInputGroup1">Platform</label>
-                   </div>
-                   <span class="input-group-text bg-none border-color-none box-shadow-none shadow-none">
-                      <fa class="arrow-icon  color-dimgray" icon="angle-down" />
-                   </span>
-                </div>
-                <div class="input-group shadow-sm p-1 mw-457px ">
-                   <div class="form-floating ">
-                      <input type="text" class="form-control border-color-none shadow-none" id="floatingInputGroup1" placeholder="#" value="40 years">
-                      <label for="floatingInputGroup1">Validity</label>
-                   </div>
-                   <span class="input-group-text bg-none border-color-none box-shadow-none">
-                      <fa class="arrow-icon  color-dimgray" icon="angle-down" />
-                   </span>
-                </div>
-                <div class="input-group shadow-sm p-1 mw-457px ">
-                   <div class="form-floating ">
-                      <input type="text" class="form-control border-color-none shadow-none" id="floatingInputGroup1" placeholder="#" value="[Perpetual; Saas - E; SaaS - I; SaaS - B]">
-                      <label for="floatingInputGroup1">License Description</label>
-                   </div>
-                </div>
-                <div class="input-group shadow-sm p-1 mw-457px ">
-                   <div class="form-floating ">
-                      <input type="text" class="form-control border-color-none shadow-none " id="floatingInputGroup1" placeholder="#" value="A1AA1AA">
-                      <label for="floatingInputGroup1">Program/Part No.</label>
-                   </div>
-                </div>
-                <div class="input-group shadow-sm p-1 mw-457px ">
-                   <div class="form-floating ">
-                      <input type="text" class="form-control border-color-none shadow-none" id="floatingInputGroup1" placeholder="#" value="01/01/2023">
-                      <label for="floatingInputGroup1">Release Date</label>
-                   </div>
-                   <span class="input-group-text bg-none border-color-none box-shadow-none"><i class="isax isax-calendar-1  color-dimgray icon-size"></i></span>
-                </div>
-                <div class="input-group shadow-sm p-1 mw-457px ">
-                   <div class="form-floating ">
-                      <input type="text" class="form-control border-color-none shadow-none" id="floatingInputGroup1" placeholder="#" value="01/01/2024">
-                      <label for="floatingInputGroup1">End-of-Sale Date</label>
-                   </div>
-                   <span class="input-group-text bg-none border-color-none box-shadow-none"><i class="isax isax-calendar-1  color-dimgray icon-size"></i></span>
-                </div>
-                <div class="input-group shadow-sm p-1 mw-457px ">
-                   <div class="form-floating ">
-                      <input type="text" class="form-control border-color-none shadow-none " id="floatingInputGroup1" placeholder="#" value="01/01/2025">
-                      <label for="floatingInputGroup1">End-of-Support-Life Date</label>
-                   </div>
-                   <span class="input-group-text bg-none border-color-none box-shadow-none shadow-none"><i class="isax isax-calendar-1  color-dimgray icon-size"></i></span>
-                </div>
-                <div class="input-group shadow-sm p-1 mw-457px ">
-                   <div class="form-floating ">
-                      <input type="text" class="form-control border-color-none shadow-none" id="floatingInputGroup1" placeholder="#" value="FSPDE">
-                      <label for="floatingInputGroup1">5-Letter Code</label>
-                   </div>
-                </div>
-                <div class="input-group shadow-sm p-1 mw-457px  bg-whitesmoke">
-                   <div class="form-floating ">
-                      <input type="text" class="form-control border-color-none shadow-none bg-none" id="floatingInputGroup1" placeholder="#" value="FSPDE-00000-00000-00000-00000">
-                      <label for="floatingInputGroup1">License Key/Activation Code Format</label>
-                   </div>
-                </div>
+                <form class="form-floating">
+                  <input type="text" class="form-control border-color-none shadow-sm Roboto-input-box-font " id="floatingInputValue" placeholder="name@example.com" value="FSPDE">
+                  <label for="floatingInputValue"  class="Roboto-label-font">5-Letter Code</label>
+               </form>
+               <form class="form-floating">
+                  <input type="text" class="form-control border-color-none shadow-sm Roboto-input-box-font bg-whitesmoke" id="floatingInputValue" placeholder="name@example.com" value="FSPDE-00000-00000-00000-00000">
+                  <label for="floatingInputValue"  class="Roboto-label-font">License Key/Activation Code Format</label>
+               </form>
              </div>
              <div class="mt-20px">
                 <div class="d-flex justify-content-end ">
