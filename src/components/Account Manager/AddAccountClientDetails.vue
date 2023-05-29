@@ -3,7 +3,7 @@
       <span class="client-roboto-fonts mt-20px ms-20px">Juan Dela Cruz</span>
 
       <!-- left side  -->
-      <div class="client-container mb-20px col-sm-12 col-md-6 rounded-3 shadow-sm">
+      <div class="client-container me-20px mb-20px col-sm-12 col-md-6 rounded-3 shadow-sm">
          <div class="bor-style-solid m-auto size-container-clientdetails-tables">
             <div class="bor-style-solid ">
                <div class="col d-flex flex-row px-20px">
@@ -145,16 +145,12 @@
       <!-- right side  -->
       <div class="action-cont4 mb-20px padding-none col-sm-12 col-md-6 bg-ghostwhite  shadow-sm">
          <!-- action container -->
-         <div class=" border-color-eucalyptus">
-            <div class="size-container-action padding-x py-20px rounded-3 border-color-ghostwhite bg-ghostwhite">
-            <div>
-               <div class="border-bottom-client pb-20px border-color-frenchskyblue">
-                  <div class=" ">
-                     <span class="fontfamily-gotham-heading-2 blue ps-10px ms-10px">Actions</span>
-                  </div>
-                  <div class="col button-container me-10px">
-                     <button class="button-default bg-valencia color-white border-color-valencia"><i class="isax isax-minus align-middle icon-size-weight"></i>Reset Password</button>
-                     <button class="button-default bg-purpleheart color-white border-color-purpleheart"><i class="isax isax-trash align-middle icon-size-weight me-5px"></i> Delete</button>
+         <div class="align-middle">
+               <div class="d-flex flex-wrap flex-row justify-content-between align-middle py-4">
+                  <span class="fontfamily-gotham-heading-2 blue ms-20px">Actions</span>
+                  <div class=" button-container ms-20px align-middle me-20px">
+                     <button class="button-default bg-valencia color-white border-color-valencia d-flex align-items-center"><i class="isax isax-minus icon-size-weight"></i>Reset Password</button>
+                     <button class="button-default bg-purpleheart color-white border-color-purpleheart d-flex align-items-center "><i class="isax isax-trash icon-size-weight"></i>Delete</button>
                   </div>
                </div>
                <hr class=" border-bottom-client border-color-frenchskyblue m-0"/>
