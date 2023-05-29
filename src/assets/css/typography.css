@@ -226,3 +226,7 @@
     align-items: center;    
     color: #111111;
 }
+
+.fs-18px{
+    font-size: var(--c-size-18px);
+}

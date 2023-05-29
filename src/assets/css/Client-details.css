@@ -55,10 +55,22 @@
 .client-details-table-height{
   height:650px;
 }
-.scroll{
-    overflow-y: scroll;
+
+/* @media screen and (min-height :800px){
+  .scroll{
+    overflow-y: hidden !important;
+  }
+} */
+
+/* @media screen and (min-width :1400px){
+  .scroll{
+    overflow-x: hidden !important;
+  }
+} */
+/* .scroll{
+    overflow-y: hidden;
     overflow-x: scroll;
-}
+} */
 
 .scroll2{
   overflow-y: scroll;
