@@ -14,7 +14,7 @@
                   <p class="fontfamily-gotham-heading-2 ">Software License Management</p>
                   <div class="d-flex justify-content-end">
                      <div class="responsive-end responsive-rows ">
-                        <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center mx-0">
+                        <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center mx-0 mt-3 mt-sm-0 mt-md-0 mt-lg-0">
                            <fa class="font-size-20px me-8px" icon="plus" />
                            Add
                         </button>
@@ -29,7 +29,7 @@
                          <input type="text" class="form-control border-color-none shadow-none" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
                       </div>
                       <div class="mx-20px">
-                         <button class="button-default-no-margin bg-ghostwhite color-frenchskyblue border-color-ghostwhite d-flex flex-row margin-none shadow-sm">
+                         <button class="button-default-no-margin-table bg-ghostwhite color-frenchskyblue border-color-ghostwhite d-flex flex-row margin-none shadow-sm">
                             <i class="isax isax-filter-search icon-size-weight me-2"></i>
                             <p class="fs-18px">Filter</p>
                          </button>

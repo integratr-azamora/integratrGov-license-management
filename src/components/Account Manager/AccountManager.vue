@@ -32,7 +32,7 @@
                         <input type="text" class="form-control border-color-none shadow-none" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
                      </div>
                      <div class="mx-20px">
-                        <button class="button-default-no-margin bg-ghostwhite color-frenchskyblue border-color-ghostwhite d-flex flex-row margin-none shadow-sm">
+                        <button class="button-default-no-margin-table bg-ghostwhite color-frenchskyblue border-color-ghostwhite d-flex flex-row margin-none shadow-sm">
                            <i class="isax isax-filter-search icon-size-weight me-2"></i>
                            <p class="fs-18px">Filter</p>
                         </button>   
@@ -49,7 +49,7 @@
                </div>
                <!-- table Body  -->
                <div class="table-responsive rounded-1  scroll table-borderless size-table-heigth">
-                  <table class="table  table-striped-custom table-hover font-table-text overflow-scroll table-responsive table-borderless" >
+                  <table class="table  table-striped-custom table-hover font-table-text table-responsive table-borderless" >
              <thead class="table-header">
                 <tr > 
                   <th class="text-start px-20px  pb-10px padding-top-none">
