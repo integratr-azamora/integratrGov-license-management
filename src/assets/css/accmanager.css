@@ -96,6 +96,9 @@
 .size-table-heigth{
   height: 640px;
 }
+.size-table-heigth-softwarelicense{
+  height: 641px;
+}
 .size-textarea-licensemanager{
   min-height:150px !important;
   max-width: 100%; 
@@ -156,6 +159,10 @@
 }
 .lh-19px{
   line-height: 19px;
+}
+
+.form-select {
+  background-size: 16px auto !important;
 }
 /* .responsive-center{
   display: flex !important;

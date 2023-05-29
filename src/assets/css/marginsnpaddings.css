@@ -90,6 +90,18 @@
   }
 /* margin-top  */  
 /* margin-bottom  */
+.mb-1px{
+  margin-bottom: var(--c-size-1px);
+}
+.mb-2px{
+  margin-bottom: var(--c-size-2px);
+}
+.mb-3px{
+  margin-bottom: var(--c-size-3px);
+}
+.mb-4px{
+  margin-bottom: var(--c-size-4px);
+}
 .mb-5px{
   margin-bottom: var(--c-size-5px);
 }
