@@ -1,7 +1,7 @@
 <template>
     <Transition name="modal2">
         <div v-if="show">
-            <div :class="`UpdateLicenseModal modal-mask-2 modal-large-2 p-0  ${modalContainer}`">
+            <div :class="`CnameRecord modal-mask-2 modal-large-2 p-0  ${modalContainer}`">
                 <div :class="`modal-dialog modal-dialog-2 modal-dialog-centered ${modalDialog}`">
                     <div :class="`modal-content pad-y-20p ${modalContent}`">
                         <div :class="`modal-body modal-body-2${modalBody}`">
@@ -71,17 +71,19 @@ export default {
     border: none;
 }
 
-.UpdateLicenseModal{
-  --bs-modal-height: 654px !important;
-  --bs-modal-width: 942px !important;
+.CnameRecord{
+  --bs-modal-width: 481px !important;
   --bs-modal-zindex: 1055;
   --bs-modal-margin: 0.5rem;
   --bs-modal-bg: #fff;
   --bs-modal-border-radius: 16px;
+  --bs-modal-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+  
   
 
 
-}
+
   
 
 

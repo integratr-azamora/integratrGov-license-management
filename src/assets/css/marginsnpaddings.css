@@ -22,6 +22,9 @@
 .ms-10px{
   margin-left:var(--c-size-10px);
 }
+.ms-13px{
+  margin-left:var(--c-size-13px);
+}
 .ms-20px{
     margin-left: 1.25rem !important;
   }
@@ -45,6 +48,7 @@
 .me-10px{
   margin-right:var(--c-size-10px) !important;
 }
+
 
 .me-20px{
     margin-right: 1.25rem !important;
