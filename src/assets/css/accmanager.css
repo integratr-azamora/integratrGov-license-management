@@ -96,6 +96,10 @@
 .size-table-heigth{
   height: 640px;
 }
+
+.size-table-height2{
+  height: 630px;
+}
 .size-textarea-licensemanager{
   min-height:150px !important;
   max-width: 100%; 

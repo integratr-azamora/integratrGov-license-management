@@ -447,14 +447,15 @@
     <!-- assign license  -->
    <UpdateLicenseModal :show="openModalupdate" @close="openModalupdate = false">
       <template #body>
-         <div class="d-flex justify-content-between my-25px">
-            <p class="license-header ms-20px">Update License</p>
+
+         <div class="d-flex justify-content-between">
+            <p class="license-header ms-20px ">Update License</p>
             <button @click="openModalupdate = false" class="mx-20px button-round bg-indigo color-white border-color-indigo d-flex align-items-center">
                <fa class="font-size-20px" icon="close" />
             </button>
          </div>
-         <div class="border-bottom-license mt-15px"></div>
-         <div class="row mt-20">
+         <div class="border-bottom-license mt-14px"></div>
+         <div class="row">
             <div class="col ms-20px me-20px">
                <div class="row mt-20px">
                   <div class="row d-flex align-items-center">

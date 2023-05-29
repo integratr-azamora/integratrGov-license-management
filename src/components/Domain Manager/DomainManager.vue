@@ -2,7 +2,7 @@
     <div class=" ">
        <div class="d-flex justify-content-center">
           <div class=" rounded-3 container">
-             <div class=" heading1  ">Domain Manager </div>
+             <div class=" heading1">Domain Manager </div>
              <!-- row1  -->
              <div class=" shadow-sm border-round16px pb-20px">
                <div class="d-flex justify-content-between mt-20px pt-20px mx-20px">
@@ -238,3 +238,18 @@
        </div>
     </div>
  </template>
+<script>
+import ModalLarge from '../../components/ModalLarge.vue'
+
+export default {
+   components: {
+      ModalLarge
+   },
+   data(){
+      return {
+       openModal: false, 
+       openModalAssign: false 
+      }
+   }
+}
+</script>

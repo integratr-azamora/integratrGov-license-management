@@ -4,7 +4,7 @@
             <div :class="`UpdateLicenseModal modal-mask-2 modal-large-2 p-0  ${modalContainer}`">
                 <div :class="`modal-dialog modal-dialog-2 modal-dialog-centered ${modalDialog}`">
                     <div :class="`modal-content pad-y-20p ${modalContent}`">
-                        <div :class="`modal-body modal-body-2 scrollpink pad-x-20p mb-0 pb-0 p-0 ${modalBody}`">
+                        <div :class="`modal-body modal-body-2 scrollpink pad-x-20p mb-0 pb-0 ${modalBody}`">
                             <slot name="body">
 
                             </slot>
@@ -72,8 +72,8 @@ export default {
 }
 
 .UpdateLicenseModal{
-  --bs-modal-height: 942px !important;
-  --bs-modal-width: 654px !important;
+  --bs-modal-height: 654px !important;
+  --bs-modal-width: 942px !important;
   --bs-modal-zindex: 1055;
   --bs-modal-padding: 1rem;
   --bs-modal-margin: 0.5rem;

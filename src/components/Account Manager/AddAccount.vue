@@ -1,6 +1,6 @@
 <template>
    <div class="bor-style-solid add-cont container">
-      <div class="bor-style-solid ">
+      <div class="">
          <div class="">
             <div class="size-box-15"></div>
          </div>
