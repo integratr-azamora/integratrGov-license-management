@@ -1,90 +1,68 @@
 <template>
-   <div class="row padding-none justify-content-between align-items-center">
-      <span class="client-roboto-fonts mt-20px ms-20px">Juan Dela Cruz</span>
-
-      <!-- left side  -->
-      <div class="client-container me-20px mb-20px col-sm-12 col-md-6 rounded-3 shadow-sm">
-         <div class="bor-style-solid m-auto size-container-clientdetails-tables">
-            <div class="bor-style-solid ">
-               <div class="col d-flex flex-row px-20px">
-                  <div class=" size-box-20"></div>
-               </div>
+   <div class="container row padding-none justify-content-between align-items-center">
+      <span class="client-roboto-fonts mt-20px">Juan Dela Cruz</span>
+      <div class="row">
+         <!-- container-left  -->
+         <div class="col client-container me-20px mt-20px padding-none ">
+            <div class="d-flex justify-content-between">
+               <span class="font-style-inter-semibold px-20px">Client Information</span>
+               <button class="button-default bg-none color-purpleheart border-color-purpleheart m-20px">Edit</button>
             </div>
-            <div class="d-flex justify-content-between align-items-center ">
-               <p class="ps-20px font-tablename">Client Information</p>
-               <button class="button-default bg-none border-color-indigo color-indigo me-20px">Edit</button>
-            </div>
-           
-            <div class="bor-style-solid d-flex flex-row">
-               <div class=" size-box-20"></div>
-            </div>
-            <div class="table-responsive rounded-1 table-borderless scroll-addacount border-color-none size-table-height2">
-                  <table class="table table-striped-custom table-hover table-responsive font-table-text table-borderless border-color-none"  >
+            <div class="scroll-addacount scroll client-details-table-height">
+               <table class="table table-striped-custom table-hover font-table-text table-borderless">
                   <thead class="table-header">
-                     <tr > 
-                        <th class="text-start padding-top-none">
+                     <tr >
+                        <th class="text-start px-20px">
                            <div class="d-flex align-items-center">
-                              <span class="font-table-column ms-13px me-10px">Label</span>
+                              <span class="font-table-column">Label</span>
                               <i class="isax isax-arrow-down5 size-icon-table-arrow"></i>
                            </div>
                         </th>
-                        <th class="text-start px-20px  pb-10px padding-top-none">
+                        <th class="text-start px-20px">
                            <div class="d-flex align-items-center">
-                              <span class="font-table-column me-10px">Details</span>
+                              <span class="font-table-column">Details</span>
                               <i class="isax isax-arrow-down5 size-icon-table-arrow"></i>
                            </div>
                         </th>
                      </tr>
                   </thead>
-                  <tbody class="border rounded-1 " >
-                     <!-- row1  -->
-                     <tr class="size-table-tabledata column">
+                  <tr class="size-table-tabledata column">
                      <td class="text-start vertical-alignment-center table-text-roboto-reg px-20px ">First Name</td>
                      <td class="text-start vertical-alignment-center table-text-light px-20px">Juan</td>
                   </tr>
-                     <!-- row2  -->
-                     <tr class="size-table-tabledata column border-rouded-5px">
+                  <tr class="size-table-tabledata column border-rouded-5px">
                      <td class="text-start vertical-alignment-center table-text-roboto-reg px-20px">Last Name</td>
                      <td class="text-start vertical-alignment-center table-text-light px-20px">Dela Cruz</td>
                   </tr>
-                     <!-- row3  -->
-                     <tr class="size-table-tabledata column border-rouded-5px">
+                  <tr class="size-table-tabledata column border-rouded-5px">
                      <td class="text-start vertical-alignment-center table-text-roboto-reg px-20px">Middle Name</td>
                      <td class="text-start vertical-alignment-center table-text-light px-20px">Santos</td>
                   </tr>
-                     <!-- row4  -->
-                     <tr class="size-table-tabledata column border-rouded-5px">
+                  <tr class="size-table-tabledata column border-rouded-5px">
                      <td class="text-start vertical-alignment-center table-text-roboto-reg px-20px">Email</td>
                      <td class="text-start vertical-alignment-center table-text-light px-20px">juandelacruz@gmail.com</td>
                   </tr>
-                     <!-- row5  -->
-                     <tr class="size-table-tabledata column border-rouded-5px">
+                  <tr class="size-table-tabledata column border-rouded-5px">
                      <td class="text-start vertical-alignment-center table-text-roboto-reg px-20px">Mobile No.</td>
                      <td class="text-start vertical-alignment-center table-text-light px-20px">+639091234567</td>
                   </tr>
-                     <!-- row6  -->
-                     <tr class="size-table-tabledata column border-rouded-5px">
+                  <tr class="size-table-tabledata column border-rouded-5px">
                      <td class="text-start vertical-alignment-center table-text-roboto-reg px-20px">TIN</td>
                      <td class="text-start vertical-alignment-center table-text-light px-20px">00000000000</td>
                   </tr>
-
-                     <!-- row7  -->
-                     <tr class="size-table-tabledata column border-rouded-5px">
+                  <tr class="size-table-tabledata column border-rouded-5px">
                      <td class="text-start vertical-alignment-center table-text-roboto-reg px-20px">LGU/Organization</td>
                      <td class="text-start vertical-alignment-center table-text-light px-20px">Pasig City</td>
                   </tr>
-                     <!-- row8  -->
-                     <tr class="size-table-tabledata column border-rouded-5px">
+                  <tr class="size-table-tabledata column border-rouded-5px">
                      <td class="text-start vertical-alignment-center table-text-roboto-reg px-20px">Position</td>
                      <td class="text-start vertical-alignment-center table-text-light px-20px">Mayor</td>
                   </tr>
-                     <!-- row9  -->
-                     <tr class="size-table-tabledata column border-rouded-5px">
+                  <tr class="size-table-tabledata column border-rouded-5px">
                      <td class="text-start vertical-alignment-center table-text-roboto-reg px-20px">Unit/House/Bldg No.</td>
                      <td class="text-start vertical-alignment-center table-text-light px-20px">1</td>
                   </tr>
-                     <!-- row10  -->
-                     <tr class="size-table-tabledata column border-rouded-5px">
+                  <tr class="size-table-tabledata column border-rouded-5px">
                      <td class="text-start vertical-alignment-center table-text-roboto-reg px-20px">Building Name</td>
                      <td class="text-start vertical-alignment-center table-text-light px-20px">SM City Light Mall Residence</td>
                   </tr>
@@ -136,16 +114,14 @@
                      <td class="text-start vertical-alignment-center table-text-roboto-reg px-20px">CVC</td>
                      <td class="text-start vertical-alignment-center table-text-light px-20px">###</td>
                   </tr>
-                  </tbody>
                </table>
             </div>
          </div>
-      </div>
-      <!-- left side  -->
-      <!-- right side  -->
-      <div class="action-cont4 mb-20px padding-none col-sm-12 col-md-6 bg-ghostwhite  shadow-sm">
+         <!-- container-left  -->
+         <!-- container-right  -->
+         <div class="action-cont4 justify-content-between bg-ghostwhite shadow-sm mt-20px">
          <!-- action container -->
-         <div class="align-middle">
+         <div class="align-middle ">
                <div class="d-flex flex-wrap flex-row justify-content-between align-middle py-4">
                   <span class="fontfamily-gotham-heading-2 blue ms-20px">Actions</span>
                   <div class=" button-container ms-20px align-middle me-20px">
@@ -164,8 +140,8 @@
                   </div>
                </div>
          </div>
-         <!-- action container -->
+         <!-- container-right  -->
+         </div>
       </div>
-      <!-- right side  -->
    </div>
 </template>
