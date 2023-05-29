@@ -49,7 +49,7 @@
                </div>
                <!-- table Body  -->
                <div class="table-responsive rounded-1  scroll table-borderless size-table-heigth">
-                  <table class="table  table-striped-custom table-hover font-table-text overflow-scroll table-responsive table-borderless" >
+                  <table class="table  table-striped-custom table-hover font-table-text table-responsive table-borderless" >
              <thead class="table-header">
                 <tr > 
                   <th class="text-start px-20px  pb-10px padding-top-none">

@@ -58,6 +58,9 @@
 .mt-1px{
   margin-top:1px  !important;
 }
+.mt-2px{
+  margin-top:var(--c-size-2px);
+}
 .mt-5px{
   margin-top: var(--c-size-5px);
 }
