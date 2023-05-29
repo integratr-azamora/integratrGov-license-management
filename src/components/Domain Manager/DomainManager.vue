@@ -88,7 +88,7 @@
                  <tr class="size-table-tabledata column border-rouded-5px">
                     <td class="text-start vertical-alignment-center mwmc ps-20px  width-50px">
                         <div class="form-check">
-                            <input class="form-check-input size-checkbox-24px mb-4px" type="checkbox" value="" id="checkbox1" >
+                            <input class="form-check-input size-checkbox-24px mb-4px" type="checkbox" value="" id="checkbox1" @click="showModal()">
                             <label class="form-check-label" for="checkbox1"></label>
                         </div>
                     </td>
@@ -114,7 +114,7 @@
                  <tr class="size-table-tabledata column border-rouded-5px">
                     <td class="text-start vertical-alignment-center mwmc ps-20px ">
                         <div class="form-check">
-                            <input class="form-check-input size-checkbox-24px mb-4px" type="checkbox" value="" id="flexCheckDefault" >
+                            <input class="form-check-input size-checkbox-24px mb-4px" type="checkbox" value="" id="flexCheckDefault" @click="openModalViewRecordCName = true">
                             <label class="form-check-label" for="flexCheckDefault"></label>
                         </div>
                     </td>
@@ -306,7 +306,9 @@ export default {
    },
    methods:{
       showModal() {
-         this.$refs['openModalViewRecordCName'].show();
+         this.openModalViewRecordCName = true;
+         alert("asdadwa");
+         // this.$refs['openModalViewRecordCName'].show();
       },
       hideModal() {
          this.$refs['openModalViewRecordCName'].hide();
