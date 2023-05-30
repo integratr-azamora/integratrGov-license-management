@@ -4,7 +4,7 @@
           <div class=" heading1 padding">License Details</div>
           <div class="view-license-tab1">
              <div class="row border-color-indigo ">
-               <div class="col-12 col-lg-6  border-color-eucalyptus p-0">
+               <div class="col-12 col-lg-6  border-color-eucalyptus p-0 ">
                   <div class="row">
                      <span class="col-4 border-color-purpleheart" style=" white-space: nowrap;">Client</span>
                      <span class="col-4 border-color-frenchskyblue" style=" white-space: nowrap;">Juan Dela Cruz</span>
@@ -27,7 +27,7 @@
                   </div>
                   
                </div>
-               <div class="col-12 col-lg-6 border-color-valencia p-0">
+               <div class="col-12 col-lg-6 border-color-valencia p-0 ">
                   <div class="row">
                      <span class="col-4 border-color-purpleheart" style=" white-space: nowrap;">Org Account ID:</span>
                      <span class="col-4 border-color-frenchskyblue" style=" white-space: nowrap;">GOV112223300</span>
