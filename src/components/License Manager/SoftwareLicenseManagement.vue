@@ -360,12 +360,10 @@
           </div>
        </div>
     </div>
-
-    <div class="mt-20px">
-       <div class="d-flex justify-content-center">
-          <div class=" rounded-3 container shadow-sm border-round16px pb-10px">
+       <div class="d-flex justify-content-center mt-20px">
+          <div class=" rounded-3 container shadow-sm border-round16px p-20px">
              <!-- row1  -->
-                <div class="d-flex justify-content-between mt-10px flex-container align-items-center">
+                <div class="d-flex justify-content-between flex-container align-items-center">
                    <p class="fontfamily-gotham-heading-3">License Guidelines</p>
                    <div class="d-flex justify-content-end">
                      <div class="responsive-end responsive-rows ">
@@ -390,5 +388,4 @@ License Key/Activation Code Format
              <!-- row1  -->        
           </div>
        </div>
-    </div>
  </template>
