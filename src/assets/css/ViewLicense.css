@@ -12,6 +12,7 @@
 }
 
 .font-style-roboto-view{
+    max-width: 1412px;
     font-family: 'Roboto-regular', sans-serif;  
     font-weight: 400;
     font-size: 16px;

@@ -1,5 +1,5 @@
 <template>
-   <div class="container row padding-none justify-content-between align-items-center">
+   <div class="container" >
       <span class="client-roboto-fonts mt-20px">Juan Dela Cruz</span>
       <div class="row">
          <!-- container-left  -->
@@ -119,7 +119,7 @@
          </div>
          <!-- container-left  -->
          <!-- container-right  -->
-         <div class="action-cont4 justify-content-between bg-ghostwhite shadow-sm mt-20px">
+         <div class="action-cont4 justify-content-between bg-ghostwhite shadow-sm mt-20px p-0">
          <!-- action container -->
          <div class="align-middle ">
                <div class="d-flex flex-wrap flex-row justify-content-between align-middle py-4">
