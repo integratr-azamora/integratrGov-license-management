@@ -55,7 +55,7 @@ margin-left: none;
 height:650px;
 }
 .scroll{
-  /* overflow-y: scroll; */
+  overflow-y: scroll;
   /* overflow-x: scroll; */
 }
 
