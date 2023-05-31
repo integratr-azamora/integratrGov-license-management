@@ -119,7 +119,7 @@
          </div>
          <!-- container-left  -->
          <!-- container-right  -->
-         <div class="action-cont4 justify-content-between bg-ghostwhite shadow-sm mt-20px p-0">
+         <div class="action-cont4 justify-content-center bg-ghostwhite shadow-sm mt-20px p-0">
          <!-- action container -->
          <div class="align-middle ">
                <div class="d-flex flex-wrap flex-row justify-content-between align-middle py-4">

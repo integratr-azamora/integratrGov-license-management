@@ -108,16 +108,16 @@
                   </div>
                </div>
             </div>
-            <div class="d-flex flex-wrap flex-row  align-middle mt-20px">
-               <button @click="openModalupdate = true" class="button-default m-5px bg-none color-indigo border-color-indigo ms-20px">Update License</button>
-               <button @click="openModalTransfer = true" class="button-default m-5px bg-none color-indigo border-color-indigo">Transfer License</button>
-               <button class="button-default m-5px bg-none color-dimgray border-color-dimgray">Renew License</button>
-               <button @click="openModalSuspend = true" class="button-default m-5px bg-valencia color-white border-color-valencia d-flex flex-row"><i class="isax isax-minus icon-size-weight me-1"></i>Suspend</button>
-               <button class="button-default m-5px bg-indigo color-white border-color-indigo d-flex flex-row">
+            <div class="d-flex flex-wrap flex-row  align-middle mt-20px ps-20px justify-content-center justify-content-lg-start">
+               <button @click="openModalupdate = true" class="button-default me-5px mb-5px bg-none color-indigo border-color-indigo">Update License</button>
+               <button @click="openModalTransfer = true" class="button-default me-5px mb-5px bg-none color-indigo border-color-indigo">Transfer License</button>
+               <button class="button-default me-5px mb-5px bg-none color-dimgray border-color-dimgray">Renew License</button>
+               <button @click="openModalSuspend = true" class="button-default me-5px mb-5px bg-valencia color-white border-color-valencia d-flex flex-row"><i class="isax isax-minus icon-size-weight me-1"></i>Suspend</button>
+               <button class="button-default me-5px mb-5px bg-indigo color-white border-color-indigo d-flex flex-row">
                <i class="isax isax-trash icon-size-weight me-1 align-middle"></i>
                 <span>Remove</span>
                </button>
-               <button class="button-default m-5px bg-black color-white border-color-none d-flex flex-row">
+               <button class="button-default me-5px mb-5px bg-black color-white border-color-none d-flex flex-row">
                <i class="isax isax-ticket-expired icon-size-weight me-1 align-middle"></i>
                 <span>Black Hole</span>
                </button>
