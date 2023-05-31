@@ -7,41 +7,41 @@
                <div class="row">
                   <div class="col-12 col-lg-6  p-0">
                      <div class="row ms-20px">
-                        <span class="col-4 view-record-font-heading3" style=" white-space: nowrap;">Client</span>
-                        <span class="col-4 font-style-roboto-p1" style=" white-space: nowrap;">Juan Dela Cruz</span>
-                        <span class="col-4 " style=" white-space: nowrap;"></span>
+                        <span class="col-4 view-record-font-heading3" style=" white-space: wrap;">Client</span>
+                        <span class="col-4 font-style-roboto-p1" style=" white-space: wrap;">Juan Dela Cruz</span>
+                        <span class="col-4 " style=" white-space: wrap;"></span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" style=" white-space: nowrap;">TIN:</span>
-                        <span class="col-4 font-style-roboto-p1" style=" white-space: nowrap;">00000000000</span>
-                        <span class="col-4 " style=" white-space: nowrap;"></span>
+                        <span class="col-4 view-record-font-heading3" style=" white-space: wrap;">TIN:</span>
+                        <span class="col-4 font-style-roboto-p1" style=" white-space: wrap;">00000000000</span>
+                        <span class="col-4 " style=" white-space: wrap;"></span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" style=" white-space: nowrap;">LGU/Organization:</span>
-                        <span class="col-4 font-style-roboto-p1" style=" white-space: nowrap;">Pasig City</span>
-                        <span class="col-4 " style=" white-space: nowrap;"></span>
+                        <span class="col-4 view-record-font-heading3" style=" white-space: wrap;">LGU/ Organization: </span>
+                        <span class="col-4 font-style-roboto-p1" style=" white-space: wrap;">Pasig City</span>
+                        <span class="col-4 " style=" white-space: wrap;"></span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" style=" white-space: nowrap;">Date Assigned</span>
-                        <span class="col-4 font-style-roboto-p1" style=" white-space: nowrap;">01/01/2021</span>
-                        <span class="col-4 " style=" white-space: nowrap;"></span>
+                        <span class="col-4 view-record-font-heading3" style=" white-space: wrap;">Date Assigned</span>
+                        <span class="col-4 font-style-roboto-p1" style=" white-space: wrap;">01/01/2021</span>
+                        <span class="col-4 " style=" white-space: wrap;"></span>
                      </div>
                   </div>
                   <div class="col-12 col-lg-6  p-0">
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" style=" white-space: nowrap;">Org Account ID:</span>
-                        <span class="col-4 font-style-roboto-p1" style=" white-space: nowrap;">GOV112223300</span>
-                        <span class="col-4 " style=" white-space: nowrap;"></span>
+                        <span class="col-4 view-record-font-heading3" style=" white-space: wrap;">Org Account ID:</span>
+                        <span class="col-4 font-style-roboto-p1" style=" white-space: wrap;">GOV112223300</span>
+                        <span class="col-4 " style=" white-space: wrap;"></span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" style=" white-space: nowrap;">Email Address:</span>
-                        <span class="col-4 font-style-roboto-p1" style=" white-space: nowrap;">juandelacruz@gmail.com</span>
-                        <span class="col-4 " style=" white-space: nowrap;"></span>
+                        <span class="col-4 view-record-font-heading3" style=" white-space: wrap;">Email Address:</span>
+                        <span class="col-4 font-style-roboto-p1" style=" white-space: wrap;">juandelacruz@gmail.com</span>
+                        <span class="col-4 " style=" white-space: wrap;"></span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" style=" white-space: nowrap;">Contact No:</span>
-                        <span class="col-4 font-style-roboto-p1" style=" white-space: nowrap;">+63 9091234567</span>
-                        <span class="col-4 " style=" white-space: nowrap;"></span>
+                        <span class="col-4 view-record-font-heading3" style=" white-space: wrap;">Contact No:</span>
+                        <span class="col-4 font-style-roboto-p1" style=" white-space: wrap;">+63 9091234567</span>
+                        <span class="col-4 " style=" white-space: wrap;"></span>
                      </div>
                   </div>
                </div>
@@ -54,62 +54,62 @@
                <div class="row">
                   <div class="col-12 col-lg-6  p-0">
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" style=" white-space: nowrap;">Activation Code: </span>
-                        <span class="col-4 font-style-roboto-p1" style=" white-space: nowrap;">FSPDE-00000-00000-00000-00000</span>
-                        <span class="col-4 " style=" white-space: nowrap;"></span>
+                        <span class="col-4 view-record-font-heading3" style=" white-space: wrap;">Activation Code: </span>
+                        <span class="col-4 font-style-roboto-p1" style=" white-space: wrap;">FSPDE-00000-00000-00000-00000</span>
+                        <span class="col-4 " style=" white-space: wrap;"></span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" style=" white-space: nowrap;">License Description:</span>
-                        <span class="col-4 font-style-roboto-p1" style=" white-space: nowrap;">Perpetual</span>
-                        <span class="col-4 " style=" white-space: nowrap;"></span>
+                        <span class="col-4 view-record-font-heading3" style=" white-space: wrap;">License Description:</span>
+                        <span class="col-4 font-style-roboto-p1" style=" white-space: wrap;">Perpetual</span>
+                        <span class="col-4 " style=" white-space: wrap;"></span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" style=" white-space: nowrap;">Product No.:</span>
-                        <span class="col-4 font-style-roboto-p1" style=" white-space: nowrap;">A01</span>
-                        <span class="col-4 " style=" white-space: nowrap;"></span>
+                        <span class="col-4 view-record-font-heading3" style=" white-space: wrap;">Product No.:</span>
+                        <span class="col-4 font-style-roboto-p1" style=" white-space: wrap;">A01</span>
+                        <span class="col-4 " style=" white-space: wrap;"></span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" style=" white-space: nowrap;">Program/Part No.:</span>
-                        <span class="col-4 font-style-roboto-p1" style=" white-space: nowrap;">A1AA1AA</span>
-                        <span class="col-4 " style=" white-space: nowrap;"></span>
+                        <span class="col-4 view-record-font-heading3" style=" white-space: wrap;">Program/Part No.:</span>
+                        <span class="col-4 font-style-roboto-p1" style=" white-space: wrap;">A1AA1AA</span>
+                        <span class="col-4 " style=" white-space: wrap;"></span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" style=" white-space: nowrap;">Validity</span>
-                        <span class="col-4 font-style-roboto-p1" style=" white-space: nowrap;">40 years</span>
-                        <span class="col-4 " style=" white-space: nowrap;"></span>
+                        <span class="col-4 view-record-font-heading3" style=" white-space: wrap;">Validity</span>
+                        <span class="col-4 font-style-roboto-p1" style=" white-space: wrap;">40 years</span>
+                        <span class="col-4 " style=" white-space: wrap;"></span>
                      </div>
                   </div>
                   <div class="col-12 col-lg-6  p-0">
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" style=" white-space: nowrap;">Module: </span>
-                        <span class="col-4 font-style-roboto-p1" style=" white-space: nowrap;">Business Permit and License</span>
-                        <span class="col-4 " style=" white-space: nowrap;"></span>
+                        <span class="col-4 view-record-font-heading3" style=" white-space: wrap;">Module: </span>
+                        <span class="col-4 font-style-roboto-p1" style=" white-space: wrap;">Business Permit and License</span>
+                        <span class="col-4 " style=" white-space: wrap;"></span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" style=" white-space: nowrap;">Version:</span>
-                        <span class="col-4 font-style-roboto-p1" style=" white-space: nowrap;">V.1.0</span>
-                        <span class="col-4 " style=" white-space: nowrap;"></span>
+                        <span class="col-4 view-record-font-heading3" style=" white-space: wrap;">Version:</span>
+                        <span class="col-4 font-style-roboto-p1" style=" white-space: wrap;">V.1.0</span>
+                        <span class="col-4 " style=" white-space: wrap;"></span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" style=" white-space: nowrap;">Platform</span>
-                        <span class="col-4 font-style-roboto-p1" style=" white-space: nowrap;">SaaS</span>
-                        <span class="col-4 " style=" white-space: nowrap;"></span>
+                        <span class="col-4 view-record-font-heading3" style=" white-space: wrap;">Platform</span>
+                        <span class="col-4 font-style-roboto-p1" style=" white-space: wrap;">SaaS</span>
+                        <span class="col-4 " style=" white-space: wrap;"></span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" style=" white-space: nowrap;">Grace Period</span>
-                        <span class="col-4 font-style-roboto-p1" style=" white-space: nowrap;">7 days</span>
-                        <span class="col-4 " style=" white-space: nowrap;"></span>
+                        <span class="col-4 view-record-font-heading3" style=" white-space: wrap;">Grace Period</span>
+                        <span class="col-4 font-style-roboto-p1" style=" white-space: wrap;">7 days</span>
+                        <span class="col-4 " style=" white-space: wrap;"></span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" style=" white-space: nowrap;">Expiry Date</span>
-                        <span class="col-4 font-style-roboto-p1" style=" white-space: nowrap;"><span>00/00/0000</span> <span class="ms-3 font-style-roboto-view">Not yet activated</span> </span>
-                        <span class="col-4 " style=" white-space: nowrap;"></span>
+                        <span class="col-4 view-record-font-heading3" style=" white-space: wrap;">Expiry Date</span>
+                        <span class="col-4 font-style-roboto-p1" style=" white-space: wrap;"><span>00/00/0000</span> <span class="ms-3 font-style-roboto-view">Not yet activated</span> </span>
+                        <span class="col-4 " style=" white-space: wrap;"></span>
                      </div>
                   </div>
                </div>
             </div>
             <div class="d-flex flex-wrap flex-row  align-middle mt-20px ps-20px justify-content-center justify-content-lg-start">
-               <button @click="openModalupdate = true" class="button-default me-14px mb-10px mb-xl-0 bg-none color-indigo border-color-indigo">Update License</button>
+               <button @click="openModalupdate = true" class="button-default me-14px mb-10px mb-xl-0 bg-none color-indigo border-color-indigo ">Update License</button>
                <button @click="openModalTransfer = true" class="button-default me-14px mb-10px mb-xl-0 bg-none color-indigo border-color-indigo">Transfer License</button>
                <button class="button-default me-14px mb-10px mb-xl-0 bg-none color-dimgray border-color-dimgray">Renew License</button>
                <button @click="openModalSuspend = true" class="button-default me-14px mb-10px mb-xl-0 bg-valencia color-white border-color-valencia d-flex flex-row"><i class="isax isax-minus icon-size-weight me-1"></i>Suspend</button>
