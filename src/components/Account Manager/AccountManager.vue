@@ -104,7 +104,7 @@
                     <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
                      <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                              <fa class="font-size-24px align-middle mb-1px" icon="ellipsis" />
+                              <fa class="font-size-24px  align-middle d-block" icon="ellipsis" />
                            </button>
                            <ul class="dropdown-menu pt-17px pb-22px "  aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="/addaccount">View</a></li>
@@ -126,9 +126,9 @@
                    <td class="text-start px-20px vertical-alignment-center">00000000000</td>
                     <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
                      <div class="dropdown outline-none">
-                           <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                              <fa class="font-size-24px align-middle mb-1px" icon="ellipsis" />
-                           </button>
+                           <div class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <fa class="font-size-24px align-middle d-block" icon="ellipsis" />
+                           </div>
                            <ul class="dropdown-menu pt-17px pb-22px "  aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="/addaccount">View</a></li>
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="#">Edit</a></li>
@@ -150,7 +150,7 @@
                     <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
                      <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                              <fa class="font-size-24px align-middle mb-1px" icon="ellipsis" />
+                              <fa class="font-size-24px align-middle d-block" icon="ellipsis" />
                            </button>
                            <ul class="dropdown-menu pt-17px pb-22px "  aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="/addaccount">View</a></li>
@@ -173,7 +173,7 @@
                     <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
                      <div class="dropdown outline-none ">
                            <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                              <fa class="font-size-24px align-middle mb-1px" icon="ellipsis" />
+                              <fa class="font-size-24px  align-middle d-block" icon="ellipsis" />
                            </button>
                            <ul class="dropdown-menu pt-17px pb-22px "  aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="/addaccount">View</a></li>
@@ -196,7 +196,7 @@
                     <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
                      <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                              <fa class="font-size-24px align-middle mb-1px" icon="ellipsis" />
+                              <fa class="font-size-24px  align-middle d-block" icon="ellipsis" />
                            </button>
                            <ul class="dropdown-menu pt-17px pb-22px "  aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="/addaccount">View</a></li>
@@ -219,7 +219,7 @@
                     <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
                      <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                              <fa class="font-size-24px align-middle mb-1px" icon="ellipsis" />
+                              <fa class="font-size-24px  align-middle d-block" icon="ellipsis" />
                            </button>
                            <ul class="dropdown-menu pt-17px pb-22px "  aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="/addaccount">View</a></li>
@@ -242,7 +242,7 @@
                     <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
                      <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                              <fa class="font-size-24px align-middle mb-1px" icon="ellipsis" />
+                              <fa class="font-size-24px  align-middle d-block " icon="ellipsis" />
                            </button>
                            <ul class="dropdown-menu pt-17px pb-22px "  aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="/addaccount">View</a></li>
@@ -265,7 +265,7 @@
                     <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
                      <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                              <fa class="font-size-24px align-middle mb-1px" icon="ellipsis" />
+                              <fa class="font-size-24px  align-middle d-block   " icon="ellipsis" />
                            </button>
                            <ul class="dropdown-menu pt-17px pb-22px "  aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="/addaccount">View</a></li>
@@ -288,7 +288,7 @@
                     <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
                      <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                              <fa class="font-size-24px align-middle mb-1px" icon="ellipsis" />
+                              <fa class="font-size-24px  align-middle d-block   " icon="ellipsis" />
                            </button>
                            <ul class="dropdown-menu pt-17px pb-22px "  aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="/addaccount">View</a></li>
@@ -311,7 +311,7 @@
                     <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
                      <div class="dropdown outline-none">
                            <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                              <fa class="font-size-24px align-middle mb-1px" icon="ellipsis" />
+                              <fa class="font-size-24px  align-middle d-block " icon="ellipsis" />
                            </button>
                            <ul class="dropdown-menu pt-17px pb-22px "  aria-labelledby="dropdownMenuButton1">
                               <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3 " href="/addaccount">View</a></li>
