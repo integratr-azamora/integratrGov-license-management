@@ -124,7 +124,7 @@
                                      <fa class="font-size-24px align-middle d-block" icon="ellipsis" />
                                   </button>
                                   <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
-                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
+                                     <li><router-link to="/add-license-develop-static-screen" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">View</router-link></li>
                                      <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Force Expiration</a></li>
                                   </ul>
                                </div>
@@ -147,7 +147,7 @@
                                      <fa class="font-size-24px align-middle d-block" icon="ellipsis" />
                                   </button>
                                   <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
-                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
+                                    <li><router-link to="/add-license-develop-static-screen" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">View</router-link></li>
                                      <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Force Expiration</a></li>
                                   </ul>
                                </div>
@@ -170,7 +170,7 @@
                                      <fa class="font-size-24px align-middle d-block" icon="ellipsis" />
                                   </button>
                                   <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
-                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
+                                     <li><router-link to="/add-license-develop-static-screen" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">View</router-link></li>
                                      <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Force Expiration</a></li>
                                   </ul>
                                </div>
@@ -193,7 +193,7 @@
                                      <fa class="font-size-24px align-middle d-block" icon="ellipsis" />
                                   </button>
                                   <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
-                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
+                                     <li><router-link to="/add-license-develop-static-screen" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">View</router-link></li>
                                      <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Force Expiration</a></li>
                                   </ul>
                                </div>
@@ -216,7 +216,7 @@
                                      <fa class="font-size-24px align-middle d-block" icon="ellipsis" />
                                   </button>
                                   <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
-                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
+                                     <li><router-link to="/add-license-develop-static-screen" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">View</router-link></li>
                                      <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Force Expiration</a></li>
                                   </ul>
                                </div>
@@ -239,7 +239,7 @@
                                      <fa class="font-size-24px align-middle d-block" icon="ellipsis" />
                                   </button>
                                   <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
-                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
+                                     <li><router-link to="/add-license-develop-static-screen" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">View</router-link></li>
                                      <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Force Expiration</a></li>
                                   </ul>
                                </div>
@@ -262,7 +262,7 @@
                                      <fa class="font-size-24px align-middle d-block" icon="ellipsis" />
                                   </button>
                                   <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
-                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
+                                     <li><router-link to="/add-license-develop-static-screen" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">View</router-link></li>
                                      <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Force Expiration</a></li>
                                   </ul>
                                </div>
@@ -285,7 +285,7 @@
                                      <fa class="font-size-24px align-middle d-block" icon="ellipsis" />
                                   </button>
                                   <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
-                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
+                                     <li><router-link to="/add-license-develop-static-screen" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">View</router-link></li>
                                      <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Force Expiration</a></li>
                                   </ul>
                                </div>
@@ -308,7 +308,7 @@
                                      <fa class="font-size-24px align-middle d-block" icon="ellipsis" />
                                   </button>
                                   <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
-                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
+                                     <li><router-link to="/add-license-develop-static-screen" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">View</router-link></li>
                                      <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Force Expiration</a></li>
                                   </ul>
                                </div>
@@ -331,7 +331,7 @@
                                      <fa class="font-size-24px align-middle d-block" icon="ellipsis" />
                                   </button>
                                   <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
-                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
+                                     <li><router-link to="/add-license-develop-static-screen" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">View</router-link></li>
                                      <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Force Expiration</a></li>
                                   </ul>
                                </div>

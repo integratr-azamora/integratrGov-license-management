@@ -19,6 +19,9 @@
 .ms-12px{
   margin-left:var(--c-size-7px);
 }
+.ms-14px{
+  margin-left:var(--c-size-14px);
+}
 .ms-10px{
   margin-left:var(--c-size-10px);
 }
@@ -47,6 +50,9 @@
 }
 .me-10px{
   margin-right:var(--c-size-10px) !important;
+}
+.me-14px{
+  margin-right:var(--c-size-14px);
 }
 
 
