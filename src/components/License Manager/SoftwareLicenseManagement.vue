@@ -14,10 +14,11 @@
                   <p class="fontfamily-gotham-heading-2 ">Software License Management</p>
                   <div class="d-flex justify-content-end">
                      <div class="responsive-end responsive-rows ">
-                        <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center mx-0 mt-3 mt-sm-0 mt-md-0 mt-lg-0">
+                        <router-link to="/add-license-develop-static-screen"> <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center mx-0 mt-3 mt-sm-0 mt-md-0 mt-lg-0">
                            <fa class="font-size-20px me-8px" icon="plus" />
                            Add
                         </button>
+                     </router-link>
                      </div>
                   </div>
                </div>
