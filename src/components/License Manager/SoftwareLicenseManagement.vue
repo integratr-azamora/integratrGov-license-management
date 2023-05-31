@@ -14,10 +14,11 @@
                   <p class="fontfamily-gotham-heading-2 ">Software License Management</p>
                   <div class="d-flex justify-content-end">
                      <div class="responsive-end responsive-rows ">
-                        <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center mx-0">
+                        <router-link to="/add-license-develop-static-screen"> <button class="button-pill bg-lavenderweb color-indigo border-color-lavenderweb d-flex flex-row align-items-center mx-0 mt-3 mt-sm-0 mt-md-0 mt-lg-0">
                            <fa class="font-size-20px me-8px" icon="plus" />
                            Add
                         </button>
+                     </router-link>
                      </div>
                   </div>
                </div>
@@ -29,7 +30,7 @@
                          <input type="text" class="form-control border-color-none shadow-none" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
                       </div>
                       <div class="mx-20px">
-                         <button class="button-default-no-margin bg-ghostwhite color-frenchskyblue border-color-ghostwhite d-flex flex-row margin-none shadow-sm">
+                         <button class="button-default-no-margin-table bg-ghostwhite color-frenchskyblue border-color-ghostwhite d-flex flex-row margin-none shadow-sm">
                             <i class="isax isax-filter-search icon-size-weight me-2"></i>
                             <p class="fs-18px">Filter</p>
                          </button>
@@ -121,10 +122,10 @@
                             <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
                                <div class="dropdown outline-none">
                                   <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                     <fa class="font-size-24px align-middle mb-1px" icon="ellipsis" />
+                                     <fa class="font-size-24px align-middle d-block" icon="ellipsis" />
                                   </button>
                                   <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
-                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
+                                     <li><router-link to="/add-license-develop-static-screen" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">View</router-link></li>
                                      <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Force Expiration</a></li>
                                   </ul>
                                </div>
@@ -144,10 +145,10 @@
                             <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
                                <div class="dropdown outline-none">
                                   <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                     <fa class="font-size-24px align-middle mb-1px" icon="ellipsis" />
+                                     <fa class="font-size-24px align-middle d-block" icon="ellipsis" />
                                   </button>
                                   <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
-                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
+                                    <li><router-link to="/add-license-develop-static-screen" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">View</router-link></li>
                                      <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Force Expiration</a></li>
                                   </ul>
                                </div>
@@ -167,10 +168,10 @@
                             <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
                                <div class="dropdown outline-none">
                                   <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                     <fa class="font-size-24px align-middle mb-1px" icon="ellipsis" />
+                                     <fa class="font-size-24px align-middle d-block" icon="ellipsis" />
                                   </button>
                                   <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
-                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
+                                     <li><router-link to="/add-license-develop-static-screen" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">View</router-link></li>
                                      <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Force Expiration</a></li>
                                   </ul>
                                </div>
@@ -190,10 +191,10 @@
                             <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
                                <div class="dropdown outline-none">
                                   <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                     <fa class="font-size-24px align-middle mb-1px" icon="ellipsis" />
+                                     <fa class="font-size-24px align-middle d-block" icon="ellipsis" />
                                   </button>
                                   <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
-                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
+                                     <li><router-link to="/add-license-develop-static-screen" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">View</router-link></li>
                                      <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Force Expiration</a></li>
                                   </ul>
                                </div>
@@ -213,10 +214,10 @@
                             <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
                                <div class="dropdown outline-none">
                                   <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                     <fa class="font-size-24px align-middle mb-1px" icon="ellipsis" />
+                                     <fa class="font-size-24px align-middle d-block" icon="ellipsis" />
                                   </button>
                                   <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
-                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
+                                     <li><router-link to="/add-license-develop-static-screen" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">View</router-link></li>
                                      <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Force Expiration</a></li>
                                   </ul>
                                </div>
@@ -236,10 +237,10 @@
                             <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
                                <div class="dropdown outline-none">
                                   <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                     <fa class="font-size-24px align-middle mb-1px" icon="ellipsis" />
+                                     <fa class="font-size-24px align-middle d-block" icon="ellipsis" />
                                   </button>
                                   <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
-                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
+                                     <li><router-link to="/add-license-develop-static-screen" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">View</router-link></li>
                                      <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Force Expiration</a></li>
                                   </ul>
                                </div>
@@ -259,10 +260,10 @@
                             <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
                                <div class="dropdown outline-none">
                                   <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                     <fa class="font-size-24px align-middle mb-1px" icon="ellipsis" />
+                                     <fa class="font-size-24px align-middle d-block" icon="ellipsis" />
                                   </button>
                                   <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
-                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
+                                     <li><router-link to="/add-license-develop-static-screen" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">View</router-link></li>
                                      <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Force Expiration</a></li>
                                   </ul>
                                </div>
@@ -282,10 +283,10 @@
                             <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
                                <div class="dropdown outline-none">
                                   <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                     <fa class="font-size-24px align-middle mb-1px" icon="ellipsis" />
+                                     <fa class="font-size-24px align-middle d-block" icon="ellipsis" />
                                   </button>
                                   <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
-                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
+                                     <li><router-link to="/add-license-develop-static-screen" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">View</router-link></li>
                                      <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Force Expiration</a></li>
                                   </ul>
                                </div>
@@ -305,10 +306,10 @@
                             <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
                                <div class="dropdown outline-none">
                                   <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                     <fa class="font-size-24px align-middle mb-1px" icon="ellipsis" />
+                                     <fa class="font-size-24px align-middle d-block" icon="ellipsis" />
                                   </button>
                                   <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
-                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
+                                     <li><router-link to="/add-license-develop-static-screen" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">View</router-link></li>
                                      <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Force Expiration</a></li>
                                   </ul>
                                </div>
@@ -328,10 +329,10 @@
                             <td class="text-end px-20px p-3 vertical-alignment-center fontfamily-gotham-heading-3 ">
                                <div class="dropdown outline-none">
                                   <button class="btn padding-none border-color-none btn-hover" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                     <fa class="font-size-24px align-middle mb-1px" icon="ellipsis" />
+                                     <fa class="font-size-24px align-middle d-block" icon="ellipsis" />
                                   </button>
                                   <ul class="dropdown-menu pt-17px pb-22px"  aria-labelledby="dropdownMenuButton1">
-                                     <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">View</a></li>
+                                     <li><router-link to="/add-license-develop-static-screen" class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3">View</router-link></li>
                                      <li><a class="dropdown-item p-10px table-dropdown-hover color-darkgray fontfamily-gotham-heading-3" href="#">Force Expiration</a></li>
                                   </ul>
                                </div>
@@ -360,12 +361,10 @@
           </div>
        </div>
     </div>
-
-    <div class="mt-20px">
-       <div class="d-flex justify-content-center">
-          <div class=" rounded-3 container shadow-sm border-round16px pb-10px">
+       <div class="d-flex justify-content-center mt-20px">
+          <div class=" rounded-3 container shadow-sm border-round16px p-20px">
              <!-- row1  -->
-                <div class="d-flex justify-content-between mt-10px flex-container align-items-center">
+                <div class="d-flex justify-content-between flex-container align-items-center">
                    <p class="fontfamily-gotham-heading-3">License Guidelines</p>
                    <div class="d-flex justify-content-end">
                      <div class="responsive-end responsive-rows ">
@@ -390,5 +389,4 @@ License Key/Activation Code Format
              <!-- row1  -->        
           </div>
        </div>
-    </div>
  </template>

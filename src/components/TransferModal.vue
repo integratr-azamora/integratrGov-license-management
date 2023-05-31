@@ -1,7 +1,7 @@
 <template>
     <Transition name="modal2">
         <div v-if="show">
-            <div :class="`UpdateLicenseModal modal-mask-2 modal-large-2 p-0  ${modalContainer}`">
+            <div :class="`transfer-modal modal-mask-2 modal-large-2 p-0  ${modalContainer}`">
                 <div :class="`modal-dialog modal-dialog-2 modal-dialog-centered ${modalDialog}`">
                     <div :class="`modal-content pad-y-20p ${modalContent}`">
                         <div :class="`modal-body modal-body-2${modalBody}`">
@@ -15,9 +15,6 @@
         </div>
     </Transition>
 </template>
-
-
-
 
 <script>
 export default {
@@ -71,7 +68,7 @@ export default {
     border: none;
 }
 
-.UpdateLicenseModal{
+.transfer-modal{
   --bs-modal-height: 654px !important;
   --bs-modal-width: 942px !important;
   --bs-modal-zindex: 1055;
@@ -82,9 +79,6 @@ export default {
 
 
 }
-  
-
-
 
 @media (min-width: 500px) {
     .modal-dialog-2 {

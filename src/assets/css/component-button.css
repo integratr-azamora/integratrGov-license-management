@@ -29,6 +29,21 @@
     font-weight: 400;
     white-space: nowrap;
   }
+  .button-default-no-margin-table{
+    height: 44px;
+    border-radius: var(--c-size-4px);
+    font-family: var(--c-font-styles-roboto);
+    font-size: var(--c-font-size-16px);
+    padding-left: var(--c-size-20px);
+    padding-right: var(--c-size-20px);
+    padding-top: calc(var(--c-size-10px) - 3px ) ;
+    padding-bottom: var(--c-size-10px);
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    white-space: nowrap;
+  }
   .button-default-margin-none{
     margin-top: 0px !important;
     margin-bottom: 0px !important;

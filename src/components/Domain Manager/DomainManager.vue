@@ -2,7 +2,7 @@
     <div class=" ">
        <div class="d-flex justify-content-center">
           <div class=" rounded-3 container">
-             <div class=" heading1  ">Domain Manager </div>
+             <div class=" heading1">Domain Manager </div>
              <!-- row1  -->
              <div class=" shadow-sm border-round16px pb-20px">
                <div class="d-flex justify-content-between mt-20px pt-20px mx-20px">
@@ -88,7 +88,7 @@
                  <tr class="size-table-tabledata column border-rouded-5px">
                     <td class="text-start vertical-alignment-center mwmc ps-20px  width-50px">
                         <div class="form-check">
-                            <input class="form-check-input size-checkbox-24px mb-4px" type="checkbox" value="" id="checkbox1" >
+                            <input class="form-check-input size-checkbox-24px mb-4px" type="checkbox" value="" id="checkbox1" @click="openModalViewRecordCName = 'true'">
                             <label class="form-check-label" for="checkbox1"></label>
                         </div>
                     </td>
@@ -101,7 +101,7 @@
                  <tr class="size-table-tabledata column border-rouded-5px">
                     <td class="text-start vertical-alignment-center mwmc ps-20px ">
                         <div class="form-check">
-                            <input class="form-check-input size-checkbox-24px mb-4px" type="checkbox" value="" id="flexCheckDefault" >
+                            <input class="form-check-input size-checkbox-24px mb-4px" type="checkbox" value="" id="flexCheckDefault" @click="openModalViewRecordA = 'true'">
                             <label class="form-check-label" for="flexCheckDefault"></label>
                         </div>
                     </td>
@@ -127,7 +127,7 @@
                  <tr class="size-table-tabledata column border-rouded-5px">
                     <td class="text-start vertical-alignment-center mwmc ps-20px ">
                         <div class="form-check">
-                            <input class="form-check-input size-checkbox-24px mb-4px" type="checkbox" value="" id="flexCheckDefault" >
+                           <input class="form-check-input size-checkbox-24px mb-4px" type="checkbox" value="" id="flexCheckDefault" >
                             <label class="form-check-label" for="flexCheckDefault"></label>
                         </div>
                     </td>
@@ -140,7 +140,7 @@
                  <tr class="size-table-tabledata column border-rouded-5px">
                     <td class="text-start vertical-alignment-center mwmc ps-20px ">
                         <div class="form-check">
-                            <input class="form-check-input size-checkbox-24px mb-4px" type="checkbox" value="" id="flexCheckDefault" >
+                           <input class="form-check-input size-checkbox-24px mb-4px" type="checkbox" value="" id="flexCheckDefault" >
                             <label class="form-check-label" for="flexCheckDefault"></label>
                         </div>
                     </td>
@@ -153,7 +153,7 @@
                  <tr class="size-table-tabledata column border-rouded-5px">
                     <td class="text-start vertical-alignment-center mwmc ps-20px ">
                         <div class="form-check">
-                            <input class="form-check-input size-checkbox-24px mb-4px" type="checkbox" value="" id="flexCheckDefault" >
+                           <input class="form-check-input size-checkbox-24px mb-4px" type="checkbox" value="" id="flexCheckDefault" >
                             <label class="form-check-label" for="flexCheckDefault"></label>
                         </div>
                     </td>
@@ -166,7 +166,7 @@
                  <tr class="size-table-tabledata column border-rouded-5px">
                     <td class="text-start vertical-alignment-center mwmc ps-20px ">
                         <div class="form-check">
-                            <input class="form-check-input size-checkbox-24px mb-4px" type="checkbox" value="" id="flexCheckDefault" >
+                           <input class="form-check-input size-checkbox-24px mb-4px" type="checkbox" value="" id="flexCheckDefault" >
                             <label class="form-check-label" for="flexCheckDefault"></label>
                         </div>
                     </td>
@@ -179,7 +179,7 @@
                  <tr class="size-table-tabledata column border-rouded-5px">
                     <td class="text-start vertical-alignment-center mwmc ps-20px ">
                         <div class="form-check">
-                            <input class="form-check-input size-checkbox-24px mb-4px" type="checkbox" value="" id="flexCheckDefault" >
+                           <input class="form-check-input size-checkbox-24px mb-4px" type="checkbox" value="" id="flexCheckDefault" >
                             <label class="form-check-label" for="flexCheckDefault"></label>
                         </div>
                     </td>
@@ -192,7 +192,7 @@
                  <tr class="size-table-tabledata column border-rouded-5px">
                     <td class="text-start vertical-alignment-center mwmc ps-20px ">
                         <div class="form-check">
-                            <input class="form-check-input size-checkbox-24px mb-4px" type="checkbox" value="" id="flexCheckDefault" >
+                           <input class="form-check-input size-checkbox-24px mb-4px" type="checkbox" value="" id="flexCheckDefault" >
                             <label class="form-check-label" for="flexCheckDefault"></label>
                         </div>
                     </td>
@@ -205,7 +205,7 @@
                  <tr class="size-table-tabledata column border-rouded-5px">
                     <td class="text-start vertical-alignment-center mwmc ps-20px ">
                         <div class="form-check">
-                            <input class="form-check-input size-checkbox-24px mb-4px" type="checkbox" value="" id="flexCheckDefault" >
+                           <input class="form-check-input size-checkbox-24px mb-4px" type="checkbox" value="" id="flexCheckDefault" >
                             <label class="form-check-label" for="flexCheckDefault"></label>
                         </div>
                     </td>
@@ -239,15 +239,14 @@
        
     </div>
 
-    <ModalLarge :show="openModalViewRecordCName" @close="openModalViewRecordCName = false">
+    <CnameRecord :show="openModalViewRecordCName" @close="openModalViewRecordCName = false">
       <template #body>
-         <div class="d-flex justify-content-center" ref="openModalViewRecordCName">
-      <div class="view-record-modal padding-none" >
+         <div class="viewrecord" ref="openModalViewRecordCName">
          <div class="modal-header mt-24px ms-20px me-20px">
             <p class="modal-font-style-roboto">CNAME Record</p>
             <div class="position-relative">
                <div class="d-flex flex-row">
-                  <button class="button-round-modal bg-indigo color-white border-color-indigo">
+                  <button @click="openModalViewRecordCName = false" class="button-round bg-indigo color-white border-color-indigo d-flex align-items-center">
                      <fa class="font-size-24px" icon="close"/>
                   </button>
                </div>
@@ -281,37 +280,79 @@
                   </div>
                </div>
                <div class="d-flex justify-content-end mb-20px">
-                  <button class="button-default bg-none border-color-none color-indigo me-0 me-2">Cancel</button>
+                  <button @click="openModalViewRecordCName = false" class="button-default bg-none border-color-none color-indigo me-2">Cancel</button>
                   <button class="button-default bg-indigo border-color-indigo color-white me-0">Save</button>
                </div>
             </div>
          </div>
-      </div>
    </div>
       </template>
-   </ModalLarge>
+   </CnameRecord>
+
+   <CnameRecord :show="openModalViewRecordA" @close="openModalViewRecordA = false">
+      <template #body>
+         <div class="modal-header mt-24px ms-20px me-20px">
+            <p class="modal-font-style-roboto">A Record</p>
+            <div class="position-relative">
+               <div class="d-flex flex-row">
+                  <button @click="openModalViewRecordA = false" class="button-round bg-indigo color-white border-color-indigo d-flex align-items-center">
+                     <fa class="font-size-24px" icon="close"/>
+                  </button>
+               </div>
+            </div>
+         </div>
+         <div class="border-bottom-license mt-20px"></div>
+         <div class="row mt-20">
+            <div class="col ms-20px me-20px">
+               <div class="row mt-20px">
+                  <div class="row d-flex align-items-center ">
+                     <span class=" d-flex justify-content-start">
+                     <span class="view-record-font-heading3 mt-1">Host:</span> 
+                     <span class="font-style-roboto-p1 ms-1 mt-1">@</span>
+                     </span>
+                  </div>
+               </div>
+               <div class="row mt-10px">
+                  <div class="row d-flex align-items-center ">
+                     <span class=" d-flex justify-content-start">
+                     <span class="view-record-font-heading3">Points to:</span> 
+                     <span class="font-style-roboto-p1 ms-1 mt-1">23.236.62.147</span>
+                     </span>
+                  </div>
+               </div>
+               <div class="row mt-10px">
+                  <div class="row d-flex align-items-center ">
+                     <span class=" d-flex justify-content-start">
+                     <span class="view-record-font-heading3 mt-1">TTL:</span> 
+                     <span class="font-style-roboto-p1 ms-1 mt-1">600 seconds</span>
+                     </span>
+                  </div>
+               </div>
+               <div class="d-flex justify-content-end mb-20px">
+                  <button @click="openModalViewRecordA = false" class="button-default bg-none border-color-none color-indigo me-2">Cancel</button>
+                  <button class="button-default bg-indigo border-color-indigo color-white me-0">Save</button>
+               </div>
+            </div>
+         </div>
+   
+      </template>
+   </CnameRecord>
  </template>
 
 <script>
-import ModalLarge from '../../components/ModalLarge.vue'
+import CnameRecord from '../../components/CnameRecord.vue'
 
 export default {
    components: {
-      ModalLarge
+      CnameRecord
    },
    data(){
       return {
-       openModalViewRecordCName: false, 
+       openModal: false, 
+       openModalViewRecordCName: false,
+       openModalViewRecordA: false 
       }
    },
-   methods:{
-      showModal() {
-         this.$refs['openModalViewRecordCName'].show();
-      },
-      hideModal() {
-         this.$refs['openModalViewRecordCName'].hide();
-      },
-
-   }
+  
 }
 </script>
