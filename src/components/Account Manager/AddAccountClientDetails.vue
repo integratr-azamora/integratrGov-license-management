@@ -123,7 +123,7 @@
          <!-- action container -->
          <div class="align-middle ">
                <div class="d-flex flex-wrap flex-row justify-content-between align-middle py-4">
-                  <span class="fontfamily-gotham-heading-2 blue ms-20px">Actions</span>
+                  <span class="fontfamily-gotham-heading-2 blue ms-20px mb-3  mb-sm-0">Actions</span>
                   <div class=" button-container ms-20px align-middle me-20px">
                      <button class="button-default bg-valencia color-white border-color-valencia d-flex align-items-center"><i class="isax isax-minus icon-size-weight"></i>Reset Password</button>
                      <button class="button-default bg-purpleheart color-white border-color-purpleheart d-flex align-items-center "><i class="isax isax-trash icon-size-weight"></i>Delete</button>
