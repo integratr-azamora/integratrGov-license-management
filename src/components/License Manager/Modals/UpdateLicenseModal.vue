@@ -1,9 +1,9 @@
 <template>
-   <div class="d-flex justify-content-center " >
+   <div class="d-flex justify-content-center" >
       <div class="licensekey">
-         <div class="d-flex justify-content-between my-25px">
-            <p class="license-header ms-20px">Update License</p>
-            <button class="mx-20px button-round bg-indigo color-white border-color-indigo d-flex align-items-center">
+         <div class="d-flex justify-content-between my-20px mx-20px">
+            <p class="license-header">Update License</p>
+            <button class="button-round bg-indigo color-white border-color-indigo d-flex align-items-center">
                <fa class="font-size-20px" icon="close" />
             </button>
          </div>
@@ -60,7 +60,7 @@ Lorem ipsum dolor sit amet
                </div>
             </div>
          </div>
-         <div class="d-flex text-center justify-content-end ms-20px me-20px mb-35px mt-20px">
+         <div class="d-flex text-center justify-content-end ms-20px me-20px mb-20px mt-20px">
             <button class="button-default bg-none border-color-none color-indigo me-2">Cancel</button>
             <button class="button-default bg-indigo border-color-indigo color-white me-0">Save</button>
          </div>
