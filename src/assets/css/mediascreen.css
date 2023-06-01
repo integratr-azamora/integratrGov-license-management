@@ -100,3 +100,12 @@
   }
   
 }
+
+@media screen and (max-width:530px){
+  .r-license-detail-text{
+    white-space: normal !important;
+  }
+}
+.r-license-detail-text{
+  white-space: nowrap;
+}
