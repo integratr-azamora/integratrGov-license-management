@@ -19,8 +19,8 @@
                         <span class="col-4 font-style-roboto-p1">Pasig City</span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3">Date Assigned</span>
-                        <span class="col-4 font-style-roboto-p1">01/01/2021</span>
+                        <span class="col-4 view-record-font-heading3 mb-3 mb-lg-0">Date Assigned</span>
+                        <span class="col-4 font-style-roboto-p1 mb-3 mb-lg-0">01/01/2021</span>
                      </div>
                   </div>
                   <div class="col-12 col-lg-6  p-0">
@@ -63,14 +63,14 @@
                         <span class="col-4 font-style-roboto-p1">A1AA1AA</span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3">Validity</span>
-                        <span class="col-4 font-style-roboto-p1">40 years</span>
+                        <span class="col-4 view-record-font-heading3 mb-3 mb-lg-0">Validity</span>
+                        <span class="col-4 font-style-roboto-p1 mb-3 mb-lg-0">40 years</span>
                      </div>
                   </div>
                   <div class="col-12 col-lg-6  p-0">
                      <div class="row ms-20px">
-                        <span class="col-4 view-record-font-heading3">Module: </span>
-                        <span class="col-4 font-style-roboto-p1">Business Permit and License</span>
+                        <span class="col-4 view-record-font-heading3">Module:</span>
+                        <span class="col-4 font-style-roboto-p1 r-license-detail-text">Business Permit and License</span>
                      </div>
                      <div class="row ms-20px mt-20px">
                         <span class="col-4 view-record-font-heading3">Version:</span>
