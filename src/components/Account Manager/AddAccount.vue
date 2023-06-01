@@ -178,7 +178,7 @@
             </div>
          </div>
          <div class="d-flex justify-content-end mt-20px">
-            <button class="button-default button-modal bg-white border-color-none color-indigo me-10px">Cancel</button>
+            <button class="button-default button-modal bg-white border-color-none color-indigo">Cancel</button>
             <button class="button-default bg-indigo border-color-indigo color-white ms-20px">Save</button>
          </div>
       </div>
