@@ -1,9 +1,9 @@
 <template>
-   <div class="d-flex justify-content-center " >
+   <div class="d-flex justify-content-center" >
       <div class="licensekey">
-         <div class="d-flex justify-content-between my-25px">
-            <p class="license-header ms-20px">Update License</p>
-            <button class="mx-20px button-round bg-indigo color-white border-color-indigo d-flex align-items-center">
+         <div class="d-flex justify-content-between my-20px mx-20px">
+            <p class="license-header">Update License</p>
+            <button class="button-round bg-indigo color-white border-color-indigo d-flex align-items-center">
                <fa class="font-size-20px" icon="close" />
             </button>
          </div>

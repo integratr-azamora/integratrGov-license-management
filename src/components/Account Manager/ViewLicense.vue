@@ -8,15 +8,15 @@
                   <div class="col-12 col-lg-6  p-0">
                      <div class="row ms-20px">
                         <span class="col-4 view-record-font-heading3">Client</span>
-                        <span class="col-4 font-style-roboto-p1 r-license-detail-text">Juan Dela Cruz</span>
+                        <span class="col-4 font-style-roboto-p1">Juan Dela Cruz</span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3 r-license-detail-text">TIN:</span>
-                        <span class="col-4 font-style-roboto-p1 r-license-detail-text">00000000000</span>
+                        <span class="col-4 view-record-font-heading3">TIN:</span>
+                        <span class="col-4 font-style-roboto-p1">00000000000</span>
                      </div>
                      <div class="row ms-20px mt-20px">
                         <span class="col-4 view-record-font-heading3">LGU /Organization:</span>
-                        <span class="col-4 font-style-roboto-p1 r-license-detail-text">Pasig City</span>
+                        <span class="col-4 font-style-roboto-p1">Pasig City</span>
                      </div>
                      <div class="row ms-20px mt-20px">
                         <span class="col-4 view-record-font-heading3">Date Assigned</span>
@@ -55,34 +55,34 @@
                         <span class="col-4 font-style-roboto-p1">Perpetual</span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3 r-license-detail-text">Product No.:</span>
-                        <span class="col-4 font-style-roboto-p1 r-license-detail-text">A01</span>
+                        <span class="col-4 view-record-font-heading3">Product No.:</span>
+                        <span class="col-4 font-style-roboto-p1">A01</span>
                      </div>
                      <div class="row ms-20px mt-20px">
                         <span class="col-4 view-record-font-heading3">Program /Part No.:</span>
-                        <span class="col-4 font-style-roboto-p1 r-license-detail-text">A1AA1AA</span>
+                        <span class="col-4 font-style-roboto-p1">A1AA1AA</span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3 r-license-detail-text">Validity</span>
-                        <span class="col-4 font-style-roboto-p1 r-license-detail-text">40 years</span>
+                        <span class="col-4 view-record-font-heading3">Validity</span>
+                        <span class="col-4 font-style-roboto-p1">40 years</span>
                      </div>
                   </div>
                   <div class="col-12 col-lg-6  p-0">
                      <div class="row ms-20px">
-                        <span class="col-4 view-record-font-heading3 r-license-detail-text">Module: </span>
-                        <span class="col-4 font-style-roboto-p1 r-license-detail-text">Business Permit and License</span>
+                        <span class="col-4 view-record-font-heading3">Module: </span>
+                        <span class="col-4 font-style-roboto-p1">Business Permit and License</span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3 r-license-detail-text">Version:</span>
-                        <span class="col-4 font-style-roboto-p1 r-license-detail-text">V.1.0</span>
+                        <span class="col-4 view-record-font-heading3">Version:</span>
+                        <span class="col-4 font-style-roboto-p1">V.1.0</span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3 r-license-detail-text">Platform</span>
-                        <span class="col-4 font-style-roboto-p1 r-license-detail-text">SaaS</span>
+                        <span class="col-4 view-record-font-heading3">Platform</span>
+                        <span class="col-4 font-style-roboto-p1">SaaS</span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3 r-license-detail-text">Grace Period</span>
-                        <span class="col-4 font-style-roboto-p1 r-license-detail-text">7 days</span>
+                        <span class="col-4 view-record-font-heading3">Grace Period</span>
+                        <span class="col-4 font-style-roboto-p1">7 days</span>
                      </div>
                      <div class="row ms-20px mt-20px">
                         <span class="col-4 view-record-font-heading3">Expiry Date</span>
@@ -143,9 +143,9 @@
    </div>
    <UpdateLicenseModal :show="openModalupdate" @close="openModalupdate = false">
       <template #body>
-         <div class="d-flex justify-content-between">
-            <p class="license-header ms-20px mt-24px">Update License</p>
-            <button @click="openModalupdate = false" class="mx-20px mt-24px button-round bg-indigo color-white border-color-indigo d-flex align-items-center">
+         <div class="d-flex justify-content-between  my-20px mx-20px">
+            <p class="license-header">Update License</p>
+            <button @click="openModalupdate = false" class="button-round bg-indigo color-white border-color-indigo d-flex align-items-center">
                <fa class="font-size-20px" icon="close" />
             </button>
          </div>
@@ -210,7 +210,7 @@
    <TransferModal :show="openModalTransfer" @close="openModalTransfer = false">
       <template #body>
          <div class="">
-            <div class="d-flex justify-content-between my-25px mx-20px">
+            <div class="d-flex justify-content-between my-20px mx-20px">
                <p class="license-header">Transfer License</p>
                <button @click="openModalTransfer = false" class="button-round bg-indigo color-white border-color-indigo d-flex align-items-center">
                   <fa class="font-size-20px" icon="close" />
