@@ -500,8 +500,7 @@
         <div class="form-floating ms-10px me-10px mt-20px">
            <div class="d-flex justify-content-start mt-20px mx-10px flex-container">
               <div class="form-floating width-max ">
-                 <textarea class="form-control size-textarea-update-license-modal border-color-none" placeholder="Leave a comment here" id="floatingTextarea2">
-Lorem ipsum dolor sit amet 
+                 <textarea class="form-control size-textarea-update-license-modal border-color-none" placeholder="Leave a comment here" id="floatingTextarea2">Lorem ipsum dolor sit amet 
                  </textarea>
                  <label for="information">Remarks</label>
               </div>
