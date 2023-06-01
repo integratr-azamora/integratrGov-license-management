@@ -507,7 +507,7 @@ Lorem ipsum dolor sit amet
               </div>
            </div>
         </div>
-        <div class="d-flex text-center justify-content-end ms-20px me-20px mb-35px mt-20px">
+        <div class="d-flex text-center justify-content-end ms-20px me-20px mb-20px mt-20px">
            <button @click="openModalupdate = false" class="button-default bg-none border-color-none color-indigo me-2">Cancel</button>
            <button class="button-default bg-indigo border-color-indigo color-white me-0">Save</button>
         </div>
