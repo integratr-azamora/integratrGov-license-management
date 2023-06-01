@@ -7,41 +7,41 @@
                <div class="row">
                   <div class="col-12 col-lg-6  p-0">
                      <div class="row ms-20px">
-                        <span class="col-4 view-record-font-heading3" >Client</span>
-                        <span class="col-4 font-style-roboto-p1" >Juan Dela Cruz</span>
-                        <span class="col-4 " ></span>
+                        <span class="col-4 view-record-font-heading3 text-nowrap">Client</span>
+                        <span class="col-4 font-style-roboto-p1 text-nowrap">Juan Dela Cruz</span>
+                        <span class="col-4 "></span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" >TIN:</span>
-                        <span class="col-4 font-style-roboto-p1" >00000000000</span>
-                        <span class="col-4 " ></span>
+                        <span class="col-4 view-record-font-heading3 text-nowrap">TIN:</span>
+                        <span class="col-4 font-style-roboto-p1 text-nowrap">00000000000</span>
+                        <span class="col-4 "></span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" >LGU/ Organization: </span>
-                        <span class="col-4 font-style-roboto-p1" >Pasig City</span>
-                        <span class="col-4 " ></span>
+                        <span class="col-4 view-record-font-heading3 text-nowrap">LGU/Organization:</span>
+                        <span class="col-4 font-style-roboto-p1 text-nowrap">Pasig City</span>
+                        <span class="col-4 "></span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" >Date Assigned</span>
-                        <span class="col-4 font-style-roboto-p1" >01/01/2021</span>
-                        <span class="col-4 " ></span>
+                        <span class="col-4 view-record-font-heading3 text-nowrap">Date Assigned</span>
+                        <span class="col-4 font-style-roboto-p1 text-nowrap">01/01/2021</span>
+                        <span class="col-4 "></span>
                      </div>
                   </div>
                   <div class="col-12 col-lg-6  p-0">
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" >Org Account ID:</span>
-                        <span class="col-4 font-style-roboto-p1" >GOV112223300</span>
-                        <span class="col-4 " ></span>
+                        <span class="col-4 view-record-font-heading3 text-nowrap">Org Account ID:</span>
+                        <span class="col-4 font-style-roboto-p1 text-nowrap">GOV112223300</span>
+                        <span class="col-4 "></span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" >Email Address:</span>
-                        <span class="col-4 font-style-roboto-p1" >juandelacruz@gmail.com</span>
-                        <span class="col-4 " ></span>
+                        <span class="col-4 view-record-font-heading3 text-nowrap">Email Address:</span>
+                        <span class="col-4 font-style-roboto-p1 text-nowrap">juandelacruz@gmail.com</span>
+                        <span class="col-4 "></span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" >Contact No:</span>
-                        <span class="col-4 font-style-roboto-p1" >+63 9091234567</span>
-                        <span class="col-4 " ></span>
+                        <span class="col-4 view-record-font-heading3 text-nowrap">Contact No:</span>
+                        <span class="col-4 font-style-roboto-p1 text-nowrap">+63 9091234567</span>
+                        <span class="col-4 "></span>
                      </div>
                   </div>
                </div>
@@ -52,64 +52,64 @@
          <div class="view-license-tab1 py-20px mt-20px px-0">
             <div>
                <div class="row">
-                  <div class="col-12 col-lg-6  p-0">
-                     <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" >Activation Code: </span>
-                        <span class="col-4 font-style-roboto-p1" >FSPDE-00000-00000-00000-00000</span>
-                        <span class="col-4 " ></span>
+                  <div class="col-12 col-lg-6 p-0">
+                     <div class="row ms-20px mt-20px ">
+                        <span class="col-4 view-record-font-heading3 text-nowrap">Activation Code: </span>
+                        <span class="col-4 font-style-roboto-p1 text-nowrap text-nowrap">FSPDE-00000-00000-00000-00000</span>
+                        <span class="col-4 text-nowrap"></span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" >License Description:</span>
-                        <span class="col-4 font-style-roboto-p1" >Perpetual</span>
-                        <span class="col-4 " ></span>
+                        <span class="col-4 view-record-font-heading3">License Description:</span>
+                        <span class="col-4 font-style-roboto-p1">Perpetual</span>
+                        <span class="col-4 text-nowrap"></span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" >Product No.:</span>
-                        <span class="col-4 font-style-roboto-p1" >A01</span>
-                        <span class="col-4 " ></span>
+                        <span class="col-4 view-record-font-heading3 text-nowrap">Product No.:</span>
+                        <span class="col-4 font-style-roboto-p1 text-nowrap">A01</span>
+                        <span class="col-4 text-nowrap"></span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" >Program/Part No.:</span>
-                        <span class="col-4 font-style-roboto-p1" >A1AA1AA</span>
-                        <span class="col-4 " ></span>
+                        <span class="col-4 view-record-font-heading3 text-nowrap">Program/Part No.:</span>
+                        <span class="col-4 font-style-roboto-p1 text-nowrap">A1AA1AA</span>
+                        <span class="col-4 text-nowrap"></span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" >Validity</span>
-                        <span class="col-4 font-style-roboto-p1" >40 years</span>
-                        <span class="col-4 " ></span>
+                        <span class="col-4 view-record-font-heading3 text-nowrap">Validity</span>
+                        <span class="col-4 font-style-roboto-p1 text-nowrap">40 years</span>
+                        <span class="col-4 text-nowrap"></span>
                      </div>
                   </div>
                   <div class="col-12 col-lg-6  p-0">
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" >Module: </span>
-                        <span class="col-4 font-style-roboto-p1" >Business Permit and License</span>
-                        <span class="col-4 " ></span>
+                        <span class="col-4 view-record-font-heading3 text-nowrap">Module: </span>
+                        <span class="col-4 font-style-roboto-p1 text-nowrap">Business Permit and License</span>
+                        <span class="col-4 text-nowrap"></span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" >Version:</span>
-                        <span class="col-4 font-style-roboto-p1" >V.1.0</span>
-                        <span class="col-4 " ></span>
+                        <span class="col-4 view-record-font-heading3 text-nowrap text-nowrap">Version:</span>
+                        <span class="col-4 font-style-roboto-p1 text-nowrap text-nowrap">V.1.0</span>
+                        <span class="col-4 text-nowrap"></span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" >Platform</span>
-                        <span class="col-4 font-style-roboto-p1" >SaaS</span>
-                        <span class="col-4 " ></span>
+                        <span class="col-4 view-record-font-heading text-nowrap3 text-nowrap">Platform</span>
+                        <span class="col-4 font-style-roboto-p1 text-nowrap text-nowrap">SaaS</span>
+                        <span class="col-4 text-nowrap"></span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" >Grace Period</span>
-                        <span class="col-4 font-style-roboto-p1" >7 days</span>
-                        <span class="col-4 " ></span>
+                        <span class="col-4 view-record-font-heading3 text-nowrap">Grace Period</span>
+                        <span class="col-4 font-style-roboto-p1 text-nowrap text-nowrap">7 days</span>
+                        <span class="col-4 text-nowrap"></span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3" >Expiry Date</span>
-                        <span class="col-4 font-style-roboto-p1" ><span>00/00/0000</span> <span class="ms-3 font-style-roboto-view text-nowrap">Not yet activated</span> </span>
-                        <span class="col-4 " ></span>
+                        <span class="col-4 view-record-font-heading3 text-nowrap text-nowrap">Expiry Date</span>
+                        <span class="col-4 font-style-roboto-p1 text-nowrap"><span>00/00/0000</span> <span class="ms-3 font-style-roboto-view">Not yet activated</span> </span>
+                        <span class="col-4 text-nowrap"></span>
                      </div>
                   </div>
                </div>
             </div>
             <div class="d-flex flex-wrap flex-row  align-middle mt-20px ps-20px justify-content-center justify-content-lg-start">
-               <button @click="openModalupdate = true" class="button-default me-14px mb-10px mb-xl-0 bg-none color-indigo border-color-indigo ">Update License</button>
+               <button @click="openModalupdate = true" class="button-default me-14px mb-10px mb-xl-0 bg-none color-indigo border-color-indigo">Update License</button>
                <button @click="openModalTransfer = true" class="button-default me-14px mb-10px mb-xl-0 bg-none color-indigo border-color-indigo">Transfer License</button>
                <button class="button-default me-14px mb-10px mb-xl-0 bg-none color-dimgray border-color-dimgray">Renew License</button>
                <button @click="openModalSuspend = true" class="button-default me-14px mb-10px mb-xl-0 bg-valencia color-white border-color-valencia d-flex flex-row"><i class="isax isax-minus icon-size-weight me-1"></i>Suspend</button>
@@ -147,8 +147,8 @@
                   <div class="form-floating">
                      <div class=" mt-10px mx-10px">
                         <div class="form-floating">
-                           <textarea class="form-control size-textarea-view Roboto-input-box-font border-color-none bg-whitesmoke" placeholder="Leave a comment here" id="floatingTextarea2">
-License extension: transfer of remaining months from old subscription                  </textarea>
+                           <textarea class="form-control size-textarea-view Roboto-input-box-font border-color-none bg-whitesmoke" placeholder="Leave a comment here" id="floatingTextarea2">License extension: transfer of remaining months from old subscription                  
+                           </textarea>
                            <label for="information">Remarks</label>
                         </div>
                      </div>
@@ -212,14 +212,13 @@ License extension: transfer of remaining months from old subscription           
          <div class="form-floating ms-10px me-10px mt-20px">
             <div class="d-flex justify-content-start mt-20px mx-10px flex-container">
                <div class="form-floating width-max ">
-                  <textarea class="form-control size-textarea-update-license-modal border-color-none" placeholder="Leave a comment here" id="floatingTextarea2">
-Lorem ipsum dolor sit amet 
+                  <textarea class="form-control size-textarea-update-license-modal border-color-none" placeholder="Leave a comment here" id="floatingTextarea2">Lorem ipsum dolor sit amet 
                   </textarea>
                   <label for="information">Remarks</label>
                </div>
             </div>
          </div>
-         <div class="d-flex text-center justify-content-end ms-20px me-20px mb-35px mt-20px">
+         <div class="d-flex text-center justify-content-end ms-20px me-20px mb-20px mt-20px">
             <button @click="openModalupdate = false" class="button-default bg-none border-color-none color-indigo me-2">Cancel</button>
             <button class="button-default bg-indigo border-color-indigo color-white me-0">Save</button>
          </div>
@@ -264,7 +263,7 @@ Lorem ipsum dolor sit amet
                <input type="text" class="form-control license-form Roboto-input-box-font border-color-none" id="information" value="sebastiancruz@gmail.com" >
                <label for="information" class="Roboto-label-font">Transfer License to this Account (Email)</label>
             </form>
-            <div class="d-flex text-center justify-content-end mx-20px my-33px">
+            <div class="d-flex text-center justify-content-end mx-20px my-20px">
                <button @click="openModalTransfer = false" class="button-default bg-none border-color-none color-indigo me-2">Cancel</button>
                <button class="button-default bg-indigo border-color-indigo color-white me-0">Save</button>
             </div>

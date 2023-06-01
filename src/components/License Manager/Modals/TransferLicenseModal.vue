@@ -37,7 +37,7 @@
             <input type="text" class="form-control license-form Roboto-input-box-font border-color-none" id="information" value="sebastiancruz@gmail.com" >
             <label for="information" class="Roboto-label-font">Transfer License to this Account (Email)</label>
          </form>
-         <div class="d-flex text-center justify-content-end mx-20px my-33px">
+         <div class="d-flex text-center justify-content-end mx-20px my-20px">
             <button class="button-default bg-none border-color-none color-indigo me-2">Cancel</button>
             <button class="button-default bg-indigo border-color-indigo color-white me-0">Save</button>
          </div>
