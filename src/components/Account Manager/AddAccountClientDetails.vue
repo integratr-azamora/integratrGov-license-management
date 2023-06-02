@@ -1,6 +1,9 @@
 <template>
-   <div class="container" >
-      <span class="client-roboto-fonts mt-20px">Juan Dela Cruz</span>
+   
+   <div class="container padding-none">
+      <div class="client-roboto-fonts">Juan Dela Cruz</div>
+      </div>
+   <div class="container">
       <div class="row">
          <!-- container-left  -->
          <div class="col client-container me-20px mt-20px padding-none ">
@@ -136,7 +139,7 @@
                      <textarea style="resize:none" class="border-color-none bg-white ms-20px me-20px"></textarea>
                   </div>
                   <div class="d-flex justify-content-end mt-20px mb-20px me-20px">
-                     <button class="button-default bg-none color-purpleheart border-color-purpleheart">Edit</button>
+                     <button class="button-default bg-white color-purpleheart border-color-purpleheart">Edit</button>
                   </div>
                </div>
          </div>
