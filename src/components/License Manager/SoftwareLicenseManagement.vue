@@ -361,7 +361,7 @@
           </div>
        </div>
     </div>
-       <div class="d-flex justify-content-center mt-20px">
+       <div class="d-flex justify-content-center mt-20px container">
           <div class=" rounded-3 container shadow-sm border-round16px p-20px">
              <!-- row1  -->
                 <div class="d-flex justify-content-between flex-container align-items-center">
@@ -376,7 +376,7 @@
                 </div>
                 <div class="d-flex justify-content-start mt-20px flex-container">
                     <div class="form-floating width-max ">
-                        <textarea class="form-control size-textarea-licensemanager bg-whitesmoke box-shadow-none" placeholder="Leave a comment here" id="floatingTextarea2">
+                        <textarea class="form-control size-textarea-licensemanager bg-whitesmoke box-shadow-none border-color-none " placeholder="Leave a comment here" id="floatingTextarea2">
 License Key/Activation Code Format 
 1st Letter = represents the module 
 2nd Letter - represents the validty
