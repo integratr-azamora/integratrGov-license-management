@@ -362,7 +362,7 @@
        </div>
     </div>
        <div class="d-flex justify-content-center mt-20px container">
-          <div class=" rounded-3 container shadow-sm border-round16px p-20px">
+          <div class=" container shadow-sm border-round16px p-20px">
              <!-- row1  -->
                 <div class="d-flex justify-content-between flex-container align-items-center">
                    <p class="fontfamily-gotham-heading-3">License Guidelines</p>
