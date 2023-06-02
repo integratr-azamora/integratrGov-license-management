@@ -5,9 +5,23 @@
     border-radius: 16px;
 }
 
-.add-client-details{
+@media screen and (max-width: 570px) {
     
+    .r-license-view-font{
+        font-size:calc(16px - 10% ) !important;
+    }
 }
+
+.view-license-font-heading3{
+    font-family: 'Roboto-black', sans-serif;  
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: var(--vt-c-black);            
+}
+
 .icon-x-license{
     border-radius: 50% !important;
     background-color: var(--vt-c-indigo);

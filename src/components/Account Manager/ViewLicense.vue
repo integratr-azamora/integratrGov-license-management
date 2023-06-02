@@ -7,34 +7,34 @@
                <div class="row">
                   <div class="col-12 col-lg-6  p-0">
                      <div class="row ms-20px">
-                        <span class="col-4 view-record-font-heading3 text-nowrap">Client</span>
-                        <span class="col-4 font-style-roboto-p1 text-nowrap">Juan Dela Cruz</span>
+                        <span class="col-4 view-license-font-heading3 r-license-view-font text-nowrap">Client</span>
+                        <span class="col-4 font-style-roboto-p1 r-license-view-font text-nowrap">Juan Dela Cruz</span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3 text-nowrap">TIN:</span>
-                        <span class="col-4 font-style-roboto-p1 text-nowrap">00000000000</span>
+                        <span class="col-4 view-license-font-heading3 r-license-view-font text-nowrap">TIN:</span>
+                        <span class="col-4 font-style-roboto-p1 r-license-view-font text-nowrap">00000000000</span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3 text-nowrap">LGU/Organization:</span>
-                        <span class="col-4 font-style-roboto-p1 text-nowrap">Pasig City</span>
+                        <span class="col-4 view-license-font-heading3 r-license-view-font text-nowrap">LGU/Organization:</span>
+                        <span class="col-4 font-style-roboto-p1 r-license-view-font text-nowrap">Pasig City</span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3 mb-3 mb-lg-0 text-nowrap">Date Assigned</span>
-                        <span class="col-4 font-style-roboto-p1 mb-3 mb-lg-0 text-nowrap">01/01/2021</span>
+                        <span class="col-4 view-license-font-heading3 r-license-view-font mb-3 mb-lg-0 text-nowrap">Date Assigned</span>
+                        <span class="col-4 font-style-roboto-p1 r-license-view-font mb-3 mb-lg-0 text-nowrap">01/01/2021</span>
                      </div>
                   </div>
                   <div class="col-12 col-lg-6  p-0">
                      <div class="row ms-20px">
-                        <span class="col-4 view-record-font-heading3 text-nowrap">Org Account ID:</span>
-                        <span class="col-4 font-style-roboto-p1 text-nowrap">GOV112223300</span>
+                        <span class="col-4 view-license-font-heading3 r-license-view-font text-nowrap">Org Account ID:</span>
+                        <span class="col-4 font-style-roboto-p1 r-license-view-font text-nowrap">GOV112223300</span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3 text-nowrap">Email Address:</span>
-                        <span class="col-4 font-style-roboto-p1 text-nowrap">juandelacruz@gmail.com</span>
+                        <span class="col-4 view-license-font-heading3 r-license-view-font text-nowrap">Email Address:</span>
+                        <span class="col-4 font-style-roboto-p1 r-license-view-font text-nowrap">juandelacruz@gmail.com</span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3 text-nowrap">Contact No:</span>
-                        <span class="col-4 font-style-roboto-p1 text-nowrap">+63 9091234567</span>
+                        <span class="col-4 view-license-font-heading3 r-license-view-font text-nowrap">Contact No:</span>
+                        <span class="col-4 font-style-roboto-p1 r-license-view-font text-nowrap">+63 9091234567</span>
                      </div>
                   </div>
                </div>
@@ -47,46 +47,46 @@
                <div class="row">
                   <div class="col-12 col-lg-6  p-0">
                      <div class="row ms-20px">
-                        <span class="col-4 view-record-font-heading3 text-nowrap">Activation Code: </span>
-                        <span class="col-4 font-style-roboto-p1 text-nowrap">FSPDE-00000-00000-00000-00000</span>
+                        <span class="col-4 view-license-font-heading3 r-license-view-font text-nowrap">Activation Code: </span>
+                        <span class="col-4 font-style-roboto-p1 r-license-view-font text-nowrap">FSPDE-00000-00000-00000-00000</span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3 text-nowrap">License Description:</span>
-                        <span class="col-4 font-style-roboto-p1 text-nowrap">Perpetual</span>
+                        <span class="col-4 view-license-font-heading3 r-license-view-font text-nowrap">License Description:</span>
+                        <span class="col-4 ms-5px font-style-roboto-p1 r-license-view-font text-nowrap">Perpetual</span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3 text-nowrap">Product No.:</span>
-                        <span class="col-4 font-style-roboto-p1 text-nowrap">A01</span>
+                        <span class="col-4 view-license-font-heading3 r-license-view-font text-nowrap">Product No.:</span>
+                        <span class="col-4 font-style-roboto-p1 r-license-view-font text-nowrap">A01</span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3 text-nowrap">Program /Part No.:</span>
-                        <span class="col-4 font-style-roboto-p1 text-nowrap">A1AA1AA</span>
+                        <span class="col-4 view-license-font-heading3 r-license-view-font text-nowrap">Program /Part No.:</span>
+                        <span class="col-4 font-style-roboto-p1 r-license-view-font text-nowrap">A1AA1AA</span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3  text-nowrapmb-3 mb-lg-0">Validity</span>
-                        <span class="col-4 font-style-roboto-p1 mb-3 text-nowrap mb-lg-0">40 years</span>
+                        <span class="col-4 view-license-font-heading3 r-license-view-font  text-nowrapmb-3 mb-lg-0">Validity</span>
+                        <span class="col-4 font-style-roboto-p1 r-license-view-font mb-3 text-nowrap mb-lg-0">40 years</span>
                      </div>
                   </div>
                   <div class="col-12 col-lg-6  p-0">
                      <div class="row ms-20px">
-                        <span class="col-4 view-record-font-heading3 text-nowrap">Module:</span>
-                        <span class="col-4 font-style-roboto-p1 text-nowrap">Business Permit and License</span>
+                        <span class="col-4 view-license-font-heading3 r-license-view-font text-nowrap">Module:</span>
+                        <span class="col-4 font-style-roboto-p1 r-license-view-font text-nowrap">Business Permit and License</span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3 text-nowrap">Version:</span>
-                        <span class="col-4 font-style-roboto-p1 text-nowrap">V.1.0</span>
+                        <span class="col-4 view-license-font-heading3 r-license-view-font text-nowrap">Version:</span>
+                        <span class="col-4 font-style-roboto-p1 r-license-view-font text-nowrap">V.1.0</span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3 text-nowrap">Platform</span>
-                        <span class="col-4 font-style-roboto-p1">SaaS</span>
+                        <span class="col-4 view-license-font-heading3 r-license-view-font text-nowrap">Platform</span>
+                        <span class="col-4 font-style-roboto-p1 r-license-view-font">SaaS</span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3 text-nowrap">Grace Period</span>
-                        <span class="col-4 font-style-roboto-p1 text-nowrap">7 days</span>
+                        <span class="col-4 view-license-font-heading3 r-license-view-font text-nowrap">Grace Period</span>
+                        <span class="col-4 font-style-roboto-p1 r-license-view-font text-nowrap">7 days</span>
                      </div>
                      <div class="row ms-20px mt-20px">
-                        <span class="col-4 view-record-font-heading3 text-nowrap">Expiry Date</span>
-                        <span class="col-4 font-style-roboto-p1 text-nowrap"><span>00/00/0000</span> <span class="ms-3 font-style-roboto-view r-ltext-nowrap">Not yet activated</span> </span>
+                        <span class="col-4 view-license-font-heading3 r-license-view-font text-nowrap">Expiry Date</span>
+                        <span class="col-4 font-style-roboto-p1 r-license-view-font text-nowrap"><span>00/00/0000</span> <span class="ms-3 font-style-roboto-view r-license-view-font r-ltext-nowrap">Not yet activated</span> </span>
                      </div>
                   </div>
                </div>
@@ -155,8 +155,8 @@
                <div class="row mt-20px">
                   <div class="row d-flex align-items-center">
                      <span class=" d-flex justify-content-start">
-                     <span class="view-record-font-heading3 mt-1">Activation Code:</span> 
-                     <span class="font-style-roboto-p1 ms-2 mt-1">FSPDE-00000-00000-00000-00000</span>
+                     <span class="view-license-font-heading3 r-license-view-font mt-1">Activation Code:</span> 
+                     <span class="font-style-roboto-p1 r-license-view-font ms-2 mt-1">FSPDE-00000-00000-00000-00000</span>
                      </span>
                   </div>
                </div>
@@ -222,20 +222,20 @@
                   <div class="row mt-20px">
                      <div class="row d-flex align-items-center">
                         <span class=" d-flex justify-content-start">
-                        <span class="view-record-font-heading3 mt-1">Module:</span> 
-                        <span class="font-style-roboto-p1 ms-1 mt-1">Business Permit and License</span>                     
+                        <span class="view-license-font-heading3 r-license-view-font mt-1">Module:</span> 
+                        <span class="font-style-roboto-p1 r-license-view-font ms-1 mt-1">Business Permit and License</span>                     
                         </span>
                      </div>
                      <div class="row d-flex align-items-center mt-10px">
                         <span class=" d-flex justify-content-start">
-                        <span class="view-record-font-heading3 mt-1">Activation Code:</span> 
-                        <span class="font-style-roboto-p1 ms-1 mt-1">FSPDE-00000-00000-00000-00000</span>
+                        <span class="view-license-font-heading3 r-license-view-font mt-1">Activation Code:</span> 
+                        <span class="font-style-roboto-p1 r-license-view-font ms-1 mt-1">FSPDE-00000-00000-00000-00000</span>
                         </span>
                      </div>
                      <div class="row d-flex align-items-center mt-10px">
                         <span class=" d-flex justify-content-start">
-                        <span class="view-record-font-heading3 mt-1">Expiry Date:</span> 
-                        <span class="font-style-roboto-p1 ms-1 mt-1">01/01/2021</span>
+                        <span class="view-license-font-heading3 r-license-view-font mt-1">Expiry Date:</span> 
+                        <span class="font-style-roboto-p1 r-license-view-font ms-1 mt-1">01/01/2021</span>
                         </span>
                      </div>
                   </div>
@@ -272,32 +272,32 @@
                      <div class="row mt-20px">
                         <div class="row d-flex align-items-center">
                            <span class=" d-flex justify-content-start">
-                           <span class="view-record-font-heading3 mt-1">Activation Code:</span> 
-                           <span class="font-style-roboto-p1 ms-1 mt-1">FSPDE-00000-00000-00000-00000</span>
+                           <span class="view-license-font-heading3 r-license-view-font mt-1">Activation Code:</span> 
+                           <span class="font-style-roboto-p1 r-license-view-font ms-1 mt-1">FSPDE-00000-00000-00000-00000</span>
                            </span>
                         </div>
                         <div class="row d-flex align-items-center mt-10px">
                            <span class=" d-flex justify-content-start">
-                           <span class="view-record-font-heading3 mt-1">Status:</span> 
-                           <span class="font-style-roboto-p1 ms-1 mt-1">Active</span>
+                           <span class="view-license-font-heading3 r-license-view-font mt-1">Status:</span> 
+                           <span class="font-style-roboto-p1 r-license-view-font ms-1 mt-1">Active</span>
                            </span>
                         </div>
                         <div class="row d-flex align-items-center mt-10px">
                            <span class=" d-flex justify-content-start">
-                           <span class="view-record-font-heading3 mt-1">Module</span> 
-                           <span class="font-style-roboto-p1 ms-1 mt-1">Business Permit and License</span>
+                           <span class="view-license-font-heading3 r-license-view-font mt-1">Module</span> 
+                           <span class="font-style-roboto-p1 r-license-view-font ms-1 mt-1">Business Permit and License</span>
                            </span>
                         </div>
                         <div class="row d-flex align-items-center mt-10px">
                            <span class=" d-flex justify-content-start">
-                           <span class="view-record-font-heading3 mt-1">Version:</span> 
-                           <span class="font-style-roboto-p1 ms-1 mt-1">1.2</span>
+                           <span class="view-license-font-heading3 r-license-view-font mt-1">Version:</span> 
+                           <span class="font-style-roboto-p1 r-license-view-font ms-1 mt-1">1.2</span>
                            </span>
                         </div>
                         <div class="row d-flex align-items-center mt-10px">
                            <span class=" d-flex justify-content-start">
-                           <span class="view-record-font-heading3 mt-1">Expiry Date:</span> 
-                           <span class="font-style-roboto-p1 ms-1 mt-1">n/a</span>
+                           <span class="view-license-font-heading3 r-license-view-font mt-1">Expiry Date:</span> 
+                           <span class="font-style-roboto-p1 r-license-view-font ms-1 mt-1">n/a</span>
                            </span>
                         </div>
                         <div class=" mt-10px">
