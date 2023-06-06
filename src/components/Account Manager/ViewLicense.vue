@@ -52,7 +52,7 @@
                      </div>
                      <div class="row ms-20px mt-20px">
                         <span class="col-4 view-license-font-heading3 r-license-view-font text-nowrap">License Description:</span>
-                        <span class="col-4 ms-5px font-style-roboto-p1 r-license-view-font text-nowrap">Perpetual</span>
+                        <span class="col-4 font-style-roboto-p1 r-license-view-font text-nowrap">Perpetual</span>
                      </div>
                      <div class="row ms-20px mt-20px">
                         <span class="col-4 view-license-font-heading3 r-license-view-font text-nowrap">Product No.:</span>
