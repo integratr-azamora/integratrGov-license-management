@@ -101,7 +101,7 @@
                 <span>Remove</span>
                </button>
                <button class="button-default me-14px mb-10px mb-xl-0 bg-black color-white border-color-none d-flex flex-row ms-4 ms-sm-0 ">
-               <i class="isax isax-ticket-expired icon-size-weight me-1 align-middle"></i>
+               <i class="isax isax-ticket-expired add-ticket-toggle icon-size-weight me-1 align-middle"></i>
                 <span class="mt-2px">Black Hole</span>
                </button>
             </div>
